@@ -44,6 +44,7 @@ PAGES_CSV = DATA / "keyword_gap_pages.csv"
 RAW = DATA / "raw_serp_winnability.json"
 OUT = DATA / "page_plan.csv"
 COLLECTIONS = DATA / "sc_collections.json"
+COMP_PAGES = DATA / "competitor_pages.json"   # keyword -> {domain: [pos, url]}
 
 # DTC bedding / home-textile brands of comparable authority to Sunday Citizen.
 # If one of these ranks, the SERP is reachable for a focused SC page.
@@ -136,6 +137,20 @@ def classify_page(url, existing):
     return "New"
 
 
+def page_to_beat(keywords, comp_map):
+    """Highest-ranking competitor page across the page's keywords:
+    the lowest organic position among the 5 competitors, with its URL."""
+    best = None  # (pos, url, keyword)
+    for kw in keywords:
+        for domain, (pos, url) in (comp_map.get(kw) or {}).items():
+            if best is None or pos < best[0]:
+                best = (pos, url, kw)
+    if not best:
+        return ""
+    pos, url, kw = best
+    return f"{url}  (#{pos} for '{kw}')"
+
+
 def main():
     rows = [r for r in csv.DictReader(PAGES_CSV.open())
             if "no current line" not in r["sc_product_line"]]
@@ -174,6 +189,8 @@ def main():
 
     enrich_peers()
     print(f"peer brands recognised: {len(PEERS)}")
+    comp_map = json.loads(COMP_PAGES.read_text()) if COMP_PAGES.exists() else {}
+    print(f"competitor page map: {len(comp_map)} keywords")
     existing = existing_handles()
     out = []
     for r in rows:
@@ -245,6 +262,8 @@ def main():
             "Winnability (SERP)": win,
             "SERP Reality": serp_reality,
             "Realistic Traffic /mo": realistic,
+            "Page to Beat": page_to_beat(
+                [k for k in r["example_keywords"].split(" | ") if k], comp_map),
         })
 
     out.sort(key=lambda x: x["Realistic Traffic /mo"], reverse=True)

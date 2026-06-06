@@ -5,3 +5,4 @@ __pycache__/
 data/raw_*.json
 data/brooklinen_ranked_keywords.txt
 data/sc_ranked_keywords.json
+data/competitor_pages.json
