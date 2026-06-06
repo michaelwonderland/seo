@@ -18,6 +18,18 @@ and delivers them as **one Google Sheet with two tabs** (one per domain).
 The **ranking_url** is the page on the domain that ranks for the keyword and
 earns the ETV.
 
+## Network access requirement
+The cloud environment's egress proxy must allow the DataForSEO host, or the
+script fails with `403 Host not in allowlist` (this is the proxy, not
+DataForSEO — no API credits are spent). In the environment's **Edit
+environment** dialog:
+- **Network access** → **Custom**
+- **Allowed domains** → add `api.dataforseo.com`
+- Keep **"Also include default list of common package managers"** checked
+  (so PyPI stays reachable for `pip install openpyxl`)
+
+Changes apply to **new** sessions, so start a fresh session after saving.
+
 ## Credentials (environment secrets)
 Required env vars (added in the environment settings, injected at container boot):
 - `DATAFORSEO_LOGIN`
