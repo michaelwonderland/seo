@@ -38,13 +38,15 @@ NUM_COLS = {"search_volume", "etv", "position", "keyword_difficulty", "cpc",
             "sc_current_position", "keyword_count", "total_search_volume",
             "expected_traffic_pos3", "avg_keyword_difficulty",
             "Monthly Search Volume", "Expected Traffic @ #3",
-            "priority_score", "Priority Score"}
+            "priority_score", "Priority Score", "head_keyword_volume",
+            "Traffic Potential @#3 (ceiling)", "Realistic Traffic /mo"}
 INT_COLS = {"search_volume", "position", "keyword_difficulty",
             "keywords_in_space", "etv_in_space", "competitors_ranking",
             "sc_current_position", "keyword_count", "total_search_volume",
             "expected_traffic_pos3", "avg_keyword_difficulty",
             "Monthly Search Volume", "Expected Traffic @ #3",
-            "priority_score", "Priority Score"}
+            "priority_score", "Priority Score", "head_keyword_volume",
+            "Traffic Potential @#3 (ceiling)", "Realistic Traffic /mo"}
 
 
 def add_sheet(wb, csv_name, tab_name, first):
@@ -98,6 +100,8 @@ def add_sheet(wb, csv_name, tab_name, first):
         "To Rank For": 70, "Monthly Search Volume": 20,
         "Expected Traffic @ #3": 20, "Winnability": 12,
         "top_keywords": 70, "priority_score": 14, "Priority Score": 14,
+        "head_keyword_volume": 18, "Traffic Potential @#3 (ceiling)": 26,
+        "Winnability (SERP)": 16, "SERP Reality": 52, "Realistic Traffic /mo": 20,
     }
     for name, idx in col_idx.items():
         ws.column_dimensions[get_column_letter(idx + 1)].width = widths.get(name, 14)

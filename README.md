@@ -156,7 +156,27 @@ Outputs `data/material_keywords.csv` (every textile keyword + the SC line) and
 `data/material_demand.csv` (per-line rollup). These keywords are fed back into
 the gap universe so the lyocell/modal/muslin/waffle/sateen pages surface.
 
-## Expected traffic at position #3
+## SERP reality-check + realistic plan (`serp_winnability.py`)
+The page plan is reality-checked against **live Google SERPs** so winnability and
+traffic reflect what actually ranks, not a DataForSEO KD guess. For each page's
+top keywords it pulls `serp/google/organic/live/advanced` and judges:
+
+- **PEER** domains (DTC bedding brands of similar authority — Brooklinen,
+  Parachute, Coyuchi, Sheet Society, Bedsure, Sijo, …): if peers rank, SC can.
+- **HARD** walls (Amazon/Walmart/Wayfair/big-box + publishers like Wirecutter):
+  a SERP owned by these is not winnable for a mid-authority brand.
+- **Head-term cap**: brand-defining terms ("sheets" 2.2M) stay low/medium even
+  when peers eventually rank — they're multi-year authority plays, not quick wins.
+
+`winnability (SERP)` = high / medium / low, with a `SERP Reality` evidence string
+(which peers rank, which walls dominate). **Realistic Traffic /mo** = total page
+demand × a capture rate set by winnability (high 6%, medium 1.8%, low 0.3%) —
+replacing the unrealistic "#3 for everything." Product-gap pages (no SC product:
+flannel/percale/microfiber) are dropped. Output rewrites `data/page_plan.csv`,
+sorted by realistic traffic. Raw SERPs cache to `data/raw_serp_winnability.json`;
+`REFILTER=1` re-tunes the scoring with no API calls.
+
+## Expected traffic at position #3 (gap-engine ceiling)
 `keyword_gap.py` reports **`expected_traffic_pos3` = search_volume × POS3_CTR**
 (`POS3_CTR = 0.10`, industry-avg organic CTR at rank #3). The page plan is
 ranked by this so it reflects realistic capture, not raw demand. Each page is

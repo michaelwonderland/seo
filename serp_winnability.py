@@ -81,7 +81,9 @@ HARD = {
     "elle.com", "vogue.com", "nymag.com", "rollingstone.com",
 }
 
-CAPTURE = {"high": 0.08, "medium": 0.025, "low": 0.004}
+# realistic share of the page's total cluster demand captured once the page
+# ranks as well as the SERP allows (conservative, not a #3-everywhere fantasy).
+CAPTURE = {"high": 0.06, "medium": 0.018, "low": 0.003}
 
 
 def norm_domain(d):
@@ -159,10 +161,13 @@ def main():
     out = []
     for r in rows:
         kws = page_kws[r["target_url"]]
-        peer_counts, sc_ranks, peers_seen, hard_seen = [], False, set(), set()
+        peer_counts, hard_counts, reach_flags = [], [], []
+        sc_ranks, peers_seen, hard_seen, others_seen = False, set(), set(), set()
         for kw in kws:
             doms = cache.get(kw, [])
-            pc = 0
+            if not doms:
+                continue
+            pc = hc = 0
             for d in doms:
                 if d in PEERS:
                     pc += 1
@@ -171,20 +176,42 @@ def main():
                     else:
                         peers_seen.add(d)
                 elif d in HARD:
+                    hc += 1
                     hard_seen.add(d)
+                else:
+                    others_seen.add(d)        # small/unknown brands = beatable
             peer_counts.append(pc)
-        avg_peer = sum(peer_counts) / len(peer_counts) if peer_counts else 0
+            hard_counts.append(hc)
+            # reachable: a peer ranks, OR the top-10 isn't a retail/publisher wall
+            reach_flags.append(1 if (pc >= 1 or hc <= 3) else 0)
 
-        if sc_ranks or avg_peer >= 2:
+        n = len(peer_counts) or 1
+        avg_peer = sum(peer_counts) / n
+        avg_hard = sum(hard_counts) / n
+        reach = sum(reach_flags) / n
+        head_vol = int(r.get("head_keyword_volume") or 0)
+
+        # Winnability for a mid-authority DTC brand. A reachable SERP (peers rank
+        # / not a retail wall) is necessary but NOT sufficient: brand-defining
+        # head terms ("sheets" 2.2M) stay hard even when peers eventually rank,
+        # so big head volumes cap winnability down.
+        reachable = avg_peer >= 1 or reach >= 0.66
+        wall = avg_hard >= 6
+        if sc_ranks and head_vol < 200000:
             win = "high"
-        elif avg_peer >= 0.67:           # a peer shows up on average
-            win = "medium"
-        else:
+        elif wall or head_vol >= 500000:
             win = "low"
+        elif reachable and avg_hard <= 3 and head_vol < 100000:
+            win = "high"
+        elif head_vol >= 150000 and not reachable:
+            win = "low"
+        else:
+            win = "medium"
 
         vol = int(r["total_search_volume"])
         realistic = round(vol * CAPTURE[win])
-        evidence_peers = ", ".join(sorted(peers_seen)[:3]) or "none"
+        evidence_peers = ", ".join(sorted(peers_seen)[:3]) or \
+            (", ".join(sorted(others_seen)[:2]) + " (small brands)" if others_seen else "none")
         evidence_hard = ", ".join(sorted(hard_seen)[:3]) or "none"
         serp_reality = f"peers: {evidence_peers} | walls: {evidence_hard}"
         if sc_ranks:

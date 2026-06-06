@@ -620,7 +620,9 @@ def main():
         diff_factor = 0.5 if avg_kd == "" else max(0.1, min(1.0, (100 - avg_kd) / 100))
         priority = round(p["expected_traffic_pos3"] * diff_factor
                          * product_factor(p["sc_product_line"]))
-        top_kws = [k for _, k in sorted(p["kws"], reverse=True)[:10]]
+        sorted_kws = sorted(p["kws"], reverse=True)
+        head_vol = sorted_kws[0][0] if sorted_kws else 0
+        top_kws = [k for _, k in sorted_kws[:10]]
         page_rows.append({
             "target_page_title": p["target_page_title"],
             "target_url": p["target_url"],
@@ -628,6 +630,7 @@ def main():
             "recommended_action": p["recommended_action"],
             "target_page_type": p["target_page_type"],
             "keyword_count": p["keyword_count"],
+            "head_keyword_volume": head_vol,
             "total_search_volume": p["total_search_volume"],
             "expected_traffic_pos3": p["expected_traffic_pos3"],
             "avg_keyword_difficulty": avg_kd,
@@ -641,7 +644,7 @@ def main():
         w = csv.DictWriter(f, fieldnames=[
             "target_page_title", "target_url", "sc_product_line",
             "recommended_action", "target_page_type", "keyword_count",
-            "total_search_volume", "expected_traffic_pos3",
+            "head_keyword_volume", "total_search_volume", "expected_traffic_pos3",
             "avg_keyword_difficulty", "winnability", "priority_score",
             "example_keywords"])
         w.writeheader()
