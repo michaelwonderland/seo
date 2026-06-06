@@ -19,11 +19,15 @@ TABS = [
     ("sundaycitizen_co.csv",     "sundaycitizen.co"),
     ("brooklinen_com.csv",       "brooklinen.com"),
     ("brooklinen_expansion.csv", "brooklinen — expansion"),
+    ("serp_competitors.csv",     "competing domains"),
 ]
 
 # numeric columns -> formatting
-NUM_COLS = {"search_volume", "etv", "position", "keyword_difficulty", "cpc"}
-INT_COLS = {"search_volume", "position", "keyword_difficulty"}
+NUM_COLS = {"search_volume", "etv", "position", "keyword_difficulty", "cpc",
+            "keywords_in_space", "etv_in_space", "traffic_share_pct",
+            "avg_position", "visibility"}
+INT_COLS = {"search_volume", "position", "keyword_difficulty",
+            "keywords_in_space", "etv_in_space"}
 
 
 def add_sheet(wb, csv_name, tab_name, first):
@@ -62,11 +66,14 @@ def add_sheet(wb, csv_name, tab_name, first):
         "keyword": 38, "search_volume": 14, "etv": 12, "position": 10,
         "ranking_url": 60, "keyword_difficulty": 18, "cpc": 8, "search_intent": 15,
         "competition": 13, "source": 16,
+        "domain": 32, "category": 14, "keywords_in_space": 17,
+        "etv_in_space": 14, "traffic_share_pct": 16, "avg_position": 12,
+        "visibility": 12,
     }
     for name, idx in col_idx.items():
         ws.column_dimensions[get_column_letter(idx + 1)].width = widths.get(name, 14)
 
-    print(f"  {tab_name}: {ws.max_row - 1} keywords")
+    print(f"  {tab_name}: {ws.max_row - 1} rows")
 
 
 def main():

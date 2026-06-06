@@ -73,10 +73,43 @@ opportunities for brooklinen.com via DataForSEO Labs:
 - `REFILTER=1 python3 keyword_expansion.py` re-runs cleaning from saved raw
   responses with **no API calls**; `REFRESH_RANKED=1` forces a fresh ranked-set pull.
 
+## Competing domains (`competitor_domains.py`)
+Maps the **competitive bedding landscape for sundaycitizen.co**. The Brooklinen
+keywords were only proxy seeds to define the niche; this step asks *who actually
+owns traffic in that 6,031-keyword space*.
+
+- Sends every keyword from `data/brooklinen_expansion.csv` to DataForSEO Labs
+  `serp_competitors/live` in 200-keyword batches (batches are disjoint subsets).
+- Each returned domain carries per-batch `keywords_count`, `etv`, `visibility`,
+  `avg_position`; these sum cleanly across batches (`avg_position` recombined as
+  a keyword-weighted mean).
+- **traffic_share_pct** = a domain's ETV in the space ÷ total ETV of *all*
+  domains in the space (heavyweights included in the denominator, so the share
+  reflects the true landscape).
+- Excludes generalist heavyweights (Amazon, Walmart, Target, Wayfair, …, plus
+  social/search platforms) and SaaS/app contamination from generic terms
+  ("sheets" → Google Sheets). Tags editorial/review sites (NYT/Wirecutter,
+  Forbes, Sleep Foundation, …) as `category=publisher` so they can be split from
+  `brand/retail` competitors.
+- Output: `data/serp_competitors.csv` (columns: domain · category ·
+  keywords_in_space · etv_in_space · traffic_share_pct · avg_position · visibility),
+  sorted by ETV captured from the space.
+- `REFILTER=1 python3 competitor_domains.py` re-aggregates from the cached raw
+  responses with **no API calls** (used for tuning the exclude/publisher lists).
+
 ## Status / handoff
 - ✅ Run completed 2026-06-06:
   - `data/sundaycitizen_co.csv` — top 500 by ETV (46 brand keywords filtered out)
   - `data/brooklinen_com.csv` — 1,049 keywords with ETV > 80 (190 brand filtered out, 2 pages pulled)
   - `data/brooklinen_expansion.csv` — 6,031 net-new keywords from 1,042 seeds
+  - `data/serp_competitors.csv` — 10,452 competing domains (38 heavyweights excluded)
+    ranked by traffic share in the bedding space.
   - Raw API responses saved alongside as `raw_<domain>.json`.
-- Workbook `Keyword Research.xlsx` now has 3 tabs (the two domains + `brooklinen — expansion`).
+- Workbook `Keyword Research.xlsx` now has 4 tabs (the two domains, `brooklinen —
+  expansion`, and `competing domains`).
+- **Strategic read:** sundaycitizen.co ranks **#1006** among brand/retail
+  competitors in its own category (15 keywords / ~1,427 ETV) — i.e. almost the
+  entire 6k-keyword bedding space is whitespace for it. Top specialist
+  competitors capturing that traffic: The Company Store, Pottery Barn, Beddy's,
+  Bedsure, Piglet in Bed, Sheet Society, Peacock Alley, Parachute, Coyuchi,
+  Magic Linen, Coop Sleep Goods.
