@@ -175,10 +175,14 @@ Robes + Loungewear,/collections/loungewear,"— (category page, all fabrics)",op
 Cotton Coverlet,/collections/cotton-coverlet,Cotton (Luce Sateen / Organic / Woven),build new collection,collection,2,4400,5400,540,,,310,cotton coverlet | cotton matelasse coverlet
 Full Quilt,/collections/full-quilt,"— (category page, all fabrics)",build new collection,collection,4,2900,6100,610,,,305,double wedding ring quilt | double wedding ring quilt pattern | quilts for full size bed | quilt bedding sets full size
 Waffle Duvet Cover,/collections/waffle-duvet-cover,Waffle,build new collection,collection,9,1600,5250,525,,,302,waffle duvet covers | waffle duvet cover | waffle weave duvet covers | waffle weave duvet cover | waffle duvet cover king | waffle knit duvet cover | white waffle duvet covers | waffle duvet cover white | waffle duvet cover queen
+Cooling Edit Throws,/collections/cooling-edit-throws,Cloud Cool / Cooling Edit,optimize existing,collection,2,1300,2600,260,3,high,290,cooling throw blankets | cooling throw blanket
+Luxury Robe,/collections/luxury-robe,"— (category page, all fabrics)",build new collection,collection,1,2900,2900,290,1,high,287,luxury robes for women
 Queen Throw,/collections/queen-throw,"— (category page, all fabrics)",build new collection,collection,3,1900,5700,570,,,285,throw blankets queen size | queen size throw blanket | queen size blankets and throws
+Hotel Pillow,/collections/hotel-pillow,"— (category page, all fabrics)",build new collection,collection,2,1900,2900,290,2,high,284,beckham hotel collection pillow | beckham hotel collection bed pillows
 Linen Duvet,/collections/linen-duvet,European Flax Linacel,build new collection,collection,2,2400,4800,480,,,276,linen duvet | duvets linen
 Luxury Pillow,/collections/luxury-pillow,"— (category page, all fabrics)",build new collection,collection,1,5400,5400,540,,,270,luxury pillows
 Velvet Duvet Cover,/collections/velvet-duvet-cover,Velvet,build new collection,collection,7,1600,4530,453,,,260,velvet duvet cover | duvet covers velvet | velvet duvet covers king | king duvet cover velvet | velvet green duvet cover | velvet duvet covers queen | duvet cover queen velvet
+Lightweight Duvet Cover,/collections/lightweight-duvet-cover,"— (category page, all fabrics)",build new collection,collection,2,1300,2600,260,2,high,255,duvet covers lightweight | duvet cover lightweight
 Ruffled Duvet Cover,/collections/ruffled-duvet-cover,"— (category page, all fabrics)",build new collection,collection,2,2400,4800,480,,,240,ruffled duvet covers | ruffle duvet cover
 King Throw,/collections/king-throw,"— (category page, all fabrics)",build new collection,collection,3,1600,4800,480,,,240,throw blankets king size | king size throw blanket | king size blankets and throws
 Lightweight Quilt,/collections/lightweight-quilt,"— (category page, all fabrics)",build new collection,collection,4,1900,4710,471,,,236,lightweight quilts | lightweight quilt | lightweight quilts for summer | lightweight bed quilts
@@ -192,14 +196,99 @@ Velvet Pillows,/collections/velvet-pillows,Velvet,optimize existing,collection,1
 Organic Cotton Pillow,/collections/organic-cotton-pillow,Organic Cotton,build new collection,collection,1,3600,3600,360,,,207,organic cotton pillows
 Organic Cotton Blanket,/collections/organic-cotton-blanket,Organic Cotton,build new collection,collection,1,3600,3600,360,,,207,organic cotton blanket
 Lightweight Comforter,/collections/lightweight-comforter,"— (category page, all fabrics)",build new collection,collection,3,2900,4080,408,,,204,lightweight down comforter | lightweight alternative down comforter | best lightweight down comforters
+Full Duvet,/collections/full-duvet,"— (category page, all fabrics)",build new collection,collection,4,1000,2030,203,3,high,197,duvet insert full | double duvets | duvets covers double | double duvet and cover
 Striped Duvet,/collections/striped-duvet,"— (category page, all fabrics)",build new collection,collection,3,1300,3900,390,,,195,striped duvets | striped duvet | stripe duvet
 Luxury Rug,/collections/luxury-rug,"— (category page, all fabrics)",build new collection,collection,2,1900,3800,380,,,190,bath rugs luxury | bath rug luxury
 Split King Bedding,/collections/split-king-bedding,"— (category page, all fabrics)",build new collection,collection,1,3600,3600,360,,,180,what is split king bedding
 Flannel Duvet Cover,/collections/flannel-duvet-cover,— no current line (product gap),build new collection,collection,3,2900,6010,601,,,180,flannel duvet covers | flannel duvet cover | flannel cotton duvet cover
 Twin Xl Duvet,/collections/twin-xl-duvet,"— (category page, all fabrics)",build new collection,collection,3,1300,3600,360,,,180,twin xl duvets | twin xl duvet | duvet insert twin xl
 Bamboo Duvet Cover,/collections/bamboo-duvet-cover,Premium Lumière (Bamboo),build new collection,collection,4,2400,3040,304,,,175,duvet covers bamboo | king bamboo duvet cover | bamboo viscose duvet cover | queen bamboo duvet cover
+Rug Size Guide,/pages/rug-size-guide,"— (category page, all fabrics)",build guide/blog page,guide/blog,3,880,2320,232,26,medium,172,how to wash bath rug | bath rug measurements | bath rug dimensions
+Silk Blanket,/collections/silk-blanket,Ecosilk / Silky Lyocell,build new collection,collection,1,2900,2900,290,,,167,silk blanket
+Linen Pillow,/collections/linen-pillow,European Flax Linacel,build new collection,collection,2,1900,2900,290,,,167,linen pillow covers | linen pillows
+Cotton Beach Towel,/collections/cotton-beach-towel,Cotton (Luce Sateen / Organic / Woven),build new collection,collection,3,1900,2860,286,,,164,cotton turkish beach towels | organic turkish cotton beach towels | 100 turkish cotton beach towels
 Flannel Blanket,/collections/flannel-blanket,— no current line (product gap),build new collection,collection,3,3600,5380,538,,,161,flannel blanket | flannel heated blanket | flannel fleece blanket
 Alaskan King Sheets,/collections/alaskan-king-sheets,"— (category page, all fabrics)",build new collection,collection,2,1900,3200,320,,,160,alaskan king bed sheets | alaskan king sheets
 Flannel Robe,/collections/flannel-robe,— no current line (product gap),build new collection,collection,3,2400,5300,530,,,159,women flannel robe | mens flannel robe | flannel robe
 Microfiber Blanket,/collections/microfiber-blanket,— no current line (product gap),build new collection,collection,2,3600,5200,520,,,156,microfiber blanket | microfiber polyester blanket
+Linen Pillowcase,/collections/linen-pillowcase,European Flax Linacel,build new collection,collection,2,1300,2600,260,,,150,pillowcase linen | linen pillowcases
+Waffle Bath,/collections/waffle-bath,Waffle,build new collection,collection,2,1300,2600,260,,,150,waffle bath mats | waffle bath mat
+Silky Lyocell Loungewear,/collections/silky-lyocell-loungewear,Silky Lyocell (TENCEL™),optimize existing,collection,4,1000,2610,261,,,150,tencel modal pajamas | tencel pajamas | tencel pajama | lyocell pajama
+Striped Comforter,/collections/striped-comforter,"— (category page, all fabrics)",build new collection,collection,1,2900,2900,290,,,145,comforter striped
+Embroidered Pillow,/collections/embroidered-pillow,"— (category page, all fabrics)",build new collection,collection,1,2900,2900,290,,,145,embroidered pillow
+Embroidered Towel,/collections/embroidered-towel,"— (category page, all fabrics)",build new collection,collection,1,2900,2900,290,,,145,embroidered towels
+Lightweight Duvet,/collections/lightweight-duvet,"— (category page, all fabrics)",build new collection,collection,2,1900,2900,290,,,145,lightweight duvet insert | lightweight duvet
+Breathable Weighted Blanket,/collections/breathable-weighted-blanket,Crystal Weighted Blanket,build new collection,collection,1,1300,1300,130,4,high,144,breathable weighted blanket
+Queen Weighted Blanket,/collections/queen-weighted-blanket,Crystal Weighted Blanket,build new collection,collection,1,1300,1300,130,5,high,142,queen size weighted blanket
+Silk Rug,/collections/silk-rug,Ecosilk / Silky Lyocell,build new collection,collection,1,2400,2400,240,,,138,silk rugs
+Organic Cotton Robe,/collections/organic-cotton-robe,Organic Cotton,build new collection,collection,2,1900,2380,238,,,137,organic cotton robe | organic cotton robe womens
+California King Duvet,/collections/california-king-duvet,"— (category page, all fabrics)",build new collection,collection,2,1300,2600,260,,,130,california king duvet insert | california king duvet
+Boho Rug,/collections/boho-rug,"— (category page, all fabrics)",build new collection,collection,2,1300,2600,260,,,130,boho bath rugs | boho bath rug
+Breathable Duvet Cover,/collections/breathable-duvet-cover,"— (category page, all fabrics)",build new collection,collection,1,1300,1300,130,2,high,127,breathable duvet cover
+Silk Duvet,/collections/silk-duvet,Ecosilk / Silky Lyocell,build new collection,collection,2,1300,2180,218,,,125,mulberry silk duvets | silk duvets
 Flannel Bedding,/collections/flannel-bedding,— no current line (product gap),build new collection,collection,2,3600,4080,408,,,122,flannel bedding set | organic cotton flannel bedding
+Throw Pillow Size Guide,/pages/throw-pillow-size-guide,"— (category page, all fabrics)",build guide/blog page,guide/blog,1,2400,2400,240,,,120,decorative pillow sizes
+Ruffled Bedding,/collections/ruffled-bedding,"— (category page, all fabrics)",build new collection,collection,1,2400,2400,240,,,120,ruffle bedding
+Twin Xl Blanket,/collections/twin-xl-blanket,"— (category page, all fabrics)",build new collection,collection,1,2400,2400,240,,,120,twin xl blanket
+Oversized Bedding,/collections/oversized-bedding,"— (category page, all fabrics)",build new collection,collection,1,2400,2400,240,,,120,oversized bedding
+Quilted Robe,/collections/quilted-robe,"— (category page, all fabrics)",build new collection,collection,2,1600,2320,232,,,116,quilted robe | womens quilted robe
+Ruffled Comforter,/collections/ruffled-comforter,"— (category page, all fabrics)",build new collection,collection,2,1300,2300,230,,,115,ruffle comforter | white ruffle comforter
+Linen Robe,/collections/linen-robe,European Flax Linacel,build new collection,collection,1,1900,1900,190,,,109,robe linen
+Sateen Duvet Cover,/collections/sateen-duvet-cover,Luce Cotton Sateen,build new collection,collection,2,1300,1890,189,,,109,sateen duvet cover | cotton sateen duvet cover
+Towel Size Guide,/pages/towel-size-guide,"— (category page, all fabrics)",build guide/blog page,guide/blog,2,1900,2070,207,,,104,how to get the mildew smell out of towels | how to wash turkish towels
+Lyocell Pillow,/collections/lyocell-pillow,Silky Lyocell (TENCEL™),build new collection,collection,2,880,1760,176,,,101,tencel pillows | tencel pillow
+California King Blanket,/collections/california-king-blanket,"— (category page, all fabrics)",build new collection,collection,1,1900,1900,190,,,95,california king blanket
+Boho Comforter,/collections/boho-comforter,"— (category page, all fabrics)",build new collection,collection,1,1900,1900,190,,,95,boho comforter set
+Alaskan King Comforter,/collections/alaskan-king-comforter,"— (category page, all fabrics)",build new collection,collection,1,1900,1900,190,,,95,alaskan king comforter
+California King Bedspread,/collections/california-king-bedspread,"— (category page, all fabrics)",build new collection,collection,1,1900,1900,190,,,95,california king bedspread
+Boho Duvet Cover,/collections/boho-duvet-cover,"— (category page, all fabrics)",build new collection,collection,1,1900,1900,190,,,95,boho duvet cover
+Full Towel,/collections/full-towel,"— (category page, all fabrics)",build new collection,collection,1,1900,1900,190,,,95,double towel bar
+Hotel Towel,/collections/hotel-towel,"— (category page, all fabrics)",build new collection,collection,1,1900,1900,190,,,95,hotel towels
+Embroidered Robe,/collections/embroidered-robe,"— (category page, all fabrics)",build new collection,collection,1,1900,1900,190,,,95,embroidered robe
+Twin Xl Quilt,/collections/twin-xl-quilt,"— (category page, all fabrics)",build new collection,collection,1,1900,1900,190,,,95,twin xl quilt
+Quilted Throw,/collections/quilted-throw,"— (category page, all fabrics)",build new collection,collection,1,1900,1900,190,,,95,quilted throw blankets
+Lyocell Duvet Cover,/collections/lyocell-duvet-cover,Silky Lyocell (TENCEL™),build new collection,collection,3,720,1650,165,,,95,tencel duvet covers | duvet cover tencel | lyocell duvet covers
+Striped Throw,/collections/striped-throw,"— (category page, all fabrics)",build new collection,collection,2,1000,1880,188,,,94,striped throw pillow | striped blankets and throws
+Snug Waffle,/collections/snug-waffle,Waffle,optimize existing,collection,3,720,1610,161,,,93,waffle throw blankets | waffle throw blanket | waffle knit throw blanket
+King Weighted Blanket,/collections/king-weighted-blanket,Crystal Weighted Blanket,build new collection,collection,1,1600,1600,160,,,92,king size weighted blanket
+Silk Duvet Cover,/collections/silk-duvet-cover,Ecosilk / Silky Lyocell,build new collection,collection,1,1600,1600,160,,,92,silk duvet cover
+Velvet Blanket,/collections/velvet-blanket,Velvet,build new collection,collection,1,1600,1600,160,,,92,velvet blanket
+Velvet Robe,/collections/velvet-robe,Velvet,build new collection,collection,2,1000,1590,159,,,91,velvet robe | womens velvet robe
+Flannel Quilt,/collections/flannel-quilt,— no current line (product gap),build new collection,collection,1,2900,2900,290,,,87,flannel rag quilt
+Velvet Bedding,/collections/velvet-bedding,Velvet,optimize existing,collection,2,1300,1510,151,,,87,velvet bedding | luxury velvet bedding
+Bamboo Robe,/collections/bamboo-robe,Premium Lumière (Bamboo),build new collection,collection,2,720,1440,144,,,83,womens bamboo robe | bamboo robe
+Striped Pillow,/collections/striped-pillow,"— (category page, all fabrics)",build new collection,collection,1,1600,1600,160,,,80,striped pillow
+Breathable Comforter,/collections/breathable-comforter,"— (category page, all fabrics)",build new collection,collection,1,1600,1600,160,,,80,breathable comforter
+King Sham,/collections/king-sham,"— (category page, all fabrics)",build new collection,collection,1,1600,1600,160,,,80,king pillow shams
+Organic Pillow,/collections/organic-pillow,"— (category page, all fabrics)",build new collection,collection,1,1600,1600,160,,,80,organic latex pillow
+Full Blanket,/collections/full-blanket,"— (category page, all fabrics)",build new collection,collection,1,1600,1600,160,,,80,double crochet blanket
+Boho Blanket,/collections/boho-blanket,"— (category page, all fabrics)",build new collection,collection,1,1600,1600,160,,,80,boho blanket
+Waffle Comforter,/collections/waffle-comforter,Waffle,build new collection,collection,1,1300,1300,130,,,75,waffle comforter
+Velvet Sheets,/collections/velvet-sheets,Velvet,build new collection,collection,1,1300,1300,130,,,75,velvet bed sheets
+Silk Bath Robe,/collections/silk-bath-robe,Ecosilk / Silky Lyocell,build new collection,collection,1,1300,1300,130,,,75,silk bathrobe
+Organic Cotton Quilt,/collections/organic-cotton-quilt,Organic Cotton,build new collection,collection,1,1300,1300,130,,,75,organic cotton quilt
+Percale Bedspread,/collections/percale-bedspread,— no current line (product gap),build new collection,collection,1,2400,2400,240,,,72,cotton percale bedspread
+Flannel Loungewear,/collections/flannel-loungewear,— no current line (product gap),build new collection,collection,1,2400,2400,240,,,72,flannel pajama set women
+Muslin Throw,/collections/muslin-throw,Muslin / Snug Muslin,build new collection,collection,2,590,1180,118,,,68,muslin throw blankets | muslin throw blanket
+Lyocell Blanket,/collections/lyocell-blanket,Silky Lyocell (TENCEL™),build new collection,collection,3,390,1170,117,,,67,tencel blankets | tencel blanket | lyocell blanket
+Striped Bath Robe,/collections/striped-bath-robe,"— (category page, all fabrics)",build new collection,collection,1,1300,1300,130,,,65,striped bath robe
+King Coverlet,/collections/king-coverlet,"— (category page, all fabrics)",build new collection,collection,1,1300,1300,130,,,65,king size coverlet
+Organic Duvet Cover,/collections/organic-duvet-cover,"— (category page, all fabrics)",build new collection,collection,1,1300,1300,130,,,65,organic duvet cover
+King Rug,/collections/king-rug,"— (category page, all fabrics)",build new collection,collection,1,1300,1300,130,,,65,rug under king bed
+Breathable Pillow,/collections/breathable-pillow,"— (category page, all fabrics)",build new collection,collection,1,1300,1300,130,,,65,breathable pillow
+Organic Comforter,/collections/organic-comforter,"— (category page, all fabrics)",build new collection,collection,1,1300,1300,130,,,65,organic comforter
+Striped Quilt,/collections/striped-quilt,"— (category page, all fabrics)",build new collection,collection,1,1300,1300,130,,,65,striped quilt
+Faux Fur Robe,/collections/faux-fur-robe,Snug / Faux Fur,build new collection,collection,2,590,1070,107,,,62,fur robe for men | robe with fur trim
+Full Robe,/collections/full-robe,"— (category page, all fabrics)",build new collection,collection,2,590,1180,118,,,59,zipper front robes full length | full length robes for women
+Cooling Quilt,/collections/cooling-quilt,Cloud Cool / Cooling Edit,build new collection,collection,1,1000,1000,100,,,57,cool quilts
+Modal Bedding,/collections/modal-bedding,Naked Modal,build new collection,collection,1,1000,1000,100,,,57,modal bedding set
+Oversized Sheets,/collections/oversized-sheets,"— (category page, all fabrics)",build new collection,collection,1,1000,1000,100,,,50,oversized bath sheets
+Striped Blanket,/collections/striped-blanket,"— (category page, all fabrics)",build new collection,collection,1,1000,1000,100,,,50,striped blanket
+Organic Towel,/collections/organic-towel,"— (category page, all fabrics)",build new collection,collection,1,1000,1000,100,,,50,bath towels organic
+Twin Pillowcase,/collections/twin-pillowcase,"— (category page, all fabrics)",build new collection,collection,1,1000,1000,100,,,50,twin pillow case size
+Striped Throw Pillow,/collections/striped-throw-pillow,"— (category page, all fabrics)",build new collection,collection,1,1000,1000,100,,,50,striped lumbar pillow
+Reversible Duvet Cover,/collections/reversible-duvet-cover,"— (category page, all fabrics)",build new collection,collection,1,1000,1000,100,,,50,reversible duvet cover
+Ruffled Pillow,/collections/ruffled-pillow,"— (category page, all fabrics)",build new collection,collection,1,1000,1000,100,,,50,ruffle pillow
+Microfiber Bedding,/collections/microfiber-bedding,— no current line (product gap),build new collection,collection,1,1600,1600,160,,,48,microfiber bedding
+Microfiber Rug,/collections/microfiber-rug,— no current line (product gap),build new collection,collection,1,1600,1600,160,,,48,microfiber bath rugs
+Flannel Throw,/collections/flannel-throw,— no current line (product gap),build new collection,collection,1,1000,1000,100,,,30,flannel throw blanket
