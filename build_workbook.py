@@ -39,14 +39,16 @@ NUM_COLS = {"search_volume", "etv", "position", "keyword_difficulty", "cpc",
             "expected_traffic_pos3", "avg_keyword_difficulty",
             "Monthly Search Volume", "Expected Traffic @ #3",
             "priority_score", "Priority Score", "head_keyword_volume",
-            "Traffic Potential @#3 (ceiling)", "Realistic Traffic /mo"}
+            "Traffic Potential @#3 (ceiling)", "Realistic Traffic /mo",
+            "Hero Volume"}
 INT_COLS = {"search_volume", "position", "keyword_difficulty",
             "keywords_in_space", "etv_in_space", "competitors_ranking",
             "sc_current_position", "keyword_count", "total_search_volume",
             "expected_traffic_pos3", "avg_keyword_difficulty",
             "Monthly Search Volume", "Expected Traffic @ #3",
             "priority_score", "Priority Score", "head_keyword_volume",
-            "Traffic Potential @#3 (ceiling)", "Realistic Traffic /mo"}
+            "Traffic Potential @#3 (ceiling)", "Realistic Traffic /mo",
+            "Hero Volume"}
 
 
 def add_sheet(wb, csv_name, tab_name, first):
@@ -102,7 +104,8 @@ def add_sheet(wb, csv_name, tab_name, first):
         "top_keywords": 70, "priority_score": 14, "Priority Score": 14,
         "head_keyword_volume": 18, "Traffic Potential @#3 (ceiling)": 26,
         "Winnability (SERP)": 16, "SERP Reality": 52, "Realistic Traffic /mo": 20,
-        "Page to Beat": 72,
+        "Page to Beat": 60, "Hero Keyword": 30, "Hero Volume": 12,
+        "Supporting Keywords": 60, "Plan Status": 26, "Page to Beat Rank": 36,
     }
     for name, idx in col_idx.items():
         ws.column_dimensions[get_column_letter(idx + 1)].width = widths.get(name, 14)

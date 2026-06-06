@@ -82,9 +82,12 @@ HARD = {
     "elle.com", "vogue.com", "nymag.com", "rollingstone.com",
 }
 
-# realistic share of the page's total cluster demand captured once the page
-# ranks as well as the SERP allows (conservative, not a #3-everywhere fantasy).
-CAPTURE = {"high": 0.06, "medium": 0.018, "low": 0.003}
+# realistic CTR on the HERO keyword once the page ranks as well as the SERP
+# allows: high -> ~top 5, medium -> ~page-1 bottom, low -> page 2. Applied to the
+# hero keyword's own volume (not the whole cluster sum) with a 1.5x uplift for
+# the long-tail the page also picks up.
+CTR = {"high": 0.08, "medium": 0.03, "low": 0.006}
+LONGTAIL_UPLIFT = 1.5
 
 
 def enrich_peers():
@@ -137,33 +140,6 @@ def classify_page(url, existing):
     return "New"
 
 
-# category fallback: if no competitor ranks for the page's exact keywords (common
-# for SC's differentiated materials), benchmark against the competitors' best
-# generic category page. (term seen in the page -> candidate head keywords)
-CAT_FALLBACK = [
-    ("duvet cover", ["duvet covers", "duvet cover"]),
-    ("duvet", ["duvet covers", "duvet cover"]),
-    ("comforter", ["comforter sets", "comforter", "comforters"]),
-    ("sheet", ["bed sheets", "sheets", "sheet set"]),
-    ("pillowcase", ["pillowcases", "pillow cases", "pillowcase"]),
-    ("sham", ["shams", "pillow shams"]),
-    ("quilt", ["quilts", "quilt"]),
-    ("coverlet", ["coverlet", "coverlets"]),
-    ("bedspread", ["bedspreads", "bedspread"]),
-    ("throw", ["throw blanket", "throw blankets", "throws"]),
-    ("blanket", ["blankets", "blanket"]),
-    ("pillow", ["throw pillows", "decorative pillows", "pillows"]),
-    ("towel", ["bath towels", "towels"]),
-    ("bathrobe", ["robes", "bathrobe"]),
-    ("robe", ["robes", "robe"]),
-    ("kimono", ["robes", "kimono"]),
-    ("loungewear", ["loungewear", "pajamas"]),
-    ("pajama", ["pajamas", "loungewear"]),
-    ("rug", ["rugs", "rug"]),
-    ("bedding", ["bedding", "bedding sets"]),
-]
-
-
 def _url_pref(url):
     """Prefer competitor LANDING pages (collection/category) over deep product
     pages or the bare homepage — apples-to-apples with our proposed collection."""
@@ -178,52 +154,24 @@ def _url_pref(url):
     return 1                                       # blog/other
 
 
-def _pick(cands):
-    """cands: list of (pos, url, keyword). Prefer landing pages, then position.
-    Homepages are never a useful 'page to beat', so they're excluded (lets the
-    exact match fall through to a category benchmark)."""
-    cands = [c for c in cands if _url_pref(c[1]) != 3]
-    return min(cands, key=lambda c: (_url_pref(c[1]), c[0])) if cands else None
+TOP7 = 7   # a "page to beat" must be a competitor ranking in the top 7
 
 
-def page_to_beat(keywords, comp_map):
-    """Competitor LANDING page that closely matches the proposed page. Anchored
-    to the page's keywords in priority order (primary first) and biased to a
-    competitor COLLECTION page so it's like-for-like with the collection we'd
-    build. Tiers: (1) a collection ranking for one of the page's keywords,
-    primary-first; (2) the competitors' category collection (fallback); (3) any
-    other non-homepage result, primary-first."""
-
-    def collections_for(kw):
-        return sorted((pos, url) for _, (pos, url) in (comp_map.get(kw) or {}).items()
-                      if _url_pref(url) == 0)
-
-    # 1) collection page matching the page's own keywords, closest to primary
-    for kw in keywords:
-        colls = collections_for(kw)
-        if colls:
-            pos, url = colls[0]
-            return f"{url}  (#{pos} for '{kw}')"
-
-    # 2) category-equivalent collection (for materials the 5 don't carry)
-    blob = " ".join(keywords)
-    for term, heads in CAT_FALLBACK:
-        if term in blob:
-            for head in heads:
-                colls = collections_for(head)
-                if colls:
-                    pos, url = colls[0]
-                    return f"{url}  (#{pos} for '{head}' — category benchmark)"
-
-    # 3) any non-homepage result, primary-first
-    for kw in keywords:
-        ent = sorted((_url_pref(url), pos, url)
-                     for _, (pos, url) in (comp_map.get(kw) or {}).items()
-                     if _url_pref(url) != 3)
-        if ent:
-            _, pos, url = ent[0]
-            return f"{url}  (#{pos} for '{kw}')"
-    return ""
+def hero_benchmark(hero_kws, comp_map):
+    """Best competitor page ranking in the TOP 7 for the page's hero keyword(s).
+    Prefers a collection/category page (like-for-like with the page we'd build);
+    homepages excluded. Returns (pos, url, keyword, domain) or None — None means
+    no competitor among the 5 owns this, i.e. whitespace."""
+    cands = []
+    for kw in hero_kws:
+        for domain, (pos, url) in (comp_map.get(kw) or {}).items():
+            if pos <= TOP7 and _url_pref(url) != 3:
+                cands.append((_url_pref(url), pos, url, kw, domain))
+    if not cands:
+        return None
+    cands.sort(key=lambda c: (c[0], c[1]))   # collection first, then position
+    _, pos, url, kw, domain = cands[0]
+    return pos, url, kw, domain
 
 
 def main():
@@ -317,8 +265,6 @@ def main():
         else:
             win = "medium"
 
-        vol = int(r["total_search_volume"])
-        realistic = round(vol * CAPTURE[win])
         evidence_peers = ", ".join(sorted(peers_seen)[:3]) or \
             (", ".join(sorted(others_seen)[:2]) + " (small brands)" if others_seen else "none")
         evidence_hard = ", ".join(sorted(hard_seen)[:3]) or "none"
@@ -326,19 +272,40 @@ def main():
         if sc_ranks:
             serp_reality = "SC already in top-10 | " + serp_reality
 
+        # hero keyword = the page's highest-volume term; the benchmark must be a
+        # competitor ranking TOP 7 for it (a weak #38 is no benchmark at all).
+        cluster = [k for k in r["example_keywords"].split(" | ") if k]
+        hero = cluster[0] if cluster else ""
+        hero_vol = int(r.get("head_keyword_volume") or 0)
+        realistic = round(hero_vol * CTR[win] * LONGTAIL_UPLIFT)
+        bm = hero_benchmark(cluster[:3], comp_map)
+
+        if bm:
+            pos, url, kw, domain = bm
+            plan_status = "Beat competitor"
+            ptb = url
+            beat_rank = f"#{pos} {norm_domain(domain)} (for '{kw}')"
+        elif win in ("high", "medium"):
+            plan_status = "Whitespace — plan new page"
+            ptb = ""
+            beat_rank = "none of the 5 rank top 7"
+        else:
+            continue   # no top-7 benchmark and not winnable -> not worth a page
+
         out.append({
             "Page": r["target_page_title"],
             "New / Optimise": classify_page(r["target_url"], existing),
             "Current / Proposed URL": "https://sundaycitizen.co" + r["target_url"],
             "SC Product Line": r["sc_product_line"],
-            "To Rank For": ", ".join(r["example_keywords"].split(" | ")),
-            "Monthly Search Volume": vol,
-            "Traffic Potential @#3 (ceiling)": int(r["expected_traffic_pos3"]),
+            "Hero Keyword": hero,
+            "Hero Volume": hero_vol,
+            "Supporting Keywords": ", ".join(cluster[1:8]),
             "Winnability (SERP)": win,
-            "SERP Reality": serp_reality,
             "Realistic Traffic /mo": realistic,
-            "Page to Beat": page_to_beat(
-                [k for k in r["example_keywords"].split(" | ") if k], comp_map),
+            "Plan Status": plan_status,
+            "Page to Beat": ptb,
+            "Page to Beat Rank": beat_rank,
+            "SERP Reality": serp_reality,
         })
 
     out.sort(key=lambda x: x["Realistic Traffic /mo"], reverse=True)
@@ -348,6 +315,7 @@ def main():
         w.writerows(out)
     print(f"wrote {OUT}  ({len(out)} pages)")
     from collections import Counter
+    print("  plan status:", dict(Counter(r["Plan Status"] for r in out)))
     print("  winnability:", dict(Counter(r["Winnability (SERP)"] for r in out)))
 
 
