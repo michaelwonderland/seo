@@ -42,16 +42,26 @@ MAX_PAGES = 10         # safety cap on pagination (10k rows / domain)
 
 # domain -> list of regexes; a keyword matching ANY of these is treated as brand
 BRAND_PATTERNS = {
-    "sundaycitizen.co":  [r"sunday\s*citizen", r"sundaycitizen"],
-    "brooklinen.com":    [r"brooklinen", r"brooklyn\s*linen"],
+    "sundaycitizen.co":   [r"sunday\s*citizen", r"sundaycitizen"],
+    "brooklinen.com":     [r"brooklinen", r"brooklyn\s*linen"],
+    "potterybarn.com":    [r"pottery\s*barn", r"potterybarn", r"\bpb\b"],
+    "latestbedding.com":  [r"latest\s*bedding", r"latestbedding"],
+    "tempurpedic.com":    [r"tempur[\s-]*pedic", r"tempurpedic", r"\btempur\b"],
+    "us.pigletinbed.com": [r"piglet\s*in\s*bed", r"pigletinbed", r"\bpiglet\b"],
+    "parachutehome.com":  [r"parachute\s*home", r"parachutehome", r"\bparachute\b"],
 }
 
 # domain -> selection rule applied to the non-brand keywords
 #   ("top_n", N)   -> top N by ETV
 #   ("etv_min", X) -> every keyword with ETV > X
 SELECTION = {
-    "sundaycitizen.co": ("top_n", 500),
-    "brooklinen.com":   ("etv_min", 80),
+    "sundaycitizen.co":   ("top_n", 500),
+    "brooklinen.com":     ("etv_min", 80),
+    "potterybarn.com":    ("top_n", 500),
+    "latestbedding.com":  ("top_n", 500),
+    "tempurpedic.com":    ("top_n", 500),
+    "us.pigletinbed.com": ("top_n", 500),
+    "parachutehome.com":  ("top_n", 500),
 }
 
 OUT_DIR = Path(__file__).parent / "data"
@@ -181,8 +191,14 @@ def process_domain(domain, headers):
 
 
 def main():
+    # Optional domain args restrict the run to those domains (so we don't
+    # re-spend credits re-pulling domains already on disk). No args -> all.
+    targets = sys.argv[1:] or list(SELECTION)
+    unknown = [d for d in targets if d not in SELECTION]
+    if unknown:
+        sys.exit(f"ERROR: no SELECTION rule for: {', '.join(unknown)}")
     headers = auth_header()
-    for domain in SELECTION:
+    for domain in targets:
         process_domain(domain, headers)
     print("\nDone. CSVs + raw JSON are in ./data/")
 

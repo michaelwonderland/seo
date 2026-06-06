@@ -18,6 +18,11 @@ OUT_PATH = Path(__file__).parent / "Keyword Research.xlsx"
 TABS = [
     ("sundaycitizen_co.csv",     "sundaycitizen.co"),
     ("brooklinen_com.csv",       "brooklinen.com"),
+    ("potterybarn_com.csv",      "potterybarn.com"),
+    ("latestbedding_com.csv",    "latestbedding.com"),
+    ("tempurpedic_com.csv",      "tempurpedic.com"),
+    ("us_pigletinbed_com.csv",   "pigletinbed.com"),
+    ("parachutehome_com.csv",    "parachutehome.com"),
     ("brooklinen_expansion.csv", "brooklinen — expansion"),
     ("serp_competitors.csv",     "competing domains"),
 ]

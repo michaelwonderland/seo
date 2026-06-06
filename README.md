@@ -1,8 +1,8 @@
-# Keyword Research — sundaycitizen.co & brooklinen.com
+# Keyword Research — sundaycitizen.co & the bedding competitor set
 
 Pulls **non-brand organic keywords** for each domain from the DataForSEO Labs
 `ranked_keywords` endpoint, ranked by **estimated traffic (ETV)**, and delivers
-them as **one Google Sheet with two tabs** (one per domain).
+them as **one Google Sheet with a tab per domain**.
 
 ## Parameters
 - Market: **United States** (`location_code 2840`), **English** (`language_code en`)
@@ -11,11 +11,17 @@ them as **one Google Sheet with two tabs** (one per domain).
 - Per-domain selection rule (`SELECTION` in `keyword_research.py`):
   - sundaycitizen.co → **top 500** by ETV
   - brooklinen.com → **every keyword with ETV > 80**
+  - potterybarn.com, latestbedding.com, tempurpedic.com, us.pigletinbed.com,
+    parachutehome.com → **top 500** by ETV (the bedding competitor set surfaced
+    by the competing-domains analysis)
 - The endpoint caps at 1000 rows/call, so the script paginates (via `offset`)
   until the selection rule is satisfied.
 - "Non-brand" = keyword does not match the brand regexes in `keyword_research.py`
-  - sundaycitizen.co → `sunday citizen`, `sundaycitizen`
-  - brooklinen.com → `brooklinen`, `brooklyn linen`
+  (e.g. brooklinen → `brooklinen`/`brooklyn linen`, tempurpedic → `tempur(-pedic)`,
+  piglet in bed → `piglet`, parachute home → `parachute`, etc.)
+- Run a subset by passing domains as args, e.g.
+  `python3 keyword_research.py potterybarn.com tempurpedic.com` — no args runs all
+  (avoids re-spending credits on domains already pulled).
 
 ## Columns delivered (per keyword)
 `keyword · search_volume · etv (estimated traffic) · position · ranking_url · keyword_difficulty · cpc · search_intent`
@@ -101,12 +107,17 @@ owns traffic in that 6,031-keyword space*.
 - ✅ Run completed 2026-06-06:
   - `data/sundaycitizen_co.csv` — top 500 by ETV (46 brand keywords filtered out)
   - `data/brooklinen_com.csv` — 1,049 keywords with ETV > 80 (190 brand filtered out, 2 pages pulled)
+  - Bedding competitor set, top 500 by ETV each: `data/potterybarn_com.csv`
+    (261 brand filtered), `data/latestbedding_com.csv` (0 brand),
+    `data/tempurpedic_com.csv` (971 brand, 2 pages), `data/us_pigletinbed_com.csv`
+    (15 brand), `data/parachutehome_com.csv` (90 brand)
   - `data/brooklinen_expansion.csv` — 6,031 net-new keywords from 1,042 seeds
   - `data/serp_competitors.csv` — 10,452 competing domains (38 heavyweights excluded)
     ranked by traffic share in the bedding space.
   - Raw API responses saved alongside as `raw_<domain>.json`.
-- Workbook `Keyword Research.xlsx` now has 4 tabs (the two domains, `brooklinen —
-  expansion`, and `competing domains`).
+- Workbook `Keyword Research.xlsx` now has 9 tabs: the 7 domains (sundaycitizen.co,
+  brooklinen.com + the 5-domain competitor set), `brooklinen — expansion`, and
+  `competing domains`.
 - **Strategic read:** sundaycitizen.co ranks **#1006** among brand/retail
   competitors in its own category (15 keywords / ~1,427 ETV) — i.e. almost the
   entire 6k-keyword bedding space is whitespace for it. Top specialist
