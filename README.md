@@ -1,13 +1,18 @@
 # Keyword Research — sundaycitizen.co & brooklinen.com
 
-Pulls the **top 500 non-brand organic keywords** for each domain from the
-DataForSEO Labs `ranked_keywords` endpoint, ranked by **estimated traffic (ETV)**,
-and delivers them as **one Google Sheet with two tabs** (one per domain).
+Pulls **non-brand organic keywords** for each domain from the DataForSEO Labs
+`ranked_keywords` endpoint, ranked by **estimated traffic (ETV)**, and delivers
+them as **one Google Sheet with two tabs** (one per domain).
 
 ## Parameters
 - Market: **United States** (`location_code 2840`), **English** (`language_code en`)
 - Source: DataForSEO Labs → `ranked_keywords/live`
 - Ranking: estimated traffic value (ETV), descending
+- Per-domain selection rule (`SELECTION` in `keyword_research.py`):
+  - sundaycitizen.co → **top 500** by ETV
+  - brooklinen.com → **every keyword with ETV > 80**
+- The endpoint caps at 1000 rows/call, so the script paginates (via `offset`)
+  until the selection rule is satisfied.
 - "Non-brand" = keyword does not match the brand regexes in `keyword_research.py`
   - sundaycitizen.co → `sunday citizen`, `sundaycitizen`
   - brooklinen.com → `brooklinen`, `brooklyn linen`
@@ -54,7 +59,7 @@ pip install openpyxl
 
 ## Status / handoff
 - Script written and committed.
-- ✅ Run completed 2026-06-06: top 500 non-brand keywords pulled for both domains.
-  - `data/sundaycitizen_co.csv` (46 brand keywords filtered out)
-  - `data/brooklinen_com.csv` (116 brand keywords filtered out)
+- ✅ Run completed 2026-06-06:
+  - `data/sundaycitizen_co.csv` — top 500 by ETV (46 brand keywords filtered out)
+  - `data/brooklinen_com.csv` — 1,049 keywords with ETV > 80 (190 brand filtered out, 2 pages pulled)
   - Raw API responses saved alongside as `raw_<domain>.json`.
