@@ -3,12 +3,13 @@
 Reshape data/keyword_gap_pages.csv into the final page plan:
   A: Page
   B: New / Optimise
-  C: SC Product Line          (which SC product/fabric backs the page)
-  D: To Rank For              (up to 10 top keywords, comma-separated)
-  E: Monthly Search Volume    (total demand across the page's keywords)
-  F: Expected Traffic @ #3    (search volume x position-#3 CTR)
-  G: Winnability              (high/medium/low, from avg keyword difficulty)
-  H: Priority Score           (traffic x difficulty x product-fit; build order)
+  C: Current / Proposed URL   (existing collection URL, or the proposed new one)
+  D: SC Product Line          (which SC product/fabric backs the page)
+  E: To Rank For              (up to 10 top keywords, comma-separated)
+  F: Monthly Search Volume    (total demand across the page's keywords)
+  G: Expected Traffic @ #3    (search volume x position-#3 CTR)
+  H: Winnability              (high/medium/low, from avg keyword difficulty)
+  I: Priority Score           (traffic x difficulty x product-fit; build order)
 
 Sorted by Priority Score (best build-order first). New vs Optimise is decided by
 whether the collection already exists in the live Shopify catalog.
@@ -43,6 +44,7 @@ def main():
             out.append({
                 "Page": r["target_page_title"],
                 "New / Optimise": classify(r["target_url"], existing),
+                "Current / Proposed URL": "https://sundaycitizen.co" + r["target_url"],
                 "SC Product Line": r["sc_product_line"],
                 "To Rank For": ", ".join(r["example_keywords"].split(" | ")),
                 "Monthly Search Volume": int(r["total_search_volume"]),
@@ -54,9 +56,9 @@ def main():
 
     with OUT.open("w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=[
-            "Page", "New / Optimise", "SC Product Line", "To Rank For",
-            "Monthly Search Volume", "Expected Traffic @ #3", "Winnability",
-            "Priority Score"])
+            "Page", "New / Optimise", "Current / Proposed URL", "SC Product Line",
+            "To Rank For", "Monthly Search Volume", "Expected Traffic @ #3",
+            "Winnability", "Priority Score"])
         w.writeheader()
         w.writerows(out)
     print(f"wrote {OUT}  ({len(out)} pages)")

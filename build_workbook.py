@@ -94,6 +94,7 @@ def add_sheet(wb, csv_name, tab_name, first):
         "expected_traffic_pos3": 20, "avg_keyword_difficulty": 20,
         "winnability": 12, "sc_product_line": 32,
         "Page": 26, "New / Optimise": 14, "SC Product Line": 32,
+        "Current / Proposed URL": 48,
         "To Rank For": 70, "Monthly Search Volume": 20,
         "Expected Traffic @ #3": 20, "Winnability": 12,
         "top_keywords": 70, "priority_score": 14, "Priority Score": 14,
