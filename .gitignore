@@ -3,3 +3,4 @@ __pycache__/
 .env
 *.xlsx
 data/raw_*.json
+data/brooklinen_ranked_keywords.txt

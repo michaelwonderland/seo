@@ -57,9 +57,26 @@ integration in-session). `openpyxl` is needed for the workbook step:
 pip install openpyxl
 ```
 
+## Keyword expansion (`keyword_expansion.py`)
+Expands a seed list (`data/seed_keywords.txt`) into **net-new** keyword
+opportunities for brooklinen.com via DataForSEO Labs:
+- `keyword_ideas/live` — topically relevant expansion (seeds batched ≤200/call).
+- `keyword_suggestions/live` — long-tail variants for the top 50 seeds by volume.
+- Excludes: brand, the seeds themselves, anything brooklinen **already ranks for**
+  (full ranked set, cached to `data/brooklinen_ranked_keywords.txt`), and applies
+  `search_volume ≥ 100`.
+- Cleaning: a category-relevance gate on ideas-sourced terms, a negative-term
+  list (furniture/mattresses, competitors, pests, deal/coupon noise), drops
+  navigational intent, and collapses word-order/stopword variants + repeated-word junk.
+- Output: `data/brooklinen_expansion.csv` (columns: keyword · search_volume · cpc ·
+  competition · keyword_difficulty · search_intent · source).
+- `REFILTER=1 python3 keyword_expansion.py` re-runs cleaning from saved raw
+  responses with **no API calls**; `REFRESH_RANKED=1` forces a fresh ranked-set pull.
+
 ## Status / handoff
-- Script written and committed.
 - ✅ Run completed 2026-06-06:
   - `data/sundaycitizen_co.csv` — top 500 by ETV (46 brand keywords filtered out)
   - `data/brooklinen_com.csv` — 1,049 keywords with ETV > 80 (190 brand filtered out, 2 pages pulled)
+  - `data/brooklinen_expansion.csv` — 6,031 net-new keywords from 1,042 seeds
   - Raw API responses saved alongside as `raw_<domain>.json`.
+- Workbook `Keyword Research.xlsx` now has 3 tabs (the two domains + `brooklinen — expansion`).
