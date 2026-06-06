@@ -45,6 +45,8 @@ SC_MAX_PAGES = 40
 GAP_POS = 20          # SC "already ranks" if best organic position <= this
 MIN_VOLUME = 150      # floor before taking the top N
 TOP_N = 500
+POS3_CTR = 0.10       # industry-avg organic click-through rate at position #3;
+                      # expected_traffic_pos3 = search_volume * POS3_CTR
 
 HERE = Path(__file__).parent
 DATA = HERE / "data"
@@ -212,6 +214,16 @@ def build_universe():
             upsert(row["keyword"], num(row.get("search_volume")),
                    num(row.get("cpc")), num(row.get("keyword_difficulty")) or None,
                    "expansion")
+
+    # Sunday Citizen's own material/product-line demand (lyocell, modal, muslin,
+    # bamboo, ...) — pulled directly because the Brooklinen seeds missed them.
+    mat = DATA / "material_keywords.csv"
+    if mat.exists():
+        with mat.open() as f:
+            for row in csv.DictReader(f):
+                upsert(row["keyword"], num(row.get("search_volume")),
+                       num(row.get("cpc")), num(row.get("keyword_difficulty")) or None,
+                       "sc-material")
     return uni
 
 
@@ -366,6 +378,40 @@ def detect_one(kw, table):
     return None
 
 
+# detected material -> the Sunday Citizen product line that can fill the page.
+# "— ..." means SC has no current line for it (a product gap, not just an SEO gap).
+MATERIAL_TO_LINE = {
+    "bamboo": "Premium Lumière (Bamboo)",
+    "lyocell": "Silky Lyocell (TENCEL™)",
+    "modal": "Naked Modal",
+    "linen": "European Flax Linacel",
+    "muslin": "Muslin / Snug Muslin",
+    "waffle": "Waffle",
+    "sateen": "Luce Cotton Sateen",
+    "velvet": "Velvet",
+    "faux fur": "Snug / Faux Fur",
+    "organic cotton": "Organic Cotton",
+    "cotton": "Cotton (Luce Sateen / Organic / Woven)",
+    "cooling": "Cloud Cool / Cooling Edit",
+    "silk": "Ecosilk / Silky Lyocell",
+    "percale": "— no current line (product gap)",
+    "flannel": "— no current line (product gap)",
+    "microfiber": "— no current line (product gap)",
+}
+# bare category -> backing line (where the category itself is the product)
+CATEGORY_TO_LINE = {
+    "weighted blanket": "Crystal Weighted Blanket",
+}
+
+
+def product_line(mat, cat):
+    if mat and mat in MATERIAL_TO_LINE:
+        return MATERIAL_TO_LINE[mat]
+    if cat and cat in CATEGORY_TO_LINE:
+        return CATEGORY_TO_LINE[cat]
+    return "— (category page, all fabrics)"
+
+
 def detect_category(kw):
     for pat, cat, handle in CATEGORIES:
         if re.search(pat, kw):
@@ -484,15 +530,19 @@ def main():
     rows = []
     for ck, kw, d, sc_p in best.values():
         action, ptype, url, title, theme = map_page(kw, collections)
+        line = product_line(detect_one(kw, MATERIALS), detect_category(kw)[0])
+        vol = int(d["search_volume"])
         rows.append({
             "keyword": kw,
-            "search_volume": int(d["search_volume"]),
+            "search_volume": vol,
+            "expected_traffic_pos3": round(vol * POS3_CTR),
             "cpc": round(d["cpc"], 2),
             "keyword_difficulty": int(d["kd"]) if d["kd"] is not None else "",
             "competitors_ranking": len(d["competitors"]),
             "competitor_list": ",".join(sorted(d["competitors"])),
             "sc_current_position": int(sc_p) if sc_p is not None else "",
             "theme": theme,
+            "sc_product_line": line,
             "recommended_action": action,
             "target_page_type": ptype,
             "target_handle_or_url": url,
@@ -511,9 +561,10 @@ def main():
     print(f"  distinct new collection pages to build: "
           f"{len({r['target_handle_or_url'] for r in top if r['recommended_action'].startswith('build new')})}")
 
-    fields = ["keyword", "search_volume", "cpc", "keyword_difficulty",
-              "competitors_ranking", "competitor_list", "sc_current_position",
-              "theme", "recommended_action", "target_page_type",
+    fields = ["keyword", "search_volume", "expected_traffic_pos3", "cpc",
+              "keyword_difficulty", "competitors_ranking", "competitor_list",
+              "sc_current_position", "theme", "sc_product_line",
+              "recommended_action", "target_page_type",
               "target_handle_or_url", "target_page_title"]
     with OUT_CSV.open("w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=fields)
@@ -521,42 +572,62 @@ def main():
         w.writerows(top)
     print(f"wrote {OUT_CSV}")
 
-    # page-level rollup: the actionable build/optimize list, ranked by opportunity
+    # ---- page-level rollup: built from the FULL candidate set (not the top-500
+    # keyword slice) so winnable low-volume product pages (lyocell, modal, muslin,
+    # waffle, sateen) survive instead of being buried under head terms.
+    PAGE_MIN_VOL = 3000   # minimum total page demand to be worth a page
     pages = {}
-    for r in top:
+    for r in rows:
         url = r["target_handle_or_url"]
         p = pages.setdefault(url, {
             "target_page_title": r["target_page_title"],
             "target_url": url,
+            "sc_product_line": r["sc_product_line"],
             "recommended_action": r["recommended_action"],
             "target_page_type": r["target_page_type"],
-            "keyword_count": 0, "total_search_volume": 0, "kws": [],
+            "keyword_count": 0, "total_search_volume": 0,
+            "expected_traffic_pos3": 0, "kds": [], "kws": [],
         })
         p["keyword_count"] += 1
         p["total_search_volume"] += r["search_volume"]
+        p["expected_traffic_pos3"] += r["expected_traffic_pos3"]
+        if r["keyword_difficulty"] != "":
+            p["kds"].append(r["keyword_difficulty"])
         p["kws"].append((r["search_volume"], r["keyword"]))
+
     page_rows = []
     for p in pages.values():
-        top_kws = [k for _, k in sorted(p["kws"], reverse=True)[:6]]
+        if p["total_search_volume"] < PAGE_MIN_VOL:
+            continue
+        avg_kd = round(sum(p["kds"]) / len(p["kds"])) if p["kds"] else ""
+        winnability = ("" if avg_kd == "" else
+                       "high" if avg_kd <= 20 else
+                       "medium" if avg_kd <= 40 else "low")
+        top_kws = [k for _, k in sorted(p["kws"], reverse=True)[:10]]
         page_rows.append({
             "target_page_title": p["target_page_title"],
             "target_url": p["target_url"],
+            "sc_product_line": p["sc_product_line"],
             "recommended_action": p["recommended_action"],
             "target_page_type": p["target_page_type"],
             "keyword_count": p["keyword_count"],
             "total_search_volume": p["total_search_volume"],
+            "expected_traffic_pos3": p["expected_traffic_pos3"],
+            "avg_keyword_difficulty": avg_kd,
+            "winnability": winnability,
             "example_keywords": " | ".join(top_kws),
         })
-    page_rows.sort(key=lambda r: r["total_search_volume"], reverse=True)
+    page_rows.sort(key=lambda r: r["expected_traffic_pos3"], reverse=True)
     pages_csv = DATA / "keyword_gap_pages.csv"
     with pages_csv.open("w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=[
-            "target_page_title", "target_url", "recommended_action",
-            "target_page_type", "keyword_count", "total_search_volume",
-            "example_keywords"])
+            "target_page_title", "target_url", "sc_product_line",
+            "recommended_action", "target_page_type", "keyword_count",
+            "total_search_volume", "expected_traffic_pos3",
+            "avg_keyword_difficulty", "winnability", "example_keywords"])
         w.writeheader()
         w.writerows(page_rows)
-    print(f"wrote {pages_csv}  ({len(page_rows)} target pages)")
+    print(f"wrote {pages_csv}  ({len(page_rows)} target pages, full candidate set)")
 
     # theme summary
     by_theme = defaultdict(lambda: [0, 0])

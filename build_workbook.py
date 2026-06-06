@@ -25,18 +25,24 @@ TABS = [
     ("parachutehome_com.csv",    "parachutehome.com"),
     ("brooklinen_expansion.csv", "brooklinen — expansion"),
     ("serp_competitors.csv",     "competing domains"),
-    ("keyword_gap_pages.csv",    "GAP — pages to build"),
+    ("page_plan.csv",            "PAGE PLAN"),
+    ("keyword_gap_pages.csv",    "GAP — pages (detail)"),
     ("keyword_gap.csv",          "GAP — top 500 keywords"),
+    ("material_demand.csv",      "SC material demand"),
 ]
 
 # numeric columns -> formatting
 NUM_COLS = {"search_volume", "etv", "position", "keyword_difficulty", "cpc",
             "keywords_in_space", "etv_in_space", "traffic_share_pct",
             "avg_position", "visibility", "competitors_ranking",
-            "sc_current_position", "keyword_count", "total_search_volume"}
+            "sc_current_position", "keyword_count", "total_search_volume",
+            "expected_traffic_pos3", "avg_keyword_difficulty",
+            "Monthly Search Volume", "Expected Traffic @ #3"}
 INT_COLS = {"search_volume", "position", "keyword_difficulty",
             "keywords_in_space", "etv_in_space", "competitors_ranking",
-            "sc_current_position", "keyword_count", "total_search_volume"}
+            "sc_current_position", "keyword_count", "total_search_volume",
+            "expected_traffic_pos3", "avg_keyword_difficulty",
+            "Monthly Search Volume", "Expected Traffic @ #3"}
 
 
 def add_sheet(wb, csv_name, tab_name, first):
@@ -83,6 +89,12 @@ def add_sheet(wb, csv_name, tab_name, first):
         "target_page_type": 16, "target_handle_or_url": 34,
         "target_page_title": 26, "target_url": 34, "keyword_count": 14,
         "total_search_volume": 18, "example_keywords": 60,
+        "expected_traffic_pos3": 20, "avg_keyword_difficulty": 20,
+        "winnability": 12, "sc_product_line": 32,
+        "Page": 26, "New / Optimise": 14, "SC Product Line": 32,
+        "To Rank For": 70, "Monthly Search Volume": 20,
+        "Expected Traffic @ #3": 20, "Winnability": 12,
+        "top_keywords": 70,
     }
     for name, idx in col_idx.items():
         ws.column_dimensions[get_column_letter(idx + 1)].width = widths.get(name, 14)

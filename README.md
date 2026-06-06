@@ -131,6 +131,44 @@ Citizen should rank for, and the page to do it with**.
   page, ranked by total opportunity volume, with example keywords).
 - `REFILTER=1 python3 keyword_gap.py` reuses the cached SC ranked set (no API calls).
 
+## SC product-line demand (`material_demand.py`)
+The Brooklinen-seeded universe missed Sunday Citizen's signature fabrics
+(**zero** "lyocell"/"modal" keywords). This pulls `keyword_suggestions/live`
+directly for SC's own catalog vocabulary so demand is measured against the real
+product lines:
+
+| SC line | total monthly vol |
+|---|---|
+| Crystal Weighted Blanket | 1.30M |
+| Premium Lumière (Bamboo) | 1.04M |
+| European Flax Linacel (Linen) | 1.01M |
+| Cloud Cool / Cooling | 849k |
+| Percale | 772k |
+| Snug (Chunky Knit / Faux Fur) | 619k |
+| Organic Cotton | 400k |
+| Waffle | 224k |
+| **Silky Lyocell (TENCEL™)** | **192k** ("lyocell" 27k @ KD 11) |
+| Muslin | 191k |
+| Luce Cotton Sateen | 128k |
+| **Naked Modal** | **71k** |
+
+Outputs `data/material_keywords.csv` (every textile keyword + the SC line) and
+`data/material_demand.csv` (per-line rollup). These keywords are fed back into
+the gap universe so the lyocell/modal/muslin/waffle/sateen pages surface.
+
+## Expected traffic at position #3
+`keyword_gap.py` reports **`expected_traffic_pos3` = search_volume × POS3_CTR**
+(`POS3_CTR = 0.10`, industry-avg organic CTR at rank #3). The page plan is
+ranked by this so it reflects realistic capture, not raw demand. Each page is
+tagged with the **SC product line** that backs it (or flagged `— no current
+line` where it's a product gap, e.g. percale/flannel) and a **winnability**
+score (high/medium/low from avg keyword difficulty), giving a deliberate mix of
+high-volume head pages and low-volume, low-competition product pages.
+
+`data/page_plan.csv` is the clean deliverable:
+Page · New/Optimise · SC Product Line · To Rank For (≤10 kws) · Monthly Search
+Volume · Expected Traffic @ #3 · Winnability.
+
 ## Status / handoff
 - ✅ Run completed 2026-06-06:
   - `data/sundaycitizen_co.csv` — top 500 by ETV (46 brand keywords filtered out)
@@ -142,14 +180,17 @@ Citizen should rank for, and the page to do it with**.
   - `data/brooklinen_expansion.csv` — 6,031 net-new keywords from 1,042 seeds
   - `data/serp_competitors.csv` — 10,452 competing domains (38 heavyweights excluded)
     ranked by traffic share in the bedding space.
-  - `data/keyword_gap.csv` — top 500 gap keywords mapped to a Sunday Citizen
-    target page; `data/keyword_gap_pages.csv` — 66 target pages (168 keywords →
-    38 NEW collection pages, 305 → optimize existing category pages, 27 → guide
-    pages). Catalog snapshot in `data/sc_collections.json`.
+  - `data/keyword_gap.csv` — top 500 gap keywords (with expected_traffic_pos3 +
+    SC product line) mapped to a target page; `data/keyword_gap_pages.csv` /
+    `data/page_plan.csv` — 204 target pages ranked by expected traffic @ #3
+    (172 New, 32 Optimise), each tagged with backing SC product line +
+    winnability. Catalog snapshot in `data/sc_collections.json`.
+  - `data/material_demand.csv` / `data/material_keywords.csv` — SC product-line
+    demand pulled against the real catalog vocabulary.
   - Raw API responses saved alongside as `raw_<domain>.json`.
-- Workbook `Keyword Research.xlsx` now has 11 tabs: the 7 domains (sundaycitizen.co,
-  brooklinen.com + the 5-domain competitor set), `brooklinen — expansion`,
-  `competing domains`, `GAP — pages to build`, and `GAP — top 500 keywords`.
+- Workbook `Keyword Research.xlsx` now has 13 tabs: the 7 domains, `brooklinen —
+  expansion`, `competing domains`, `PAGE PLAN`, `GAP — pages (detail)`,
+  `GAP — top 500 keywords`, and `SC material demand`.
 - **Strategic read:** sundaycitizen.co ranks **#1006** among brand/retail
   competitors in its own category (15 keywords / ~1,427 ETV) — i.e. almost the
   entire 6k-keyword bedding space is whitespace for it. Top specialist
