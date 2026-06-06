@@ -200,11 +200,13 @@ Volume · Expected Traffic @ #3 · Winnability.
   - `data/brooklinen_expansion.csv` — 6,031 net-new keywords from 1,042 seeds
   - `data/serp_competitors.csv` — 10,452 competing domains (38 heavyweights excluded)
     ranked by traffic share in the bedding space.
-  - `data/keyword_gap.csv` — top 500 gap keywords (with expected_traffic_pos3 +
-    SC product line) mapped to a target page; `data/keyword_gap_pages.csv` /
-    `data/page_plan.csv` — 204 target pages ranked by expected traffic @ #3
-    (172 New, 32 Optimise), each tagged with backing SC product line +
-    winnability. Catalog snapshot in `data/sc_collections.json`.
+  - `data/page_plan.csv` — **274 target pages** (product-gap pages dropped),
+    reality-checked against live SERPs (top 8 keywords each): **98 high-winnability
+    pages (55 product-backed)** with realistic monthly traffic, sorted by
+    opportunity. The deliverable.
+  - `data/keyword_gap.csv` / `data/keyword_gap_pages.csv` — per-keyword and
+    page-level gap detail (volume, expected_traffic_pos3, SC product line,
+    winnability). Catalog snapshot in `data/sc_collections.json`.
   - `data/material_demand.csv` / `data/material_keywords.csv` — SC product-line
     demand pulled against the real catalog vocabulary.
   - Raw API responses saved alongside as `raw_<domain>.json`.
