@@ -187,27 +187,42 @@ def _pick(cands):
 
 
 def page_to_beat(keywords, comp_map):
-    """The competitor LANDING page to beat for this proposed page: the best
-    competitor collection/category page across the page's keywords. Falls back to
-    the competitors' generic category page when none rank for the exact terms."""
-    cands = []
-    for kw in keywords:
-        for domain, (pos, url) in (comp_map.get(kw) or {}).items():
-            cands.append((pos, url, kw))
-    best = _pick(cands)
-    if best:
-        return f"{best[1]}  (#{best[0]} for '{best[2]}')"
+    """Competitor LANDING page that closely matches the proposed page. Anchored
+    to the page's keywords in priority order (primary first) and biased to a
+    competitor COLLECTION page so it's like-for-like with the collection we'd
+    build. Tiers: (1) a collection ranking for one of the page's keywords,
+    primary-first; (2) the competitors' category collection (fallback); (3) any
+    other non-homepage result, primary-first."""
 
+    def collections_for(kw):
+        return sorted((pos, url) for _, (pos, url) in (comp_map.get(kw) or {}).items()
+                      if _url_pref(url) == 0)
+
+    # 1) collection page matching the page's own keywords, closest to primary
+    for kw in keywords:
+        colls = collections_for(kw)
+        if colls:
+            pos, url = colls[0]
+            return f"{url}  (#{pos} for '{kw}')"
+
+    # 2) category-equivalent collection (for materials the 5 don't carry)
     blob = " ".join(keywords)
     for term, heads in CAT_FALLBACK:
         if term in blob:
-            cands = []
             for head in heads:
-                for domain, (pos, url) in (comp_map.get(head) or {}).items():
-                    cands.append((pos, url, head))
-            best = _pick(cands)
-            if best:
-                return f"{best[1]}  (#{best[0]} for '{best[2]}' — category benchmark)"
+                colls = collections_for(head)
+                if colls:
+                    pos, url = colls[0]
+                    return f"{url}  (#{pos} for '{head}' — category benchmark)"
+
+    # 3) any non-homepage result, primary-first
+    for kw in keywords:
+        ent = sorted((_url_pref(url), pos, url)
+                     for _, (pos, url) in (comp_map.get(kw) or {}).items()
+                     if _url_pref(url) != 3)
+        if ent:
+            _, pos, url = ent[0]
+            return f"{url}  (#{pos} for '{kw}')"
     return ""
 
 
