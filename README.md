@@ -1,4 +1,4 @@
-# Keyword Research — sundaycitizen.com & brooklinen.com
+# Keyword Research — sundaycitizen.co & brooklinen.com
 
 Pulls the **top 500 non-brand organic keywords** for each domain from the
 DataForSEO Labs `ranked_keywords` endpoint, ranked by **estimated traffic (ETV)**,
@@ -9,7 +9,7 @@ and delivers them as **one Google Sheet with two tabs** (one per domain).
 - Source: DataForSEO Labs → `ranked_keywords/live`
 - Ranking: estimated traffic value (ETV), descending
 - "Non-brand" = keyword does not match the brand regexes in `keyword_research.py`
-  - sundaycitizen.com → `sunday citizen`, `sundaycitizen`
+  - sundaycitizen.co → `sunday citizen`, `sundaycitizen`
   - brooklinen.com → `brooklinen`, `brooklyn linen`
 
 ## Columns delivered (per keyword)
@@ -54,4 +54,7 @@ pip install openpyxl
 
 ## Status / handoff
 - Script written and committed.
-- ⏳ Waiting on DataForSEO secrets to be present in a booted session, then run.
+- ✅ Run completed 2026-06-06: top 500 non-brand keywords pulled for both domains.
+  - `data/sundaycitizen_co.csv` (46 brand keywords filtered out)
+  - `data/brooklinen_com.csv` (116 brand keywords filtered out)
+  - Raw API responses saved alongside as `raw_<domain>.json`.

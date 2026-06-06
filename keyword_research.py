@@ -34,7 +34,7 @@ TOP_N = 500            # final keywords kept per domain
 
 # domain -> list of regexes; a keyword matching ANY of these is treated as brand
 BRAND_PATTERNS = {
-    "sundaycitizen.com": [r"sunday\s*citizen", r"sundaycitizen"],
+    "sundaycitizen.co":  [r"sunday\s*citizen", r"sundaycitizen"],
     "brooklinen.com":    [r"brooklinen", r"brooklyn\s*linen"],
 }
 
