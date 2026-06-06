@@ -35,7 +35,7 @@ import requests
 SERP_URL = "https://api.dataforseo.com/v3/serp/google/organic/live/advanced"
 LOCATION_CODE = 2840
 LANGUAGE_CODE = "en"
-KWS_PER_PAGE = 3        # top keywords per page to SERP-check
+KWS_PER_PAGE = 8        # top keywords per page to SERP-check
 TOP_N_ORGANIC = 10      # judge winnability on the top-10 organic results
 
 HERE = Path(__file__).parent
@@ -84,6 +84,21 @@ HARD = {
 # realistic share of the page's total cluster demand captured once the page
 # ranks as well as the SERP allows (conservative, not a #3-everywhere fantasy).
 CAPTURE = {"high": 0.06, "medium": 0.018, "low": 0.003}
+
+
+def enrich_peers():
+    """Add real bedding/home-textile brands to PEERS from the competing-domains
+    analysis (brand/retail domains with a genuine footprint in the space that
+    aren't mega-retail/publisher walls). Makes winnability detection accurate
+    instead of relying only on the hand-curated list."""
+    f = DATA / "serp_competitors.csv"
+    if not f.exists():
+        return
+    for r in csv.DictReader(f.open()):
+        d = norm_domain(r["domain"])
+        if (r.get("category") == "brand/retail" and d not in HARD
+                and int(r.get("keywords_in_space") or 0) >= 20):
+            PEERS.add(d)
 
 
 def norm_domain(d):
@@ -157,6 +172,8 @@ def main():
                 print(f"  {i}/{len(todo)}")
         RAW.write_text(json.dumps(cache))
 
+    enrich_peers()
+    print(f"peer brands recognised: {len(PEERS)}")
     existing = existing_handles()
     out = []
     for r in rows:

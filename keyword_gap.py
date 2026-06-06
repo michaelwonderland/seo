@@ -580,7 +580,7 @@ def main():
     # ---- page-level rollup: built from the FULL candidate set (not the top-500
     # keyword slice) so winnable low-volume product pages (lyocell, modal, muslin,
     # waffle, sateen) survive instead of being buried under head terms.
-    PAGE_MIN_VOL = 3000   # minimum total page demand to be worth a page
+    PAGE_MIN_VOL = 1000   # minimum total page demand to be worth a page
     pages = {}
     for r in rows:
         url = r["target_handle_or_url"]
