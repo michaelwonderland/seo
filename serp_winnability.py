@@ -137,18 +137,78 @@ def classify_page(url, existing):
     return "New"
 
 
+# category fallback: if no competitor ranks for the page's exact keywords (common
+# for SC's differentiated materials), benchmark against the competitors' best
+# generic category page. (term seen in the page -> candidate head keywords)
+CAT_FALLBACK = [
+    ("duvet cover", ["duvet covers", "duvet cover"]),
+    ("duvet", ["duvet covers", "duvet cover"]),
+    ("comforter", ["comforter sets", "comforter", "comforters"]),
+    ("sheet", ["bed sheets", "sheets", "sheet set"]),
+    ("pillowcase", ["pillowcases", "pillow cases", "pillowcase"]),
+    ("sham", ["shams", "pillow shams"]),
+    ("quilt", ["quilts", "quilt"]),
+    ("coverlet", ["coverlet", "coverlets"]),
+    ("bedspread", ["bedspreads", "bedspread"]),
+    ("throw", ["throw blanket", "throw blankets", "throws"]),
+    ("blanket", ["blankets", "blanket"]),
+    ("pillow", ["throw pillows", "decorative pillows", "pillows"]),
+    ("towel", ["bath towels", "towels"]),
+    ("bathrobe", ["robes", "bathrobe"]),
+    ("robe", ["robes", "robe"]),
+    ("kimono", ["robes", "kimono"]),
+    ("loungewear", ["loungewear", "pajamas"]),
+    ("pajama", ["pajamas", "loungewear"]),
+    ("rug", ["rugs", "rug"]),
+    ("bedding", ["bedding", "bedding sets"]),
+]
+
+
+def _url_pref(url):
+    """Prefer competitor LANDING pages (collection/category) over deep product
+    pages or the bare homepage — apples-to-apples with our proposed collection."""
+    u = (url or "").lower()
+    if any(s in u for s in ("/collections/", "/shop", "/category", "/c/", "/browse")):
+        return 0
+    path = u.split("//", 1)[-1].split("/", 1)
+    if len(path) < 2 or path[1] == "":
+        return 3                                   # homepage
+    if any(s in u for s in ("/products/", "/product/", "/p/", "/dp/")):
+        return 2                                   # product page
+    return 1                                       # blog/other
+
+
+def _pick(cands):
+    """cands: list of (pos, url, keyword). Prefer landing pages, then position.
+    Homepages are never a useful 'page to beat', so they're excluded (lets the
+    exact match fall through to a category benchmark)."""
+    cands = [c for c in cands if _url_pref(c[1]) != 3]
+    return min(cands, key=lambda c: (_url_pref(c[1]), c[0])) if cands else None
+
+
 def page_to_beat(keywords, comp_map):
-    """Highest-ranking competitor page across the page's keywords:
-    the lowest organic position among the 5 competitors, with its URL."""
-    best = None  # (pos, url, keyword)
+    """The competitor LANDING page to beat for this proposed page: the best
+    competitor collection/category page across the page's keywords. Falls back to
+    the competitors' generic category page when none rank for the exact terms."""
+    cands = []
     for kw in keywords:
         for domain, (pos, url) in (comp_map.get(kw) or {}).items():
-            if best is None or pos < best[0]:
-                best = (pos, url, kw)
-    if not best:
-        return ""
-    pos, url, kw = best
-    return f"{url}  (#{pos} for '{kw}')"
+            cands.append((pos, url, kw))
+    best = _pick(cands)
+    if best:
+        return f"{best[1]}  (#{best[0]} for '{best[2]}')"
+
+    blob = " ".join(keywords)
+    for term, heads in CAT_FALLBACK:
+        if term in blob:
+            cands = []
+            for head in heads:
+                for domain, (pos, url) in (comp_map.get(head) or {}).items():
+                    cands.append((pos, url, head))
+            best = _pick(cands)
+            if best:
+                return f"{best[1]}  (#{best[0]} for '{best[2]}' — category benchmark)"
+    return ""
 
 
 def main():

@@ -102,6 +102,7 @@ def add_sheet(wb, csv_name, tab_name, first):
         "top_keywords": 70, "priority_score": 14, "Priority Score": 14,
         "head_keyword_volume": 18, "Traffic Potential @#3 (ceiling)": 26,
         "Winnability (SERP)": 16, "SERP Reality": 52, "Realistic Traffic /mo": 20,
+        "Page to Beat": 72,
     }
     for name, idx in col_idx.items():
         ws.column_dimensions[get_column_letter(idx + 1)].width = widths.get(name, 14)
