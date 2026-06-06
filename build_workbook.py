@@ -25,14 +25,18 @@ TABS = [
     ("parachutehome_com.csv",    "parachutehome.com"),
     ("brooklinen_expansion.csv", "brooklinen — expansion"),
     ("serp_competitors.csv",     "competing domains"),
+    ("keyword_gap_pages.csv",    "GAP — pages to build"),
+    ("keyword_gap.csv",          "GAP — top 500 keywords"),
 ]
 
 # numeric columns -> formatting
 NUM_COLS = {"search_volume", "etv", "position", "keyword_difficulty", "cpc",
             "keywords_in_space", "etv_in_space", "traffic_share_pct",
-            "avg_position", "visibility"}
+            "avg_position", "visibility", "competitors_ranking",
+            "sc_current_position", "keyword_count", "total_search_volume"}
 INT_COLS = {"search_volume", "position", "keyword_difficulty",
-            "keywords_in_space", "etv_in_space"}
+            "keywords_in_space", "etv_in_space", "competitors_ranking",
+            "sc_current_position", "keyword_count", "total_search_volume"}
 
 
 def add_sheet(wb, csv_name, tab_name, first):
@@ -74,6 +78,11 @@ def add_sheet(wb, csv_name, tab_name, first):
         "domain": 32, "category": 14, "keywords_in_space": 17,
         "etv_in_space": 14, "traffic_share_pct": 16, "avg_position": 12,
         "visibility": 12,
+        "competitors_ranking": 18, "competitor_list": 34,
+        "sc_current_position": 18, "theme": 22, "recommended_action": 22,
+        "target_page_type": 16, "target_handle_or_url": 34,
+        "target_page_title": 26, "target_url": 34, "keyword_count": 14,
+        "total_search_volume": 18, "example_keywords": 60,
     }
     for name, idx in col_idx.items():
         ws.column_dimensions[get_column_letter(idx + 1)].width = widths.get(name, 14)

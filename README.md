@@ -103,6 +103,34 @@ owns traffic in that 6,031-keyword space*.
 - `REFILTER=1 python3 competitor_domains.py` re-aggregates from the cached raw
   responses with **no API calls** (used for tuning the exclude/publisher lists).
 
+## Keyword gap → page plan (`keyword_gap.py`)
+Turns the competitive landscape into an action plan: **which keywords Sunday
+Citizen should rank for, and the page to do it with**.
+
+- **Demand universe** = every keyword the bedding competitors rank for (their
+  `*_com.csv` ranked sets) UNION `brooklinen_expansion.csv`, keeping the max
+  search volume / CPC / ETV and the set of competitors ranking per keyword.
+- **Gap** = universe keywords that sundaycitizen.co does **not** already rank for
+  (absent, or best organic position > 20 — pulled fresh from `ranked_keywords`
+  and cached to `data/sc_ranked_keywords.json`), restricted to product
+  categories Sunday Citizen actually sells (soft textiles + home/decor; hard
+  goods, competitor brands, and pure noise filtered out), deduped on
+  word-order/stopword variants, top 500 by search volume.
+- **Page mapping** uses the live Shopify catalog (`data/sc_collections.json`,
+  pulled via the Shopify MCP):
+  - bare head category (e.g. *sheets*, *quilt*) → **optimize** the existing
+    category collection;
+  - material/size/style + category (e.g. *percale sheets*, *king comforter
+    sets*) → an existing dedicated collection if one matches, else **build a new
+    collection page** (suggested handle + title);
+  - informational queries (*bedding sizes*, *how to fold fitted sheets*) →
+    **build a guide/blog page**.
+- Outputs: `data/keyword_gap.csv` (per-keyword: volume · cpc · difficulty ·
+  competitors_ranking · sc_current_position · theme · recommended_action ·
+  target page) and `data/keyword_gap_pages.csv` (the rollup — one row per target
+  page, ranked by total opportunity volume, with example keywords).
+- `REFILTER=1 python3 keyword_gap.py` reuses the cached SC ranked set (no API calls).
+
 ## Status / handoff
 - ✅ Run completed 2026-06-06:
   - `data/sundaycitizen_co.csv` — top 500 by ETV (46 brand keywords filtered out)
@@ -114,10 +142,14 @@ owns traffic in that 6,031-keyword space*.
   - `data/brooklinen_expansion.csv` — 6,031 net-new keywords from 1,042 seeds
   - `data/serp_competitors.csv` — 10,452 competing domains (38 heavyweights excluded)
     ranked by traffic share in the bedding space.
+  - `data/keyword_gap.csv` — top 500 gap keywords mapped to a Sunday Citizen
+    target page; `data/keyword_gap_pages.csv` — 66 target pages (168 keywords →
+    38 NEW collection pages, 305 → optimize existing category pages, 27 → guide
+    pages). Catalog snapshot in `data/sc_collections.json`.
   - Raw API responses saved alongside as `raw_<domain>.json`.
-- Workbook `Keyword Research.xlsx` now has 9 tabs: the 7 domains (sundaycitizen.co,
-  brooklinen.com + the 5-domain competitor set), `brooklinen — expansion`, and
-  `competing domains`.
+- Workbook `Keyword Research.xlsx` now has 11 tabs: the 7 domains (sundaycitizen.co,
+  brooklinen.com + the 5-domain competitor set), `brooklinen — expansion`,
+  `competing domains`, `GAP — pages to build`, and `GAP — top 500 keywords`.
 - **Strategic read:** sundaycitizen.co ranks **#1006** among brand/retail
   competitors in its own category (15 keywords / ~1,427 ETV) — i.e. almost the
   entire 6k-keyword bedding space is whitespace for it. Top specialist
