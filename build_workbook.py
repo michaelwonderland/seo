@@ -37,12 +37,14 @@ NUM_COLS = {"search_volume", "etv", "position", "keyword_difficulty", "cpc",
             "avg_position", "visibility", "competitors_ranking",
             "sc_current_position", "keyword_count", "total_search_volume",
             "expected_traffic_pos3", "avg_keyword_difficulty",
-            "Monthly Search Volume", "Expected Traffic @ #3"}
+            "Monthly Search Volume", "Expected Traffic @ #3",
+            "priority_score", "Priority Score"}
 INT_COLS = {"search_volume", "position", "keyword_difficulty",
             "keywords_in_space", "etv_in_space", "competitors_ranking",
             "sc_current_position", "keyword_count", "total_search_volume",
             "expected_traffic_pos3", "avg_keyword_difficulty",
-            "Monthly Search Volume", "Expected Traffic @ #3"}
+            "Monthly Search Volume", "Expected Traffic @ #3",
+            "priority_score", "Priority Score"}
 
 
 def add_sheet(wb, csv_name, tab_name, first):
@@ -94,7 +96,7 @@ def add_sheet(wb, csv_name, tab_name, first):
         "Page": 26, "New / Optimise": 14, "SC Product Line": 32,
         "To Rank For": 70, "Monthly Search Volume": 20,
         "Expected Traffic @ #3": 20, "Winnability": 12,
-        "top_keywords": 70,
+        "top_keywords": 70, "priority_score": 14, "Priority Score": 14,
     }
     for name, idx in col_idx.items():
         ws.column_dimensions[get_column_letter(idx + 1)].width = widths.get(name, 14)

@@ -8,9 +8,11 @@ Reshape data/keyword_gap_pages.csv into the final page plan:
   E: Monthly Search Volume    (total demand across the page's keywords)
   F: Expected Traffic @ #3    (search volume x position-#3 CTR)
   G: Winnability              (high/medium/low, from avg keyword difficulty)
+  H: Priority Score           (traffic x difficulty x product-fit; build order)
 
-New vs Optimise is decided by whether the collection already exists in the live
-Shopify catalog. Output: data/page_plan.csv
+Sorted by Priority Score (best build-order first). New vs Optimise is decided by
+whether the collection already exists in the live Shopify catalog.
+Output: data/page_plan.csv
 """
 import csv
 import json
@@ -46,13 +48,15 @@ def main():
                 "Monthly Search Volume": int(r["total_search_volume"]),
                 "Expected Traffic @ #3": int(r["expected_traffic_pos3"]),
                 "Winnability": r["winnability"],
+                "Priority Score": int(r["priority_score"]),
             })
-    out.sort(key=lambda r: r["Expected Traffic @ #3"], reverse=True)
+    out.sort(key=lambda r: r["Priority Score"], reverse=True)
 
     with OUT.open("w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=[
             "Page", "New / Optimise", "SC Product Line", "To Rank For",
-            "Monthly Search Volume", "Expected Traffic @ #3", "Winnability"])
+            "Monthly Search Volume", "Expected Traffic @ #3", "Winnability",
+            "Priority Score"])
         w.writeheader()
         w.writerows(out)
     print(f"wrote {OUT}  ({len(out)} pages)")

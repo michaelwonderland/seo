@@ -93,6 +93,11 @@ NEGATIVE_TERMS = [
     "paper towel", "paper towels", "shower curtain", "shower chair",
     "tablecloth", "napkin", "apron", "curtain", "curtains",
     "linen seed", "linseed", "flax seed", "flaxseed", "loft bed",
+    # apparel/fashion garments that ride in on fabric words (e.g. "linen shirts",
+    # "silk dress") — not SC products and not bedding. NOTE: "skirt" is omitted
+    # on purpose so "bed skirt" survives.
+    "shirt", "dress", "blouse", "jeans", "blazer", "trouser", "tunic",
+    "jumpsuit", "romper", "overalls", "clothing", "trousers",
 ]
 # bare "mattress" should die but "mattress topper" / "mattress pad" survive
 NEG_RE = re.compile(r"(" + "|".join(map(re.escape, [t for t in NEGATIVE_TERMS if t != "mattress topper"])) + r")")
@@ -595,6 +600,13 @@ def main():
             p["kds"].append(r["keyword_difficulty"])
         p["kws"].append((r["search_volume"], r["keyword"]))
 
+    def product_factor(line):
+        if "no current line" in line:
+            return 0.6                # demand exists but SC must build the product
+        if line.startswith("—"):
+            return 1.0                # broad category page (any fabric)
+        return 1.15                   # backed by a real SC product line
+
     page_rows = []
     for p in pages.values():
         if p["total_search_volume"] < PAGE_MIN_VOL:
@@ -603,6 +615,11 @@ def main():
         winnability = ("" if avg_kd == "" else
                        "high" if avg_kd <= 20 else
                        "medium" if avg_kd <= 40 else "low")
+        # priority = realistic traffic, discounted by difficulty and product fit.
+        # difficulty factor: low KD -> ~1.0, high KD -> ~0.1; unknown -> 0.5 neutral.
+        diff_factor = 0.5 if avg_kd == "" else max(0.1, min(1.0, (100 - avg_kd) / 100))
+        priority = round(p["expected_traffic_pos3"] * diff_factor
+                         * product_factor(p["sc_product_line"]))
         top_kws = [k for _, k in sorted(p["kws"], reverse=True)[:10]]
         page_rows.append({
             "target_page_title": p["target_page_title"],
@@ -615,16 +632,18 @@ def main():
             "expected_traffic_pos3": p["expected_traffic_pos3"],
             "avg_keyword_difficulty": avg_kd,
             "winnability": winnability,
+            "priority_score": priority,
             "example_keywords": " | ".join(top_kws),
         })
-    page_rows.sort(key=lambda r: r["expected_traffic_pos3"], reverse=True)
+    page_rows.sort(key=lambda r: r["priority_score"], reverse=True)
     pages_csv = DATA / "keyword_gap_pages.csv"
     with pages_csv.open("w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=[
             "target_page_title", "target_url", "sc_product_line",
             "recommended_action", "target_page_type", "keyword_count",
             "total_search_volume", "expected_traffic_pos3",
-            "avg_keyword_difficulty", "winnability", "example_keywords"])
+            "avg_keyword_difficulty", "winnability", "priority_score",
+            "example_keywords"])
         w.writeheader()
         w.writerows(page_rows)
     print(f"wrote {pages_csv}  ({len(page_rows)} target pages, full candidate set)")
