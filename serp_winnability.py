@@ -27,7 +27,7 @@ Output: data/page_plan.csv   (rewritten, realistic)
 Auth: DATAFORSEO_LOGIN / DATAFORSEO_PASSWORD
   REFILTER=1   rebuild from cached SERPs (no API calls)
 """
-import os, csv, json, sys, base64
+import os, re, csv, json, sys, base64
 from pathlib import Path
 
 import requests
@@ -45,6 +45,9 @@ RAW = DATA / "raw_serp_winnability.json"
 OUT = DATA / "page_plan.csv"
 COLLECTIONS = DATA / "sc_collections.json"
 COMP_PAGES = DATA / "competitor_pages.json"   # keyword -> {domain: [pos, url]}
+SC_RANKED = DATA / "sc_ranked_keywords.json"  # sundaycitizen.co ranked set
+WINNABLE = DATA / "winnable_pages.csv"
+ETV_BAND = (100, 1500)                        # focus: achievable niche pages
 
 # DTC bedding / home-textile brands of comparable authority to Sunday Citizen.
 # If one of these ranks, the SERP is reachable for a focused SC page.
@@ -155,6 +158,25 @@ def _url_pref(url):
 
 
 TOP7 = 7   # a "page to beat" must be a competitor ranking in the top 7
+
+
+def load_sc_positions():
+    """sundaycitizen.co's current best organic position per keyword."""
+    if not SC_RANKED.exists():
+        return {}
+    pages = json.loads(SC_RANKED.read_text())
+    pos = {}
+    for pg in pages:
+        for t in (pg.get("tasks") or []):
+            for res in (t.get("result") or []):
+                for it in (res.get("items") or []):
+                    kd = it.get("keyword_data") or {}
+                    kw = re.sub(r"\s+", " ", (kd.get("keyword") or "").strip().lower())
+                    p = ((it.get("ranked_serp_element") or {}).get("serp_item")
+                         or {}).get("rank_absolute")
+                    if kw and p is not None:
+                        pos[kw] = min(p, pos.get(kw, 10**9))
+    return pos
 
 
 def hero_benchmark(hero_kws, comp_map):
@@ -317,6 +339,33 @@ def main():
     from collections import Counter
     print("  plan status:", dict(Counter(r["Plan Status"] for r in out)))
     print("  winnability:", dict(Counter(r["Winnability (SERP)"] for r in out)))
+
+    # focused tab: the actually-winnable niche pages (realistic traffic 100-1500),
+    # with SC's current position for the hero keyword where it already ranks.
+    sc_pos = load_sc_positions()
+    lo, hi = ETV_BAND
+    win_rows = []
+    for r in out:
+        if not (lo <= r["Realistic Traffic /mo"] <= hi):
+            continue
+        cp = sc_pos.get(re.sub(r"\s+", " ", r["Hero Keyword"].strip().lower()))
+        win_rows.append({
+            "Target Hero Keyword": r["Hero Keyword"],
+            "Hero Volume": r["Hero Volume"],
+            "Page Type": "Existing" if r["New / Optimise"] == "Optimise" else "New",
+            "Current / New Page": r["Current / Proposed URL"],
+            "SC Current Position": int(cp) if cp is not None else "",
+            "Winnability": r["Winnability (SERP)"],
+            "Realistic Traffic /mo": r["Realistic Traffic /mo"],
+            "Plan Status": r["Plan Status"],
+            "Page to Beat": r["Page to Beat"],
+            "Page to Beat Rank": r["Page to Beat Rank"],
+        })
+    with WINNABLE.open("w", newline="") as f:
+        w = csv.DictWriter(f, fieldnames=list(win_rows[0].keys()))
+        w.writeheader()
+        w.writerows(win_rows)
+    print(f"wrote {WINNABLE}  ({len(win_rows)} winnable pages, realistic {lo}-{hi}/mo)")
 
 
 if __name__ == "__main__":

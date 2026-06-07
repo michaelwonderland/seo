@@ -25,6 +25,7 @@ TABS = [
     ("parachutehome_com.csv",    "parachutehome.com"),
     ("brooklinen_expansion.csv", "brooklinen — expansion"),
     ("serp_competitors.csv",     "competing domains"),
+    ("winnable_pages.csv",       "WINNABLE (100-1500)"),
     ("page_plan.csv",            "PAGE PLAN"),
     ("keyword_gap_pages.csv",    "GAP — pages (detail)"),
     ("keyword_gap.csv",          "GAP — top 500 keywords"),
@@ -40,7 +41,7 @@ NUM_COLS = {"search_volume", "etv", "position", "keyword_difficulty", "cpc",
             "Monthly Search Volume", "Expected Traffic @ #3",
             "priority_score", "Priority Score", "head_keyword_volume",
             "Traffic Potential @#3 (ceiling)", "Realistic Traffic /mo",
-            "Hero Volume"}
+            "Hero Volume", "SC Current Position"}
 INT_COLS = {"search_volume", "position", "keyword_difficulty",
             "keywords_in_space", "etv_in_space", "competitors_ranking",
             "sc_current_position", "keyword_count", "total_search_volume",
@@ -48,7 +49,7 @@ INT_COLS = {"search_volume", "position", "keyword_difficulty",
             "Monthly Search Volume", "Expected Traffic @ #3",
             "priority_score", "Priority Score", "head_keyword_volume",
             "Traffic Potential @#3 (ceiling)", "Realistic Traffic /mo",
-            "Hero Volume"}
+            "Hero Volume", "SC Current Position"}
 
 
 def add_sheet(wb, csv_name, tab_name, first):
@@ -106,6 +107,8 @@ def add_sheet(wb, csv_name, tab_name, first):
         "Winnability (SERP)": 16, "SERP Reality": 52, "Realistic Traffic /mo": 20,
         "Page to Beat": 60, "Hero Keyword": 30, "Hero Volume": 12,
         "Supporting Keywords": 60, "Plan Status": 26, "Page to Beat Rank": 36,
+        "Target Hero Keyword": 30, "Current / New Page": 48, "Page Type": 11,
+        "SC Current Position": 18,
     }
     for name, idx in col_idx.items():
         ws.column_dimensions[get_column_letter(idx + 1)].width = widths.get(name, 14)
