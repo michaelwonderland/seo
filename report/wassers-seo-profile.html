@@ -291,22 +291,24 @@
 
 <div class="verdict">
   <div class="verdict-tag">▲ Critical — read first</div>
-  <h2>Organic search has collapsed roughly 84% since February</h2>
-  <p>This is not a slow decline to be optimised away. In February the site ranked for <strong>1,900 keywords</strong> and drew an estimated <strong>5,552 organic visits a month</strong>. By July that was <strong>278 keywords</strong> and <strong>1,032 visits</strong>. Today it sits at <strong>191 keywords</strong> and <strong>892 visits</strong>. <strong>815 keywords were lost outright.</strong></p>
-  <p>The cause is visible in the data: the site was replatformed onto Shopify, and <strong>the old URLs were never redirected</strong>. Legacy <code>.html</code> product and brand pages return <strong>404</strong>, not <code>301</code>. On top of that, the new site exposes almost no indexable category pages — <strong>98 of the top 100 indexed URLs are individual <code>/products/</code> pages</strong> — so there is nothing left to rank on the terms that actually sell furniture.</p>
-  <p>Everything else in this report — the thin keyword set, the spammy link profile, the absence from every commercial SERP — sits downstream of those two facts. Fix them first; the rest is wasted effort until then.</p>
+  <h2>Two separate declines, and the second one is a broken migration</h2>
+  <p><strong>Twelve months ago the site ranked for 2,262 keywords. Today it ranks for 191 — a 91.6% loss.</strong> But the 26-month history shows this happened in two distinct phases, and they have different causes and different fixes.</p>
+  <p><strong>Phase one — erosion, Dec 2024 to Jul 2025.</strong> Estimated traffic fell from ~20,000 to ~5,400 visits a month and page-one keywords more than halved, 769 → 331. Rankings weren't vanishing, they were <em>sliding down the page</em>. That is a competitiveness problem — the site was being outranked.</p>
+  <p><strong>Then it stabilised.</strong> From August 2025 through April 2026 page-one keywords held steady between 325 and 387, and traffic sat in the 4,500–6,400 range. For nine months the site was flat, not falling. This matters: it rules out a slow content-quality decline as the cause of what came next.</p>
+  <p><strong>Phase two — the migration cliff, from May 2026.</strong> Page-one keywords went 366 → 296 → 131 → 35 → 20 in four months. The site was replatformed onto Shopify and <strong>the old URLs were never redirected</strong> — legacy <code>.html</code> pages return <strong>404</strong>, not <code>301</code>. The proof is unambiguous: of the <strong>819 lost keyword rankings, 801 (97.8%) were held by a legacy <code>.html</code> URL</strong>. Only three were lost on a current Shopify page.</p>
+  <p>The migration damage is largely recoverable — it is a redirect map. The erosion underneath it is not, and needs the category and local pages the site has never had.</p>
 </div>
 
 <!-- ============================================================ -->
 <section id="traffic">
   <div class="sec-head"><span class="sec-num">01</span><h2 class="sec">Estimated traffic</h2></div>
-  <p class="lede">DataForSEO's ETV (estimated traffic value) models monthly organic visits from ranking position and search volume. Paid search is running at zero — there is no advertising cushioning the drop.</p>
+  <p class="lede">DataForSEO's ETV (estimated traffic value) models monthly organic visits from ranking position and search volume. Paid search is running at zero — there is no advertising cushioning the drop. The full 26-month series is shown because the last six months alone hide half the story.</p>
 
   <div class="tiles">
-    <div class="tile"><div class="k">Organic visits / mo</div><div class="v">892</div><div class="d neg">−84% vs February</div></div>
-    <div class="tile"><div class="k">Traffic value / mo</div><div class="v">$956</div><div class="d neg">−87% vs February</div></div>
-    <div class="tile"><div class="k">Keywords ranking</div><div class="v">191</div><div class="d neg">−90% vs February</div></div>
-    <div class="tile"><div class="k">Keywords lost</div><div class="v">815</div><div class="d neg">vs 127 gained</div></div>
+    <div class="tile"><div class="k">Organic visits / mo</div><div class="v">892</div><div class="d neg">−80% year on year</div></div>
+    <div class="tile"><div class="k">Traffic value / mo</div><div class="v">$956</div><div class="d neg">−90% year on year</div></div>
+    <div class="tile"><div class="k">Keywords ranking</div><div class="v">191</div><div class="d neg">−92% year on year</div></div>
+    <div class="tile"><div class="k">Rankings lost</div><div class="v">819</div><div class="d neg">97.8% on legacy URLs</div></div>
     <div class="tile"><div class="k">Paid traffic</div><div class="v">0</div><div class="d">no paid search active</div></div>
   </div>
 
@@ -314,12 +316,12 @@
     <div class="chart-grid">
       <div>
         <p class="ch-title">Estimated organic visits per month</p>
-        <p class="ch-sub">Feb 2026 – Aug 2026</p>
+        <p class="ch-sub">Jun 2024 – Aug 2026 · 26 months</p>
         <div id="c-traffic"></div>
       </div>
       <div>
         <p class="ch-title">Keywords ranking in the top 100</p>
-        <p class="ch-sub">Feb 2026 – Aug 2026</p>
+        <p class="ch-sub">Jun 2024 – Aug 2026 · 26 months</p>
         <div id="c-keywords"></div>
       </div>
     </div>
@@ -327,7 +329,7 @@
       <summary>View as table</summary>
       <div class="scroll" style="margin-top:8px">
         <table>
-          <thead><tr><th>Month</th><th class="n">Keywords</th><th class="n">Est. visits</th><th class="n">Traffic value</th><th class="n">Top-3 kws</th></tr></thead>
+          <thead><tr><th>Month</th><th class="n">Keywords</th><th class="n">Est. visits</th><th class="n">Traffic value</th><th class="n">Page 1</th><th class="n">Page 2</th><th class="n">Page 3</th></tr></thead>
           <tbody id="t-history"></tbody>
         </table>
       </div>
@@ -335,7 +337,8 @@
   </div>
 
   <div class="note">
-    <p><b>Read the shape, not just the endpoint.</b> Traffic held up through April — the ranking loss started biting in <b>May</b> and fell off a cliff in <b>June and July</b>. That timing is consistent with a migration whose old URLs stayed in Google's index for a few weeks before being dropped as persistent 404s.</p>
+    <p><b>Read the shape, not the endpoint.</b> Traffic peaked around <b>December 2024 at roughly 20,000 visits a month</b> and had already fallen to <b>4,500 by August 2025</b> — before any migration. It then held flat for nine months before the keyword base collapsed from May 2026. Two different problems, nine months apart.</p>
+    <p><b>On data quality:</b> the monthly series is noisy — the November 2024 dip between two much higher months is almost certainly a sampling artefact rather than a real event. Read the trend line, not individual months.</p>
   </div>
 </section>
 
@@ -425,8 +428,102 @@
 </section>
 
 <!-- ============================================================ -->
+<section id="yoy">
+  <div class="sec-head"><span class="sec-num">04</span><h2 class="sec">A year ago vs now</h2></div>
+  <p class="lede">The same domain, the same market, twelve months apart — August 2025 against the live snapshot on 1 August 2026. Every position band lost between 50% and 98% of its keywords.</p>
+
+  <div class="chart-card">
+    <p class="ch-title">Ranking mix by position band</p>
+    <p class="ch-sub">August 2025 vs August 2026 · keywords per band</p>
+    <div id="c-yoy"></div>
+  </div>
+
+  <h3>Full year-over-year comparison</h3>
+  <div class="scroll">
+    <table>
+      <thead><tr><th>Position band</th><th class="n">Aug 2025</th><th class="n">Aug 2026</th><th class="n">Change</th><th class="n">%</th></tr></thead>
+      <tbody id="t-yoy"></tbody>
+    </table>
+  </div>
+
+  <div class="note">
+    <p><b>The mix didn't shift — it evaporated.</b> A site that is being outranked usually shows keywords migrating <em>downward</em>: page one thins while pages three and four swell. That is not what happened here. Every band fell by roughly the same 90%, which is the signature of pages being <b>removed from the index</b> rather than demoted.</p>
+    <p>The one exception is telling. <b>Position 1 only fell from 6 to 3</b> — a 50% loss against 90%+ everywhere else. Those survivors are the brand terms, which rank on the homepage. The homepage migrated fine; the catalogue did not.</p>
+  </div>
+
+  <h3>Where the page-one keywords went</h3>
+  <p>Tracking only page-one rankings isolates the two phases cleanly. The 2025 decline is a gradual slope — competitive erosion. The nine flat months that follow are the site holding its ground. The 2026 drop is a cliff, which is what a technical event looks like.</p>
+  <div class="chart-card" style="margin-top:16px">
+    <p class="ch-title">Page-one keywords over 26 months</p>
+    <p class="ch-sub">Positions 1–10 only · the two decline phases annotated</p>
+    <div id="c-page1"></div>
+  </div>
+</section>
+
+<!-- ============================================================ -->
+<section id="lost">
+  <div class="sec-head"><span class="sec-num">05</span><h2 class="sec">What was actually lost</h2></div>
+  <p class="lede">DataForSEO retains every keyword the domain used to rank for and no longer does, together with the last position held and the URL that held it. That last field settles the diagnosis.</p>
+
+  <div class="chart-card">
+    <p class="ch-title">819 lost rankings, by the URL that held them</p>
+    <p class="ch-sub">Which generation of the site the ranking died with</p>
+    <div id="c-lostsrc"></div>
+  </div>
+
+  <div class="tiles">
+    <div class="tile"><div class="k">Rankings lost</div><div class="v">819</div><div class="d">all non-brand</div></div>
+    <div class="tile"><div class="k">On legacy URLs</div><div class="v" style="color:var(--critical)">801</div><div class="d neg">97.8% of all losses</div></div>
+    <div class="tile"><div class="k">On Shopify URLs</div><div class="v">3</div><div class="d">0.4%</div></div>
+    <div class="tile"><div class="k">Visits lost / mo</div><div class="v">2,782</div><div class="d neg">estimated</div></div>
+    <div class="tile"><div class="k">Were on page 1</div><div class="v">190</div><div class="d">of which 185 legacy</div></div>
+  </div>
+
+  <div class="note">
+    <p><b>This is as close to proof as this data gets.</b> If the losses were caused by competition, an algorithm update, or thin content, they would be spread across whatever URLs the site currently has. Instead <b>801 of 819</b> died on the old <code>.html</code> catalogue that now 404s, and just <b>three</b> on live Shopify pages. The rankings did not lose a competition — their pages were deleted.</p>
+  </div>
+
+  <h3>Lost rankings by the position they last held</h3>
+  <div class="scroll">
+    <table>
+      <thead><tr><th>Last position held</th><th class="n">Keywords lost</th><th class="n">Share</th><th>Recoverability</th></tr></thead>
+      <tbody>
+        <tr><td>Page 1 · positions 1–10</td><td class="n">190</td><td class="n">23.2%</td><td style="color:var(--good);font-weight:600">✓ High — 185 on legacy URLs</td></tr>
+        <tr><td>Page 2 · positions 11–20</td><td class="n">147</td><td class="n">17.9%</td><td style="color:var(--good);font-weight:600">✓ High</td></tr>
+        <tr><td>Page 3 · positions 21–30</td><td class="n">145</td><td class="n">17.7%</td><td>Moderate</td></tr>
+        <tr><td>Page 4+ · positions 31–100</td><td class="n">337</td><td class="n">41.1%</td><td style="color:var(--muted)">Low value — little traffic anyway</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3>The 25 most valuable lost rankings</h3>
+  <p>Ranked by the traffic each was actually earning when it disappeared, not by search volume — a keyword at position 47 with 14,800 searches was worth far less than one at position 2 with 2,400.</p>
+  <div class="scroll" style="margin-top:14px">
+    <table>
+      <thead><tr><th class="n">Last pos</th><th>Keyword</th><th class="n">Volume</th><th class="n">Visits lost/mo</th><th class="n">CPC</th><th>URL that held it</th></tr></thead>
+      <tbody id="t-lost"></tbody>
+    </table>
+  </div>
+
+  <h3>The pages that lost the most rankings</h3>
+  <p>A handful of legacy pages were carrying a disproportionate share. These are the highest-priority redirect targets.</p>
+  <div class="scroll" style="margin-top:14px">
+    <table>
+      <thead><tr><th class="n">Rankings lost</th><th>Legacy URL</th><th>What it was</th></tr></thead>
+      <tbody id="t-losturl"></tbody>
+    </table>
+  </div>
+
+  <div class="note">
+    <p><b>Two honest caveats on the recovery number.</b></p>
+    <p><b>First</b>, a meaningful slice of what was lost is <b>Sonos audio equipment</b> — "sonos play 1", "sonos playbar", "sonos connect:amp" and around 80 related terms. Wasser's evidently used to stock consumer electronics. If that line has been discontinued, those rankings are not worth recovering and shouldn't be counted in the upside.</p>
+    <p><b>Second</b>, the headline "300,520 monthly searches lost" that this data could be made to support is misleading — most of that volume sat at positions 40–97 earning a handful of visits. <b>The honest number is 2,782 estimated visits a month</b>, of which roughly <b>2,076 were page-one rankings on legacy URLs</b> — the genuinely recoverable core.</p>
+  </div>
+</section>
+
+<!-- ============================================================ -->
 <section id="backlinks">
-  <div class="sec-head"><span class="sec-num">04</span><h2 class="sec">Backlink profile</h2></div>
+  <div class="sec-head"><span class="sec-num">06</span><h2 class="sec">Backlink profile</h2></div>
   <p class="lede">Small, old, and materially contaminated. The link profile is not an asset today — a meaningful share of it is the kind of thing that needs disavowing rather than building on.</p>
 
   <div class="tiles">
@@ -459,7 +556,7 @@
 
 <!-- ============================================================ -->
 <section id="competitors">
-  <div class="sec-head"><span class="sec-num">05</span><h2 class="sec">The competitive set</h2></div>
+  <div class="sec-head"><span class="sec-num">07</span><h2 class="sec">The competitive set</h2></div>
   <p class="lede">Identified by running the commercial keywords a South Florida luxury furniture retailer should own through DataForSEO's SERP competitor analysis, then filtering out marketplaces, social platforms and directories. Two tiers emerged.</p>
 
   <div class="chart-card">
@@ -500,7 +597,7 @@
 
 <!-- ============================================================ -->
 <section id="gap">
-  <div class="sec-head"><span class="sec-num">06</span><h2 class="sec">The opportunity gap</h2></div>
+  <div class="sec-head"><span class="sec-num">08</span><h2 class="sec">The opportunity gap</h2></div>
   <p class="lede">The commercial keyword market Wasser's is currently absent from. These 28 seed terms alone carry <strong>22,620 searches a month</strong> at CPCs between $1.87 and $21.29 — meaning advertisers are paying real money for this traffic.</p>
 
   <div class="scroll">
@@ -526,15 +623,15 @@
 
 <!-- ============================================================ -->
 <section id="plan">
-  <div class="sec-head"><span class="sec-num">07</span><h2 class="sec">Where I'd start</h2></div>
+  <div class="sec-head"><span class="sec-num">09</span><h2 class="sec">Where I'd start</h2></div>
   <p class="lede">A sequence rather than a list — each step depends on the one before it. This is the starting point for the plan, not the finished plan; the sizing and timeline are worth working through together.</p>
 
   <div class="step">
     <div class="step-n">STEP 01</div>
     <div>
       <h4>Rebuild the redirect map</h4>
-      <p>Export the legacy URL set from the old platform, from Google's index, and from the 392 referring domains. Map every legacy <code>.html</code> URL to its closest live equivalent and implement <code>301</code>s in Shopify. Where no equivalent exists, redirect to the parent category rather than letting it 404.</p>
-      <p class="why">Recovers the 815 lost keywords and reconnects 94 broken pages' worth of link equity. Nothing else works until this does.</p>
+      <p>The target list is already known: <code>data/lost_keywords.csv</code> holds all 819 lost rankings with the exact legacy URL that held each one. Start with the 12 pages carrying the most rankings — the steamer-trunk table page alone lost 39 — then the 185 page-one rankings on legacy URLs. Map each to its closest live equivalent and <code>301</code> it; where no equivalent exists, send it to the parent category rather than letting it 404.</p>
+      <p class="why">≈2,076 est. visits/mo sat on page-one legacy URLs. Nothing else works until this does.</p>
     </div>
   </div>
 
@@ -626,13 +723,108 @@
 
   /* ---------------- data ---------------- */
   const history = [
-    {m: "Feb", kw: 1900, etv: 5552, val: 7631, t3: 119},
-    {m: "Mar", kw: 1827, etv: 5245, val: 7047, t3: 110},
-    {m: "Apr", kw: 1553, etv: 6388, val: 8378, t3: 105},
-    {m: "May", kw: 1314, etv: 5804, val: 7899, t3:  96},
-    {m: "Jun", kw:  703, etv: 3001, val: 4071, t3:  43},
-    {m: "Jul", kw:  278, etv: 1032, val: 1557, t3:  11},
-    {m: "Aug", kw:  191, etv:  892, val:  955, t3:   6}
+    {m: "2024-06", kw: 2453, etv: 11356, val: 25081, g1: 399, g2: 427, g3: 379},
+    {m: "2024-07", kw: 2506, etv: 13606, val: 29369, g1: 424, g2: 418, g3: 370},
+    {m: "2024-08", kw: 2730, etv: 11006, val: 25364, g1: 436, g2: 441, g3: 427},
+    {m: "2024-09", kw: 3159, etv: 13087, val: 30734, g1: 477, g2: 505, g3: 470},
+    {m: "2024-10", kw: 4512, etv: 19387, val: 46053, g1: 759, g2: 699, g3: 714},
+    {m: "2024-11", kw: 2721, etv:  5640, val: 14639, g1: 460, g2: 461, g3: 414},
+    {m: "2024-12", kw: 4372, etv: 20001, val: 40375, g1: 769, g2: 715, g3: 619},
+    {m: "2025-01", kw: 3934, etv: 16452, val: 39513, g1: 760, g2: 657, g3: 571},
+    {m: "2025-02", kw: 2862, etv: 11458, val: 29106, g1: 596, g2: 520, g3: 425},
+    {m: "2025-03", kw: 2856, etv:  9312, val: 21439, g1: 532, g2: 489, g3: 473},
+    {m: "2025-04", kw: 2758, etv:  7418, val: 20836, g1: 501, g2: 537, g3: 473},
+    {m: "2025-05", kw: 2704, etv:  6793, val: 17737, g1: 467, g2: 544, g3: 481},
+    {m: "2025-06", kw: 2332, etv:  5619, val: 11326, g1: 353, g2: 421, g3: 359},
+    {m: "2025-07", kw: 2294, etv:  5438, val: 10075, g1: 331, g2: 402, g3: 316},
+    {m: "2025-08", kw: 2262, etv:  4497, val:  9916, g1: 334, g2: 354, g3: 281},
+    {m: "2025-09", kw: 2081, etv:  5578, val:  9270, g1: 325, g2: 335, g3: 261},
+    {m: "2025-10", kw: 2097, etv:  5576, val:  7742, g1: 337, g2: 333, g3: 292},
+    {m: "2025-11", kw: 2097, etv:  4812, val:  8162, g1: 338, g2: 331, g3: 255},
+    {m: "2025-12", kw: 2111, etv:  5111, val:  8132, g1: 360, g2: 331, g3: 239},
+    {m: "2026-01", kw: 2002, etv:  4466, val:  7430, g1: 378, g2: 308, g3: 214},
+    {m: "2026-02", kw: 1900, etv:  5552, val:  7631, g1: 387, g2: 301, g3: 199},
+    {m: "2026-03", kw: 1827, etv:  5245, val:  7047, g1: 379, g2: 307, g3: 200},
+    {m: "2026-04", kw: 1553, etv:  6388, val:  8378, g1: 366, g2: 292, g3: 237},
+    {m: "2026-05", kw: 1314, etv:  5804, val:  7899, g1: 296, g2: 253, g3: 246},
+    {m: "2026-06", kw:  703, etv:  3000, val:  4071, g1: 131, g2: 131, g3: 134},
+    {m: "2026-07", kw:  278, etv:  1032, val:  1557, g1:  35, g2:  37, g3:  44},
+    {m: "2026-08", kw:  191, etv:   892, val:   955, g1:  20, g2:  20, g3:  26}
+  ];
+
+  /* Aug 2025 vs Aug 2026, by position band */
+  const yoy = [
+    ["Position 1",       6,   3],
+    ["Positions 2–3",   72,   3],
+    ["Positions 4–10", 256,  14],
+    ["Positions 11–20",354,  20],
+    ["Positions 21–30",281,  26],
+    ["Positions 31–40",272,  42],
+    ["Positions 41–50",265,  31],
+    ["Positions 51–60",229,  27],
+    ["Positions 61–70",177,  16],
+    ["Positions 71–80",146,   4],
+    ["Positions 81–90",129,   3],
+    ["Positions 91–100",75,   2]
+  ];
+  const yoyTotals = [
+    ["PAGE 1 · positions 1–10",  334,  20],
+    ["PAGE 2 · positions 11–20", 354,  20],
+    ["PAGE 3 · positions 21–30", 281,  26],
+    ["ALL KEYWORDS",            2262, 191],
+    ["EST. VISITS / MONTH",     4497, 892]
+  ];
+
+  /* Where the 819 lost rankings died */
+  const lostSrc = [
+    ["Legacy .html product pages", 780, 2749],
+    ["Legacy category pages",       21,   18],
+    ["Homepage",                    11,    7],
+    ["Other",                        4,    7],
+    ["Shopify /products/",           3,    1]
+  ];
+
+  const lostKw = [
+    [2,"steamer trunk coffee table",2400,469.8,1.18,"/steamer-trunk-coffee-table-on-display-quickship.html"],
+    [3,"steamer trunk as coffee table",2400,282.2,1.18,"/steamer-trunk-coffee-table-on-display-quickship.html"],
+    [2,"luna chair",880,142.6,0.72,"/luna-low-back-chair.html"],
+    [2,"carrol boyes",590,95.6,0.52,"/shop-by-brand/a-c/carrol-boyes.html"],
+    [15,"caracole tv",18100,92.3,1.69,"/caracole-a-cut-above-tv-console-tv-stand.html"],
+    [2,"airguide barometer",480,77.8,0.10,"/vintage-airguide-thermometer-barometer-hygrometer-made-in-usa.html"],
+    [4,"play 1 play",880,58.0,0.19,"/sonos-play-1.html"],
+    [2,"maitland smith obelisk",320,51.8,0.08,"/pair-maitland-smith-neoclassical-tessellate-obelisks.html"],
+    [5,"play play 1",880,41.3,0.19,"/sonos-play-1.html"],
+    [5,"antique steamer trunk coffee table",720,41.3,1.02,"/steamer-trunk-coffee-table-on-display-quickship.html"],
+    [2,"antique airguide barometer",210,34.0,0.09,"/vintage-airguide-thermometer-barometer-hygrometer.html"],
+    [2,"cloud luxe breeze tempur-pedic",210,34.0,4.53,"/tempur-cloud-luxe-breeze.html"],
+    [42,"leather chair",14800,31.1,2.51,"/shop-by-brand/a-c/american-leather/chairs.html"],
+    [28,"leather chairs",14800,31.1,2.51,"/shop-by-brand/a-c/american-leather/chairs.html"],
+    [47,"leather furniture ottoman",14800,31.1,2.30,"/genuine-leather-ottomans-in-stock.html"],
+    [48,"leather ottoman",14800,31.1,2.30,"/genuine-leather-ottomans-in-stock.html"],
+    [6,"romina furniture",880,29.7,3.26,"/shop-by-brand/r-z/romina-furniture.html"],
+    [2,"dia table",170,27.5,2.76,"/shop-by-brand/d-g/dia.html"],
+    [51,"american leather",14800,25.4,1.36,"/shop-by-brand/a-c/american-leather.html"],
+    [45,"american leather sleeper sofa",12100,25.4,2.86,"/shop-by-brand/a-c/american-leather/comfort-sleeper.html"],
+    [7,"play 1",880,22.5,0.19,"/sonos-play-1.html"],
+    [13,"glass for dining room table top",3600,21.2,1.71,"/furniture/diningroom/glass-tops.html"],
+    [97,"table steamer",9900,20.8,2.70,"/steamer-trunk-coffee-table-on-display-quickship.html"],
+    [10,"stone international",1600,18.1,6.19,"/shop-by-brand/r-z/stone-international.html"],
+    [53,"sonos playbar",8100,17.0,0.53,"/sonos-playbar.html"]
+  ];
+
+  const lostUrls = [
+    [39,"/steamer-trunk-coffee-table-on-display-quickship.html","Product — steamer trunk tables"],
+    [38,"/shop-by-brand/a-c/american-leather/chairs.html","Category — American Leather chairs"],
+    [30,"/sonos-connect-amp.html","Product — Sonos (discontinued line?)"],
+    [25,"/tempur-cloud-luxe-breeze.html","Product — Tempur-Pedic mattress"],
+    [24,"/shop-by-brand/a-c/american-leather.html","Brand hub — American Leather"],
+    [22,"/shop-by-brand/a-c/american-leather/comfort-sleeper.html","Category — Comfort Sleeper"],
+    [18,"/furniture/diningroom/glass-tops.html","Category — glass dining tops"],
+    [15,"/sonos-play-1.html","Product — Sonos"],
+    [15,"/sonos-play-3.html","Product — Sonos"],
+    [15,"/varier-variable-balans-ergonomic-task-chair.html","Product — Varier task chair"],
+    [14,"/luna-low-back-chair.html","Product — Luna chair"],
+    [14,"/genuine-leather-ottomans-in-stock.html","Category — leather ottomans"]
   ];
 
   const positions = [
@@ -824,21 +1016,34 @@
   ];
 
   /* ---------------- line chart ---------------- */
-  function lineChart(mount, data, key, label, fmtVal) {
-    const W = 460, H = 210, m = {t: 14, r: 16, b: 30, l: 46};
+  const MONTH = ["", "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul",
+                 "Aug", "Sep", "Oct", "Nov", "Dec"];
+  const nice = p => MONTH[+p.slice(5)] + " " + p.slice(2, 4);
+
+  function lineChart(mount, data, key, label, opts) {
+    opts = opts || {};
+    const W = opts.wide ? 980 : 460, H = opts.wide ? 250 : 220;
+    const m = {t: 22, r: 20, b: 34, l: 48};
     const iw = W - m.l - m.r, ih = H - m.t - m.b;
     const svg = el("svg", {viewBox: `0 0 ${W} ${H}`, role: "img",
-      "aria-label": `${label} from February to August 2026`});
+      "aria-label": `${label}, June 2024 to August 2026`});
 
-    const max = Math.max(...data.map(d => d[key])) * 1.12;
+    const max = Math.max(...data.map(d => d[key])) * 1.14;
     const x = i => m.l + (iw * i) / (data.length - 1);
     const y = v => m.t + ih - (v / max) * ih;
+
+    /* phase shading: the 2026 migration window */
+    const mi = data.findIndex(d => d.m === "2026-04");
+    svg.appendChild(el("rect", {
+      x: x(mi), y: m.t, width: x(data.length - 1) - x(mi), height: ih,
+      fill: "var(--critical)", opacity: "0.06"
+    }));
 
     for (let t = 0; t <= 4; t++) {
       const v = (max / 4) * t, yy = y(v);
       svg.appendChild(el("line", {x1: m.l, x2: m.l + iw, y1: yy, y2: yy, class: "gl"}));
       const lb = el("text", {x: m.l - 8, y: yy + 3.5, class: "ax", "text-anchor": "end"});
-      lb.textContent = v >= 1000 ? (v / 1000).toFixed(1) + "k" : Math.round(v);
+      lb.textContent = v >= 1000 ? Math.round(v / 1000) + "k" : Math.round(v);
       svg.appendChild(lb);
     }
 
@@ -852,46 +1057,56 @@
     svg.appendChild(el("path", {d: area, fill: "var(--series-fill)"}));
     svg.appendChild(el("path", {d: line, fill: "none", stroke: "var(--series)",
       "stroke-width": 2, "stroke-linejoin": "round", "stroke-linecap": "round"}));
-    svg.appendChild(el("line", {x1: m.l, x2: m.l + iw, y1: y(0), y2: y(0), class: "baseline"}));
+    svg.appendChild(el("line", {x1: m.l, x2: m.l + iw, y1: y(0), y2: y(0),
+      class: "baseline"}));
 
+    const every = opts.wide ? 2 : 4;
     data.forEach((d, i) => {
       const last = i === data.length - 1;
-      svg.appendChild(el("circle", {
-        cx: x(i), cy: y(d[key]), r: last ? 5 : 3.4,
-        fill: last ? "var(--critical)" : "var(--series)",
-        stroke: "var(--surface)", "stroke-width": 2
-      }));
-      const lb = el("text", {x: x(i), y: H - 10, class: "ax", "text-anchor": "middle"});
-      lb.textContent = d.m;
-      svg.appendChild(lb);
-
-      const hit = el("rect", {x: x(i) - iw / (data.length * 2), y: m.t,
-        width: iw / data.length, height: ih, fill: "transparent"});
+      const yr = i === data.findIndex(z => z.m === "2025-08");
+      if (last || yr) {
+        svg.appendChild(el("circle", {cx: x(i), cy: y(d[key]), r: 4.5,
+          fill: last ? "var(--critical)" : "var(--accent)",
+          stroke: "var(--surface)", "stroke-width": 2}));
+        const vl = el("text", {x: x(i), y: y(d[key]) - 12, class: "ax",
+          "text-anchor": last ? "end" : "middle", "font-weight": "700",
+          fill: last ? "var(--critical)" : "var(--accent)"});
+        vl.textContent = fmt(d[key]);
+        svg.appendChild(vl);
+      }
+      if (i % every === 0 || last) {
+        const lb = el("text", {x: x(i), y: H - 12, class: "ax",
+          "text-anchor": "middle", "font-size": "9"});
+        lb.textContent = nice(d.m);
+        svg.appendChild(lb);
+      }
+      const hit = el("rect", {x: x(i) - iw / ((data.length - 1) * 2), y: m.t,
+        width: iw / (data.length - 1), height: ih, fill: "transparent"});
       hit.style.cursor = "crosshair";
-      const html = `<b>${d.m} 2026</b><br>
+      const html = `<b>${nice(d.m)}</b><br>
         <span class="lbl">Visits</span> ${fmt(d.etv)}<br>
         <span class="lbl">Keywords</span> ${fmt(d.kw)}<br>
+        <span class="lbl">Page 1</span> ${fmt(d.g1)}<br>
         <span class="lbl">Value</span> ${money(d.val)}`;
       hit.addEventListener("mousemove", e => showTip(html, e));
       hit.addEventListener("mouseleave", hideTip);
       svg.appendChild(hit);
     });
 
-    const endLbl = el("text", {
-      x: x(data.length - 1), y: y(data[data.length - 1][key]) - 13,
-      class: "ax", "text-anchor": "end", fill: "var(--critical)",
-      "font-weight": "700"
-    });
-    endLbl.textContent = fmtVal(data[data.length - 1][key]);
-    svg.appendChild(endLbl);
+    const ann = el("text", {x: x(mi) + 5, y: m.t + 11, class: "ax",
+      "font-size": "9", fill: "var(--critical)", "font-weight": "700"});
+    ann.textContent = "▸ migration cliff";
+    svg.appendChild(ann);
 
     mount.appendChild(svg);
   }
 
   lineChart(document.getElementById("c-traffic"), history, "etv",
-    "Estimated organic visits", v => fmt(v));
+    "Estimated organic visits");
   lineChart(document.getElementById("c-keywords"), history, "kw",
-    "Ranking keywords", v => fmt(v));
+    "Ranking keywords");
+  lineChart(document.getElementById("c-page1"), history, "g1",
+    "Page-one keywords", {wide: true});
 
   /* ---------------- position distribution ---------------- */
   (function () {
@@ -949,6 +1164,133 @@
     });
     svg.appendChild(el("line", {x1: m.l, x2: m.l + iw, y1: m.t + ih,
       y2: m.t + ih, class: "baseline"}));
+    mount.appendChild(svg);
+  })();
+
+  /* ---------------- YoY grouped bars ---------------- */
+  (function () {
+    const mount = document.getElementById("c-yoy");
+    const W = 980, H = 260, m = {t: 30, r: 12, b: 52, l: 42};
+    const iw = W - m.l - m.r, ih = H - m.t - m.b;
+    const svg = el("svg", {viewBox: `0 0 ${W} ${H}`, role: "img",
+      "aria-label": "Keywords per position band, August 2025 versus August 2026"});
+    const max = Math.max(...yoy.map(r => r[1])) * 1.16;
+    const gw = iw / yoy.length, bw = (gw - 14) / 2;
+
+    for (let t = 0; t <= 4; t++) {
+      const v = (max / 4) * t, yy = m.t + ih - (v / max) * ih;
+      svg.appendChild(el("line", {x1: m.l, x2: m.l + iw, y1: yy, y2: yy, class: "gl"}));
+      const lb = el("text", {x: m.l - 8, y: yy + 3.5, class: "ax", "text-anchor": "end"});
+      lb.textContent = Math.round(v);
+      svg.appendChild(lb);
+    }
+
+    /* legend — two series, so a legend is required */
+    [["Aug 2025", "var(--series)", 0], ["Aug 2026", "var(--accent)", 96]].forEach(
+      ([t, c, dx]) => {
+        svg.appendChild(el("rect", {x: m.l + dx, y: 4, width: 10, height: 10,
+          rx: 2, fill: c}));
+        const lb = el("text", {x: m.l + dx + 15, y: 13, class: "ax",
+          fill: "var(--ink-2)", "font-size": "10.5"});
+        lb.textContent = t;
+        svg.appendChild(lb);
+      });
+
+    const bar = (bx, v, fill) => {
+      const h = Math.max((v / max) * ih, v > 0 ? 2 : 0);
+      const by = m.t + ih - h;
+      if (h <= 0) return;
+      svg.appendChild(el("path", {
+        d: `M ${bx} ${m.t + ih} L ${bx} ${by + Math.min(4, h)}
+            Q ${bx} ${by} ${bx + Math.min(4, bw / 2)} ${by}
+            L ${bx + bw - Math.min(4, bw / 2)} ${by}
+            Q ${bx + bw} ${by} ${bx + bw} ${by + Math.min(4, h)}
+            L ${bx + bw} ${m.t + ih} Z`, fill: fill}));
+    };
+
+    yoy.forEach((r, i) => {
+      const gx = m.l + i * gw + 5;
+      bar(gx, r[1], "var(--series)");
+      bar(gx + bw + 4, r[2], "var(--accent)");
+
+      const lb = el("text", {x: gx + gw / 2 - 5, y: m.t + ih + 16, class: "ax",
+        "text-anchor": "middle", "font-size": "9"});
+      lb.textContent = r[0].replace("Positions ", "").replace("Position ", "");
+      svg.appendChild(lb);
+
+      const pct = r[1] ? Math.round((r[2] - r[1]) / r[1] * 100) : 0;
+      const dl = el("text", {x: gx + gw / 2 - 5, y: m.t + ih + 30, class: "ax",
+        "text-anchor": "middle", "font-size": "9", fill: "var(--critical)",
+        "font-weight": "700"});
+      dl.textContent = pct + "%";
+      svg.appendChild(dl);
+
+      const hit = el("rect", {x: m.l + i * gw, y: m.t, width: gw, height: ih,
+        fill: "transparent"});
+      hit.style.cursor = "pointer";
+      const html = `<b>${r[0]}</b><br>
+        <span class="lbl">Aug 2025</span> ${fmt(r[1])} keywords<br>
+        <span class="lbl">Aug 2026</span> ${fmt(r[2])} keywords<br>
+        <span class="lbl">Change</span> ${r[2] - r[1]} (${pct}%)`;
+      hit.addEventListener("mousemove", e => showTip(html, e));
+      hit.addEventListener("mouseleave", hideTip);
+      svg.appendChild(hit);
+    });
+
+    svg.appendChild(el("line", {x1: m.l, x2: m.l + iw, y1: m.t + ih,
+      y2: m.t + ih, class: "baseline"}));
+    const cap = el("text", {x: m.l, y: H - 6, class: "ax", "font-size": "9",
+      fill: "var(--muted)"});
+    cap.textContent = "Organic position band  ·  % = year-over-year change";
+    svg.appendChild(cap);
+    mount.appendChild(svg);
+  })();
+
+  /* ---------------- lost-ranking source ---------------- */
+  (function () {
+    const mount = document.getElementById("c-lostsrc");
+    const rowH = 40, m = {t: 6, r: 118, b: 8, l: 210};
+    const W = 980, H = m.t + lostSrc.length * rowH + m.b;
+    const iw = W - m.l - m.r;
+    const svg = el("svg", {viewBox: `0 0 ${W} ${H}`, role: "img",
+      "aria-label": "Lost rankings grouped by the URL that held them"});
+    const total = lostSrc.reduce((s, r) => s + r[1], 0);
+    const max = Math.max(...lostSrc.map(r => r[1]));
+
+    lostSrc.forEach((r, i) => {
+      const legacy = r[0].indexOf("Legacy") === 0;
+      const yy = m.t + i * rowH, bh = 20, by = yy + (rowH - bh) / 2;
+      const w = Math.max((r[1] / max) * iw, 2);
+
+      const nm = el("text", {x: m.l - 12, y: by + bh - 5.5, class: "ax",
+        "text-anchor": "end", "font-size": "11.5",
+        fill: legacy ? "var(--critical)" : "var(--ink-2)",
+        "font-weight": legacy ? "700" : "500"});
+      nm.textContent = r[0];
+      svg.appendChild(nm);
+
+      svg.appendChild(el("path", {
+        d: `M ${m.l} ${by} L ${m.l + w - 4} ${by} Q ${m.l + w} ${by} ${m.l + w} ${by + 4}
+            L ${m.l + w} ${by + bh - 4} Q ${m.l + w} ${by + bh} ${m.l + w - 4} ${by + bh}
+            L ${m.l} ${by + bh} Z`,
+        fill: legacy ? "var(--critical)" : "var(--t2)"}));
+
+      const vl = el("text", {x: m.l + w + 10, y: by + bh - 5.5, class: "ax",
+        "font-weight": "700",
+        fill: legacy ? "var(--critical)" : "var(--ink-2)"});
+      vl.textContent = fmt(r[1]) + "  ·  " + (r[1] / total * 100).toFixed(1) + "%";
+      svg.appendChild(vl);
+
+      const hit = el("rect", {x: 0, y: yy, width: W, height: rowH, fill: "transparent"});
+      hit.style.cursor = "pointer";
+      const html = `<b>${r[0]}</b><br>
+        <span class="lbl">Rankings lost</span> ${fmt(r[1])} <span class="lbl">of ${total}</span><br>
+        <span class="lbl">Share</span> ${(r[1] / total * 100).toFixed(1)}%<br>
+        <span class="lbl">Est. visits lost</span> ${fmt(r[2])}/mo`;
+      hit.addEventListener("mousemove", e => showTip(html, e));
+      hit.addEventListener("mouseleave", hideTip);
+      svg.appendChild(hit);
+    });
     mount.appendChild(svg);
   })();
 
@@ -1021,9 +1363,39 @@
   const q = id => document.getElementById(id);
 
   q("t-history").innerHTML = history.map(h => `<tr>
-    <td>${h.m} 2026</td><td class="n">${fmt(h.kw)}</td>
+    <td>${nice(h.m)}</td><td class="n">${fmt(h.kw)}</td>
     <td class="n">${fmt(h.etv)}</td><td class="n">${money(h.val)}</td>
-    <td class="n">${h.t3}</td></tr>`).join("");
+    <td class="n">${fmt(h.g1)}</td><td class="n">${fmt(h.g2)}</td>
+    <td class="n">${fmt(h.g3)}</td></tr>`).join("");
+
+  q("t-yoy").innerHTML =
+    yoy.map(r => {
+      const pct = r[1] ? ((r[2] - r[1]) / r[1] * 100) : 0;
+      return `<tr><td>${r[0]}</td><td class="n">${fmt(r[1])}</td>
+        <td class="n">${fmt(r[2])}</td>
+        <td class="n" style="color:var(--critical)">${r[2] - r[1]}</td>
+        <td class="n" style="color:var(--critical);font-weight:600">${pct.toFixed(1)}%</td></tr>`;
+    }).join("") +
+    yoyTotals.map(r => {
+      const pct = ((r[2] - r[1]) / r[1] * 100);
+      return `<tr class="self"><td>${r[0]}</td><td class="n">${fmt(r[1])}</td>
+        <td class="n">${fmt(r[2])}</td>
+        <td class="n">${fmt(r[2] - r[1])}</td>
+        <td class="n">${pct.toFixed(1)}%</td></tr>`;
+    }).join("");
+
+  q("t-lost").innerHTML = lostKw.map(r => `<tr>
+    <td class="n" style="font-weight:700">${r[0]}</td>
+    <td class="kw">${r[1]}</td>
+    <td class="n">${fmt(r[2])}</td>
+    <td class="n" style="color:var(--critical);font-weight:600">${r[3]}</td>
+    <td class="n">$${r[4].toFixed(2)}</td>
+    <td class="kw" style="max-width:300px"><code>${r[5]}</code></td></tr>`).join("");
+
+  q("t-losturl").innerHTML = lostUrls.map(r => `<tr>
+    <td class="n" style="color:var(--critical);font-weight:700">${r[0]}</td>
+    <td class="kw" style="max-width:400px"><code>${r[1]}</code></td>
+    <td>${r[2]}</td></tr>`).join("");
 
   const pill = t => t === "brand" ? '<span class="pill p-brand">Brand</span>'
     : t === "local" ? '<span class="pill p-local">Local</span>'

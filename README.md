@@ -72,9 +72,28 @@ Outputs to `data/`:
 ```bash
 python3 seo_profile.py
 python3 competitive_analysis.py
+python3 ranking_loss.py
 ```
 
-## 3. `keyword_research.py` — earlier one-off
+## 3. `ranking_loss.py` — year-over-year comparison
+
+- `historical_rank_overview` back to Jun 2024 (**26 months** of position-band
+  counts) — the ranking-mix trend and the Aug 2025 vs Aug 2026 comparison.
+- `ranked_keywords` with **`historical_serp_mode: "lost"`** — every keyword the
+  domain used to rank for and no longer does, with the last position held and,
+  critically, **the URL that held it**. That last field is what identifies the
+  migration as the cause.
+
+Outputs to `data/`:
+| file | contents |
+|---|---|
+| `history_26mo.csv` | 26 months of keywords/ETV/position bands |
+| `yoy_ranking_mix.csv` | Aug 2025 vs Aug 2026 per position band |
+| `lost_keywords.csv` | all 819 lost rankings + last position + lost URL |
+| `lost_recoverable_page1.csv` | the 185 page-one rankings lost on legacy URLs |
+| `ranking_loss.json` | everything, structured |
+
+## 4. `keyword_research.py` — earlier one-off
 Top 500 non-brand keywords by ETV for `sundaycitizen.com` and `brooklinen.com`.
 Unrelated to the Wasser's work; kept for reference.
 
@@ -82,12 +101,15 @@ Unrelated to the Wasser's work; kept for reference.
 
 ## Headline findings — Wasser's Furniture (Aug 2026)
 
-1. **Organic traffic collapsed ~84% in five months.** Feb 2026: 1,900 keywords /
-   5,552 est. monthly visits. Jul 2026: 278 keywords / 1,032 visits. 815 keywords
-   lost.
+1. **Down 91.6% year on year.** Aug 2025: 2,262 keywords / 4,497 est. monthly
+   visits. Aug 2026: 191 keywords / 892 visits. Two distinct phases — erosion
+   Dec 2024–Jul 2025 (page-one keywords 769 → 331), nine flat months, then a
+   cliff from May 2026 (366 → 20).
 2. **Cause: an un-redirected replatform.** The site moved from a legacy
    Magento-style `.html` URL structure to Shopify `/products/<slug>`
    (IP `23.227.38.74`, Cloudflare in front). Legacy URLs return **404, not 301**.
+   Of the **819 lost rankings, 801 (97.8%) were held by a legacy `.html` URL**;
+   only 3 were lost on a live Shopify page.
 3. **No category layer.** 98 of the top 100 indexed URLs are `/products/` PDPs.
    The site has essentially nothing to rank on category terms.
 4. **65% of remaining organic traffic is one branded term** ("wassers", 578 of
