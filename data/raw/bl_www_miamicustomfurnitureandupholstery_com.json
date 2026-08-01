@@ -1,0 +1,104 @@
+{
+  "version": "0.1.20260731",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "0.2048 sec.",
+  "cost": 0.024036,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "08012113-1561-0265-0000-4e54b00fb795",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "0.1748 sec.",
+      "cost": 0.024036,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "backlinks",
+        "summary",
+        "live"
+      ],
+      "data": {
+        "api": "backlinks",
+        "function": "summary",
+        "target": "www.miamicustomfurnitureandupholstery.com",
+        "internal_list_limit": 5,
+        "include_subdomains": true,
+        "backlinks_status_type": "live"
+      },
+      "result": [
+        {
+          "target": "www.miamicustomfurnitureandupholstery.com",
+          "first_seen": "2023-06-28 13:43:22 +00:00",
+          "lost_date": null,
+          "rank": 95,
+          "backlinks": 23,
+          "backlinks_spam_score": 1,
+          "crawled_pages": 7,
+          "info": {
+            "server": "Pepyaka",
+            "cms": "wix",
+            "platform_type": [
+              "cms",
+              "blogs"
+            ],
+            "ip_address": "34.149.87.45",
+            "country": null,
+            "is_ip": false,
+            "target_spam_score": 9
+          },
+          "internal_links_count": 36,
+          "external_links_count": 40,
+          "broken_backlinks": 0,
+          "broken_pages": 0,
+          "referring_domains": 14,
+          "referring_domains_nofollow": 8,
+          "referring_main_domains": 14,
+          "referring_main_domains_nofollow": 8,
+          "referring_ips": 15,
+          "referring_subnets": 15,
+          "referring_pages": 19,
+          "referring_pages_nofollow": 10,
+          "referring_links_tld": {
+            "com": 13,
+            "com.es": 1,
+            "net": 1,
+            "es": 1,
+            "com.au": 1
+          },
+          "referring_links_types": {
+            "anchor": 19
+          },
+          "referring_links_attributes": {
+            "noopener": 12,
+            "nofollow": 10,
+            "noreferrer": 3,
+            "ugc": 2
+          },
+          "referring_links_platform_types": {
+            "unknown": 10,
+            "organization": 8,
+            "blogs": 1,
+            "cms": 1,
+            "ecommerce": 1
+          },
+          "referring_links_semantic_locations": {
+            "article": 6,
+            "section": 5,
+            "main": 4,
+            "": 4
+          },
+          "referring_links_countries": {
+            "US": 7,
+            "": 6,
+            "ES": 2,
+            "UA": 2,
+            "AU": 1
+          }
+        }
+      ]
+    }
+  ]
+}

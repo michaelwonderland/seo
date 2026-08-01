@@ -1,0 +1,3370 @@
+{
+  "target": "wassersfurniture.com",
+  "broken_pages_with_links": [],
+  "seed_keywords": [
+    {
+      "keyword": "high end furniture store",
+      "search_volume": 6600,
+      "cpc": 3.37,
+      "competition": "HIGH",
+      "keyword_difficulty": 27
+    },
+    {
+      "keyword": "furniture stores miami",
+      "search_volume": 4400,
+      "cpc": 3.38,
+      "competition": "HIGH",
+      "keyword_difficulty": 27
+    },
+    {
+      "keyword": "luxury furniture store",
+      "search_volume": 3600,
+      "cpc": 3.83,
+      "competition": "HIGH",
+      "keyword_difficulty": 24
+    },
+    {
+      "keyword": "furniture stores fort lauderdale",
+      "search_volume": 1900,
+      "cpc": 3.83,
+      "competition": "HIGH",
+      "keyword_difficulty": 0
+    },
+    {
+      "keyword": "modern furniture store near me",
+      "search_volume": 1900,
+      "cpc": 4.3,
+      "competition": "HIGH",
+      "keyword_difficulty": 29
+    },
+    {
+      "keyword": "outdoor furniture miami",
+      "search_volume": 1000,
+      "cpc": 4.06,
+      "competition": "HIGH",
+      "keyword_difficulty": 16
+    },
+    {
+      "keyword": "modern furniture miami",
+      "search_volume": 590,
+      "cpc": 6,
+      "competition": "HIGH",
+      "keyword_difficulty": 14
+    },
+    {
+      "keyword": "italian furniture store",
+      "search_volume": 590,
+      "cpc": 2.91,
+      "competition": "HIGH",
+      "keyword_difficulty": 11
+    },
+    {
+      "keyword": "interior design miami",
+      "search_volume": 480,
+      "cpc": 8.12,
+      "competition": "MEDIUM",
+      "keyword_difficulty": 32
+    },
+    {
+      "keyword": "office furniture miami",
+      "search_volume": 320,
+      "cpc": 21.29,
+      "competition": "HIGH",
+      "keyword_difficulty": 5
+    },
+    {
+      "keyword": "furniture stores aventura",
+      "search_volume": 260,
+      "cpc": 3.79,
+      "competition": "HIGH",
+      "keyword_difficulty": 0
+    },
+    {
+      "keyword": "furniture stores hollywood fl",
+      "search_volume": 260,
+      "cpc": 2.79,
+      "competition": "HIGH",
+      "keyword_difficulty": 0
+    },
+    {
+      "keyword": "modern furniture fort lauderdale",
+      "search_volume": 110,
+      "cpc": 5.75,
+      "competition": "HIGH",
+      "keyword_difficulty": 0
+    },
+    {
+      "keyword": "bedroom furniture miami",
+      "search_volume": 110,
+      "cpc": 1.87,
+      "competition": "HIGH",
+      "keyword_difficulty": 0
+    },
+    {
+      "keyword": "italian furniture miami",
+      "search_volume": 90,
+      "cpc": 3.03,
+      "competition": "HIGH",
+      "keyword_difficulty": 0
+    },
+    {
+      "keyword": "furniture stores hallandale",
+      "search_volume": 90,
+      "cpc": 2.8,
+      "competition": "HIGH",
+      "keyword_difficulty": 0
+    },
+    {
+      "keyword": "luxury furniture miami",
+      "search_volume": 70,
+      "cpc": 4.06,
+      "competition": "HIGH",
+      "keyword_difficulty": 0
+    },
+    {
+      "keyword": "custom furniture miami",
+      "search_volume": 70,
+      "cpc": 12.41,
+      "competition": "HIGH",
+      "keyword_difficulty": 0
+    },
+    {
+      "keyword": "contemporary furniture miami",
+      "search_volume": 40,
+      "cpc": 2.62,
+      "competition": "HIGH",
+      "keyword_difficulty": 11
+    },
+    {
+      "keyword": "sectional sofas miami",
+      "search_volume": 30,
+      "cpc": 5.16,
+      "competition": "HIGH",
+      "keyword_difficulty": 0
+    },
+    {
+      "keyword": "dining room sets miami",
+      "search_volume": 30,
+      "cpc": 3.5,
+      "competition": "HIGH",
+      "keyword_difficulty": 9
+    },
+    {
+      "keyword": "furniture showroom miami",
+      "search_volume": 30,
+      "cpc": 6.07,
+      "competition": "HIGH",
+      "keyword_difficulty": 23
+    },
+    {
+      "keyword": "high end furniture miami",
+      "search_volume": 20,
+      "cpc": 2.99,
+      "competition": "HIGH",
+      "keyword_difficulty": 10
+    },
+    {
+      "keyword": "designer furniture miami",
+      "search_volume": 10,
+      "cpc": null,
+      "competition": "HIGH",
+      "keyword_difficulty": 23
+    },
+    {
+      "keyword": "italian furniture fort lauderdale",
+      "search_volume": 10,
+      "cpc": null,
+      "competition": "HIGH",
+      "keyword_difficulty": 0
+    },
+    {
+      "keyword": "european furniture miami",
+      "search_volume": 10,
+      "cpc": 1.96,
+      "competition": "HIGH",
+      "keyword_difficulty": 22
+    },
+    {
+      "keyword": "luxury furniture fort lauderdale",
+      "search_volume": null,
+      "cpc": null,
+      "competition": null,
+      "keyword_difficulty": null
+    },
+    {
+      "keyword": "furniture stores sunny isles",
+      "search_volume": null,
+      "cpc": null,
+      "competition": null,
+      "keyword_difficulty": null
+    }
+  ],
+  "serp_competitors_raw": [
+    {
+      "domain": "www.yelp.com",
+      "keywords_ranked": 13,
+      "median_position": 5,
+      "visibility": 7.55,
+      "relevant_serp_items": 13
+    },
+    {
+      "domain": "www.modernmiami.com",
+      "keywords_ranked": 12,
+      "median_position": 4,
+      "visibility": 7.1,
+      "relevant_serp_items": 12
+    },
+    {
+      "domain": "www.instagram.com",
+      "keywords_ranked": 12,
+      "median_position": 11,
+      "visibility": 3.2,
+      "relevant_serp_items": 12
+    },
+    {
+      "domain": "www.houzz.com",
+      "keywords_ranked": 8,
+      "median_position": 8,
+      "visibility": 2.05,
+      "relevant_serp_items": 8
+    },
+    {
+      "domain": "www.mh2g.com",
+      "keywords_ranked": 7,
+      "median_position": 10,
+      "visibility": 2.8,
+      "relevant_serp_items": 7
+    },
+    {
+      "domain": "addisonhouse.com",
+      "keywords_ranked": 6,
+      "median_position": 3,
+      "visibility": 3.6,
+      "relevant_serp_items": 6
+    },
+    {
+      "domain": "miamifurnitureoutlet.com",
+      "keywords_ranked": 5,
+      "median_position": 14,
+      "visibility": 0.4,
+      "relevant_serp_items": 5
+    },
+    {
+      "domain": "www.scandesign.com",
+      "keywords_ranked": 4,
+      "median_position": 3,
+      "visibility": 2.55,
+      "relevant_serp_items": 4
+    },
+    {
+      "domain": "shopharbour.com",
+      "keywords_ranked": 4,
+      "median_position": 11,
+      "visibility": 1.05,
+      "relevant_serp_items": 4
+    },
+    {
+      "domain": "badcocksfl.com",
+      "keywords_ranked": 4,
+      "median_position": 11,
+      "visibility": 1.05,
+      "relevant_serp_items": 4
+    },
+    {
+      "domain": "www.furniture.com",
+      "keywords_ranked": 4,
+      "median_position": 9,
+      "visibility": 0.6,
+      "relevant_serp_items": 4
+    },
+    {
+      "domain": "www.decorilla.com",
+      "keywords_ranked": 4,
+      "median_position": 11,
+      "visibility": 0.55,
+      "relevant_serp_items": 4
+    },
+    {
+      "domain": "www.natuzzi.com",
+      "keywords_ranked": 3,
+      "median_position": 4,
+      "visibility": 2.1,
+      "relevant_serp_items": 3
+    },
+    {
+      "domain": "www.baers.com",
+      "keywords_ranked": 3,
+      "median_position": 4,
+      "visibility": 1.7,
+      "relevant_serp_items": 3
+    },
+    {
+      "domain": "habitusfurniture.com",
+      "keywords_ranked": 3,
+      "median_position": 6,
+      "visibility": 1.6,
+      "relevant_serp_items": 3
+    },
+    {
+      "domain": "www.miamidesigndistrict.com",
+      "keywords_ranked": 3,
+      "median_position": 5,
+      "visibility": 1.3,
+      "relevant_serp_items": 3
+    },
+    {
+      "domain": "www.havertys.com",
+      "keywords_ranked": 3,
+      "median_position": 12,
+      "visibility": 1.05,
+      "relevant_serp_items": 3
+    },
+    {
+      "domain": "www.cityfurniture.com",
+      "keywords_ranked": 3,
+      "median_position": 14,
+      "visibility": 0.5,
+      "relevant_serp_items": 3
+    },
+    {
+      "domain": "www.imperialmiami.com",
+      "keywords_ranked": 3,
+      "median_position": 15,
+      "visibility": 0.25,
+      "relevant_serp_items": 3
+    },
+    {
+      "domain": "www.thecurated.group",
+      "keywords_ranked": 3,
+      "median_position": 15,
+      "visibility": 0.15,
+      "relevant_serp_items": 3
+    },
+    {
+      "domain": "www.camerichmiami.com",
+      "keywords_ranked": 2,
+      "median_position": 5,
+      "visibility": 1.1,
+      "relevant_serp_items": 2
+    },
+    {
+      "domain": "italodesignusa.com",
+      "keywords_ranked": 2,
+      "median_position": 1,
+      "visibility": 1.05,
+      "relevant_serp_items": 2
+    },
+    {
+      "domain": "nyfurniture.com",
+      "keywords_ranked": 2,
+      "median_position": 1,
+      "visibility": 1,
+      "relevant_serp_items": 2
+    },
+    {
+      "domain": "mezagroup.com",
+      "keywords_ranked": 2,
+      "median_position": 6,
+      "visibility": 1,
+      "relevant_serp_items": 2
+    },
+    {
+      "domain": "telaitalianfurniture.com",
+      "keywords_ranked": 2,
+      "median_position": 2,
+      "visibility": 0.9,
+      "relevant_serp_items": 2
+    },
+    {
+      "domain": "www.bebitalia.com",
+      "keywords_ranked": 2,
+      "median_position": 3,
+      "visibility": 0.85,
+      "relevant_serp_items": 2
+    },
+    {
+      "domain": "www.poliform.it",
+      "keywords_ranked": 2,
+      "median_position": 3,
+      "visibility": 0.85,
+      "relevant_serp_items": 2
+    },
+    {
+      "domain": "stores.cortfurnitureoutlet.com",
+      "keywords_ranked": 2,
+      "median_position": 4,
+      "visibility": 0.75,
+      "relevant_serp_items": 2
+    },
+    {
+      "domain": "www.thebrowarddesigncenter.com",
+      "keywords_ranked": 2,
+      "median_position": 5,
+      "visibility": 0.7,
+      "relevant_serp_items": 2
+    },
+    {
+      "domain": "www.woodworkshomefurnishings.com",
+      "keywords_ranked": 2,
+      "median_position": 5,
+      "visibility": 0.6,
+      "relevant_serp_items": 2
+    },
+    {
+      "domain": "www.conceptomodernliving.com",
+      "keywords_ranked": 2,
+      "median_position": 5,
+      "visibility": 0.6,
+      "relevant_serp_items": 2
+    },
+    {
+      "domain": "www.allmodern.com",
+      "keywords_ranked": 2,
+      "median_position": 6,
+      "visibility": 0.5,
+      "relevant_serp_items": 2
+    },
+    {
+      "domain": "lazzoni.com",
+      "keywords_ranked": 2,
+      "median_position": 7,
+      "visibility": 0.4,
+      "relevant_serp_items": 2
+    },
+    {
+      "domain": "www.ethanallen.com",
+      "keywords_ranked": 2,
+      "median_position": 8,
+      "visibility": 0.35,
+      "relevant_serp_items": 2
+    },
+    {
+      "domain": "zzofficefurniture.com",
+      "keywords_ranked": 2,
+      "median_position": 8,
+      "visibility": 0.3,
+      "relevant_serp_items": 2
+    },
+    {
+      "domain": "italmodfurniture.com",
+      "keywords_ranked": 2,
+      "median_position": 8,
+      "visibility": 0.3,
+      "relevant_serp_items": 2
+    },
+    {
+      "domain": "cassoni.com",
+      "keywords_ranked": 2,
+      "median_position": 9,
+      "visibility": 0.25,
+      "relevant_serp_items": 2
+    },
+    {
+      "domain": "www.boconcept.com",
+      "keywords_ranked": 2,
+      "median_position": 10,
+      "visibility": 0.15,
+      "relevant_serp_items": 2
+    },
+    {
+      "domain": "animadomus.com",
+      "keywords_ranked": 2,
+      "median_position": 12,
+      "visibility": 0.1,
+      "relevant_serp_items": 2
+    },
+    {
+      "domain": "materiacollection.com",
+      "keywords_ranked": 2,
+      "median_position": 11,
+      "visibility": 0.05,
+      "relevant_serp_items": 2
+    },
+    {
+      "domain": "rattanshack.com",
+      "keywords_ranked": 2,
+      "median_position": 13,
+      "visibility": 0.05,
+      "relevant_serp_items": 2
+    },
+    {
+      "domain": "www.target.com",
+      "keywords_ranked": 2,
+      "median_position": 15,
+      "visibility": 0.05,
+      "relevant_serp_items": 2
+    },
+    {
+      "domain": "www.faithfarm.org",
+      "keywords_ranked": 2,
+      "median_position": 15,
+      "visibility": 0.05,
+      "relevant_serp_items": 2
+    },
+    {
+      "domain": "sobefurniture.com",
+      "keywords_ranked": 2,
+      "median_position": 15,
+      "visibility": 0.05,
+      "relevant_serp_items": 2
+    },
+    {
+      "domain": "www.natalianeverko.com",
+      "keywords_ranked": 1,
+      "median_position": 1,
+      "visibility": 1.05,
+      "relevant_serp_items": 2
+    },
+    {
+      "domain": "ds-miami.com",
+      "keywords_ranked": 1,
+      "median_position": 2,
+      "visibility": 0.95,
+      "relevant_serp_items": 2
+    },
+    {
+      "domain": "allweatherpatio.com",
+      "keywords_ranked": 1,
+      "median_position": 2,
+      "visibility": 0.9,
+      "relevant_serp_items": 1
+    },
+    {
+      "domain": "shop.officefurniture4sale.com",
+      "keywords_ranked": 1,
+      "median_position": 2,
+      "visibility": 0.9,
+      "relevant_serp_items": 1
+    },
+    {
+      "domain": "dkorinteriors.com",
+      "keywords_ranked": 1,
+      "median_position": 2,
+      "visibility": 0.9,
+      "relevant_serp_items": 1
+    },
+    {
+      "domain": "ironhorsehome.com",
+      "keywords_ranked": 1,
+      "median_position": 2,
+      "visibility": 0.9,
+      "relevant_serp_items": 1
+    },
+    {
+      "domain": "www.miamicustomfurnitureandupholstery.com",
+      "keywords_ranked": 1,
+      "median_position": 2,
+      "visibility": 0.9,
+      "relevant_serp_items": 1
+    },
+    {
+      "domain": "www.studio790.com",
+      "keywords_ranked": 1,
+      "median_position": 3,
+      "visibility": 0.85,
+      "relevant_serp_items": 2
+    },
+    {
+      "domain": "officefurnitureonline.com",
+      "keywords_ranked": 1,
+      "median_position": 3,
+      "visibility": 0.8,
+      "relevant_serp_items": 1
+    },
+    {
+      "domain": "sdhstudio.com",
+      "keywords_ranked": 1,
+      "median_position": 3,
+      "visibility": 0.8,
+      "relevant_serp_items": 1
+    },
+    {
+      "domain": "www.holzwoodshop.com",
+      "keywords_ranked": 1,
+      "median_position": 3,
+      "visibility": 0.8,
+      "relevant_serp_items": 1
+    },
+    {
+      "domain": "www.uoffurniture.com",
+      "keywords_ranked": 1,
+      "median_position": 4,
+      "visibility": 0.7,
+      "relevant_serp_items": 1
+    },
+    {
+      "domain": "www.architecturaldigest.com",
+      "keywords_ranked": 1,
+      "median_position": 4,
+      "visibility": 0.7,
+      "relevant_serp_items": 1
+    },
+    {
+      "domain": "italiafurniture.com",
+      "keywords_ranked": 1,
+      "median_position": 5,
+      "visibility": 0.6,
+      "relevant_serp_items": 1
+    },
+    {
+      "domain": "www.marcusofficefurniture.com",
+      "keywords_ranked": 1,
+      "median_position": 6,
+      "visibility": 0.5,
+      "relevant_serp_items": 1
+    },
+    {
+      "domain": "m.yelp.com",
+      "keywords_ranked": 1,
+      "median_position": 6,
+      "visibility": 0.5,
+      "relevant_serp_items": 1
+    },
+    {
+      "domain": "interiorarchitects.com",
+      "keywords_ranked": 1,
+      "median_position": 6,
+      "visibility": 0.5,
+      "relevant_serp_items": 1
+    },
+    {
+      "domain": "woodart.miami",
+      "keywords_ranked": 1,
+      "median_position": 6,
+      "visibility": 0.5,
+      "relevant_serp_items": 1
+    },
+    {
+      "domain": "masof.us",
+      "keywords_ranked": 1,
+      "median_position": 7,
+      "visibility": 0.4,
+      "relevant_serp_items": 1
+    },
+    {
+      "domain": "camodernhome.com",
+      "keywords_ranked": 1,
+      "median_position": 7,
+      "visibility": 0.4,
+      "relevant_serp_items": 1
+    },
+    {
+      "domain": "chatburnliving.com",
+      "keywords_ranked": 1,
+      "median_position": 7,
+      "visibility": 0.4,
+      "relevant_serp_items": 1
+    },
+    {
+      "domain": "www.patioliving.com",
+      "keywords_ranked": 1,
+      "median_position": 8,
+      "visibility": 0.3,
+      "relevant_serp_items": 1
+    },
+    {
+      "domain": "www.interiorsbysteveng.com",
+      "keywords_ranked": 1,
+      "median_position": 8,
+      "visibility": 0.3,
+      "relevant_serp_items": 1
+    },
+    {
+      "domain": "www.sofasandsectionals.com",
+      "keywords_ranked": 1,
+      "median_position": 8,
+      "visibility": 0.3,
+      "relevant_serp_items": 1
+    },
+    {
+      "domain": "www.mantrafurnishings.com",
+      "keywords_ranked": 1,
+      "median_position": 8,
+      "visibility": 0.3,
+      "relevant_serp_items": 1
+    },
+    {
+      "domain": "www.esperiri.com",
+      "keywords_ranked": 1,
+      "median_position": 8,
+      "visibility": 0.3,
+      "relevant_serp_items": 1
+    },
+    {
+      "domain": "judithnorman.com",
+      "keywords_ranked": 1,
+      "median_position": 8,
+      "visibility": 0.3,
+      "relevant_serp_items": 1
+    },
+    {
+      "domain": "www.kfrooms.com",
+      "keywords_ranked": 1,
+      "median_position": 9,
+      "visibility": 0.2,
+      "relevant_serp_items": 1
+    },
+    {
+      "domain": "eurolivingfurniture.com",
+      "keywords_ranked": 1,
+      "median_position": 9,
+      "visibility": 0.2,
+      "relevant_serp_items": 1
+    },
+    {
+      "domain": "www.idealcasa.us",
+      "keywords_ranked": 1,
+      "median_position": 9,
+      "visibility": 0.2,
+      "relevant_serp_items": 1
+    },
+    {
+      "domain": "radamiami.com",
+      "keywords_ranked": 1,
+      "median_position": 9,
+      "visibility": 0.2,
+      "relevant_serp_items": 1
+    },
+    {
+      "domain": "www.axisoffice.com",
+      "keywords_ranked": 1,
+      "median_position": 10,
+      "visibility": 0.1,
+      "relevant_serp_items": 1
+    },
+    {
+      "domain": "italy2000usa.com",
+      "keywords_ranked": 1,
+      "median_position": 10,
+      "visibility": 0.1,
+      "relevant_serp_items": 1
+    },
+    {
+      "domain": "www.miamioutdoorfurniture.com",
+      "keywords_ranked": 1,
+      "median_position": 11,
+      "visibility": 0.05,
+      "relevant_serp_items": 1
+    },
+    {
+      "domain": "www.nardesignstudio.com",
+      "keywords_ranked": 1,
+      "median_position": 11,
+      "visibility": 0.05,
+      "relevant_serp_items": 1
+    },
+    {
+      "domain": "aventuramall.com",
+      "keywords_ranked": 1,
+      "median_position": 11,
+      "visibility": 0.05,
+      "relevant_serp_items": 1
+    },
+    {
+      "domain": "miamiwoodworkfurniture.com",
+      "keywords_ranked": 1,
+      "median_position": 11,
+      "visibility": 0.05,
+      "relevant_serp_items": 1
+    },
+    {
+      "domain": "lagoonfurnitures.com",
+      "keywords_ranked": 1,
+      "median_position": 12,
+      "visibility": 0.05,
+      "relevant_serp_items": 1
+    },
+    {
+      "domain": "officesolutionsfl.com",
+      "keywords_ranked": 1,
+      "median_position": 12,
+      "visibility": 0.05,
+      "relevant_serp_items": 1
+    },
+    {
+      "domain": "calligarisnyc.com",
+      "keywords_ranked": 1,
+      "median_position": 12,
+      "visibility": 0.05,
+      "relevant_serp_items": 1
+    },
+    {
+      "domain": "www.palliser.com",
+      "keywords_ranked": 1,
+      "median_position": 12,
+      "visibility": 0.05,
+      "relevant_serp_items": 1
+    },
+    {
+      "domain": "www.bocadolobo.com",
+      "keywords_ranked": 1,
+      "median_position": 12,
+      "visibility": 0.05,
+      "relevant_serp_items": 1
+    },
+    {
+      "domain": "www.buddyrents.com",
+      "keywords_ranked": 1,
+      "median_position": 12,
+      "visibility": 0.05,
+      "relevant_serp_items": 1
+    },
+    {
+      "domain": "miamifurnituremanufacturing.com",
+      "keywords_ranked": 1,
+      "median_position": 12,
+      "visibility": 0.05,
+      "relevant_serp_items": 1
+    },
+    {
+      "domain": "gablesofficefurniture.com",
+      "keywords_ranked": 1,
+      "median_position": 13,
+      "visibility": 0.05,
+      "relevant_serp_items": 1
+    },
+    {
+      "domain": "atmosphereinteriors.com",
+      "keywords_ranked": 1,
+      "median_position": 13,
+      "visibility": 0.05,
+      "relevant_serp_items": 1
+    },
+    {
+      "domain": "www.hollywoodglamfurniture.com",
+      "keywords_ranked": 1,
+      "median_position": 13,
+      "visibility": 0.05,
+      "relevant_serp_items": 1
+    },
+    {
+      "domain": "abtmodern.com",
+      "keywords_ranked": 1,
+      "median_position": 13,
+      "visibility": 0.05,
+      "relevant_serp_items": 1
+    },
+    {
+      "domain": "www.brownjordan.com",
+      "keywords_ranked": 1,
+      "median_position": 14,
+      "visibility": 0.05,
+      "relevant_serp_items": 1
+    },
+    {
+      "domain": "www.ethosource.com",
+      "keywords_ranked": 1,
+      "median_position": 14,
+      "visibility": 0.05,
+      "relevant_serp_items": 1
+    },
+    {
+      "domain": "artemest.com",
+      "keywords_ranked": 1,
+      "median_position": 14,
+      "visibility": 0.05,
+      "relevant_serp_items": 1
+    },
+    {
+      "domain": "www.whitelinemod.com",
+      "keywords_ranked": 1,
+      "median_position": 14,
+      "visibility": 0.05,
+      "relevant_serp_items": 1
+    },
+    {
+      "domain": "www.homegoods.com",
+      "keywords_ranked": 1,
+      "median_position": 14,
+      "visibility": 0.05,
+      "relevant_serp_items": 1
+    },
+    {
+      "domain": "www.rentfurniture.com",
+      "keywords_ranked": 1,
+      "median_position": 15,
+      "visibility": 0.05,
+      "relevant_serp_items": 1
+    },
+    {
+      "domain": "www.creativefurniturestore.com",
+      "keywords_ranked": 1,
+      "median_position": 15,
+      "visibility": 0.05,
+      "relevant_serp_items": 1
+    },
+    {
+      "domain": "www.veninifurniture.com",
+      "keywords_ranked": 1,
+      "median_position": 15,
+      "visibility": 0.05,
+      "relevant_serp_items": 1
+    }
+  ],
+  "profiles": [
+    {
+      "domain": "wassersfurniture.com",
+      "organic_keywords": 191,
+      "organic_traffic_est": 891.5,
+      "traffic_value_usd": 955.5,
+      "pos_1": 3,
+      "pos_2_3": 3,
+      "pos_4_10": 14,
+      "pos_11_20": 20,
+      "pos_21_30": 26,
+      "keywords_lost": 815,
+      "keywords_new": 127,
+      "domain_rank": 187,
+      "backlinks": 1449,
+      "referring_domains": 392,
+      "referring_main_domains": 385,
+      "referring_ips": 127,
+      "spam_score": 26,
+      "broken_pages": 94,
+      "crawled_pages": 4254,
+      "first_seen": "2019-02-15 23:02:52 +00:00",
+      "top_keywords": [
+        {
+          "keyword": "wassers",
+          "position": 1,
+          "search_volume": 1900,
+          "etv": 577.6,
+          "keyword_difficulty": 21,
+          "cpc": null,
+          "search_intent": "informational",
+          "ranking_url": "https://wassersfurniture.com/"
+        },
+        {
+          "keyword": "wasser furniture",
+          "position": 1,
+          "search_volume": 210,
+          "etv": 63.8,
+          "keyword_difficulty": 16,
+          "cpc": 4.28000020980835,
+          "search_intent": "navigational",
+          "ranking_url": "https://wassersfurniture.com/"
+        },
+        {
+          "keyword": "wassers furniture",
+          "position": 1,
+          "search_volume": 210,
+          "etv": 63.8,
+          "keyword_difficulty": 3,
+          "cpc": 4.28000020980835,
+          "search_intent": "navigational",
+          "ranking_url": "https://wassersfurniture.com/"
+        },
+        {
+          "keyword": "genuine leather ottoman",
+          "position": 8,
+          "search_volume": 480,
+          "etv": 9.5,
+          "keyword_difficulty": 0,
+          "cpc": 2.2300000190734863,
+          "search_intent": "transactional",
+          "ranking_url": "https://wassersfurniture.com/genuine-leather-ottomans-in-stock.html"
+        },
+        {
+          "keyword": "diva chandelier",
+          "position": 2,
+          "search_volume": 50,
+          "etv": 8.1,
+          "keyword_difficulty": 0,
+          "cpc": 1.4500000476837158,
+          "search_intent": "transactional",
+          "ranking_url": "https://wassersfurniture.com/regina-andrew-design-rad-diva-chandelier-grey-item-16-1037gry-free-shipping-no-tax.html"
+        },
+        {
+          "keyword": "mirror times",
+          "position": 5,
+          "search_volume": 110,
+          "etv": 5.2,
+          "keyword_difficulty": 16,
+          "cpc": 0.5099999904632568,
+          "search_intent": "informational",
+          "ranking_url": "https://wassersfurniture.com/products/times-mirror"
+        },
+        {
+          "keyword": "sonos connect:amp gen1",
+          "position": 9,
+          "search_volume": 320,
+          "etv": 4.8,
+          "keyword_difficulty": 0,
+          "cpc": 0.44999998807907104,
+          "search_intent": "transactional",
+          "ranking_url": "https://wassersfurniture.com/sonos-connect-amp.html"
+        },
+        {
+          "keyword": "tempur cloud luxe breeze king",
+          "position": 2,
+          "search_volume": 20,
+          "etv": 3.2,
+          "keyword_difficulty": 0,
+          "cpc": 8.640000343322754,
+          "search_intent": "transactional",
+          "ranking_url": "https://wassersfurniture.com/tempur-cloud-luxe-breeze.html"
+        },
+        {
+          "keyword": "tempur-cloud luxe breeze king",
+          "position": 2,
+          "search_volume": 20,
+          "etv": 3.2,
+          "keyword_difficulty": 0,
+          "cpc": 8.640000343322754,
+          "search_intent": "transactional",
+          "ranking_url": "https://wassersfurniture.com/tempur-cloud-luxe-breeze.html"
+        },
+        {
+          "keyword": "furniture store hallandale",
+          "position": 8,
+          "search_volume": 90,
+          "etv": 1.8,
+          "keyword_difficulty": 5,
+          "cpc": 2.799999952316284,
+          "search_intent": "navigational",
+          "ranking_url": "https://wassersfurniture.com/"
+        },
+        {
+          "keyword": "furniture store in hallandale fl",
+          "position": 10,
+          "search_volume": 90,
+          "etv": 1.0,
+          "keyword_difficulty": 5,
+          "cpc": 2.799999952316284,
+          "search_intent": "navigational",
+          "ranking_url": "https://wassersfurniture.com/"
+        },
+        {
+          "keyword": "furniture stores hallandale fl",
+          "position": 10,
+          "search_volume": 90,
+          "etv": 1.0,
+          "keyword_difficulty": 5,
+          "cpc": 2.799999952316284,
+          "search_intent": "navigational",
+          "ranking_url": "https://wassersfurniture.com/"
+        },
+        {
+          "keyword": "alligator leather chair",
+          "position": 8,
+          "search_volume": 50,
+          "etv": 1.0,
+          "keyword_difficulty": 0,
+          "cpc": 0.4000000059604645,
+          "search_intent": "transactional",
+          "ranking_url": "https://wassersfurniture.com/dining-chair-made-in-italy-in-stock-croc-embossed-leather.html"
+        },
+        {
+          "keyword": "naos coffee tables",
+          "position": 8,
+          "search_volume": 50,
+          "etv": 1.0,
+          "keyword_difficulty": 0,
+          "cpc": 1.2300000190734863,
+          "search_intent": "transactional",
+          "ranking_url": "https://wassersfurniture.com/naos-coffee-table-hula-motion-quickship.html"
+        },
+        {
+          "keyword": "american leather luxe",
+          "position": 8,
+          "search_volume": 40,
+          "etv": 0.8,
+          "keyword_difficulty": 0,
+          "cpc": 0.4399999976158142,
+          "search_intent": "navigational",
+          "ranking_url": "http://wassersfurniture.com/furniture/livingroom/american-leather-luxe.html"
+        },
+        {
+          "keyword": "w.s furniture",
+          "position": 9,
+          "search_volume": 50,
+          "etv": 0.8,
+          "keyword_difficulty": 23,
+          "cpc": 6.960000038146973,
+          "search_intent": "navigational",
+          "ranking_url": "https://wassersfurniture.com/"
+        },
+        {
+          "keyword": "luxe sofa american leather",
+          "position": 9,
+          "search_volume": 40,
+          "etv": 0.6,
+          "keyword_difficulty": 0,
+          "cpc": 3.7899999618530273,
+          "search_intent": "transactional",
+          "ranking_url": "http://wassersfurniture.com/furniture/livingroom/american-leather-luxe.html"
+        },
+        {
+          "keyword": "ws furniture",
+          "position": 10,
+          "search_volume": 50,
+          "etv": 0.6,
+          "keyword_difficulty": 36,
+          "cpc": 6.960000038146973,
+          "search_intent": "navigational",
+          "ranking_url": "https://wassersfurniture.com/"
+        },
+        {
+          "keyword": "romina new york crib",
+          "position": 7,
+          "search_volume": 20,
+          "etv": 0.5,
+          "keyword_difficulty": 0,
+          "cpc": 4.929999828338623,
+          "search_intent": "navigational",
+          "ranking_url": "https://wassersfurniture.com/romina-furniture-new-york-crib.html"
+        },
+        {
+          "keyword": "small wood bead chandelier",
+          "position": 10,
+          "search_volume": 20,
+          "etv": 0.2,
+          "keyword_difficulty": 0,
+          "cpc": 1.4600000381469727,
+          "search_intent": "transactional",
+          "ranking_url": "https://wassersfurniture.com/little-wasser-s-boho-wood-bead-chandelier.html"
+        }
+      ]
+    },
+    {
+      "domain": "modernmiami.com",
+      "organic_keywords": 12845,
+      "organic_traffic_est": 321412.6,
+      "traffic_value_usd": 744213.13,
+      "pos_1": 937,
+      "pos_2_3": 1405,
+      "pos_4_10": 1303,
+      "pos_11_20": 2147,
+      "pos_21_30": 2523,
+      "keywords_lost": 5146,
+      "keywords_new": 6031,
+      "domain_rank": 332,
+      "backlinks": 14620,
+      "referring_domains": 5215,
+      "referring_main_domains": 5191,
+      "referring_ips": 302,
+      "spam_score": 18,
+      "broken_pages": 2977,
+      "crawled_pages": 22162,
+      "first_seen": "2019-01-19 23:12:54 +00:00",
+      "top_keywords": [
+        {
+          "keyword": "modern coffee table",
+          "position": 1,
+          "search_volume": 33100,
+          "etv": 10062.4,
+          "keyword_difficulty": 0,
+          "cpc": 1.8700000047683716,
+          "search_intent": "transactional",
+          "ranking_url": "https://www.modernmiami.com/living-room/coffee-tables.html"
+        },
+        {
+          "keyword": "coffee table contemporary",
+          "position": 2,
+          "search_volume": 33100,
+          "etv": 5362.2,
+          "keyword_difficulty": 0,
+          "cpc": 1.8700000047683716,
+          "search_intent": "transactional",
+          "ranking_url": "https://www.modernmiami.com/living-room/coffee-tables.html"
+        },
+        {
+          "keyword": "coffee table modern style",
+          "position": 2,
+          "search_volume": 33100,
+          "etv": 5362.2,
+          "keyword_difficulty": 0,
+          "cpc": 1.8700000047683716,
+          "search_intent": "transactional",
+          "ranking_url": "https://www.modernmiami.com/living-room/coffee-tables.html"
+        },
+        {
+          "keyword": "modern coffee tables",
+          "position": 2,
+          "search_volume": 33100,
+          "etv": 5362.2,
+          "keyword_difficulty": 0,
+          "cpc": 1.8700000047683716,
+          "search_intent": "transactional",
+          "ranking_url": "https://www.modernmiami.com/living-room/coffee-tables.html"
+        },
+        {
+          "keyword": "marble table dining room",
+          "position": 1,
+          "search_volume": 12100,
+          "etv": 3678.4,
+          "keyword_difficulty": 0,
+          "cpc": 2.130000114440918,
+          "search_intent": "transactional",
+          "ranking_url": "https://www.modernmiami.com/dining-room/modern-dining/shopby/finish--marble.html"
+        },
+        {
+          "keyword": "glass dining table",
+          "position": 1,
+          "search_volume": 9900,
+          "etv": 3009.6,
+          "keyword_difficulty": 0,
+          "cpc": 1.5899999141693115,
+          "search_intent": "transactional",
+          "ranking_url": "https://www.modernmiami.com/dining-room/modern-dining/shopby/finish--glass.html"
+        },
+        {
+          "keyword": "glass tables dining",
+          "position": 1,
+          "search_volume": 9900,
+          "etv": 3009.6,
+          "keyword_difficulty": 0,
+          "cpc": 1.5899999141693115,
+          "search_intent": "informational",
+          "ranking_url": "https://www.modernmiami.com/dining-room/modern-dining/shopby/finish--glass.html"
+        },
+        {
+          "keyword": "kitchen glass table",
+          "position": 1,
+          "search_volume": 9900,
+          "etv": 3009.6,
+          "keyword_difficulty": 0,
+          "cpc": 1.5899999141693115,
+          "search_intent": "transactional",
+          "ranking_url": "https://www.modernmiami.com/dining-room/modern-dining/shopby/finish--glass.html"
+        },
+        {
+          "keyword": "modern bed sets",
+          "position": 1,
+          "search_volume": 9900,
+          "etv": 3009.6,
+          "keyword_difficulty": 0,
+          "cpc": 2.5199999809265137,
+          "search_intent": "transactional",
+          "ranking_url": "https://www.modernmiami.com/bedroom/bedroom-sets.html"
+        },
+        {
+          "keyword": "modern style bedroom set",
+          "position": 1,
+          "search_volume": 9900,
+          "etv": 3009.6,
+          "keyword_difficulty": 0,
+          "cpc": 2.5199999809265137,
+          "search_intent": "transactional",
+          "ranking_url": "https://www.modernmiami.com/bedroom/bedroom-sets.html"
+        },
+        {
+          "keyword": "tv stand contemporary",
+          "position": 2,
+          "search_volume": 18100,
+          "etv": 2932.2,
+          "keyword_difficulty": 0,
+          "cpc": 1.7100000381469727,
+          "search_intent": "transactional",
+          "ranking_url": "https://www.modernmiami.com/living-room/entertainment-center.html"
+        },
+        {
+          "keyword": "bedside tables contemporary",
+          "position": 1,
+          "search_volume": 8100,
+          "etv": 2462.4,
+          "keyword_difficulty": 0,
+          "cpc": 2.190000057220459,
+          "search_intent": "transactional",
+          "ranking_url": "https://www.modernmiami.com/bedroom/nightstands.html"
+        },
+        {
+          "keyword": "contemporary bedside cabinets",
+          "position": 1,
+          "search_volume": 8100,
+          "etv": 2462.4,
+          "keyword_difficulty": 1,
+          "cpc": 2.190000057220459,
+          "search_intent": "transactional",
+          "ranking_url": "https://www.modernmiami.com/bedroom/nightstands.html"
+        },
+        {
+          "keyword": "contemporary bedside tables",
+          "position": 1,
+          "search_volume": 8100,
+          "etv": 2462.4,
+          "keyword_difficulty": 0,
+          "cpc": 2.190000057220459,
+          "search_intent": "transactional",
+          "ranking_url": "https://www.modernmiami.com/bedroom/nightstands.html"
+        },
+        {
+          "keyword": "contemporary nightstand",
+          "position": 1,
+          "search_volume": 8100,
+          "etv": 2462.4,
+          "keyword_difficulty": 0,
+          "cpc": 2.190000057220459,
+          "search_intent": "transactional",
+          "ranking_url": "https://www.modernmiami.com/bedroom/nightstands.html"
+        },
+        {
+          "keyword": "modern contemporary bedside tables",
+          "position": 1,
+          "search_volume": 8100,
+          "etv": 2462.4,
+          "keyword_difficulty": 0,
+          "cpc": 2.190000057220459,
+          "search_intent": "transactional",
+          "ranking_url": "https://www.modernmiami.com/bedroom/nightstands.html"
+        },
+        {
+          "keyword": "black cocktail table",
+          "position": 2,
+          "search_volume": 14800,
+          "etv": 2397.6,
+          "keyword_difficulty": 0,
+          "cpc": 1.6399999856948853,
+          "search_intent": "transactional",
+          "ranking_url": "https://www.modernmiami.com/living-room/coffee-tables/shopby/color--black.html"
+        },
+        {
+          "keyword": "bedroom set modern",
+          "position": 1,
+          "search_volume": 6600,
+          "etv": 2006.4,
+          "keyword_difficulty": 0,
+          "cpc": 3.0299999713897705,
+          "search_intent": "transactional",
+          "ranking_url": "https://www.modernmiami.com/bedroom/bedroom-sets.html"
+        },
+        {
+          "keyword": "contemporary bedroom set",
+          "position": 1,
+          "search_volume": 6600,
+          "etv": 2006.4,
+          "keyword_difficulty": 0,
+          "cpc": 3.0299999713897705,
+          "search_intent": "transactional",
+          "ranking_url": "https://www.modernmiami.com/bedroom/bedroom-sets.html"
+        },
+        {
+          "keyword": "contemporary bedroom sets",
+          "position": 1,
+          "search_volume": 6600,
+          "etv": 2006.4,
+          "keyword_difficulty": 0,
+          "cpc": 3.0299999713897705,
+          "search_intent": "transactional",
+          "ranking_url": "https://www.modernmiami.com/bedroom/bedroom-sets.html"
+        }
+      ]
+    },
+    {
+      "domain": "addisonhouse.com",
+      "organic_keywords": 1338,
+      "organic_traffic_est": 11924.3,
+      "traffic_value_usd": 65620.7,
+      "pos_1": 44,
+      "pos_2_3": 61,
+      "pos_4_10": 142,
+      "pos_11_20": 256,
+      "pos_21_30": 276,
+      "keywords_lost": 511,
+      "keywords_new": 660,
+      "domain_rank": 173,
+      "backlinks": 720,
+      "referring_domains": 291,
+      "referring_main_domains": 278,
+      "referring_ips": 159,
+      "spam_score": 22,
+      "broken_pages": 44,
+      "crawled_pages": 5298,
+      "first_seen": "2019-04-21 01:09:08 +00:00",
+      "top_keywords": [
+        {
+          "keyword": "ditres",
+          "position": 3,
+          "search_volume": 60500,
+          "etv": 5886.6,
+          "keyword_difficulty": 13,
+          "cpc": 8.359999656677246,
+          "search_intent": "informational",
+          "ranking_url": "https://addisonhouse.com/collections/ditre-italia"
+        },
+        {
+          "keyword": "modern furniture design store",
+          "position": 6,
+          "search_volume": 12100,
+          "etv": 409.0,
+          "keyword_difficulty": 30,
+          "cpc": 4.300000190734863,
+          "search_intent": "navigational",
+          "ranking_url": "https://addisonhouse.com/"
+        },
+        {
+          "keyword": "addison house",
+          "position": 1,
+          "search_volume": 1300,
+          "etv": 395.2,
+          "keyword_difficulty": 0,
+          "cpc": 1.7400000095367432,
+          "search_intent": "navigational",
+          "ranking_url": "https://addisonhouse.com/"
+        },
+        {
+          "keyword": "addison home",
+          "position": 1,
+          "search_volume": 720,
+          "etv": 218.9,
+          "keyword_difficulty": 18,
+          "cpc": 1.559999942779541,
+          "search_intent": "navigational",
+          "ranking_url": "https://addisonhouse.com/"
+        },
+        {
+          "keyword": "entertainment centers and wall units",
+          "position": 5,
+          "search_volume": 4400,
+          "etv": 206.4,
+          "keyword_difficulty": 0,
+          "cpc": 1.8700000047683716,
+          "search_intent": "commercial",
+          "ranking_url": "https://addisonhouse.com/collections/living-room-entertainment-centers"
+        },
+        {
+          "keyword": "addison house design district",
+          "position": 1,
+          "search_volume": 590,
+          "etv": 179.4,
+          "keyword_difficulty": 0,
+          "cpc": 1.7300000190734863,
+          "search_intent": "navigational",
+          "ranking_url": "https://addisonhouse.com/"
+        },
+        {
+          "keyword": "high end furniture showrooms",
+          "position": 7,
+          "search_volume": 6600,
+          "etv": 169.0,
+          "keyword_difficulty": 32,
+          "cpc": 3.369999885559082,
+          "search_intent": "navigational",
+          "ranking_url": "https://addisonhouse.com/"
+        },
+        {
+          "keyword": "addison house aventura",
+          "position": 1,
+          "search_volume": 480,
+          "etv": 145.9,
+          "keyword_difficulty": 0,
+          "cpc": 1.7400000095367432,
+          "search_intent": "informational",
+          "ranking_url": "https://addisonhouse.com/"
+        },
+        {
+          "keyword": "addison's house",
+          "position": 3,
+          "search_volume": 1300,
+          "etv": 126.5,
+          "keyword_difficulty": 0,
+          "cpc": 1.7400000095367432,
+          "search_intent": "informational",
+          "ranking_url": "https://addisonhouse.com/pages/about-us"
+        },
+        {
+          "keyword": "wall units and entertainment centers",
+          "position": 7,
+          "search_volume": 4400,
+          "etv": 112.6,
+          "keyword_difficulty": 0,
+          "cpc": 1.8700000047683716,
+          "search_intent": "commercial",
+          "ranking_url": "https://addisonhouse.com/collections/living-room-entertainment-centers"
+        },
+        {
+          "keyword": "missoni home",
+          "position": 3,
+          "search_volume": 1000,
+          "etv": 97.3,
+          "keyword_difficulty": 0,
+          "cpc": 2.3499999046325684,
+          "search_intent": "navigational",
+          "ranking_url": "https://addisonhouse.com/collections/missoni"
+        },
+        {
+          "keyword": "addison house doral outlet",
+          "position": 1,
+          "search_volume": 320,
+          "etv": 97.3,
+          "keyword_difficulty": 0,
+          "cpc": 1.059999942779541,
+          "search_intent": "navigational",
+          "ranking_url": "https://addisonhouse.com/collections/outlet"
+        },
+        {
+          "keyword": "addison house miami",
+          "position": 1,
+          "search_volume": 320,
+          "etv": 97.3,
+          "keyword_difficulty": 0,
+          "cpc": 2.059999942779541,
+          "search_intent": "navigational",
+          "ranking_url": "https://addisonhouse.com/"
+        },
+        {
+          "keyword": "addison light",
+          "position": 1,
+          "search_volume": 260,
+          "etv": 79.0,
+          "keyword_difficulty": 0,
+          "cpc": 1.559999942779541,
+          "search_intent": "navigational",
+          "ranking_url": "https://addisonhouse.com/collections/lighting"
+        },
+        {
+          "keyword": "addison rugs",
+          "position": 3,
+          "search_volume": 720,
+          "etv": 70.1,
+          "keyword_difficulty": 0,
+          "cpc": 1.409999966621399,
+          "search_intent": "navigational",
+          "ranking_url": "https://addisonhouse.com/collections/living-room-rugs-amp-carpets"
+        },
+        {
+          "keyword": "furniture stores miami fl",
+          "position": 9,
+          "search_volume": 4400,
+          "etv": 66,
+          "keyword_difficulty": 6,
+          "cpc": 3.380000114440918,
+          "search_intent": "commercial",
+          "ranking_url": "https://addisonhouse.com/"
+        },
+        {
+          "keyword": "furniture stores doral fl",
+          "position": 1,
+          "search_volume": 210,
+          "etv": 63.8,
+          "keyword_difficulty": 0,
+          "cpc": 4.869999885559082,
+          "search_intent": "commercial",
+          "ranking_url": "https://addisonhouse.com/"
+        },
+        {
+          "keyword": "furniture stores in addison",
+          "position": 1,
+          "search_volume": 210,
+          "etv": 63.8,
+          "keyword_difficulty": 0,
+          "cpc": 2.8899998664855957,
+          "search_intent": "commercial",
+          "ranking_url": "https://addisonhouse.com/"
+        },
+        {
+          "keyword": "luxury furniture stores in miami",
+          "position": 1,
+          "search_volume": 210,
+          "etv": 63.8,
+          "keyword_difficulty": 0,
+          "cpc": 5.090000152587891,
+          "search_intent": "commercial",
+          "ranking_url": "https://addisonhouse.com/"
+        },
+        {
+          "keyword": "luxury furniture stores miami",
+          "position": 1,
+          "search_volume": 210,
+          "etv": 63.8,
+          "keyword_difficulty": 0,
+          "cpc": 5.090000152587891,
+          "search_intent": "commercial",
+          "ranking_url": "https://addisonhouse.com/"
+        }
+      ]
+    },
+    {
+      "domain": "mh2g.com",
+      "organic_keywords": 1714,
+      "organic_traffic_est": 12301.9,
+      "traffic_value_usd": 36905.82,
+      "pos_1": 26,
+      "pos_2_3": 58,
+      "pos_4_10": 230,
+      "pos_11_20": 305,
+      "pos_21_30": 344,
+      "keywords_lost": 827,
+      "keywords_new": 789,
+      "domain_rank": 252,
+      "backlinks": 1644,
+      "referring_domains": 815,
+      "referring_main_domains": 799,
+      "referring_ips": 474,
+      "spam_score": 17,
+      "broken_pages": 18,
+      "crawled_pages": 2958,
+      "first_seen": "2019-01-17 02:17:50 +00:00",
+      "top_keywords": [
+        {
+          "keyword": "contemporary white dresser",
+          "position": 1,
+          "search_volume": 6600,
+          "etv": 2006.4,
+          "keyword_difficulty": 0,
+          "cpc": 2.6500000953674316,
+          "search_intent": "transactional",
+          "ranking_url": "https://www.mh2g.com/Dressers-s/225.htm"
+        },
+        {
+          "keyword": "white chest of drawers contemporary",
+          "position": 2,
+          "search_volume": 6600,
+          "etv": 1069.2,
+          "keyword_difficulty": 0,
+          "cpc": 2.6500000953674316,
+          "search_intent": "transactional",
+          "ranking_url": "https://www.mh2g.com/Dressers-s/225.htm"
+        },
+        {
+          "keyword": "white contemporary dresser",
+          "position": 2,
+          "search_volume": 6600,
+          "etv": 1069.2,
+          "keyword_difficulty": 0,
+          "cpc": 2.6500000953674316,
+          "search_intent": "transactional",
+          "ranking_url": "https://www.mh2g.com/Dressers-s/225.htm"
+        },
+        {
+          "keyword": "modern white dresser",
+          "position": 3,
+          "search_volume": 6600,
+          "etv": 642.2,
+          "keyword_difficulty": 0,
+          "cpc": 2.6500000953674316,
+          "search_intent": "transactional",
+          "ranking_url": "https://www.mh2g.com/Dressers-s/225.htm"
+        },
+        {
+          "keyword": "wallpaper installation pricing",
+          "position": 3,
+          "search_volume": 3600,
+          "etv": 350.3,
+          "keyword_difficulty": 0,
+          "cpc": 4.460000038146973,
+          "search_intent": "commercial",
+          "ranking_url": "https://www.mh2g.com/product-p/wpi-r.htm"
+        },
+        {
+          "keyword": "mh2g furniture doral",
+          "position": 1,
+          "search_volume": 880,
+          "etv": 267.5,
+          "keyword_difficulty": 0,
+          "cpc": 5.809999942779541,
+          "search_intent": "navigational",
+          "ranking_url": "https://www.mh2g.com/"
+        },
+        {
+          "keyword": "wallpaper installation cost",
+          "position": 4,
+          "search_volume": 3600,
+          "etv": 237.2,
+          "keyword_difficulty": 0,
+          "cpc": 4.460000038146973,
+          "search_intent": "commercial",
+          "ranking_url": "https://www.mh2g.com/product-p/wpi-r.htm"
+        },
+        {
+          "keyword": "wallpaper installation prices",
+          "position": 4,
+          "search_volume": 3600,
+          "etv": 237.2,
+          "keyword_difficulty": 0,
+          "cpc": 4.460000038146973,
+          "search_intent": "commercial",
+          "ranking_url": "https://www.mh2g.com/product-p/wpi-r.htm"
+        },
+        {
+          "keyword": "mh2g furniture fort lauderdale",
+          "position": 1,
+          "search_volume": 720,
+          "etv": 218.9,
+          "keyword_difficulty": 1,
+          "cpc": 3.8899998664855957,
+          "search_intent": "navigational",
+          "ranking_url": "https://www.mh2g.com/"
+        },
+        {
+          "keyword": "sofa store miami",
+          "position": 6,
+          "search_volume": 4400,
+          "etv": 148.7,
+          "keyword_difficulty": 2,
+          "cpc": 3.380000114440918,
+          "search_intent": "transactional",
+          "ranking_url": "https://www.mh2g.com/"
+        },
+        {
+          "keyword": "modern miami furniture",
+          "position": 3,
+          "search_volume": 1300,
+          "etv": 126.5,
+          "keyword_difficulty": 4,
+          "cpc": 3.5799999237060547,
+          "search_intent": "commercial",
+          "ranking_url": "https://www.mh2g.com/"
+        },
+        {
+          "keyword": "furniture shop miami",
+          "position": 7,
+          "search_volume": 4400,
+          "etv": 112.6,
+          "keyword_difficulty": 0,
+          "cpc": 3.380000114440918,
+          "search_intent": "navigational",
+          "ranking_url": "https://www.mh2g.com/"
+        },
+        {
+          "keyword": "miami fl furniture stores",
+          "position": 7,
+          "search_volume": 4400,
+          "etv": 112.6,
+          "keyword_difficulty": 0,
+          "cpc": 3.380000114440918,
+          "search_intent": "commercial",
+          "ranking_url": "https://www.mh2g.com/"
+        },
+        {
+          "keyword": "white egg chair",
+          "position": 1,
+          "search_volume": 320,
+          "etv": 97.3,
+          "keyword_difficulty": 0,
+          "cpc": 1.3799999952316284,
+          "search_intent": "transactional",
+          "ranking_url": "https://www.mh2g.com/Egg-Chair-Outdoor-White-p/olf18400-001.htm"
+        },
+        {
+          "keyword": "modern furniture miami",
+          "position": 2,
+          "search_volume": 590,
+          "etv": 95.6,
+          "keyword_difficulty": 14,
+          "cpc": 6,
+          "search_intent": "commercial",
+          "ranking_url": "https://www.mh2g.com/"
+        },
+        {
+          "keyword": "mh2g",
+          "position": 1,
+          "search_volume": 260,
+          "etv": 79.0,
+          "keyword_difficulty": 1,
+          "cpc": 4.929999828338623,
+          "search_intent": "informational",
+          "ranking_url": "https://www.mh2g.com/"
+        },
+        {
+          "keyword": "mh2g furniture",
+          "position": 1,
+          "search_volume": 260,
+          "etv": 79.0,
+          "keyword_difficulty": 10,
+          "cpc": 4.329999923706055,
+          "search_intent": "navigational",
+          "ranking_url": "https://www.mh2g.com/"
+        },
+        {
+          "keyword": "wall television stand",
+          "position": 7,
+          "search_volume": 2900,
+          "etv": 74.2,
+          "keyword_difficulty": 0,
+          "cpc": 0.6800000071525574,
+          "search_intent": "transactional",
+          "ranking_url": "https://www.mh2g.com/Media-Wall-Units-s/91.htm"
+        },
+        {
+          "keyword": "sectional couch types",
+          "position": 2,
+          "search_volume": 390,
+          "etv": 63.2,
+          "keyword_difficulty": 0,
+          "cpc": 1.2300000190734863,
+          "search_intent": "informational",
+          "ranking_url": "https://www.mh2g.com/types-of-sectional-sofas-a/326.htm"
+        },
+        {
+          "keyword": "grass ball",
+          "position": 2,
+          "search_volume": 320,
+          "etv": 51.8,
+          "keyword_difficulty": 0,
+          "cpc": 0.6700000166893005,
+          "search_intent": "informational",
+          "ranking_url": "https://www.mh2g.com/Grass-Ball-Collection-p/tt-10065.htm"
+        }
+      ]
+    },
+    {
+      "domain": "scandesign.com",
+      "organic_keywords": 6136,
+      "organic_traffic_est": 112454.5,
+      "traffic_value_usd": 275511.58,
+      "pos_1": 331,
+      "pos_2_3": 474,
+      "pos_4_10": 621,
+      "pos_11_20": 1128,
+      "pos_21_30": 1106,
+      "keywords_lost": 3062,
+      "keywords_new": 2740,
+      "domain_rank": 279,
+      "backlinks": 1799,
+      "referring_domains": 309,
+      "referring_main_domains": 291,
+      "referring_ips": 264,
+      "spam_score": 21,
+      "broken_pages": 204,
+      "crawled_pages": 8879,
+      "first_seen": "2019-02-22 12:27:27 +00:00",
+      "top_keywords": [
+        {
+          "keyword": "table console",
+          "position": 3,
+          "search_volume": 110000,
+          "etv": 10703,
+          "keyword_difficulty": 0,
+          "cpc": 1.600000023841858,
+          "search_intent": "transactional",
+          "ranking_url": "https://www.scandesign.com/collections/console-tables"
+        },
+        {
+          "keyword": "dining chairs contemporary",
+          "position": 1,
+          "search_volume": 14800,
+          "etv": 4499.2,
+          "keyword_difficulty": 0,
+          "cpc": 3.0799999237060547,
+          "search_intent": "transactional",
+          "ranking_url": "https://www.scandesign.com/collections/dining-chairs"
+        },
+        {
+          "keyword": "contemporary console table",
+          "position": 1,
+          "search_volume": 12100,
+          "etv": 3678.4,
+          "keyword_difficulty": 4,
+          "cpc": 2.130000114440918,
+          "search_intent": "transactional",
+          "ranking_url": "https://www.scandesign.com/collections/console-tables"
+        },
+        {
+          "keyword": "bar stools contemporary",
+          "position": 1,
+          "search_volume": 9900,
+          "etv": 3009.6,
+          "keyword_difficulty": 0,
+          "cpc": 3.240000009536743,
+          "search_intent": "transactional",
+          "ranking_url": "https://www.scandesign.com/collections/kitchen-bar"
+        },
+        {
+          "keyword": "accent chair modern style",
+          "position": 2,
+          "search_volume": 18100,
+          "etv": 2932.2,
+          "keyword_difficulty": 0,
+          "cpc": 2.0999999046325684,
+          "search_intent": "transactional",
+          "ranking_url": "https://www.scandesign.com/collections/accent-chairs"
+        },
+        {
+          "keyword": "contemporary accent chairs",
+          "position": 2,
+          "search_volume": 18100,
+          "etv": 2932.2,
+          "keyword_difficulty": 0,
+          "cpc": 2.0999999046325684,
+          "search_intent": "transactional",
+          "ranking_url": "https://www.scandesign.com/collections/accent-chairs"
+        },
+        {
+          "keyword": "contemporary dresser for bedroom",
+          "position": 1,
+          "search_volume": 8100,
+          "etv": 2462.4,
+          "keyword_difficulty": 0,
+          "cpc": 2.4000000953674316,
+          "search_intent": "transactional",
+          "ranking_url": "https://www.scandesign.com/collections/dressers-chests"
+        },
+        {
+          "keyword": "scan design",
+          "position": 1,
+          "search_volume": 8100,
+          "etv": 2462.4,
+          "keyword_difficulty": 5,
+          "cpc": 2.9000000953674316,
+          "search_intent": "commercial",
+          "ranking_url": "https://www.scandesign.com/"
+        },
+        {
+          "keyword": "contemporary chairs dining",
+          "position": 2,
+          "search_volume": 14800,
+          "etv": 2397.6,
+          "keyword_difficulty": 0,
+          "cpc": 3.0799999237060547,
+          "search_intent": "transactional",
+          "ranking_url": "https://www.scandesign.com/collections/dining-chairs"
+        },
+        {
+          "keyword": "contemporary dining room chairs",
+          "position": 2,
+          "search_volume": 14800,
+          "etv": 2397.6,
+          "keyword_difficulty": 0,
+          "cpc": 3.0799999237060547,
+          "search_intent": "transactional",
+          "ranking_url": "https://www.scandesign.com/collections/dining-chairs"
+        },
+        {
+          "keyword": "dining contemporary chairs",
+          "position": 2,
+          "search_volume": 14800,
+          "etv": 2397.6,
+          "keyword_difficulty": 0,
+          "cpc": 3.0799999237060547,
+          "search_intent": "transactional",
+          "ranking_url": "https://www.scandesign.com/collections/dining-chairs"
+        },
+        {
+          "keyword": "dining room chairs contemporary",
+          "position": 2,
+          "search_volume": 14800,
+          "etv": 2397.6,
+          "keyword_difficulty": 0,
+          "cpc": 3.0799999237060547,
+          "search_intent": "transactional",
+          "ranking_url": "https://www.scandesign.com/collections/dining-chairs"
+        },
+        {
+          "keyword": "modern table console",
+          "position": 2,
+          "search_volume": 12100,
+          "etv": 1960.2,
+          "keyword_difficulty": 0,
+          "cpc": 2.130000114440918,
+          "search_intent": "transactional",
+          "ranking_url": "https://www.scandesign.com/collections/console-tables"
+        },
+        {
+          "keyword": "scan design furniture",
+          "position": 1,
+          "search_volume": 5400,
+          "etv": 1641.6,
+          "keyword_difficulty": 0,
+          "cpc": 2.2899999618530273,
+          "search_intent": "informational",
+          "ranking_url": "https://www.scandesign.com/collections/furniture"
+        },
+        {
+          "keyword": "leather dining armchairs",
+          "position": 2,
+          "search_volume": 9900,
+          "etv": 1603.8,
+          "keyword_difficulty": 0,
+          "cpc": 3.0299999713897705,
+          "search_intent": "transactional",
+          "ranking_url": "https://www.scandesign.com/collections/dining-chairs/leather"
+        },
+        {
+          "keyword": "dining room chairs walnut",
+          "position": 1,
+          "search_volume": 4400,
+          "etv": 1337.6,
+          "keyword_difficulty": 0,
+          "cpc": 3.5299999713897705,
+          "search_intent": "navigational",
+          "ranking_url": "https://www.scandesign.com/collections/dining-room/walnut"
+        },
+        {
+          "keyword": "platform queen size bed",
+          "position": 2,
+          "search_volume": 8100,
+          "etv": 1312.2,
+          "keyword_difficulty": 0,
+          "cpc": 1.7699999809265137,
+          "search_intent": "transactional",
+          "ranking_url": "https://www.scandesign.com/collections/beds/queen-size"
+        },
+        {
+          "keyword": "entryway table contemporary",
+          "position": 3,
+          "search_volume": 12100,
+          "etv": 1177.3,
+          "keyword_difficulty": 6,
+          "cpc": 1.6600000858306885,
+          "search_intent": "transactional",
+          "ranking_url": "https://www.scandesign.com/collections/console-tables"
+        },
+        {
+          "keyword": "sideboard walnut",
+          "position": 1,
+          "search_volume": 3600,
+          "etv": 1094.4,
+          "keyword_difficulty": 0,
+          "cpc": 2.5399999618530273,
+          "search_intent": "transactional",
+          "ranking_url": "https://www.scandesign.com/products/nordic-sideboard-walnut"
+        },
+        {
+          "keyword": "sofa table contemporary",
+          "position": 1,
+          "search_volume": 2900,
+          "etv": 881.6,
+          "keyword_difficulty": 0,
+          "cpc": 2,
+          "search_intent": "transactional",
+          "ranking_url": "https://www.scandesign.com/collections/console-tables"
+        }
+      ]
+    },
+    {
+      "domain": "camerichmiami.com",
+      "organic_keywords": 181,
+      "organic_traffic_est": 419.4,
+      "traffic_value_usd": 11895.18,
+      "pos_1": 2,
+      "pos_2_3": 2,
+      "pos_4_10": 22,
+      "pos_11_20": 22,
+      "pos_21_30": 44,
+      "keywords_lost": 54,
+      "keywords_new": 92,
+      "domain_rank": 55,
+      "backlinks": 82,
+      "referring_domains": 53,
+      "referring_main_domains": 46,
+      "referring_ips": 30,
+      "spam_score": 27,
+      "broken_pages": 165,
+      "crawled_pages": 333,
+      "first_seen": "2020-02-18 10:21:21 +00:00",
+      "top_keywords": [
+        {
+          "keyword": "camerich aventura",
+          "position": 1,
+          "search_volume": 260,
+          "etv": 79.0,
+          "keyword_difficulty": 0,
+          "cpc": 128.3000030517578,
+          "search_intent": "informational",
+          "ranking_url": "https://www.camerichmiami.com/"
+        },
+        {
+          "keyword": "camerich",
+          "position": 3,
+          "search_volume": 390,
+          "etv": 37.9,
+          "keyword_difficulty": 6,
+          "cpc": 16.079999923706055,
+          "search_intent": "informational",
+          "ranking_url": "https://www.camerichmiami.com/"
+        },
+        {
+          "keyword": "camerich furniture",
+          "position": 2,
+          "search_volume": 210,
+          "etv": 34.0,
+          "keyword_difficulty": 6,
+          "cpc": 5.619999885559082,
+          "search_intent": "navigational",
+          "ranking_url": "https://www.camerichmiami.com/"
+        },
+        {
+          "keyword": "camerich miami",
+          "position": 1,
+          "search_volume": 70,
+          "etv": 21.3,
+          "keyword_difficulty": 3,
+          "cpc": 6.25,
+          "search_intent": "navigational",
+          "ranking_url": "https://www.camerichmiami.com/"
+        },
+        {
+          "keyword": "furniture store aventura",
+          "position": 5,
+          "search_volume": 260,
+          "etv": 12.2,
+          "keyword_difficulty": 0,
+          "cpc": 3.7899999618530273,
+          "search_intent": "navigational",
+          "ranking_url": "https://www.camerichmiami.com/"
+        },
+        {
+          "keyword": "furniture stores aventura",
+          "position": 6,
+          "search_volume": 260,
+          "etv": 8.8,
+          "keyword_difficulty": 0,
+          "cpc": 3.7899999618530273,
+          "search_intent": "navigational",
+          "ranking_url": "https://www.camerichmiami.com/"
+        },
+        {
+          "keyword": "aventura furniture stores",
+          "position": 7,
+          "search_volume": 260,
+          "etv": 6.7,
+          "keyword_difficulty": 0,
+          "cpc": 3.7899999618530273,
+          "search_intent": "navigational",
+          "ranking_url": "https://www.camerichmiami.com/"
+        },
+        {
+          "keyword": "damo table lamp",
+          "position": 5,
+          "search_volume": 110,
+          "etv": 5.2,
+          "keyword_difficulty": 0,
+          "cpc": 1.5399999618530273,
+          "search_intent": "transactional",
+          "ranking_url": "https://www.camerichmiami.com/product-page/damo-simple-table-lamp"
+        },
+        {
+          "keyword": "aventura furniture store",
+          "position": 8,
+          "search_volume": 260,
+          "etv": 5.1,
+          "keyword_difficulty": 0,
+          "cpc": 3.7899999618530273,
+          "search_intent": "navigational",
+          "ranking_url": "https://www.camerichmiami.com/"
+        },
+        {
+          "keyword": "modern furniture stores in miami florida",
+          "position": 7,
+          "search_volume": 170,
+          "etv": 4.4,
+          "keyword_difficulty": 8,
+          "cpc": 3.9000000953674316,
+          "search_intent": "commercial",
+          "ranking_url": "https://www.camerichmiami.com/"
+        },
+        {
+          "keyword": "contemporary furniture stores in miami fl",
+          "position": 10,
+          "search_volume": 170,
+          "etv": 1.9,
+          "keyword_difficulty": 0,
+          "cpc": 3.9000000953674316,
+          "search_intent": "commercial",
+          "ranking_url": "https://www.camerichmiami.com/"
+        },
+        {
+          "keyword": "miami contemporary furniture stores",
+          "position": 10,
+          "search_volume": 170,
+          "etv": 1.9,
+          "keyword_difficulty": 4,
+          "cpc": 3.9000000953674316,
+          "search_intent": "navigational",
+          "ranking_url": "https://www.camerichmiami.com/"
+        },
+        {
+          "keyword": "modern furniture stores in miami fl",
+          "position": 10,
+          "search_volume": 170,
+          "etv": 1.9,
+          "keyword_difficulty": 8,
+          "cpc": 3.9000000953674316,
+          "search_intent": "commercial",
+          "ranking_url": "https://www.camerichmiami.com/"
+        },
+        {
+          "keyword": "contemporary furniture miami",
+          "position": 5,
+          "search_volume": 40,
+          "etv": 1.9,
+          "keyword_difficulty": 11,
+          "cpc": 2.619999885559082,
+          "search_intent": "navigational",
+          "ranking_url": "https://www.camerichmiami.com/"
+        },
+        {
+          "keyword": "damo simple table lamp",
+          "position": 5,
+          "search_volume": 40,
+          "etv": 1.9,
+          "keyword_difficulty": 0,
+          "cpc": 2.069999933242798,
+          "search_intent": "transactional",
+          "ranking_url": "https://www.camerichmiami.com/product-page/damo-simple-table-lamp"
+        },
+        {
+          "keyword": "camerich echo chair",
+          "position": 7,
+          "search_volume": 70,
+          "etv": 1.8,
+          "keyword_difficulty": 0,
+          "cpc": 2.299999952316284,
+          "search_intent": "transactional",
+          "ranking_url": "https://www.camerichmiami.com/product-page/echo-chair"
+        },
+        {
+          "keyword": "modern furniture aventura",
+          "position": 5,
+          "search_volume": 30,
+          "etv": 1.4,
+          "keyword_difficulty": 0,
+          "cpc": 4.779999732971191,
+          "search_intent": "navigational",
+          "ranking_url": "https://www.camerichmiami.com/"
+        },
+        {
+          "keyword": "apollo lamps",
+          "position": 8,
+          "search_volume": 70,
+          "etv": 1.4,
+          "keyword_difficulty": 0,
+          "cpc": 5.199999809265137,
+          "search_intent": "navigational",
+          "ranking_url": "https://www.camerichmiami.com/product-page/apollo-mega-floor-lamp"
+        },
+        {
+          "keyword": "contemporary furniture in miami",
+          "position": 7,
+          "search_volume": 40,
+          "etv": 1.0,
+          "keyword_difficulty": 0,
+          "cpc": 2.619999885559082,
+          "search_intent": "commercial",
+          "ranking_url": "https://www.camerichmiami.com/"
+        },
+        {
+          "keyword": "miami modern furniture stores",
+          "position": 6,
+          "search_volume": 30,
+          "etv": 1.0,
+          "keyword_difficulty": 0,
+          "cpc": 10.600000381469727,
+          "search_intent": "navigational",
+          "ranking_url": "https://www.camerichmiami.com/"
+        }
+      ]
+    },
+    {
+      "domain": "habitusfurniture.com",
+      "organic_keywords": 436,
+      "organic_traffic_est": 1503.1,
+      "traffic_value_usd": 5327.85,
+      "pos_1": 8,
+      "pos_2_3": 25,
+      "pos_4_10": 71,
+      "pos_11_20": 83,
+      "pos_21_30": 66,
+      "keywords_lost": 177,
+      "keywords_new": 246,
+      "domain_rank": 147,
+      "backlinks": 373,
+      "referring_domains": 131,
+      "referring_main_domains": 123,
+      "referring_ips": 79,
+      "spam_score": 29,
+      "broken_pages": 12,
+      "crawled_pages": 774,
+      "first_seen": "2019-08-24 14:00:56 +00:00",
+      "top_keywords": [
+        {
+          "keyword": "modern miami furniture",
+          "position": 2,
+          "search_volume": 1300,
+          "etv": 210.6,
+          "keyword_difficulty": 4,
+          "cpc": 3.5799999237060547,
+          "search_intent": "commercial",
+          "ranking_url": "https://habitusfurniture.com/collections/modern-miami"
+        },
+        {
+          "keyword": "miami modern furniture",
+          "position": 2,
+          "search_volume": 590,
+          "etv": 95.6,
+          "keyword_difficulty": 2,
+          "cpc": 6,
+          "search_intent": "navigational",
+          "ranking_url": "https://habitusfurniture.com/collections/modern-miami"
+        },
+        {
+          "keyword": "contemporary bedroom",
+          "position": 5,
+          "search_volume": 1900,
+          "etv": 89.1,
+          "keyword_difficulty": 11,
+          "cpc": 3.3899998664855957,
+          "search_intent": "informational",
+          "ranking_url": "https://habitusfurniture.com/blogs/noticias/how-to-design-a-contemporary-style-bedroom-step-by-step-guide"
+        },
+        {
+          "keyword": "gogo chairs",
+          "position": 3,
+          "search_volume": 880,
+          "etv": 85.6,
+          "keyword_difficulty": 0,
+          "cpc": 1.7300000190734863,
+          "search_intent": "transactional",
+          "ranking_url": "https://habitusfurniture.com/products/gogo-chair-set-of-4"
+        },
+        {
+          "keyword": "habitus aventura",
+          "position": 1,
+          "search_volume": 210,
+          "etv": 63.8,
+          "keyword_difficulty": 0,
+          "cpc": 2.4700000286102295,
+          "search_intent": "informational",
+          "ranking_url": "https://habitusfurniture.com/pages/habitus-aventura"
+        },
+        {
+          "keyword": "habitus furniture",
+          "position": 1,
+          "search_volume": 210,
+          "etv": 63.8,
+          "keyword_difficulty": 0,
+          "cpc": 3.9100000858306885,
+          "search_intent": "navigational",
+          "ranking_url": "https://habitusfurniture.com/"
+        },
+        {
+          "keyword": "habitus doral",
+          "position": 1,
+          "search_volume": 170,
+          "etv": 51.7,
+          "keyword_difficulty": 0,
+          "cpc": 8.289999961853027,
+          "search_intent": "informational",
+          "ranking_url": "https://habitusfurniture.com/"
+        },
+        {
+          "keyword": "modern miami",
+          "position": 4,
+          "search_volume": 720,
+          "etv": 47.4,
+          "keyword_difficulty": 13,
+          "cpc": 4.230000019073486,
+          "search_intent": "informational",
+          "ranking_url": "https://habitusfurniture.com/collections/modern-miami"
+        },
+        {
+          "keyword": "paris bar stool",
+          "position": 1,
+          "search_volume": 140,
+          "etv": 42.6,
+          "keyword_difficulty": 0,
+          "cpc": 2.1600000858306885,
+          "search_intent": "transactional",
+          "ranking_url": "https://habitusfurniture.com/products/paris-counter-stool"
+        },
+        {
+          "keyword": "square mirror coffee table",
+          "position": 2,
+          "search_volume": 260,
+          "etv": 42.1,
+          "keyword_difficulty": 0,
+          "cpc": 0.7799999713897705,
+          "search_intent": "transactional",
+          "ranking_url": "https://habitusfurniture.com/products/reflex-mirrored-square-coffee-table"
+        },
+        {
+          "keyword": "gogo chair",
+          "position": 5,
+          "search_volume": 880,
+          "etv": 41.3,
+          "keyword_difficulty": 0,
+          "cpc": 1.7300000190734863,
+          "search_intent": "transactional",
+          "ranking_url": "https://habitusfurniture.com/products/gogo-chair-set-of-4"
+        },
+        {
+          "keyword": "oval concrete table",
+          "position": 1,
+          "search_volume": 90,
+          "etv": 27.4,
+          "keyword_difficulty": 0,
+          "cpc": 2.740000009536743,
+          "search_intent": "transactional",
+          "ranking_url": "https://habitusfurniture.com/products/podium-oval-concrete-dining-table"
+        },
+        {
+          "keyword": "aventura furniture stores",
+          "position": 3,
+          "search_volume": 260,
+          "etv": 25.3,
+          "keyword_difficulty": 0,
+          "cpc": 3.7899999618530273,
+          "search_intent": "navigational",
+          "ranking_url": "https://habitusfurniture.com/"
+        },
+        {
+          "keyword": "modern miami furniture store",
+          "position": 3,
+          "search_volume": 210,
+          "etv": 20.4,
+          "keyword_difficulty": 20,
+          "cpc": 3.130000114440918,
+          "search_intent": "navigational",
+          "ranking_url": "https://habitusfurniture.com/collections/modern-miami"
+        },
+        {
+          "keyword": "modern furniture miami",
+          "position": 6,
+          "search_volume": 590,
+          "etv": 19.9,
+          "keyword_difficulty": 14,
+          "cpc": 6,
+          "search_intent": "commercial",
+          "ranking_url": "https://habitusfurniture.com/collections/modern-miami"
+        },
+        {
+          "keyword": "furniture store aventura",
+          "position": 4,
+          "search_volume": 260,
+          "etv": 17.1,
+          "keyword_difficulty": 0,
+          "cpc": 3.7899999618530273,
+          "search_intent": "navigational",
+          "ranking_url": "https://habitusfurniture.com/"
+        },
+        {
+          "keyword": "furniture stores aventura",
+          "position": 4,
+          "search_volume": 260,
+          "etv": 17.1,
+          "keyword_difficulty": 0,
+          "cpc": 3.7899999618530273,
+          "search_intent": "navigational",
+          "ranking_url": "https://habitusfurniture.com/"
+        },
+        {
+          "keyword": "mirror square table",
+          "position": 1,
+          "search_volume": 50,
+          "etv": 15.2,
+          "keyword_difficulty": 0,
+          "cpc": 0.6100000143051147,
+          "search_intent": "transactional",
+          "ranking_url": "https://habitusfurniture.com/products/reflex-mirrored-square-coffee-table"
+        },
+        {
+          "keyword": "oval concrete dining table",
+          "position": 2,
+          "search_volume": 90,
+          "etv": 14.6,
+          "keyword_difficulty": 0,
+          "cpc": 3.1600000858306885,
+          "search_intent": "transactional",
+          "ranking_url": "https://habitusfurniture.com/products/podium-oval-concrete-dining-table"
+        },
+        {
+          "keyword": "contemporary bedroom design",
+          "position": 8,
+          "search_volume": 720,
+          "etv": 14.2,
+          "keyword_difficulty": 12,
+          "cpc": 1.6100000143051147,
+          "search_intent": "informational",
+          "ranking_url": "https://habitusfurniture.com/blogs/noticias/how-to-design-a-contemporary-style-bedroom-step-by-step-guide"
+        }
+      ]
+    },
+    {
+      "domain": "baers.com",
+      "organic_keywords": 13127,
+      "organic_traffic_est": 316118.9,
+      "traffic_value_usd": 668740.33,
+      "pos_1": 605,
+      "pos_2_3": 1416,
+      "pos_4_10": 2597,
+      "pos_11_20": 2410,
+      "pos_21_30": 2089,
+      "keywords_lost": 11405,
+      "keywords_new": 7212,
+      "domain_rank": 351,
+      "backlinks": 10935,
+      "referring_domains": 1029,
+      "referring_main_domains": 1009,
+      "referring_ips": 518,
+      "spam_score": 22,
+      "broken_pages": 242,
+      "crawled_pages": 249,
+      "first_seen": "2019-01-16 10:33:07 +00:00",
+      "top_keywords": [
+        {
+          "keyword": "furniture stores near me",
+          "position": 10,
+          "search_volume": 1000000,
+          "etv": 11300,
+          "keyword_difficulty": 3,
+          "cpc": 4.230000019073486,
+          "search_intent": "commercial",
+          "ranking_url": "https://www.baers.com/"
+        },
+        {
+          "keyword": "end tables",
+          "position": 2,
+          "search_volume": 60500,
+          "etv": 9801,
+          "keyword_difficulty": 8,
+          "cpc": 1.2899999618530273,
+          "search_intent": "transactional",
+          "ranking_url": "https://www.baers.com/browse/accent-tables/end-tables/75"
+        },
+        {
+          "keyword": "armchair for dining room",
+          "position": 2,
+          "search_volume": 40500,
+          "etv": 6561,
+          "keyword_difficulty": 0,
+          "cpc": 2.2200000286102295,
+          "search_intent": "transactional",
+          "ranking_url": "https://www.baers.com/browse/dining-room/chairs/43?n_pid=386289169"
+        },
+        {
+          "keyword": "curio and cabinets",
+          "position": 2,
+          "search_volume": 40500,
+          "etv": 6561,
+          "keyword_difficulty": 0,
+          "cpc": 0.9100000262260437,
+          "search_intent": "navigational",
+          "ranking_url": "https://www.baers.com/browse?pid=929727323"
+        },
+        {
+          "keyword": "curios and cabinets",
+          "position": 2,
+          "search_volume": 40500,
+          "etv": 6561,
+          "keyword_difficulty": 1,
+          "cpc": 0.9100000262260437,
+          "search_intent": "navigational",
+          "ranking_url": "https://www.baers.com/browse?pid=929727323"
+        },
+        {
+          "keyword": "b a e r s furniture",
+          "position": 1,
+          "search_volume": 14800,
+          "etv": 4499.2,
+          "keyword_difficulty": 0,
+          "cpc": 1.649999976158142,
+          "search_intent": "navigational",
+          "ranking_url": "https://www.baers.com/"
+        },
+        {
+          "keyword": "baer furniture",
+          "position": 1,
+          "search_volume": 14800,
+          "etv": 4499.2,
+          "keyword_difficulty": 0,
+          "cpc": 1.649999976158142,
+          "search_intent": "navigational",
+          "ranking_url": "https://www.baers.com/"
+        },
+        {
+          "keyword": "baer's",
+          "position": 1,
+          "search_volume": 14800,
+          "etv": 4499.2,
+          "keyword_difficulty": 0,
+          "cpc": 1.2000000476837158,
+          "search_intent": "informational",
+          "ranking_url": "https://www.baers.com/"
+        },
+        {
+          "keyword": "baer's furniture",
+          "position": 1,
+          "search_volume": 14800,
+          "etv": 4499.2,
+          "keyword_difficulty": 1,
+          "cpc": 1.649999976158142,
+          "search_intent": "navigational",
+          "ranking_url": "https://www.baers.com/"
+        },
+        {
+          "keyword": "cocktail table marble",
+          "position": 2,
+          "search_volume": 27100,
+          "etv": 4390.2,
+          "keyword_difficulty": 0,
+          "cpc": 1.7100000381469727,
+          "search_intent": "transactional",
+          "ranking_url": "https://www.baers.com/browse/accent-tables/cocktail-tables/76?n_665324823%5b%5d=199832886"
+        },
+        {
+          "keyword": "curio cabinets",
+          "position": 3,
+          "search_volume": 40500,
+          "etv": 3940.6,
+          "keyword_difficulty": 0,
+          "cpc": 0.9100000262260437,
+          "search_intent": "transactional",
+          "ranking_url": "https://www.baers.com/browse?pid=929727323"
+        },
+        {
+          "keyword": "baers furniture company inc",
+          "position": 1,
+          "search_volume": 9900,
+          "etv": 3009.6,
+          "keyword_difficulty": 6,
+          "cpc": 2.4100000858306885,
+          "search_intent": "navigational",
+          "ranking_url": "https://www.baers.com/"
+        },
+        {
+          "keyword": "leather accent chair",
+          "position": 1,
+          "search_volume": 9900,
+          "etv": 3009.6,
+          "keyword_difficulty": 0,
+          "cpc": 3.1500000953674316,
+          "search_intent": "transactional",
+          "ranking_url": "https://www.baers.com/browse/accent-chairs/608?n_-1016731037=-1317483307"
+        },
+        {
+          "keyword": "ottoman cocktail table",
+          "position": 2,
+          "search_volume": 18100,
+          "etv": 2932.2,
+          "keyword_difficulty": 0,
+          "cpc": 1.4700000286102295,
+          "search_intent": "transactional",
+          "ranking_url": "https://www.baers.com/browse/living-room/ottomans/34?n_-1618748700%5b%5d=-1419926398"
+        },
+        {
+          "keyword": "baer",
+          "position": 2,
+          "search_volume": 14800,
+          "etv": 2397.6,
+          "keyword_difficulty": 17,
+          "cpc": 1.2000000476837158,
+          "search_intent": "informational",
+          "ranking_url": "https://www.baers.com/"
+        },
+        {
+          "keyword": "d ax",
+          "position": 7,
+          "search_volume": 90500,
+          "etv": 2316.8,
+          "keyword_difficulty": 43,
+          "cpc": 2.1500000953674316,
+          "search_intent": "informational",
+          "ranking_url": "https://www.baers.com/brand/chateau-d'ax/-188409567"
+        },
+        {
+          "keyword": "glass cocktail table",
+          "position": 3,
+          "search_volume": 22200,
+          "etv": 2160.1,
+          "keyword_difficulty": 0,
+          "cpc": 1.4199999570846558,
+          "search_intent": "transactional",
+          "ranking_url": "https://www.baers.com/browse/accent-tables/cocktail-tables/76?n_665324823%5b%5d=1863897927"
+        },
+        {
+          "keyword": "recliner that swivels",
+          "position": 2,
+          "search_volume": 12100,
+          "etv": 1960.2,
+          "keyword_difficulty": 0,
+          "cpc": 1.9300000667572021,
+          "search_intent": "transactional",
+          "ranking_url": "https://www.baers.com/browse/living-room/recliners/36?n_-1070342577%5b%5d=1807855884"
+        },
+        {
+          "keyword": "recliners that swivel",
+          "position": 2,
+          "search_volume": 12100,
+          "etv": 1960.2,
+          "keyword_difficulty": 0,
+          "cpc": 1.9300000667572021,
+          "search_intent": "transactional",
+          "ranking_url": "https://www.baers.com/browse/living-room/recliners/36?n_-1070342577%5b%5d=1807855884"
+        },
+        {
+          "keyword": "ottoman cocktail tables",
+          "position": 3,
+          "search_volume": 18100,
+          "etv": 1761.1,
+          "keyword_difficulty": 0,
+          "cpc": 1.4700000286102295,
+          "search_intent": "commercial",
+          "ranking_url": "https://www.baers.com/browse/living-room/ottomans/34?n_-1618748700[]=-1419926398"
+        }
+      ]
+    },
+    {
+      "domain": "cityfurniture.com",
+      "organic_keywords": 15822,
+      "organic_traffic_est": 553714.9,
+      "traffic_value_usd": 1423315.85,
+      "pos_1": 410,
+      "pos_2_3": 504,
+      "pos_4_10": 1922,
+      "pos_11_20": 2854,
+      "pos_21_30": 2838,
+      "keywords_lost": 26824,
+      "keywords_new": 11145,
+      "domain_rank": 307,
+      "backlinks": 11967,
+      "referring_domains": 2707,
+      "referring_main_domains": 2564,
+      "referring_ips": 1572,
+      "spam_score": 19,
+      "broken_pages": 683,
+      "crawled_pages": 1323,
+      "first_seen": "2019-01-16 14:34:43 +00:00",
+      "top_keywords": [
+        {
+          "keyword": "furnitures",
+          "position": 1,
+          "search_volume": 301000,
+          "etv": 91504,
+          "keyword_difficulty": 53,
+          "cpc": 2.940000057220459,
+          "search_intent": "commercial",
+          "ranking_url": "https://www.cityfurniture.com/"
+        },
+        {
+          "keyword": "and furniture stores",
+          "position": 2,
+          "search_volume": 550000,
+          "etv": 89100,
+          "keyword_difficulty": 54,
+          "cpc": 3.2699999809265137,
+          "search_intent": "commercial",
+          "ranking_url": "https://www.cityfurniture.com/"
+        },
+        {
+          "keyword": "city furniture",
+          "position": 1,
+          "search_volume": 246000,
+          "etv": 74784,
+          "keyword_difficulty": 5,
+          "cpc": 1.5299999713897705,
+          "search_intent": "navigational",
+          "ranking_url": "https://www.cityfurniture.com/"
+        },
+        {
+          "keyword": "furniture sectional",
+          "position": 4,
+          "search_volume": 246000,
+          "etv": 16211.4,
+          "keyword_difficulty": 0,
+          "cpc": 1.7599999904632568,
+          "search_intent": "transactional",
+          "ranking_url": "https://www.cityfurniture.com/browse/living-room/sectionals"
+        },
+        {
+          "keyword": "furniture superstore",
+          "position": 8,
+          "search_volume": 550000,
+          "etv": 10835,
+          "keyword_difficulty": 0,
+          "cpc": 3.2699999809265137,
+          "search_intent": "navigational",
+          "ranking_url": "https://www.cityfurniture.com/"
+        },
+        {
+          "keyword": "value city furniture",
+          "position": 8,
+          "search_volume": 450000,
+          "etv": 8865,
+          "keyword_difficulty": 1,
+          "cpc": 1.7999999523162842,
+          "search_intent": "commercial",
+          "ranking_url": "https://www.cityfurniture.com/"
+        },
+        {
+          "keyword": "furniture retail chains",
+          "position": 2,
+          "search_volume": 40500,
+          "etv": 6561,
+          "keyword_difficulty": 3,
+          "cpc": null,
+          "search_intent": "commercial",
+          "ranking_url": "https://www.cityfurniture.com/"
+        },
+        {
+          "keyword": "home furnishing retail stores",
+          "position": 5,
+          "search_volume": 135000,
+          "etv": 6331.5,
+          "keyword_difficulty": 81,
+          "cpc": 1.4199999570846558,
+          "search_intent": "commercial",
+          "ranking_url": "https://www.cityfurniture.com/"
+        },
+        {
+          "keyword": "couch and sectional",
+          "position": 7,
+          "search_volume": 246000,
+          "etv": 6297.6,
+          "keyword_difficulty": 0,
+          "cpc": 1.7599999904632568,
+          "search_intent": "informational",
+          "ranking_url": "https://www.cityfurniture.com/browse/living-room/sectionals"
+        },
+        {
+          "keyword": "city furniture near me",
+          "position": 1,
+          "search_volume": 18100,
+          "etv": 5502.4,
+          "keyword_difficulty": 0,
+          "cpc": 2.759999990463257,
+          "search_intent": "transactional",
+          "ranking_url": "https://www.cityfurniture.com/stores"
+        },
+        {
+          "keyword": "home furnishing retail",
+          "position": 6,
+          "search_volume": 135000,
+          "etv": 4563,
+          "keyword_difficulty": 91,
+          "cpc": 1.4199999570846558,
+          "search_intent": "navigational",
+          "ranking_url": "https://www.cityfurniture.com/"
+        },
+        {
+          "keyword": "sectional furniture sofa",
+          "position": 5,
+          "search_volume": 90500,
+          "etv": 4244.5,
+          "keyword_difficulty": 2,
+          "cpc": 2.049999952316284,
+          "search_intent": "transactional",
+          "ranking_url": "https://www.cityfurniture.com/browse/living-room/sectionals"
+        },
+        {
+          "keyword": "sofa and beds",
+          "position": 7,
+          "search_volume": 165000,
+          "etv": 4224,
+          "keyword_difficulty": 0,
+          "cpc": 1.4700000286102295,
+          "search_intent": "transactional",
+          "ranking_url": "https://www.cityfurniture.com/browse/living-room/sleepers"
+        },
+        {
+          "keyword": "sofa and bed",
+          "position": 8,
+          "search_volume": 165000,
+          "etv": 3250.5,
+          "keyword_difficulty": 0,
+          "cpc": 1.4700000286102295,
+          "search_intent": "transactional",
+          "ranking_url": "https://www.cityfurniture.com/browse/living-room/sleepers"
+        },
+        {
+          "keyword": "sofa for living area",
+          "position": 3,
+          "search_volume": 33100,
+          "etv": 3220.6,
+          "keyword_difficulty": 2,
+          "cpc": 1.7799999713897705,
+          "search_intent": "transactional",
+          "ranking_url": "https://www.cityfurniture.com/living-room"
+        },
+        {
+          "keyword": "alton dining",
+          "position": 1,
+          "search_volume": 9900,
+          "etv": 3009.6,
+          "keyword_difficulty": 0,
+          "cpc": 0.8299999833106995,
+          "search_intent": "navigational",
+          "ranking_url": "https://www.cityfurniture.com/product/4070448/alton-light-tone-rect-trestle-table"
+        },
+        {
+          "keyword": "sectional couch sectional",
+          "position": 10,
+          "search_volume": 246000,
+          "etv": 2779.8,
+          "keyword_difficulty": 0,
+          "cpc": 1.7599999904632568,
+          "search_intent": "transactional",
+          "ranking_url": "https://www.cityfurniture.com/browse/living-room/sectionals"
+        },
+        {
+          "keyword": "home furnishings retailers",
+          "position": 8,
+          "search_volume": 135000,
+          "etv": 2659.5,
+          "keyword_difficulty": 81,
+          "cpc": 1.4199999570846558,
+          "search_intent": "commercial",
+          "ranking_url": "https://www.cityfurniture.com/"
+        },
+        {
+          "keyword": "settee with bed",
+          "position": 9,
+          "search_volume": 165000,
+          "etv": 2475,
+          "keyword_difficulty": 16,
+          "cpc": 1.4700000286102295,
+          "search_intent": "informational",
+          "ranking_url": "https://www.cityfurniture.com/browse/living-room/sleepers"
+        },
+        {
+          "keyword": "central florida furniture stores",
+          "position": 1,
+          "search_volume": 8100,
+          "etv": 2462.4,
+          "keyword_difficulty": 8,
+          "cpc": 3.009999990463257,
+          "search_intent": "commercial",
+          "ranking_url": "https://www.cityfurniture.com/stores/orlando-and-central-fl-furniture"
+        }
+      ]
+    },
+    {
+      "domain": "eldoradofurniture.com",
+      "organic_keywords": 18881,
+      "organic_traffic_est": 284918.0,
+      "traffic_value_usd": 597798.48,
+      "pos_1": 700,
+      "pos_2_3": 885,
+      "pos_4_10": 2725,
+      "pos_11_20": 4075,
+      "pos_21_30": 3740,
+      "keywords_lost": 12756,
+      "keywords_new": 10819,
+      "domain_rank": 332,
+      "backlinks": 13765,
+      "referring_domains": 3243,
+      "referring_main_domains": 3033,
+      "referring_ips": 806,
+      "spam_score": 20,
+      "broken_pages": 989,
+      "crawled_pages": 20562,
+      "first_seen": "2019-02-20 19:09:08 +00:00",
+      "top_keywords": [
+        {
+          "keyword": "el dorado",
+          "position": 6,
+          "search_volume": 823000,
+          "etv": 27817.4,
+          "keyword_difficulty": 62,
+          "cpc": 0.09000000357627869,
+          "search_intent": "informational",
+          "ranking_url": "https://www.eldoradofurniture.com/"
+        },
+        {
+          "keyword": "twin bed beds",
+          "position": 3,
+          "search_volume": 165000,
+          "etv": 16054.5,
+          "keyword_difficulty": 0,
+          "cpc": 1.3700000047683716,
+          "search_intent": "transactional",
+          "ranking_url": "https://www.eldoradofurniture.com/beds-and-bedrooms/twin-beds/"
+        },
+        {
+          "keyword": "el dorado furniture",
+          "position": 1,
+          "search_volume": 40500,
+          "etv": 12312,
+          "keyword_difficulty": 18,
+          "cpc": 0.9800000190734863,
+          "search_intent": "navigational",
+          "ranking_url": "https://www.eldoradofurniture.com/"
+        },
+        {
+          "keyword": "eldorado furniture",
+          "position": 1,
+          "search_volume": 40500,
+          "etv": 12312,
+          "keyword_difficulty": 13,
+          "cpc": 0.9800000190734863,
+          "search_intent": "navigational",
+          "ranking_url": "https://www.eldoradofurniture.com/"
+        },
+        {
+          "keyword": "bar furniture with stools",
+          "position": 4,
+          "search_volume": 165000,
+          "etv": 10873.5,
+          "keyword_difficulty": 0,
+          "cpc": 2.4600000381469727,
+          "search_intent": "transactional",
+          "ranking_url": "https://www.eldoradofurniture.com/bars-bar-stools-and-pubs/pub-sets/"
+        },
+        {
+          "keyword": "tempur pedic",
+          "position": 7,
+          "search_volume": 165000,
+          "etv": 4224,
+          "keyword_difficulty": 10,
+          "cpc": 7.199999809265137,
+          "search_intent": "informational",
+          "ranking_url": "https://www.eldoradofurniture.com/mattresses/tempur-pedic%C2%AE/"
+        },
+        {
+          "keyword": "tempur-pedic",
+          "position": 7,
+          "search_volume": 165000,
+          "etv": 4224,
+          "keyword_difficulty": 10,
+          "cpc": 7.199999809265137,
+          "search_intent": "navigational",
+          "ranking_url": "https://www.eldoradofurniture.com/mattresses/tempur-pedic%C2%AE/"
+        },
+        {
+          "keyword": "full size beds",
+          "position": 6,
+          "search_volume": 110000,
+          "etv": 3718,
+          "keyword_difficulty": 0,
+          "cpc": 1.6600000858306885,
+          "search_intent": "transactional",
+          "ranking_url": "https://www.eldoradofurniture.com/beds-and-bedrooms/full-beds/"
+        },
+        {
+          "keyword": "couch sofa leather",
+          "position": 3,
+          "search_volume": 33100,
+          "etv": 3220.6,
+          "keyword_difficulty": 0,
+          "cpc": 2.990000009536743,
+          "search_intent": "transactional",
+          "ranking_url": "https://www.eldoradofurniture.com/leather-sofa-styles/"
+        },
+        {
+          "keyword": "sofa and leather",
+          "position": 3,
+          "search_volume": 33100,
+          "etv": 3220.6,
+          "keyword_difficulty": 0,
+          "cpc": 2.990000009536743,
+          "search_intent": "transactional",
+          "ranking_url": "https://www.eldoradofurniture.com/leather-furniture/leather-sofas/"
+        },
+        {
+          "keyword": "sofa for lounge room",
+          "position": 3,
+          "search_volume": 33100,
+          "etv": 3220.6,
+          "keyword_difficulty": 0,
+          "cpc": 1.7799999713897705,
+          "search_intent": "transactional",
+          "ranking_url": "https://www.eldoradofurniture.com/living-rooms/sofas/"
+        },
+        {
+          "keyword": "el dorado furniture near me",
+          "position": 1,
+          "search_volume": 9900,
+          "etv": 3009.6,
+          "keyword_difficulty": 0,
+          "cpc": 2.4800000190734863,
+          "search_intent": "navigational",
+          "ranking_url": "https://www.eldoradofurniture.com/"
+        },
+        {
+          "keyword": "el dorado near me",
+          "position": 1,
+          "search_volume": 9900,
+          "etv": 3009.6,
+          "keyword_difficulty": 0,
+          "cpc": 2.4800000190734863,
+          "search_intent": "navigational",
+          "ranking_url": "https://www.eldoradofurniture.com/stores/"
+        },
+        {
+          "keyword": "leather sectional couch",
+          "position": 2,
+          "search_volume": 14800,
+          "etv": 2397.6,
+          "keyword_difficulty": 0,
+          "cpc": 2.4600000381469727,
+          "search_intent": "transactional",
+          "ranking_url": "https://www.eldoradofurniture.com/leather-furniture/leather-sectional-sofas/"
+        },
+        {
+          "keyword": "leather sofa and sectionals",
+          "position": 2,
+          "search_volume": 12100,
+          "etv": 1960.2,
+          "keyword_difficulty": 0,
+          "cpc": 2.5999999046325684,
+          "search_intent": "transactional",
+          "ranking_url": "https://www.eldoradofurniture.com/leather-sofa-styles/"
+        },
+        {
+          "keyword": "queen size bed and frame",
+          "position": 10,
+          "search_volume": 165000,
+          "etv": 1864.5,
+          "keyword_difficulty": 0,
+          "cpc": 1.6200000047683716,
+          "search_intent": "transactional",
+          "ranking_url": "https://www.eldoradofurniture.com/beds-and-bedrooms/queen-beds/"
+        },
+        {
+          "keyword": "leather sectional",
+          "position": 4,
+          "search_volume": 27100,
+          "etv": 1785.9,
+          "keyword_difficulty": 0,
+          "cpc": 2.3499999046325684,
+          "search_intent": "transactional",
+          "ranking_url": "https://www.eldoradofurniture.com/leather-furniture/leather-sectional-sofas/"
+        },
+        {
+          "keyword": "tempur pedic mattress",
+          "position": 7,
+          "search_volume": 60500,
+          "etv": 1548.8,
+          "keyword_difficulty": 5,
+          "cpc": 8.069999694824219,
+          "search_intent": "transactional",
+          "ranking_url": "https://www.eldoradofurniture.com/mattresses/tempur-pedic%C2%AE/"
+        },
+        {
+          "keyword": "furniture leather sectional",
+          "position": 3,
+          "search_volume": 14800,
+          "etv": 1440.0,
+          "keyword_difficulty": 0,
+          "cpc": 2.4600000381469727,
+          "search_intent": "transactional",
+          "ranking_url": "https://www.eldoradofurniture.com/leather-furniture/leather-sectional-sofas/"
+        },
+        {
+          "keyword": "fort myers florida furniture stores",
+          "position": 1,
+          "search_volume": 4400,
+          "etv": 1337.6,
+          "keyword_difficulty": 0,
+          "cpc": 4,
+          "search_intent": "navigational",
+          "ranking_url": "https://www.eldoradofurniture.com/stores/fort-myers/lee/fort-myers-boulevard/"
+        }
+      ]
+    },
+    {
+      "domain": "modani.com",
+      "organic_keywords": 14052,
+      "organic_traffic_est": 902290.3,
+      "traffic_value_usd": 2273773.05,
+      "pos_1": 1059,
+      "pos_2_3": 848,
+      "pos_4_10": 1309,
+      "pos_11_20": 2306,
+      "pos_21_30": 2615,
+      "keywords_lost": 11057,
+      "keywords_new": 6571,
+      "domain_rank": 298,
+      "backlinks": 10268,
+      "referring_domains": 1279,
+      "referring_main_domains": 1243,
+      "referring_ips": 743,
+      "spam_score": 13,
+      "broken_pages": 566,
+      "crawled_pages": 4051,
+      "first_seen": "2019-01-19 15:26:27 +00:00",
+      "top_keywords": [
+        {
+          "keyword": "and coffee tables",
+          "position": 1,
+          "search_volume": 246000,
+          "etv": 74784,
+          "keyword_difficulty": 0,
+          "cpc": 1.4600000381469727,
+          "search_intent": "commercial",
+          "ranking_url": "https://modani.com/collections/coffee-side-tables"
+        },
+        {
+          "keyword": "sofa",
+          "position": 1,
+          "search_volume": 201000,
+          "etv": 61104,
+          "keyword_difficulty": 5,
+          "cpc": 1.9500000476837158,
+          "search_intent": "transactional",
+          "ranking_url": "https://modani.com/collections/sofas"
+        },
+        {
+          "keyword": "beds",
+          "position": 2,
+          "search_volume": 368000,
+          "etv": 59616,
+          "keyword_difficulty": 17,
+          "cpc": 3.619999885559082,
+          "search_intent": "transactional",
+          "ranking_url": "https://modani.com/collections/beds"
+        },
+        {
+          "keyword": "dining furniture table",
+          "position": 1,
+          "search_volume": 135000,
+          "etv": 41040,
+          "keyword_difficulty": 0,
+          "cpc": 1.9100000858306885,
+          "search_intent": "transactional",
+          "ranking_url": "https://modani.com/collections/dining-tables"
+        },
+        {
+          "keyword": "coffee tables",
+          "position": 2,
+          "search_volume": 246000,
+          "etv": 39852,
+          "keyword_difficulty": 0,
+          "cpc": 1.4600000381469727,
+          "search_intent": "transactional",
+          "ranking_url": "https://modani.com/collections/coffee-side-tables"
+        },
+        {
+          "keyword": "couch",
+          "position": 6,
+          "search_volume": 550000,
+          "etv": 18590,
+          "keyword_difficulty": 36,
+          "cpc": 1.809999942779541,
+          "search_intent": "transactional",
+          "ranking_url": "https://modani.com/collections/sofas"
+        },
+        {
+          "keyword": "modern furniture",
+          "position": 1,
+          "search_volume": 60500,
+          "etv": 18392,
+          "keyword_difficulty": 11,
+          "cpc": 4.059999942779541,
+          "search_intent": "transactional",
+          "ranking_url": "https://modani.com/collections/living"
+        },
+        {
+          "keyword": "modern furnitures",
+          "position": 1,
+          "search_volume": 60500,
+          "etv": 18392,
+          "keyword_difficulty": 6,
+          "cpc": 4.059999942779541,
+          "search_intent": "transactional",
+          "ranking_url": "https://modani.com/collections/living"
+        },
+        {
+          "keyword": "chairs for dining",
+          "position": 2,
+          "search_volume": 90500,
+          "etv": 14661,
+          "keyword_difficulty": 0,
+          "cpc": 2.509999990463257,
+          "search_intent": "transactional",
+          "ranking_url": "https://modani.com/collections/dining-chairs"
+        },
+        {
+          "keyword": "bed",
+          "position": 6,
+          "search_volume": 368000,
+          "etv": 12438.4,
+          "keyword_difficulty": 3,
+          "cpc": 3.619999885559082,
+          "search_intent": "informational",
+          "ranking_url": "https://modani.com/collections/beds"
+        },
+        {
+          "keyword": "cocktail table modern",
+          "position": 1,
+          "search_volume": 33100,
+          "etv": 10062.4,
+          "keyword_difficulty": 0,
+          "cpc": 1.8700000047683716,
+          "search_intent": "transactional",
+          "ranking_url": "https://modani.com/collections/coffee-side-tables"
+        },
+        {
+          "keyword": "coffee table contemporary",
+          "position": 1,
+          "search_volume": 33100,
+          "etv": 10062.4,
+          "keyword_difficulty": 0,
+          "cpc": 1.8700000047683716,
+          "search_intent": "transactional",
+          "ranking_url": "https://modani.com/collections/coffee-side-tables"
+        },
+        {
+          "keyword": "coffee table modern style",
+          "position": 1,
+          "search_volume": 33100,
+          "etv": 10062.4,
+          "keyword_difficulty": 0,
+          "cpc": 1.8700000047683716,
+          "search_intent": "transactional",
+          "ranking_url": "https://modani.com/collections/coffee-side-tables"
+        },
+        {
+          "keyword": "modern coffee tables",
+          "position": 1,
+          "search_volume": 33100,
+          "etv": 10062.4,
+          "keyword_difficulty": 0,
+          "cpc": 1.8700000047683716,
+          "search_intent": "transactional",
+          "ranking_url": "https://modani.com/collections/coffee-side-tables"
+        },
+        {
+          "keyword": "chair dining chair",
+          "position": 3,
+          "search_volume": 90500,
+          "etv": 8805.7,
+          "keyword_difficulty": 0,
+          "cpc": 2.509999990463257,
+          "search_intent": "transactional",
+          "ranking_url": "https://modani.com/collections/dining-chairs"
+        },
+        {
+          "keyword": "living room couch sofa",
+          "position": 2,
+          "search_volume": 33100,
+          "etv": 5362.2,
+          "keyword_difficulty": 0,
+          "cpc": 1.7799999713897705,
+          "search_intent": "transactional",
+          "ranking_url": "https://modani.com/collections/sofas"
+        },
+        {
+          "keyword": "modern coffee table",
+          "position": 2,
+          "search_volume": 33100,
+          "etv": 5362.2,
+          "keyword_difficulty": 0,
+          "cpc": 1.8700000047683716,
+          "search_intent": "transactional",
+          "ranking_url": "https://modani.com/collections/coffee-side-tables"
+        },
+        {
+          "keyword": "furnitures in bedroom",
+          "position": 4,
+          "search_volume": 74000,
+          "etv": 4876.6,
+          "keyword_difficulty": 0,
+          "cpc": 2.4600000381469727,
+          "search_intent": "transactional",
+          "ranking_url": "https://modani.com/collections/bedroom"
+        },
+        {
+          "keyword": "chairs dining room modern",
+          "position": 1,
+          "search_volume": 14800,
+          "etv": 4499.2,
+          "keyword_difficulty": 0,
+          "cpc": 3.0799999237060547,
+          "search_intent": "transactional",
+          "ranking_url": "https://modani.com/collections/dining-chairs"
+        },
+        {
+          "keyword": "contemporary chairs dining",
+          "position": 1,
+          "search_volume": 14800,
+          "etv": 4499.2,
+          "keyword_difficulty": 0,
+          "cpc": 3.0799999237060547,
+          "search_intent": "transactional",
+          "ranking_url": "https://modani.com/collections/dining-chairs"
+        }
+      ]
+    }
+  ]
+}

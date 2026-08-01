@@ -1,0 +1,107 @@
+{
+  "version": "0.1.20260731",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "0.2179 sec.",
+  "cost": 0.024036,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "08012114-1561-0265-0000-ef44a227cb0e",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "0.1891 sec.",
+      "cost": 0.024036,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "backlinks",
+        "summary",
+        "live"
+      ],
+      "data": {
+        "api": "backlinks",
+        "function": "summary",
+        "target": "mh2g.com",
+        "internal_list_limit": 5,
+        "include_subdomains": true,
+        "backlinks_status_type": "live"
+      },
+      "result": [
+        {
+          "target": "mh2g.com",
+          "first_seen": "2019-01-17 02:17:50 +00:00",
+          "lost_date": null,
+          "rank": 252,
+          "backlinks": 1644,
+          "backlinks_spam_score": 17,
+          "crawled_pages": 2958,
+          "info": {
+            "server": "cloudflare",
+            "cms": null,
+            "platform_type": [
+              "organization"
+            ],
+            "ip_address": "172.66.0.114",
+            "country": "WW",
+            "is_ip": false,
+            "target_spam_score": 2
+          },
+          "internal_links_count": 134470,
+          "external_links_count": 15695,
+          "broken_backlinks": 0,
+          "broken_pages": 18,
+          "referring_domains": 815,
+          "referring_domains_nofollow": 123,
+          "referring_main_domains": 799,
+          "referring_main_domains_nofollow": 120,
+          "referring_ips": 474,
+          "referring_subnets": 377,
+          "referring_pages": 1474,
+          "referring_pages_nofollow": 288,
+          "referring_links_tld": {
+            "com": 801,
+            "blogspot.com": 352,
+            "net": 81,
+            "web.app": 68,
+            "co": 31
+          },
+          "referring_links_types": {
+            "anchor": 999,
+            "image": 471,
+            "redirect": 4
+          },
+          "referring_links_attributes": {
+            "nofollow": 288,
+            "noopener": 233,
+            "noreferrer": 69,
+            "external": 24,
+            "ugc": 20
+          },
+          "referring_links_platform_types": {
+            "blogs": 747,
+            "unknown": 595,
+            "organization": 453,
+            "cms": 411,
+            "news": 31
+          },
+          "referring_links_semantic_locations": {
+            "": 523,
+            "article": 513,
+            "aside": 216,
+            "main": 114,
+            "section": 90
+          },
+          "referring_links_countries": {
+            "": 950,
+            "US": 266,
+            "WW": 117,
+            "CO": 31,
+            "RU": 25
+          }
+        }
+      ]
+    }
+  ]
+}

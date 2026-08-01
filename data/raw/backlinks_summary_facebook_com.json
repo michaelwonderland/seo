@@ -1,0 +1,130 @@
+{
+  "version": "0.1.20260731",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "0.0190 sec.",
+  "cost": 0.024036,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "08012106-1561-0265-0000-1595c0ec59fa",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "0.0082 sec.",
+      "cost": 0.024036,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "backlinks",
+        "summary",
+        "live"
+      ],
+      "data": {
+        "api": "backlinks",
+        "function": "summary",
+        "target": "facebook.com",
+        "internal_list_limit": 10,
+        "include_subdomains": true,
+        "backlinks_status_type": "live"
+      },
+      "result": [
+        {
+          "target": "facebook.com",
+          "first_seen": "2019-01-15 22:55:33 +00:00",
+          "lost_date": null,
+          "rank": 1000,
+          "backlinks": 60210798208,
+          "backlinks_spam_score": 8,
+          "crawled_pages": 971030,
+          "info": {
+            "server": "proxygen-bolt",
+            "cms": null,
+            "platform_type": null,
+            "ip_address": "57.144.248.141",
+            "country": "DE",
+            "is_ip": false,
+            "target_spam_score": 2
+          },
+          "internal_links_count": 1024300,
+          "external_links_count": 71700,
+          "broken_backlinks": 6476437,
+          "broken_pages": 718219,
+          "referring_domains": 36947084,
+          "referring_domains_nofollow": 3962061,
+          "referring_main_domains": 31905279,
+          "referring_main_domains_nofollow": 3352798,
+          "referring_ips": 3901582,
+          "referring_subnets": 846295,
+          "referring_pages": 46219539760,
+          "referring_pages_nofollow": 474086153,
+          "referring_links_tld": {
+            "com": 19914711120,
+            "org": 1564674368,
+            "net": 1519314240,
+            "de": 1335584720,
+            "blogspot.com": 1142121552,
+            "com.br": 957257360,
+            "it": 889635440,
+            "pl": 881172784,
+            "co.uk": 762089280,
+            "fr": 716867504
+          },
+          "referring_links_types": {
+            "anchor": 36173478928,
+            "image": 10024966928,
+            "redirect": 20839232,
+            "alternate": 137664,
+            "canonical": 117008
+          },
+          "referring_links_attributes": {
+            "noopener": 9219200624,
+            "nofollow": 7560473904,
+            "noreferrer": 5473003024,
+            "external": 760945840,
+            "ugc": 35507408,
+            "sponsored": 14168800,
+            "author": 10971504,
+            "alternate": 10739872,
+            "index": 2528112,
+            "bookmark": 1321936
+          },
+          "referring_links_platform_types": {
+            "unknown": 20813751536,
+            "organization": 14126151232,
+            "blogs": 9091606544,
+            "cms": 8548200048,
+            "ecommerce": 6193498208,
+            "news": 3821234656,
+            "message-boards": 313353136,
+            "wikis": 16666352
+          },
+          "referring_links_semantic_locations": {
+            "": 14366915056,
+            "footer": 13328701696,
+            "section": 5040923312,
+            "header": 3377892624,
+            "article": 3114409712,
+            "nav": 2999036048,
+            "main": 1915100512,
+            "aside": 1706414992,
+            "details": 290474976,
+            "figure": 70420352
+          },
+          "referring_links_countries": {
+            "": 11966174928,
+            "US": 5821100048,
+            "WW": 3691029760,
+            "DE": 2041705392,
+            "FR": 1438529472,
+            "GB": 1354761152,
+            "IN": 1324584800,
+            "BR": 1267238144,
+            "IT": 1060958912,
+            "PL": 1037461104
+          }
+        }
+      ]
+    }
+  ]
+}

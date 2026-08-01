@@ -1,0 +1,108 @@
+{
+  "version": "0.1.20260731",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "0.2489 sec.",
+  "cost": 0.024036,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "08012113-1561-0265-0000-71f860c8a593",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "0.2421 sec.",
+      "cost": 0.024036,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "backlinks",
+        "summary",
+        "live"
+      ],
+      "data": {
+        "api": "backlinks",
+        "function": "summary",
+        "target": "ironhorsehome.com",
+        "internal_list_limit": 5,
+        "include_subdomains": true,
+        "backlinks_status_type": "live"
+      },
+      "result": [
+        {
+          "target": "ironhorsehome.com",
+          "first_seen": "2021-09-16 02:11:43 +00:00",
+          "lost_date": null,
+          "rank": 136,
+          "backlinks": 1337,
+          "backlinks_spam_score": 2,
+          "crawled_pages": 1370,
+          "info": {
+            "server": "cloudflare",
+            "cms": "wordpress",
+            "platform_type": [
+              "cms",
+              "blogs",
+              "organization"
+            ],
+            "ip_address": "104.18.37.69",
+            "country": "US",
+            "is_ip": false,
+            "target_spam_score": 0
+          },
+          "internal_links_count": 86522,
+          "external_links_count": 1282,
+          "broken_backlinks": 135,
+          "broken_pages": 70,
+          "referring_domains": 83,
+          "referring_domains_nofollow": 27,
+          "referring_main_domains": 77,
+          "referring_main_domains_nofollow": 25,
+          "referring_ips": 59,
+          "referring_subnets": 55,
+          "referring_pages": 1282,
+          "referring_pages_nofollow": 68,
+          "referring_links_tld": {
+            "info": 1132,
+            "com": 97,
+            "net": 9,
+            "co": 8,
+            "blogspot.com": 7
+          },
+          "referring_links_types": {
+            "canonical": 1081,
+            "anchor": 152,
+            "image": 49
+          },
+          "referring_links_attributes": {
+            "nofollow": 68,
+            "noopener": 42,
+            "noreferrer": 8,
+            "ugc": 2
+          },
+          "referring_links_platform_types": {
+            "unknown": 104,
+            "blogs": 86,
+            "cms": 77,
+            "organization": 57,
+            "ecommerce": 4
+          },
+          "referring_links_semantic_locations": {
+            "": 1161,
+            "section": 61,
+            "nav": 22,
+            "main": 18,
+            "article": 13
+          },
+          "referring_links_countries": {
+            "": 1213,
+            "US": 34,
+            "WW": 12,
+            "CO": 8,
+            "AU": 5
+          }
+        }
+      ]
+    }
+  ]
+}

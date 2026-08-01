@@ -1,0 +1,40 @@
+{
+  "version": "0.1.20260731",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "20.7250 sec.",
+  "cost": 0.01,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "08012108-1561-0139-0000-61be623647c3",
+      "status_code": 40101,
+      "status_message": "Internal SE Server Error.",
+      "time": "20.6562 sec.",
+      "cost": 0.01,
+      "result_count": 0,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "site:wassersfurniture.com",
+        "location_code": 2840,
+        "language_code": "en",
+        "depth": 100,
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": null
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "version": "0.1.20260731",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "0.2301 sec.",
+  "cost": 0.024036,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "08012114-1561-0265-0000-a0240238c067",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "0.2208 sec.",
+      "cost": 0.024036,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "backlinks",
+        "summary",
+        "live"
+      ],
+      "data": {
+        "api": "backlinks",
+        "function": "summary",
+        "target": "baers.com",
+        "internal_list_limit": 5,
+        "include_subdomains": true,
+        "backlinks_status_type": "live"
+      },
+      "result": [
+        {
+          "target": "baers.com",
+          "first_seen": "2019-01-16 10:33:07 +00:00",
+          "lost_date": null,
+          "rank": 351,
+          "backlinks": 10935,
+          "backlinks_spam_score": 22,
+          "crawled_pages": 249,
+          "info": {
+            "server": "awselb/2.0",
+            "cms": null,
+            "platform_type": [
+              "unknown"
+            ],
+            "ip_address": "44.227.77.15",
+            "country": "US",
+            "is_ip": false,
+            "target_spam_score": 0
+          },
+          "internal_links_count": 1,
+          "external_links_count": 0,
+          "broken_backlinks": 2778,
+          "broken_pages": 242,
+          "referring_domains": 1029,
+          "referring_domains_nofollow": 252,
+          "referring_main_domains": 1009,
+          "referring_main_domains_nofollow": 244,
+          "referring_ips": 518,
+          "referring_subnets": 392,
+          "referring_pages": 10103,
+          "referring_pages_nofollow": 1749,
+          "referring_links_tld": {
+            "com": 6206,
+            "blogspot.com": 2669,
+            "ru": 361,
+            "house": 170,
+            "org": 133
+          },
+          "referring_links_types": {
+            "anchor": 7028,
+            "image": 3051,
+            "redirect": 24
+          },
+          "referring_links_attributes": {
+            "nofollow": 1748,
+            "noopener": 1653,
+            "noreferrer": 875,
+            "external": 479,
+            "ugc": 448
+          },
+          "referring_links_platform_types": {
+            "blogs": 7009,
+            "unknown": 1853,
+            "organization": 952,
+            "cms": 922,
+            "ecommerce": 473
+          },
+          "referring_links_semantic_locations": {
+            "": 7139,
+            "article": 1936,
+            "main": 348,
+            "section": 306,
+            "aside": 247
+          },
+          "referring_links_countries": {
+            "": 7706,
+            "US": 1091,
+            "WW": 449,
+            "RU": 361,
+            "AU": 73
+          }
+        }
+      ]
+    }
+  ]
+}

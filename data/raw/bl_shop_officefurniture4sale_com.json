@@ -1,0 +1,88 @@
+{
+  "version": "0.1.20260731",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "0.1941 sec.",
+  "cost": 0.024036,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "08012113-1561-0265-0000-893492dd904e",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "0.1886 sec.",
+      "cost": 0.024036,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "backlinks",
+        "summary",
+        "live"
+      ],
+      "data": {
+        "api": "backlinks",
+        "function": "summary",
+        "target": "shop.officefurniture4sale.com",
+        "internal_list_limit": 5,
+        "include_subdomains": true,
+        "backlinks_status_type": "live"
+      },
+      "result": [
+        {
+          "target": "shop.officefurniture4sale.com",
+          "first_seen": "2019-01-21 19:47:41 +00:00",
+          "lost_date": null,
+          "rank": 58,
+          "backlinks": 7,
+          "backlinks_spam_score": 0,
+          "crawled_pages": 7673,
+          "info": {
+            "server": "cloudflare",
+            "cms": null,
+            "platform_type": [
+              "unknown"
+            ],
+            "ip_address": "23.227.38.74",
+            "country": null,
+            "is_ip": false,
+            "target_spam_score": 0
+          },
+          "internal_links_count": 427540,
+          "external_links_count": 47746,
+          "broken_backlinks": 0,
+          "broken_pages": 2,
+          "referring_domains": 2,
+          "referring_domains_nofollow": 1,
+          "referring_main_domains": 2,
+          "referring_main_domains_nofollow": 1,
+          "referring_ips": 2,
+          "referring_subnets": 2,
+          "referring_pages": 7,
+          "referring_pages_nofollow": 2,
+          "referring_links_tld": {
+            "myshopify.com": 5,
+            "com": 2
+          },
+          "referring_links_types": {
+            "redirect": 5,
+            "anchor": 2
+          },
+          "referring_links_attributes": {
+            "nofollow": 2
+          },
+          "referring_links_platform_types": {
+            "unknown": 2
+          },
+          "referring_links_semantic_locations": {
+            "": 7
+          },
+          "referring_links_countries": {
+            "": 5,
+            "WW": 2
+          }
+        }
+      ]
+    }
+  ]
+}

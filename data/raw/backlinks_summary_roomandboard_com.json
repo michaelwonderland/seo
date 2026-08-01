@@ -1,0 +1,125 @@
+{
+  "version": "0.1.20260731",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "0.3788 sec.",
+  "cost": 0.024036,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "08012106-1561-0265-0000-eaa5f2241f94",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "0.3662 sec.",
+      "cost": 0.024036,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "backlinks",
+        "summary",
+        "live"
+      ],
+      "data": {
+        "api": "backlinks",
+        "function": "summary",
+        "target": "roomandboard.com",
+        "internal_list_limit": 10,
+        "include_subdomains": true,
+        "backlinks_status_type": "live"
+      },
+      "result": [
+        {
+          "target": "roomandboard.com",
+          "first_seen": "2019-01-15 23:38:47 +00:00",
+          "lost_date": null,
+          "rank": 372,
+          "backlinks": 186997,
+          "backlinks_spam_score": 8,
+          "crawled_pages": 39106,
+          "info": {
+            "server": "cloudflare",
+            "cms": null,
+            "platform_type": null,
+            "ip_address": "104.18.10.200",
+            "country": "US",
+            "is_ip": false,
+            "target_spam_score": 0
+          },
+          "internal_links_count": 0,
+          "external_links_count": 0,
+          "broken_backlinks": 171,
+          "broken_pages": 11471,
+          "referring_domains": 8394,
+          "referring_domains_nofollow": 1101,
+          "referring_main_domains": 8131,
+          "referring_main_domains_nofollow": 1030,
+          "referring_ips": 2887,
+          "referring_subnets": 1819,
+          "referring_pages": 179887,
+          "referring_pages_nofollow": 124292,
+          "referring_links_tld": {
+            "com": 149042,
+            "blogspot.com": 23637,
+            "net": 1315,
+            "house": 1245,
+            "org": 1163,
+            "web.app": 1096,
+            "co": 237,
+            "com.au": 157,
+            "st": 142,
+            "ru": 140
+          },
+          "referring_links_types": {
+            "anchor": 165278,
+            "image": 14375,
+            "redirect": 234
+          },
+          "referring_links_attributes": {
+            "nofollow": 124289,
+            "noopener": 7614,
+            "noreferrer": 2583,
+            "external": 1129,
+            "sponsored": 264,
+            "ugc": 167,
+            "bookmark": 1
+          },
+          "referring_links_platform_types": {
+            "ecommerce": 119546,
+            "blogs": 34013,
+            "organization": 20509,
+            "unknown": 10525,
+            "cms": 9736,
+            "news": 1563,
+            "message-boards": 54,
+            "wikis": 7
+          },
+          "referring_links_semantic_locations": {
+            "": 142118,
+            "section": 10909,
+            "article": 9809,
+            "aside": 8342,
+            "main": 4144,
+            "footer": 3560,
+            "figcaption": 527,
+            "figure": 368,
+            "header": 39,
+            "nav": 39
+          },
+          "referring_links_countries": {
+            "US": 139743,
+            "": 35612,
+            "WW": 2730,
+            "CO": 241,
+            "AU": 163,
+            "ST": 142,
+            "RU": 141,
+            "CA": 118,
+            "IO": 92,
+            "IN": 86
+          }
+        }
+      ]
+    }
+  ]
+}

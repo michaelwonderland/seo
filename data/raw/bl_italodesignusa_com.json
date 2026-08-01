@@ -1,0 +1,104 @@
+{
+  "version": "0.1.20260731",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "0.1738 sec.",
+  "cost": 0.024036,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "08012112-1561-0265-0000-bf04295008f7",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "0.1621 sec.",
+      "cost": 0.024036,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "backlinks",
+        "summary",
+        "live"
+      ],
+      "data": {
+        "api": "backlinks",
+        "function": "summary",
+        "target": "italodesignusa.com",
+        "internal_list_limit": 5,
+        "include_subdomains": true,
+        "backlinks_status_type": "live"
+      },
+      "result": [
+        {
+          "target": "italodesignusa.com",
+          "first_seen": "2021-12-07 09:47:30 +00:00",
+          "lost_date": null,
+          "rank": 66,
+          "backlinks": 88,
+          "backlinks_spam_score": 23,
+          "crawled_pages": 3554,
+          "info": {
+            "server": "nginx",
+            "cms": "wordpress",
+            "platform_type": [
+              "unknown"
+            ],
+            "ip_address": "199.16.172.140",
+            "country": null,
+            "is_ip": false,
+            "target_spam_score": 7
+          },
+          "internal_links_count": 405787,
+          "external_links_count": 20768,
+          "broken_backlinks": 0,
+          "broken_pages": 0,
+          "referring_domains": 52,
+          "referring_domains_nofollow": 24,
+          "referring_main_domains": 45,
+          "referring_main_domains_nofollow": 21,
+          "referring_ips": 30,
+          "referring_subnets": 28,
+          "referring_pages": 82,
+          "referring_pages_nofollow": 52,
+          "referring_links_tld": {
+            "com": 40,
+            "net": 9,
+            "pages.dev": 5,
+            "org": 5,
+            "shop": 3
+          },
+          "referring_links_types": {
+            "anchor": 82
+          },
+          "referring_links_attributes": {
+            "nofollow": 52,
+            "noopener": 40,
+            "noreferrer": 27,
+            "ugc": 21
+          },
+          "referring_links_platform_types": {
+            "unknown": 39,
+            "organization": 25,
+            "blogs": 17,
+            "cms": 17,
+            "message-boards": 1
+          },
+          "referring_links_semantic_locations": {
+            "": 39,
+            "article": 22,
+            "main": 14,
+            "section": 6,
+            "header": 1
+          },
+          "referring_links_countries": {
+            "": 46,
+            "UA": 21,
+            "US": 4,
+            "GB": 3,
+            "WW": 3
+          }
+        }
+      ]
+    }
+  ]
+}

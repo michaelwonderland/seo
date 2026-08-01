@@ -1,0 +1,132 @@
+{
+  "version": "0.1.20260731",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "0.0212 sec.",
+  "cost": 0.024036,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "08012106-1561-0265-0000-a64de396d255",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "0.0113 sec.",
+      "cost": 0.024036,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "backlinks",
+        "summary",
+        "live"
+      ],
+      "data": {
+        "api": "backlinks",
+        "function": "summary",
+        "target": "instagram.com",
+        "internal_list_limit": 10,
+        "include_subdomains": true,
+        "backlinks_status_type": "live"
+      },
+      "result": [
+        {
+          "target": "instagram.com",
+          "first_seen": "2019-01-15 22:55:33 +00:00",
+          "lost_date": null,
+          "rank": 1000,
+          "backlinks": 35810281360,
+          "backlinks_spam_score": 6,
+          "crawled_pages": 505762,
+          "info": {
+            "server": "proxygen-bolt",
+            "cms": null,
+            "platform_type": [
+              "unknown"
+            ],
+            "ip_address": "157.240.0.174",
+            "country": "WW",
+            "is_ip": false,
+            "target_spam_score": 2
+          },
+          "internal_links_count": 126925,
+          "external_links_count": 73019,
+          "broken_backlinks": 193054,
+          "broken_pages": 6538,
+          "referring_domains": 25074120,
+          "referring_domains_nofollow": 1653856,
+          "referring_main_domains": 22078541,
+          "referring_main_domains_nofollow": 1333442,
+          "referring_ips": 2962471,
+          "referring_subnets": 699425,
+          "referring_pages": 26201326976,
+          "referring_pages_nofollow": 228235380,
+          "referring_links_tld": {
+            "com": 11583594960,
+            "de": 840595936,
+            "com.br": 790307824,
+            "org": 729285600,
+            "net": 566251472,
+            "it": 465988416,
+            "co.uk": 444864400,
+            "pl": 393381296,
+            "fr": 387669584,
+            "ru": 386348400
+          },
+          "referring_links_types": {
+            "anchor": 19294369328,
+            "image": 6904262480,
+            "redirect": 2490848,
+            "alternate": 122800,
+            "canonical": 81520
+          },
+          "referring_links_attributes": {
+            "noopener": 5985156208,
+            "nofollow": 3642290016,
+            "noreferrer": 3522132896,
+            "external": 302644016,
+            "sponsored": 10395056,
+            "author": 9846640,
+            "ugc": 8512752,
+            "alternate": 8269664,
+            "preconnect": 891248,
+            "canonical": 304800
+          },
+          "referring_links_platform_types": {
+            "unknown": 10985870976,
+            "organization": 8851865040,
+            "cms": 4796659472,
+            "ecommerce": 4779897168,
+            "blogs": 4572172848,
+            "news": 1776225040,
+            "message-boards": 59074016,
+            "wikis": 6226240
+          },
+          "referring_links_semantic_locations": {
+            "footer": 10688354912,
+            "": 6224549072,
+            "section": 2805002080,
+            "header": 2313183808,
+            "nav": 2136764016,
+            "aside": 860047584,
+            "main": 418486048,
+            "article": 389865856,
+            "details": 299290816,
+            "figure": 58924640
+          },
+          "referring_links_countries": {
+            "": 6018634432,
+            "US": 3395994096,
+            "WW": 2069567504,
+            "DE": 1284317024,
+            "BR": 1008091072,
+            "GB": 818925136,
+            "IN": 781826080,
+            "FR": 747806176,
+            "JP": 663181888,
+            "IT": 562669024
+          }
+        }
+      ]
+    }
+  ]
+}

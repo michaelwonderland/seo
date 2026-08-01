@@ -1,0 +1,107 @@
+{
+  "version": "0.1.20260731",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "0.2390 sec.",
+  "cost": 0.024036,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "08012112-1561-0265-0000-214265a79823",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "0.1844 sec.",
+      "cost": 0.024036,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "backlinks",
+        "summary",
+        "live"
+      ],
+      "data": {
+        "api": "backlinks",
+        "function": "summary",
+        "target": "nyfurniture.com",
+        "internal_list_limit": 5,
+        "include_subdomains": true,
+        "backlinks_status_type": "live"
+      },
+      "result": [
+        {
+          "target": "nyfurniture.com",
+          "first_seen": "2019-01-16 19:18:17 +00:00",
+          "lost_date": null,
+          "rank": 272,
+          "backlinks": 998,
+          "backlinks_spam_score": 16,
+          "crawled_pages": 2973,
+          "info": {
+            "server": "cloudflare",
+            "cms": null,
+            "platform_type": [
+              "ecommerce"
+            ],
+            "ip_address": "23.227.38.32",
+            "country": "US",
+            "is_ip": false,
+            "target_spam_score": 0
+          },
+          "internal_links_count": 295632,
+          "external_links_count": 26346,
+          "broken_backlinks": 26,
+          "broken_pages": 72,
+          "referring_domains": 222,
+          "referring_domains_nofollow": 125,
+          "referring_main_domains": 213,
+          "referring_main_domains_nofollow": 123,
+          "referring_ips": 145,
+          "referring_subnets": 134,
+          "referring_pages": 918,
+          "referring_pages_nofollow": 286,
+          "referring_links_tld": {
+            "com": 514,
+            "homes": 76,
+            "org": 42,
+            "net": 27,
+            "ai": 24
+          },
+          "referring_links_types": {
+            "anchor": 808,
+            "image": 88,
+            "redirect": 22
+          },
+          "referring_links_attributes": {
+            "nofollow": 286,
+            "noopener": 243,
+            "noreferrer": 42,
+            "external": 33,
+            "ugc": 3
+          },
+          "referring_links_platform_types": {
+            "unknown": 359,
+            "ecommerce": 216,
+            "organization": 185,
+            "news": 77,
+            "blogs": 68
+          },
+          "referring_links_semantic_locations": {
+            "": 368,
+            "section": 275,
+            "main": 231,
+            "article": 41,
+            "header": 3
+          },
+          "referring_links_countries": {
+            "US": 493,
+            "": 233,
+            "IN": 38,
+            "AI": 24,
+            "RU": 23
+          }
+        }
+      ]
+    }
+  ]
+}

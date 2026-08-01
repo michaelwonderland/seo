@@ -1,0 +1,107 @@
+{
+  "version": "0.1.20260731",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "0.1592 sec.",
+  "cost": 0.024036,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "08012113-1561-0265-0000-8c6102918551",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "0.1515 sec.",
+      "cost": 0.024036,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "backlinks",
+        "summary",
+        "live"
+      ],
+      "data": {
+        "api": "backlinks",
+        "function": "summary",
+        "target": "telaitalianfurniture.com",
+        "internal_list_limit": 5,
+        "include_subdomains": true,
+        "backlinks_status_type": "live"
+      },
+      "result": [
+        {
+          "target": "telaitalianfurniture.com",
+          "first_seen": "2022-12-14 10:28:21 +00:00",
+          "lost_date": null,
+          "rank": 79,
+          "backlinks": 67,
+          "backlinks_spam_score": 29,
+          "crawled_pages": 269,
+          "info": {
+            "server": "cloudflare",
+            "cms": "wordpress",
+            "platform_type": [
+              "cms",
+              "blogs"
+            ],
+            "ip_address": "188.114.96.3",
+            "country": "US",
+            "is_ip": false,
+            "target_spam_score": 0
+          },
+          "internal_links_count": 11592,
+          "external_links_count": 723,
+          "broken_backlinks": 0,
+          "broken_pages": 5,
+          "referring_domains": 47,
+          "referring_domains_nofollow": 20,
+          "referring_main_domains": 43,
+          "referring_main_domains_nofollow": 20,
+          "referring_ips": 27,
+          "referring_subnets": 27,
+          "referring_pages": 62,
+          "referring_pages_nofollow": 27,
+          "referring_links_tld": {
+            "com": 18,
+            "network": 8,
+            "org": 5,
+            "homes": 5,
+            "eu": 4
+          },
+          "referring_links_types": {
+            "anchor": 56,
+            "image": 5,
+            "redirect": 1
+          },
+          "referring_links_attributes": {
+            "nofollow": 27,
+            "noopener": 17,
+            "noreferrer": 6,
+            "external": 2
+          },
+          "referring_links_platform_types": {
+            "blogs": 33,
+            "cms": 32,
+            "unknown": 21,
+            "organization": 12,
+            "ecommerce": 1
+          },
+          "referring_links_semantic_locations": {
+            "": 40,
+            "main": 14,
+            "section": 6,
+            "aside": 1,
+            "article": 1
+          },
+          "referring_links_countries": {
+            "": 40,
+            "WW": 12,
+            "US": 4,
+            "IN": 2,
+            "GB": 2
+          }
+        }
+      ]
+    }
+  ]
+}

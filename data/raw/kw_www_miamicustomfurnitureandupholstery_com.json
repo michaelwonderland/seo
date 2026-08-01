@@ -1,0 +1,2035 @@
+{
+  "version": "0.1.20260731",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "0.2862 sec.",
+  "cost": 0.01308,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "08012113-1561-0381-0000-b99907febefa",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "0.2733 sec.",
+      "cost": 0.01308,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "dataforseo_labs",
+        "google",
+        "ranked_keywords",
+        "live"
+      ],
+      "data": {
+        "api": "dataforseo_labs",
+        "function": "ranked_keywords",
+        "se_type": "google",
+        "target": "www.miamicustomfurnitureandupholstery.com",
+        "location_code": 2840,
+        "language_code": "en",
+        "limit": 100,
+        "order_by": [
+          "ranked_serp_element.serp_item.etv,desc"
+        ],
+        "filters": [
+          [
+            "ranked_serp_element.serp_item.type",
+            "=",
+            "organic"
+          ],
+          "and",
+          [
+            "ranked_serp_element.serp_item.rank_group",
+            "<=",
+            10
+          ]
+        ]
+      },
+      "result": [
+        {
+          "se_type": "google",
+          "target": "www.miamicustomfurnitureandupholstery.com",
+          "location_code": 2840,
+          "language_code": "en",
+          "total_count": 9,
+          "items_count": 9,
+          "metrics": {
+            "organic": {
+              "pos_1": 4,
+              "pos_2_3": 2,
+              "pos_4_10": 3,
+              "pos_11_20": 0,
+              "pos_21_30": 0,
+              "pos_31_40": 0,
+              "pos_41_50": 0,
+              "pos_51_60": 0,
+              "pos_61_70": 0,
+              "pos_71_80": 0,
+              "pos_81_90": 0,
+              "pos_91_100": 0,
+              "etv": 131.4960035085678,
+              "count": 9,
+              "estimated_paid_traffic_cost": 1337.3665359020233,
+              "is_new": 0,
+              "is_up": 4,
+              "is_down": 2,
+              "is_lost": 0,
+              "clickstream_etv": null,
+              "clickstream_gender_distribution": null,
+              "clickstream_age_distribution": null
+            },
+            "paid": {
+              "pos_1": 0,
+              "pos_2_3": 0,
+              "pos_4_10": 0,
+              "pos_11_20": 0,
+              "pos_21_30": 0,
+              "pos_31_40": 0,
+              "pos_41_50": 0,
+              "pos_51_60": 0,
+              "pos_61_70": 0,
+              "pos_71_80": 0,
+              "pos_81_90": 0,
+              "pos_91_100": 0,
+              "etv": 0,
+              "count": 0,
+              "estimated_paid_traffic_cost": 0,
+              "is_new": 0,
+              "is_up": 0,
+              "is_down": 0,
+              "is_lost": 0,
+              "clickstream_etv": null,
+              "clickstream_gender_distribution": null,
+              "clickstream_age_distribution": null
+            },
+            "featured_snippet": null,
+            "local_pack": null,
+            "ai_overview_reference": null
+          },
+          "metrics_absolute": null,
+          "items": [
+            {
+              "se_type": "google",
+              "keyword_data": {
+                "se_type": "google",
+                "keyword": "miami custom furniture & upholstery",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-07-11 23:32:42 +00:00",
+                  "competition": 0.25,
+                  "competition_level": "LOW",
+                  "cpc": 8.4399995803833,
+                  "search_volume": 140,
+                  "low_top_of_page_bid": 0.9800000190734863,
+                  "high_top_of_page_bid": 4.400000095367432,
+                  "categories": [
+                    10009,
+                    10413,
+                    11574
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2026,
+                      "month": 6,
+                      "search_volume": 90
+                    },
+                    {
+                      "year": 2026,
+                      "month": 5,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2026,
+                      "month": 4,
+                      "search_volume": 90
+                    },
+                    {
+                      "year": 2026,
+                      "month": 3,
+                      "search_volume": 90
+                    },
+                    {
+                      "year": 2026,
+                      "month": 2,
+                      "search_volume": 140
+                    },
+                    {
+                      "year": 2026,
+                      "month": 1,
+                      "search_volume": 140
+                    },
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 140
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 210
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 140
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 170
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 170
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 170
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 29,
+                    "quarterly": 0,
+                    "yearly": -47
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": null,
+                  "synonym_clustering_algorithm": null,
+                  "keyword_difficulty": 0,
+                  "detected_language": "en",
+                  "is_another_language": false
+                },
+                "serp_info": {
+                  "se_type": "google",
+                  "check_url": "https://www.google.com/search?q=miami%20custom%20furniture%20%26%20upholstery&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                  "serp_item_types": [
+                    "organic",
+                    "people_also_ask",
+                    "related_searches",
+                    "knowledge_graph",
+                    "google_reviews"
+                  ],
+                  "se_results_count": 151,
+                  "last_updated_time": "2026-07-11 10:07:56 +00:00",
+                  "previous_updated_time": "2026-05-01 16:53:13 +00:00"
+                },
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 18.700000762939453,
+                  "dofollow": 10.899999618530273,
+                  "referring_pages": 17.399999618530273,
+                  "referring_domains": 14.100000381469727,
+                  "referring_main_domains": 13.199999809265137,
+                  "rank": 44.099998474121094,
+                  "main_domain_rank": 419.20001220703125,
+                  "last_updated_time": "2026-07-11 10:07:57 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "navigational",
+                  "foreign_intent": [
+                    "commercial"
+                  ],
+                  "last_updated_time": "2026-04-29 17:46:18 +00:00"
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "google",
+                "serp_item": {
+                  "se_type": "google",
+                  "type": "organic",
+                  "rank_group": 1,
+                  "rank_absolute": 1,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[10]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+                  "domain": "www.miamicustomfurnitureandupholstery.com",
+                  "title": "Miami Custom Furniture & Upholstery",
+                  "url": "https://www.miamicustomfurnitureandupholstery.com/",
+                  "breadcrumb": "https://www.miamicustomfurnitureandupholstery.com",
+                  "website_name": "Miami Custom Furniture & Upholstery",
+                  "is_image": false,
+                  "is_video": false,
+                  "is_featured_snippet": false,
+                  "is_malicious": false,
+                  "description": "Over +24 Years Of Experience In Custom Hospitality & Hotel Furniture Working With Hotel Brands, International Design Studios & Cruise Ship Companies. Read more",
+                  "pre_snippet": null,
+                  "extended_snippet": null,
+                  "amp_version": false,
+                  "rating": null,
+                  "highlighted": [
+                    "Custom Hospitality & Hotel Furniture"
+                  ],
+                  "links": [
+                    {
+                      "type": "link_element",
+                      "title": "Custom Furniture",
+                      "description": null,
+                      "url": "https://www.miamicustomfurnitureandupholstery.com/custom-furniture"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "Hospitality Furniture",
+                      "description": null,
+                      "url": "https://www.miamicustomfurnitureandupholstery.com/commercial-furniture"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "Services",
+                      "description": null,
+                      "url": "https://www.miamicustomfurnitureandupholstery.com/services-2"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "Gallery",
+                      "description": null,
+                      "url": "https://www.miamicustomfurnitureandupholstery.com/portfolio"
+                    }
+                  ],
+                  "about_this_result": null,
+                  "main_domain": "miamicustomfurnitureandupholstery.com",
+                  "relative_url": "/",
+                  "etv": 42.560001373291016,
+                  "estimated_paid_traffic_cost": 359.2063903808594,
+                  "clickstream_etv": null,
+                  "rank_changes": {
+                    "previous_rank_absolute": 1,
+                    "is_new": false,
+                    "is_up": false,
+                    "is_down": false
+                  },
+                  "backlinks_info": {
+                    "referring_domains": 14,
+                    "referring_main_domains": 14,
+                    "referring_pages": 20,
+                    "dofollow": 9,
+                    "backlinks": 23,
+                    "time_update": "2026-07-21 05:22:44 +00:00"
+                  },
+                  "rank_info": {
+                    "page_rank": 170,
+                    "main_domain_rank": 95
+                  }
+                },
+                "check_url": "https://www.google.com/search?q=miami%20custom%20furniture%20%26%20upholstery&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                "serp_item_types": [
+                  "organic",
+                  "people_also_ask",
+                  "related_searches",
+                  "knowledge_graph",
+                  "google_reviews"
+                ],
+                "se_results_count": 151,
+                "keyword_difficulty": 0,
+                "is_lost": false,
+                "last_updated_time": "2026-07-11 10:07:56 +00:00",
+                "previous_updated_time": "2026-05-01 16:53:13 +00:00"
+              }
+            },
+            {
+              "se_type": "google",
+              "keyword_data": {
+                "se_type": "google",
+                "keyword": "custom furniture in miami",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-07-15 21:15:34 +00:00",
+                  "competition": 1,
+                  "competition_level": "HIGH",
+                  "cpc": 12.40999984741211,
+                  "search_volume": 70,
+                  "low_top_of_page_bid": 2.3299999237060547,
+                  "high_top_of_page_bid": 8.75,
+                  "categories": [
+                    10009,
+                    10413,
+                    11574
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2026,
+                      "month": 6,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2026,
+                      "month": 5,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2026,
+                      "month": 4,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2026,
+                      "month": 3,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2026,
+                      "month": 2,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2026,
+                      "month": 1,
+                      "search_volume": 90
+                    },
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 90
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 0,
+                    "quarterly": 0,
+                    "yearly": -44
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": "custom furniture miami",
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 0,
+                  "detected_language": "en",
+                  "is_another_language": false
+                },
+                "serp_info": {
+                  "se_type": "google",
+                  "check_url": "https://www.google.com/search?q=custom%20furniture%20in%20miami&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                  "serp_item_types": [
+                    "organic",
+                    "related_searches",
+                    "knowledge_graph",
+                    "google_reviews"
+                  ],
+                  "se_results_count": 173,
+                  "last_updated_time": "2026-07-20 10:12:22 +00:00",
+                  "previous_updated_time": "2026-05-31 11:52:18 +00:00"
+                },
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 31.299999237060547,
+                  "dofollow": 11,
+                  "referring_pages": 21.299999237060547,
+                  "referring_domains": 8.800000190734863,
+                  "referring_main_domains": 8.5,
+                  "rank": 53.400001525878906,
+                  "main_domain_rank": 422.70001220703125,
+                  "last_updated_time": "2026-07-20 10:12:22 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "commercial",
+                  "foreign_intent": null,
+                  "last_updated_time": "2026-04-26 22:22:30 +00:00"
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "google",
+                "serp_item": {
+                  "se_type": "google",
+                  "type": "organic",
+                  "rank_group": 1,
+                  "rank_absolute": 1,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]",
+                  "domain": "www.miamicustomfurnitureandupholstery.com",
+                  "title": "Miami Custom Furniture & Upholstery",
+                  "url": "https://www.miamicustomfurnitureandupholstery.com/",
+                  "breadcrumb": "https://www.miamicustomfurnitureandupholstery.com",
+                  "website_name": "Miami Custom Furniture & Upholstery",
+                  "is_image": false,
+                  "is_video": false,
+                  "is_featured_snippet": false,
+                  "is_malicious": false,
+                  "description": "Specializing In Custom & Commercial Upholstery. 8050 NW 64th St, Miami. 786-444-9434",
+                  "pre_snippet": null,
+                  "extended_snippet": null,
+                  "amp_version": false,
+                  "rating": null,
+                  "highlighted": [
+                    "8050 NW 64th St",
+                    "Miami"
+                  ],
+                  "links": [
+                    {
+                      "type": "link_element",
+                      "title": "Custom Furniture",
+                      "description": null,
+                      "url": "https://www.miamicustomfurnitureandupholstery.com/custom-furniture"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "Hospitality Furniture",
+                      "description": null,
+                      "url": "https://www.miamicustomfurnitureandupholstery.com/commercial-furniture"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "Services",
+                      "description": null,
+                      "url": "https://www.miamicustomfurnitureandupholstery.com/services-2"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "Gallery",
+                      "description": null,
+                      "url": "https://www.miamicustomfurnitureandupholstery.com/portfolio"
+                    }
+                  ],
+                  "about_this_result": null,
+                  "main_domain": "miamicustomfurnitureandupholstery.com",
+                  "relative_url": "/",
+                  "etv": 21.280000686645508,
+                  "estimated_paid_traffic_cost": 264.0848083496094,
+                  "clickstream_etv": null,
+                  "rank_changes": {
+                    "previous_rank_absolute": 1,
+                    "is_new": false,
+                    "is_up": false,
+                    "is_down": false
+                  },
+                  "backlinks_info": {
+                    "referring_domains": 14,
+                    "referring_main_domains": 14,
+                    "referring_pages": 20,
+                    "dofollow": 9,
+                    "backlinks": 23,
+                    "time_update": "2026-07-21 05:22:44 +00:00"
+                  },
+                  "rank_info": {
+                    "page_rank": 170,
+                    "main_domain_rank": 95
+                  }
+                },
+                "check_url": "https://www.google.com/search?q=custom%20furniture%20in%20miami&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                "serp_item_types": [
+                  "organic",
+                  "related_searches",
+                  "knowledge_graph",
+                  "google_reviews"
+                ],
+                "se_results_count": 173,
+                "keyword_difficulty": 0,
+                "is_lost": false,
+                "last_updated_time": "2026-07-20 10:12:22 +00:00",
+                "previous_updated_time": "2026-05-31 11:52:18 +00:00"
+              }
+            },
+            {
+              "se_type": "google",
+              "keyword_data": {
+                "se_type": "google",
+                "keyword": "custom furniture miami fl",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-07-12 17:19:31 +00:00",
+                  "competition": 1,
+                  "competition_level": "HIGH",
+                  "cpc": 12.40999984741211,
+                  "search_volume": 70,
+                  "low_top_of_page_bid": 2.3299999237060547,
+                  "high_top_of_page_bid": 8.75,
+                  "categories": [
+                    10009,
+                    10413,
+                    11574
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2026,
+                      "month": 6,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2026,
+                      "month": 5,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2026,
+                      "month": 4,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2026,
+                      "month": 3,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2026,
+                      "month": 2,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2026,
+                      "month": 1,
+                      "search_volume": 90
+                    },
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 90
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 0,
+                    "quarterly": 0,
+                    "yearly": -44
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": null,
+                  "synonym_clustering_algorithm": "keyword_metrics",
+                  "keyword_difficulty": 6,
+                  "detected_language": "en",
+                  "is_another_language": false
+                },
+                "serp_info": {
+                  "se_type": "google",
+                  "check_url": "https://www.google.com/search?q=custom%20furniture%20miami%20fl&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                  "serp_item_types": [
+                    "ai_overview",
+                    "organic",
+                    "related_searches",
+                    "knowledge_graph",
+                    "google_reviews"
+                  ],
+                  "se_results_count": 113,
+                  "last_updated_time": "2026-07-20 10:14:37 +00:00",
+                  "previous_updated_time": "2026-05-31 10:38:02 +00:00"
+                },
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 37.79999923706055,
+                  "dofollow": 15.100000381469727,
+                  "referring_pages": 23.100000381469727,
+                  "referring_domains": 7.400000095367432,
+                  "referring_main_domains": 7.400000095367432,
+                  "rank": 73.0999984741211,
+                  "main_domain_rank": 592.5999755859375,
+                  "last_updated_time": "2026-07-20 10:14:37 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "commercial",
+                  "foreign_intent": null,
+                  "last_updated_time": "2026-04-26 03:51:29 +00:00"
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "google",
+                "serp_item": {
+                  "se_type": "google",
+                  "type": "organic",
+                  "rank_group": 1,
+                  "rank_absolute": 2,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[2]/div[1]",
+                  "domain": "www.miamicustomfurnitureandupholstery.com",
+                  "title": "Miami Custom Furniture & Upholstery",
+                  "url": "https://www.miamicustomfurnitureandupholstery.com/",
+                  "breadcrumb": "https://www.miamicustomfurnitureandupholstery.com",
+                  "website_name": "Miami Custom Furniture & Upholstery",
+                  "is_image": false,
+                  "is_video": false,
+                  "is_featured_snippet": false,
+                  "is_malicious": false,
+                  "description": "Over +24 Years Of Experience In Custom Hospitality & Hotel Furniture Working With Hotel Brands, International Design Studios & Cruise Ship Companies. Read more",
+                  "pre_snippet": null,
+                  "extended_snippet": null,
+                  "amp_version": false,
+                  "rating": null,
+                  "highlighted": [
+                    "Custom Hospitality & Hotel Furniture"
+                  ],
+                  "links": [
+                    {
+                      "type": "link_element",
+                      "title": "Custom Furniture",
+                      "description": null,
+                      "url": "https://www.miamicustomfurnitureandupholstery.com/custom-furniture"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "Hospitality Furniture",
+                      "description": null,
+                      "url": "https://www.miamicustomfurnitureandupholstery.com/commercial-furniture"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "Services",
+                      "description": null,
+                      "url": "https://www.miamicustomfurnitureandupholstery.com/services-2"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "Gallery",
+                      "description": null,
+                      "url": "https://www.miamicustomfurnitureandupholstery.com/portfolio"
+                    }
+                  ],
+                  "about_this_result": null,
+                  "main_domain": "miamicustomfurnitureandupholstery.com",
+                  "relative_url": "/",
+                  "etv": 21.280000686645508,
+                  "estimated_paid_traffic_cost": 264.0848083496094,
+                  "clickstream_etv": null,
+                  "rank_changes": {
+                    "previous_rank_absolute": 1,
+                    "is_new": false,
+                    "is_up": false,
+                    "is_down": true
+                  },
+                  "backlinks_info": {
+                    "referring_domains": 14,
+                    "referring_main_domains": 14,
+                    "referring_pages": 20,
+                    "dofollow": 9,
+                    "backlinks": 23,
+                    "time_update": "2026-07-21 05:22:44 +00:00"
+                  },
+                  "rank_info": {
+                    "page_rank": 170,
+                    "main_domain_rank": 95
+                  }
+                },
+                "check_url": "https://www.google.com/search?q=custom%20furniture%20miami%20fl&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                "serp_item_types": [
+                  "ai_overview",
+                  "organic",
+                  "related_searches",
+                  "knowledge_graph",
+                  "google_reviews"
+                ],
+                "se_results_count": 113,
+                "keyword_difficulty": 6,
+                "is_lost": false,
+                "last_updated_time": "2026-07-20 10:14:37 +00:00",
+                "previous_updated_time": "2026-05-31 10:38:02 +00:00"
+              }
+            },
+            {
+              "se_type": "google",
+              "keyword_data": {
+                "se_type": "google",
+                "keyword": "miami custom furniture",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-07-12 18:49:27 +00:00",
+                  "competition": 1,
+                  "competition_level": "HIGH",
+                  "cpc": 12.40999984741211,
+                  "search_volume": 70,
+                  "low_top_of_page_bid": 2.3299999237060547,
+                  "high_top_of_page_bid": 8.75,
+                  "categories": [
+                    10009,
+                    10413,
+                    11574
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2026,
+                      "month": 6,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2026,
+                      "month": 5,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2026,
+                      "month": 4,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2026,
+                      "month": 3,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2026,
+                      "month": 2,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2026,
+                      "month": 1,
+                      "search_volume": 90
+                    },
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 90
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 0,
+                    "quarterly": 0,
+                    "yearly": -44
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": "custom furniture miami",
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 0,
+                  "detected_language": "en",
+                  "is_another_language": false
+                },
+                "serp_info": {
+                  "se_type": "google",
+                  "check_url": "https://www.google.com/search?q=miami%20custom%20furniture&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                  "serp_item_types": [
+                    "organic",
+                    "popular_products",
+                    "related_searches",
+                    "google_reviews",
+                    "knowledge_graph"
+                  ],
+                  "se_results_count": 150,
+                  "last_updated_time": "2026-07-18 22:37:07 +00:00",
+                  "previous_updated_time": "2026-05-07 06:17:27 +00:00"
+                },
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 7.300000190734863,
+                  "dofollow": 3.700000047683716,
+                  "referring_pages": 7,
+                  "referring_domains": 5.400000095367432,
+                  "referring_main_domains": 5.099999904632568,
+                  "rank": 22.700000762939453,
+                  "main_domain_rank": 496,
+                  "last_updated_time": "2026-07-18 22:37:09 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "commercial",
+                  "foreign_intent": null,
+                  "last_updated_time": "2026-04-29 16:57:00 +00:00"
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "google",
+                "serp_item": {
+                  "se_type": "google",
+                  "type": "organic",
+                  "rank_group": 1,
+                  "rank_absolute": 1,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]",
+                  "domain": "www.miamicustomfurnitureandupholstery.com",
+                  "title": "Miami Custom Furniture & Upholstery",
+                  "url": "https://www.miamicustomfurnitureandupholstery.com/",
+                  "breadcrumb": "https://www.miamicustomfurnitureandupholstery.com",
+                  "website_name": "Miami Custom Furniture & Upholstery",
+                  "is_image": false,
+                  "is_video": false,
+                  "is_featured_snippet": false,
+                  "is_malicious": false,
+                  "description": "Over +24 Years Of Experience In Custom Hospitality & Hotel Furniture Working With Hotel Brands, International Design Studios & Cruise Ship Companies. Read more",
+                  "pre_snippet": null,
+                  "extended_snippet": null,
+                  "amp_version": false,
+                  "rating": null,
+                  "highlighted": [
+                    "Custom Hospitality & Hotel Furniture"
+                  ],
+                  "links": [
+                    {
+                      "type": "link_element",
+                      "title": "Custom Furniture",
+                      "description": null,
+                      "url": "https://www.miamicustomfurnitureandupholstery.com/custom-furniture"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "Hospitality Furniture",
+                      "description": null,
+                      "url": "https://www.miamicustomfurnitureandupholstery.com/commercial-furniture"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "Services",
+                      "description": null,
+                      "url": "https://www.miamicustomfurnitureandupholstery.com/services-2"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "Gallery",
+                      "description": null,
+                      "url": "https://www.miamicustomfurnitureandupholstery.com/portfolio"
+                    }
+                  ],
+                  "about_this_result": null,
+                  "main_domain": "miamicustomfurnitureandupholstery.com",
+                  "relative_url": "/",
+                  "etv": 21.280000686645508,
+                  "estimated_paid_traffic_cost": 264.0848083496094,
+                  "clickstream_etv": null,
+                  "rank_changes": {
+                    "previous_rank_absolute": 1,
+                    "is_new": false,
+                    "is_up": false,
+                    "is_down": false
+                  },
+                  "backlinks_info": {
+                    "referring_domains": 14,
+                    "referring_main_domains": 14,
+                    "referring_pages": 20,
+                    "dofollow": 9,
+                    "backlinks": 23,
+                    "time_update": "2026-07-21 05:22:44 +00:00"
+                  },
+                  "rank_info": {
+                    "page_rank": 170,
+                    "main_domain_rank": 95
+                  }
+                },
+                "check_url": "https://www.google.com/search?q=miami%20custom%20furniture&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                "serp_item_types": [
+                  "organic",
+                  "popular_products",
+                  "related_searches",
+                  "google_reviews",
+                  "knowledge_graph"
+                ],
+                "se_results_count": 150,
+                "keyword_difficulty": 0,
+                "is_lost": false,
+                "last_updated_time": "2026-07-18 22:37:07 +00:00",
+                "previous_updated_time": "2026-05-07 06:17:27 +00:00"
+              }
+            },
+            {
+              "se_type": "google",
+              "keyword_data": {
+                "se_type": "google",
+                "keyword": "custom furniture miami",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-07-12 00:49:16 +00:00",
+                  "competition": 1,
+                  "competition_level": "HIGH",
+                  "cpc": 12.40999984741211,
+                  "search_volume": 70,
+                  "low_top_of_page_bid": 2.3299999237060547,
+                  "high_top_of_page_bid": 8.75,
+                  "categories": [
+                    10009,
+                    10413,
+                    11574
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2026,
+                      "month": 6,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2026,
+                      "month": 5,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2026,
+                      "month": 4,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2026,
+                      "month": 3,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2026,
+                      "month": 2,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2026,
+                      "month": 1,
+                      "search_volume": 90
+                    },
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 90
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 0,
+                    "quarterly": 0,
+                    "yearly": -44
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": null,
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 0,
+                  "detected_language": "en",
+                  "is_another_language": false
+                },
+                "serp_info": {
+                  "se_type": "google",
+                  "check_url": "https://www.google.com/search?q=custom%20furniture%20miami&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                  "serp_item_types": [
+                    "organic",
+                    "related_searches",
+                    "knowledge_graph",
+                    "google_reviews"
+                  ],
+                  "se_results_count": 51,
+                  "last_updated_time": "2026-07-20 10:00:39 +00:00",
+                  "previous_updated_time": "2026-05-31 10:34:50 +00:00"
+                },
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 26.299999237060547,
+                  "dofollow": 8.300000190734863,
+                  "referring_pages": 16.299999237060547,
+                  "referring_domains": 4.800000190734863,
+                  "referring_main_domains": 4.800000190734863,
+                  "rank": 47.70000076293945,
+                  "main_domain_rank": 433.1000061035156,
+                  "last_updated_time": "2026-07-20 10:00:39 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "commercial",
+                  "foreign_intent": null,
+                  "last_updated_time": "2026-04-26 21:30:59 +00:00"
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "google",
+                "serp_item": {
+                  "se_type": "google",
+                  "type": "organic",
+                  "rank_group": 2,
+                  "rank_absolute": 2,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]",
+                  "domain": "www.miamicustomfurnitureandupholstery.com",
+                  "title": "Miami Custom Furniture & Upholstery",
+                  "url": "https://www.miamicustomfurnitureandupholstery.com/",
+                  "breadcrumb": "https://www.miamicustomfurnitureandupholstery.com",
+                  "website_name": "Miami Custom Furniture & Upholstery",
+                  "is_image": false,
+                  "is_video": false,
+                  "is_featured_snippet": false,
+                  "is_malicious": false,
+                  "description": "Specializing In Custom & Commercial Upholstery. 8050 NW 64th St, Miami. 786-444-9434",
+                  "pre_snippet": null,
+                  "extended_snippet": null,
+                  "amp_version": false,
+                  "rating": null,
+                  "highlighted": [
+                    "8050 NW 64th St",
+                    "Miami"
+                  ],
+                  "links": [
+                    {
+                      "type": "link_element",
+                      "title": "Custom Furniture",
+                      "description": null,
+                      "url": "https://www.miamicustomfurnitureandupholstery.com/custom-furniture"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "Hospitality Furniture",
+                      "description": null,
+                      "url": "https://www.miamicustomfurnitureandupholstery.com/commercial-furniture"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "Services",
+                      "description": null,
+                      "url": "https://www.miamicustomfurnitureandupholstery.com/services-2"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "Gallery",
+                      "description": null,
+                      "url": "https://www.miamicustomfurnitureandupholstery.com/portfolio"
+                    }
+                  ],
+                  "about_this_result": null,
+                  "main_domain": "miamicustomfurnitureandupholstery.com",
+                  "relative_url": "/",
+                  "etv": 11.34000015258789,
+                  "estimated_paid_traffic_cost": 140.72940063476562,
+                  "clickstream_etv": null,
+                  "rank_changes": {
+                    "previous_rank_absolute": 1,
+                    "is_new": false,
+                    "is_up": false,
+                    "is_down": true
+                  },
+                  "backlinks_info": {
+                    "referring_domains": 14,
+                    "referring_main_domains": 14,
+                    "referring_pages": 20,
+                    "dofollow": 9,
+                    "backlinks": 23,
+                    "time_update": "2026-07-21 05:22:44 +00:00"
+                  },
+                  "rank_info": {
+                    "page_rank": 170,
+                    "main_domain_rank": 95
+                  }
+                },
+                "check_url": "https://www.google.com/search?q=custom%20furniture%20miami&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                "serp_item_types": [
+                  "organic",
+                  "related_searches",
+                  "knowledge_graph",
+                  "google_reviews"
+                ],
+                "se_results_count": 51,
+                "keyword_difficulty": 0,
+                "is_lost": false,
+                "last_updated_time": "2026-07-20 10:00:39 +00:00",
+                "previous_updated_time": "2026-05-31 10:34:50 +00:00"
+              }
+            },
+            {
+              "se_type": "google",
+              "keyword_data": {
+                "se_type": "google",
+                "keyword": "furniture upholstery miami fl",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-07-13 00:19:08 +00:00",
+                  "competition": 0.7699999809265137,
+                  "competition_level": "HIGH",
+                  "cpc": 3.200000047683716,
+                  "search_volume": 40,
+                  "low_top_of_page_bid": 1.5699999332427979,
+                  "high_top_of_page_bid": 3.6500000953674316,
+                  "categories": [
+                    10009,
+                    10413,
+                    11574
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2026,
+                      "month": 6,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2026,
+                      "month": 5,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2026,
+                      "month": 4,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2026,
+                      "month": 3,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2026,
+                      "month": 2,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2026,
+                      "month": 1,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 50
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 67,
+                    "quarterly": 67,
+                    "yearly": 0
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": null,
+                  "synonym_clustering_algorithm": "keyword_metrics",
+                  "keyword_difficulty": 11,
+                  "detected_language": "en",
+                  "is_another_language": false
+                },
+                "serp_info": {
+                  "se_type": "google",
+                  "check_url": "https://www.google.com/search?q=furniture%20upholstery%20miami%20fl&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                  "serp_item_types": [
+                    "local_pack",
+                    "people_also_ask",
+                    "organic",
+                    "related_searches"
+                  ],
+                  "se_results_count": 1580000,
+                  "last_updated_time": "2026-05-09 18:08:02 +00:00",
+                  "previous_updated_time": "2026-03-25 22:19:41 +00:00"
+                },
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 27.5,
+                  "dofollow": 16.700000762939453,
+                  "referring_pages": 26.200000762939453,
+                  "referring_domains": 22.200000762939453,
+                  "referring_main_domains": 21,
+                  "rank": 112.30000305175781,
+                  "main_domain_rank": 297.20001220703125,
+                  "last_updated_time": "2026-05-09 18:08:02 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "commercial",
+                  "foreign_intent": [
+                    "navigational",
+                    "transactional"
+                  ],
+                  "last_updated_time": "2026-04-27 20:18:53 +00:00"
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "google",
+                "serp_item": {
+                  "se_type": "google",
+                  "type": "organic",
+                  "rank_group": 2,
+                  "rank_absolute": 6,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]",
+                  "domain": "www.miamicustomfurnitureandupholstery.com",
+                  "title": "Miami Custom Furniture & Upholstery",
+                  "url": "https://www.miamicustomfurnitureandupholstery.com/",
+                  "breadcrumb": "https://www.miamicustomfurnitureandupholstery.com",
+                  "website_name": "Miami Custom Furniture & Upholstery",
+                  "is_image": false,
+                  "is_video": false,
+                  "is_featured_snippet": false,
+                  "is_malicious": false,
+                  "description": "One Stop For All Your Custom Furniture Needs. Professional Furniture Manufacturer Specializing In Custom & Commercial Upholstery. Read more",
+                  "pre_snippet": null,
+                  "extended_snippet": null,
+                  "amp_version": false,
+                  "rating": null,
+                  "highlighted": [
+                    "Furniture",
+                    "Upholstery"
+                  ],
+                  "links": null,
+                  "about_this_result": null,
+                  "main_domain": "miamicustomfurnitureandupholstery.com",
+                  "relative_url": "/",
+                  "etv": 6.480000019073486,
+                  "estimated_paid_traffic_cost": 20.736000061035156,
+                  "clickstream_etv": null,
+                  "rank_changes": {
+                    "previous_rank_absolute": 11,
+                    "is_new": false,
+                    "is_up": true,
+                    "is_down": false
+                  },
+                  "backlinks_info": {
+                    "referring_domains": 14,
+                    "referring_main_domains": 14,
+                    "referring_pages": 20,
+                    "dofollow": 9,
+                    "backlinks": 23,
+                    "time_update": "2026-07-21 05:22:44 +00:00"
+                  },
+                  "rank_info": {
+                    "page_rank": 167,
+                    "main_domain_rank": 92
+                  }
+                },
+                "check_url": "https://www.google.com/search?q=furniture%20upholstery%20miami%20fl&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                "serp_item_types": [
+                  "local_pack",
+                  "people_also_ask",
+                  "organic",
+                  "related_searches"
+                ],
+                "se_results_count": 1580000,
+                "keyword_difficulty": 11,
+                "is_lost": false,
+                "last_updated_time": "2026-05-09 18:08:02 +00:00",
+                "previous_updated_time": "2026-03-25 22:19:41 +00:00"
+              }
+            },
+            {
+              "se_type": "google",
+              "keyword_data": {
+                "se_type": "google",
+                "keyword": "miami custom",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-07-16 01:14:03 +00:00",
+                  "competition": 0.05000000074505806,
+                  "competition_level": "LOW",
+                  "cpc": 3.5199999809265137,
+                  "search_volume": 320,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10014,
+                    10121,
+                    10659
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2026,
+                      "month": 6,
+                      "search_volume": 260
+                    },
+                    {
+                      "year": 2026,
+                      "month": 5,
+                      "search_volume": 320
+                    },
+                    {
+                      "year": 2026,
+                      "month": 4,
+                      "search_volume": 320
+                    },
+                    {
+                      "year": 2026,
+                      "month": 3,
+                      "search_volume": 390
+                    },
+                    {
+                      "year": 2026,
+                      "month": 2,
+                      "search_volume": 320
+                    },
+                    {
+                      "year": 2026,
+                      "month": 1,
+                      "search_volume": 320
+                    },
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 260
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 260
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 320
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 480
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 320
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 390
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": -19,
+                    "quarterly": -19,
+                    "yearly": -33
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": "custom miami",
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 0,
+                  "detected_language": "en",
+                  "is_another_language": false
+                },
+                "serp_info": {
+                  "se_type": "google",
+                  "check_url": "https://www.google.com/search?q=miami%20custom&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                  "serp_item_types": [
+                    "local_pack",
+                    "organic",
+                    "related_searches"
+                  ],
+                  "se_results_count": 108,
+                  "last_updated_time": "2026-07-04 23:30:52 +00:00",
+                  "previous_updated_time": "2026-05-22 19:51:52 +00:00"
+                },
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 3.5,
+                  "dofollow": 2,
+                  "referring_pages": 3.200000047683716,
+                  "referring_domains": 1.7000000476837158,
+                  "referring_main_domains": 1.7000000476837158,
+                  "rank": 42.900001525878906,
+                  "main_domain_rank": 511.20001220703125,
+                  "last_updated_time": "2026-07-04 23:31:30 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "commercial",
+                  "foreign_intent": [
+                    "navigational"
+                  ],
+                  "last_updated_time": "2026-04-29 14:50:31 +00:00"
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "google",
+                "serp_item": {
+                  "se_type": "google",
+                  "type": "organic",
+                  "rank_group": 10,
+                  "rank_absolute": 14,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+                  "domain": "www.miamicustomfurnitureandupholstery.com",
+                  "title": "Miami Custom Furniture & Upholstery",
+                  "url": "https://www.miamicustomfurnitureandupholstery.com/",
+                  "breadcrumb": "https://www.miamicustomfurnitureandupholstery.com",
+                  "website_name": "Miami Custom Furniture & Upholstery",
+                  "is_image": false,
+                  "is_video": false,
+                  "is_featured_snippet": false,
+                  "is_malicious": false,
+                  "description": "Over +24 Years Of Experience In Custom Hospitality & Hotel Furniture Working With Hotel Brands, International Design Studios & Cruise Ship Companies. Read more",
+                  "pre_snippet": null,
+                  "extended_snippet": null,
+                  "amp_version": false,
+                  "rating": null,
+                  "highlighted": [
+                    "Custom Hospitality & Hotel Furniture"
+                  ],
+                  "links": null,
+                  "about_this_result": null,
+                  "main_domain": "miamicustomfurnitureandupholstery.com",
+                  "relative_url": "/",
+                  "etv": 3.615999937057495,
+                  "estimated_paid_traffic_cost": 12.728320121765137,
+                  "clickstream_etv": null,
+                  "rank_changes": {
+                    "previous_rank_absolute": 17,
+                    "is_new": false,
+                    "is_up": true,
+                    "is_down": false
+                  },
+                  "backlinks_info": {
+                    "referring_domains": 14,
+                    "referring_main_domains": 14,
+                    "referring_pages": 20,
+                    "dofollow": 9,
+                    "backlinks": 23,
+                    "time_update": "2026-07-21 05:22:44 +00:00"
+                  },
+                  "rank_info": {
+                    "page_rank": 170,
+                    "main_domain_rank": 95
+                  }
+                },
+                "check_url": "https://www.google.com/search?q=miami%20custom&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                "serp_item_types": [
+                  "local_pack",
+                  "organic",
+                  "related_searches"
+                ],
+                "se_results_count": 108,
+                "keyword_difficulty": 0,
+                "is_lost": false,
+                "last_updated_time": "2026-07-04 23:30:52 +00:00",
+                "previous_updated_time": "2026-05-22 19:51:52 +00:00"
+              }
+            },
+            {
+              "se_type": "google",
+              "keyword_data": {
+                "se_type": "google",
+                "keyword": "furniture upholstery miami",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-07-13 19:17:33 +00:00",
+                  "competition": 0.7699999809265137,
+                  "competition_level": "HIGH",
+                  "cpc": 3.200000047683716,
+                  "search_volume": 40,
+                  "low_top_of_page_bid": 1.5699999332427979,
+                  "high_top_of_page_bid": 3.6500000953674316,
+                  "categories": [
+                    10009,
+                    10413,
+                    11574
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2026,
+                      "month": 6,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2026,
+                      "month": 5,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2026,
+                      "month": 4,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2026,
+                      "month": 3,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2026,
+                      "month": 2,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2026,
+                      "month": 1,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 50
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 67,
+                    "quarterly": 67,
+                    "yearly": 0
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": null,
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 6,
+                  "detected_language": "en",
+                  "is_another_language": false
+                },
+                "serp_info": {
+                  "se_type": "google",
+                  "check_url": "https://www.google.com/search?q=furniture%20upholstery%20miami&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                  "serp_item_types": [
+                    "local_pack",
+                    "organic",
+                    "people_also_ask",
+                    "related_searches"
+                  ],
+                  "se_results_count": 2270000,
+                  "last_updated_time": "2026-05-09 18:11:01 +00:00",
+                  "previous_updated_time": "2026-03-08 17:20:16 +00:00"
+                },
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 26.5,
+                  "dofollow": 15.899999618530273,
+                  "referring_pages": 24.799999237060547,
+                  "referring_domains": 21.100000381469727,
+                  "referring_main_domains": 20,
+                  "rank": 89.19999694824219,
+                  "main_domain_rank": 282.79998779296875,
+                  "last_updated_time": "2026-05-09 18:11:05 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "commercial",
+                  "foreign_intent": null,
+                  "last_updated_time": "2026-04-29 07:23:08 +00:00"
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "google",
+                "serp_item": {
+                  "se_type": "google",
+                  "type": "organic",
+                  "rank_group": 4,
+                  "rank_absolute": 8,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[11]/div[1]/div[1]",
+                  "domain": "www.miamicustomfurnitureandupholstery.com",
+                  "title": "Miami Custom Furniture & Upholstery",
+                  "url": "https://www.miamicustomfurnitureandupholstery.com/",
+                  "breadcrumb": "https://www.miamicustomfurnitureandupholstery.com",
+                  "website_name": "Miami Custom Furniture & Upholstery",
+                  "is_image": false,
+                  "is_video": false,
+                  "is_featured_snippet": false,
+                  "is_malicious": false,
+                  "description": "Over +24 Years Of Experience In Custom Hospitality & Hotel Furniture Working With Hotel Brands, International Design Studios & Cruise Ship Companies. Read more",
+                  "pre_snippet": null,
+                  "extended_snippet": null,
+                  "amp_version": false,
+                  "rating": null,
+                  "highlighted": [
+                    "Custom Hospitality & Hotel Furniture"
+                  ],
+                  "links": null,
+                  "about_this_result": null,
+                  "main_domain": "miamicustomfurnitureandupholstery.com",
+                  "relative_url": "/",
+                  "etv": 2.635999917984009,
+                  "estimated_paid_traffic_cost": 8.435199737548828,
+                  "clickstream_etv": null,
+                  "rank_changes": {
+                    "previous_rank_absolute": 18,
+                    "is_new": false,
+                    "is_up": true,
+                    "is_down": false
+                  },
+                  "backlinks_info": {
+                    "referring_domains": 14,
+                    "referring_main_domains": 14,
+                    "referring_pages": 20,
+                    "dofollow": 9,
+                    "backlinks": 23,
+                    "time_update": "2026-07-21 05:22:44 +00:00"
+                  },
+                  "rank_info": {
+                    "page_rank": 167,
+                    "main_domain_rank": 92
+                  }
+                },
+                "check_url": "https://www.google.com/search?q=furniture%20upholstery%20miami&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                "serp_item_types": [
+                  "local_pack",
+                  "organic",
+                  "people_also_ask",
+                  "related_searches"
+                ],
+                "se_results_count": 2270000,
+                "keyword_difficulty": 6,
+                "is_lost": false,
+                "last_updated_time": "2026-05-09 18:11:01 +00:00",
+                "previous_updated_time": "2026-03-08 17:20:16 +00:00"
+              }
+            },
+            {
+              "se_type": "google",
+              "keyword_data": {
+                "se_type": "google",
+                "keyword": "sofa upholstery miami",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-07-11 05:26:32 +00:00",
+                  "competition": 0.7699999809265137,
+                  "competition_level": "HIGH",
+                  "cpc": 3.200000047683716,
+                  "search_volume": 40,
+                  "low_top_of_page_bid": 1.5699999332427979,
+                  "high_top_of_page_bid": 3.6500000953674316,
+                  "categories": [
+                    10009,
+                    10413,
+                    11574
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2026,
+                      "month": 6,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2026,
+                      "month": 5,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2026,
+                      "month": 4,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2026,
+                      "month": 3,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2026,
+                      "month": 2,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2026,
+                      "month": 1,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 50
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 67,
+                    "quarterly": 67,
+                    "yearly": 0
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": null,
+                  "synonym_clustering_algorithm": "keyword_metrics",
+                  "keyword_difficulty": 2,
+                  "detected_language": "en",
+                  "is_another_language": false
+                },
+                "serp_info": {
+                  "se_type": "google",
+                  "check_url": "https://www.google.com/search?q=sofa%20upholstery%20miami&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                  "serp_item_types": [
+                    "local_pack",
+                    "organic",
+                    "people_also_ask",
+                    "related_searches"
+                  ],
+                  "se_results_count": 1150000,
+                  "last_updated_time": "2026-05-08 19:24:25 +00:00",
+                  "previous_updated_time": "2026-03-25 19:53:19 +00:00"
+                },
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 22.200000762939453,
+                  "dofollow": 13.399999618530273,
+                  "referring_pages": 20.899999618530273,
+                  "referring_domains": 17.200000762939453,
+                  "referring_main_domains": 16.399999618530273,
+                  "rank": 82.30000305175781,
+                  "main_domain_rank": 340.29998779296875,
+                  "last_updated_time": "2026-05-08 19:24:25 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "transactional",
+                  "foreign_intent": [
+                    "commercial",
+                    "navigational"
+                  ],
+                  "last_updated_time": "2026-04-29 21:09:13 +00:00"
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "google",
+                "serp_item": {
+                  "se_type": "google",
+                  "type": "organic",
+                  "rank_group": 7,
+                  "rank_absolute": 11,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[16]/div[1]/div[1]",
+                  "domain": "www.miamicustomfurnitureandupholstery.com",
+                  "title": "Miami Custom Furniture & Upholstery",
+                  "url": "https://www.miamicustomfurnitureandupholstery.com/",
+                  "breadcrumb": "https://www.miamicustomfurnitureandupholstery.com",
+                  "website_name": "Miami Custom Furniture & Upholstery",
+                  "is_image": false,
+                  "is_video": false,
+                  "is_featured_snippet": false,
+                  "is_malicious": false,
+                  "description": "Miami Custom Furniture & Upholstery. Residential & Commercial Furniture. Custom Sofas, Booths, Lounges, & Upholstery.",
+                  "pre_snippet": null,
+                  "extended_snippet": null,
+                  "amp_version": false,
+                  "rating": null,
+                  "highlighted": [
+                    "Custom Sofas",
+                    "Booths",
+                    "Lounges",
+                    "& Upholstery"
+                  ],
+                  "links": null,
+                  "about_this_result": null,
+                  "main_domain": "miamicustomfurnitureandupholstery.com",
+                  "relative_url": "/",
+                  "etv": 1.0240000486373901,
+                  "estimated_paid_traffic_cost": 3.2767999172210693,
+                  "clickstream_etv": null,
+                  "rank_changes": {
+                    "previous_rank_absolute": 13,
+                    "is_new": false,
+                    "is_up": true,
+                    "is_down": false
+                  },
+                  "backlinks_info": {
+                    "referring_domains": 14,
+                    "referring_main_domains": 14,
+                    "referring_pages": 20,
+                    "dofollow": 9,
+                    "backlinks": 23,
+                    "time_update": "2026-07-21 05:22:44 +00:00"
+                  },
+                  "rank_info": {
+                    "page_rank": 167,
+                    "main_domain_rank": 92
+                  }
+                },
+                "check_url": "https://www.google.com/search?q=sofa%20upholstery%20miami&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                "serp_item_types": [
+                  "local_pack",
+                  "organic",
+                  "people_also_ask",
+                  "related_searches"
+                ],
+                "se_results_count": 1150000,
+                "keyword_difficulty": 2,
+                "is_lost": false,
+                "last_updated_time": "2026-05-08 19:24:25 +00:00",
+                "previous_updated_time": "2026-03-25 19:53:19 +00:00"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

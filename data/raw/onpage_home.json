@@ -1,0 +1,81 @@
+{
+  "version": "0.1.20260731",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "4.9807 sec.",
+  "cost": 0.0015,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "08012108-1561-0275-0000-c8e1af15b761",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "4.9215 sec.",
+      "cost": 0.0015,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "on_page",
+        "instant_pages"
+      ],
+      "data": {
+        "api": "on_page",
+        "function": "instant_pages",
+        "url": "https://wassersfurniture.com/",
+        "enable_javascript": true,
+        "custom_user_agent": "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+      },
+      "result": [
+        {
+          "crawl_progress": "finished",
+          "crawl_status": null,
+          "crawl_gateway_address": "68.183.49.222",
+          "items_count": 1,
+          "items": [
+            {
+              "resource_type": "broken",
+              "status_code": 429,
+              "location": null,
+              "url": "https://wassersfurniture.com/",
+              "size": 169,
+              "encoded_size": 18,
+              "total_transfer_size": 18,
+              "fetch_time": "2026-08-01 21:08:31 +00:00",
+              "fetch_timing": {
+                "duration_time": 138,
+                "fetch_start": 0,
+                "fetch_end": 0
+              },
+              "cache_control": {
+                "cachable": false,
+                "ttl": 0
+              },
+              "checks": {
+                "no_content_encoding": true,
+                "high_loading_time": false,
+                "from_sitemap": false,
+                "is_redirect": false,
+                "is_4xx_code": true,
+                "is_5xx_code": false,
+                "is_broken": true,
+                "is_www": false,
+                "is_https": true,
+                "is_http": false
+              },
+              "resource_errors": {
+                "errors": null,
+                "warnings": null
+              },
+              "content_encoding": null,
+              "media_type": "text/plain",
+              "server": "cloudflare",
+              "is_resource": false,
+              "last_modified": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

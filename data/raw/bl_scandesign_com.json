@@ -1,0 +1,107 @@
+{
+  "version": "0.1.20260731",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "0.3257 sec.",
+  "cost": 0.024036,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "08012114-1561-0265-0000-f72a49a655fd",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "0.3165 sec.",
+      "cost": 0.024036,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "backlinks",
+        "summary",
+        "live"
+      ],
+      "data": {
+        "api": "backlinks",
+        "function": "summary",
+        "target": "scandesign.com",
+        "internal_list_limit": 5,
+        "include_subdomains": true,
+        "backlinks_status_type": "live"
+      },
+      "result": [
+        {
+          "target": "scandesign.com",
+          "first_seen": "2019-02-22 12:27:27 +00:00",
+          "lost_date": null,
+          "rank": 279,
+          "backlinks": 1799,
+          "backlinks_spam_score": 21,
+          "crawled_pages": 8879,
+          "info": {
+            "server": "cloudflare",
+            "cms": null,
+            "platform_type": [
+              "organization"
+            ],
+            "ip_address": "23.227.38.74",
+            "country": "US",
+            "is_ip": false,
+            "target_spam_score": 11
+          },
+          "internal_links_count": 152269,
+          "external_links_count": 12790,
+          "broken_backlinks": 31,
+          "broken_pages": 204,
+          "referring_domains": 309,
+          "referring_domains_nofollow": 86,
+          "referring_main_domains": 291,
+          "referring_main_domains_nofollow": 80,
+          "referring_ips": 264,
+          "referring_subnets": 226,
+          "referring_pages": 1557,
+          "referring_pages_nofollow": 634,
+          "referring_links_tld": {
+            "com": 818,
+            "homes": 189,
+            "blogspot.com": 135,
+            "ru": 114,
+            "net": 57
+          },
+          "referring_links_types": {
+            "anchor": 1241,
+            "image": 299,
+            "redirect": 17
+          },
+          "referring_links_attributes": {
+            "nofollow": 634,
+            "noopener": 379,
+            "noreferrer": 57,
+            "external": 9,
+            "ugc": 4
+          },
+          "referring_links_platform_types": {
+            "unknown": 598,
+            "organization": 404,
+            "blogs": 250,
+            "news": 201,
+            "ecommerce": 136
+          },
+          "referring_links_semantic_locations": {
+            "": 575,
+            "main": 395,
+            "article": 311,
+            "section": 210,
+            "aside": 57
+          },
+          "referring_links_countries": {
+            "": 800,
+            "US": 392,
+            "RU": 114,
+            "WW": 76,
+            "HU": 39
+          }
+        }
+      ]
+    }
+  ]
+}

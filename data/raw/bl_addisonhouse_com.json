@@ -1,0 +1,106 @@
+{
+  "version": "0.1.20260731",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "0.2570 sec.",
+  "cost": 0.024036,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "08012114-1561-0265-0000-9832ac2bd1eb",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "0.2177 sec.",
+      "cost": 0.024036,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "backlinks",
+        "summary",
+        "live"
+      ],
+      "data": {
+        "api": "backlinks",
+        "function": "summary",
+        "target": "addisonhouse.com",
+        "internal_list_limit": 5,
+        "include_subdomains": true,
+        "backlinks_status_type": "live"
+      },
+      "result": [
+        {
+          "target": "addisonhouse.com",
+          "first_seen": "2019-04-21 01:09:08 +00:00",
+          "lost_date": null,
+          "rank": 173,
+          "backlinks": 720,
+          "backlinks_spam_score": 22,
+          "crawled_pages": 5298,
+          "info": {
+            "server": "cloudflare",
+            "cms": null,
+            "platform_type": [
+              "unknown"
+            ],
+            "ip_address": "23.227.38.65",
+            "country": "US",
+            "is_ip": false,
+            "target_spam_score": 0
+          },
+          "internal_links_count": 142658,
+          "external_links_count": 11784,
+          "broken_backlinks": 2,
+          "broken_pages": 44,
+          "referring_domains": 291,
+          "referring_domains_nofollow": 147,
+          "referring_main_domains": 278,
+          "referring_main_domains_nofollow": 144,
+          "referring_ips": 159,
+          "referring_subnets": 131,
+          "referring_pages": 551,
+          "referring_pages_nofollow": 265,
+          "referring_links_tld": {
+            "com": 239,
+            "blogspot.com": 120,
+            "net": 24,
+            "org": 21,
+            "in": 20
+          },
+          "referring_links_types": {
+            "anchor": 422,
+            "image": 129
+          },
+          "referring_links_attributes": {
+            "nofollow": 265,
+            "noopener": 117,
+            "noreferrer": 30,
+            "ugc": 19,
+            "external": 8
+          },
+          "referring_links_platform_types": {
+            "unknown": 293,
+            "blogs": 182,
+            "organization": 88,
+            "cms": 77,
+            "ecommerce": 8
+          },
+          "referring_links_semantic_locations": {
+            "": 327,
+            "article": 131,
+            "main": 52,
+            "section": 36,
+            "header": 3
+          },
+          "referring_links_countries": {
+            "": 266,
+            "US": 121,
+            "WW": 48,
+            "IN": 44,
+            "RU": 17
+          }
+        }
+      ]
+    }
+  ]
+}

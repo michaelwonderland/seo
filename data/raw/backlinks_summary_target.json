@@ -1,0 +1,122 @@
+{
+  "version": "0.1.20260731",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "0.2431 sec.",
+  "cost": 0.024036,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "08012105-1561-0265-0000-3915881b854f",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "0.1956 sec.",
+      "cost": 0.024036,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "backlinks",
+        "summary",
+        "live"
+      ],
+      "data": {
+        "api": "backlinks",
+        "function": "summary",
+        "target": "wassersfurniture.com",
+        "internal_list_limit": 10,
+        "include_subdomains": true,
+        "backlinks_status_type": "live"
+      },
+      "result": [
+        {
+          "target": "wassersfurniture.com",
+          "first_seen": "2019-02-15 23:02:52 +00:00",
+          "lost_date": null,
+          "rank": 187,
+          "backlinks": 1449,
+          "backlinks_spam_score": 26,
+          "crawled_pages": 4254,
+          "info": {
+            "server": "nginx",
+            "cms": null,
+            "platform_type": [
+              "unknown"
+            ],
+            "ip_address": "209.87.149.165",
+            "country": "US",
+            "is_ip": false,
+            "target_spam_score": 11
+          },
+          "internal_links_count": 732155,
+          "external_links_count": 27969,
+          "broken_backlinks": 3,
+          "broken_pages": 94,
+          "referring_domains": 392,
+          "referring_domains_nofollow": 49,
+          "referring_main_domains": 385,
+          "referring_main_domains_nofollow": 47,
+          "referring_ips": 127,
+          "referring_subnets": 108,
+          "referring_pages": 1383,
+          "referring_pages_nofollow": 597,
+          "referring_links_tld": {
+            "blogspot.com": 586,
+            "com": 366,
+            "ru": 279,
+            "web.app": 60,
+            "org": 16,
+            "homes": 6,
+            "com.au": 5,
+            "pages.dev": 5,
+            "net": 5,
+            "pro": 4
+          },
+          "referring_links_types": {
+            "image": 718,
+            "anchor": 663,
+            "redirect": 2
+          },
+          "referring_links_attributes": {
+            "nofollow": 597,
+            "noopener": 49,
+            "noreferrer": 33,
+            "ugc": 19,
+            "external": 11
+          },
+          "referring_links_platform_types": {
+            "blogs": 678,
+            "unknown": 625,
+            "organization": 217,
+            "cms": 86,
+            "ecommerce": 21,
+            "news": 15,
+            "message-boards": 2
+          },
+          "referring_links_semantic_locations": {
+            "": 813,
+            "aside": 280,
+            "article": 162,
+            "main": 86,
+            "section": 38,
+            "footer": 2,
+            "figcaption": 1,
+            "header": 1
+          },
+          "referring_links_countries": {
+            "": 767,
+            "RU": 279,
+            "WW": 233,
+            "US": 58,
+            "UA": 15,
+            "AU": 5,
+            "CO": 5,
+            "HU": 3,
+            "CH": 3,
+            "PK": 2
+          }
+        }
+      ]
+    }
+  ]
+}

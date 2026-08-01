@@ -1,0 +1,125 @@
+{
+  "version": "0.1.20260731",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "0.0371 sec.",
+  "cost": 0.024036,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "08012106-1561-0265-0000-524cdd880397",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "0.0102 sec.",
+      "cost": 0.024036,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "backlinks",
+        "summary",
+        "live"
+      ],
+      "data": {
+        "api": "backlinks",
+        "function": "summary",
+        "target": "americanleather.com",
+        "internal_list_limit": 10,
+        "include_subdomains": true,
+        "backlinks_status_type": "live"
+      },
+      "result": [
+        {
+          "target": "americanleather.com",
+          "first_seen": "2019-01-16 06:25:43 +00:00",
+          "lost_date": null,
+          "rank": 310,
+          "backlinks": 8937,
+          "backlinks_spam_score": 14,
+          "crawled_pages": 1633,
+          "info": {
+            "server": "cloudflare",
+            "cms": null,
+            "platform_type": [
+              "ecommerce"
+            ],
+            "ip_address": "192.200.160.8",
+            "country": "US",
+            "is_ip": false,
+            "target_spam_score": 14
+          },
+          "internal_links_count": 77741,
+          "external_links_count": 10519,
+          "broken_backlinks": 127,
+          "broken_pages": 203,
+          "referring_domains": 1065,
+          "referring_domains_nofollow": 161,
+          "referring_main_domains": 1023,
+          "referring_main_domains_nofollow": 154,
+          "referring_ips": 682,
+          "referring_subnets": 523,
+          "referring_pages": 7405,
+          "referring_pages_nofollow": 672,
+          "referring_links_tld": {
+            "com": 5504,
+            "blogspot.com": 1044,
+            "web.app": 262,
+            "org": 90,
+            "ca": 80,
+            "net": 66,
+            "com.au": 44,
+            "info": 39,
+            "co.uk": 35,
+            "ru": 30
+          },
+          "referring_links_types": {
+            "anchor": 5507,
+            "image": 1891,
+            "redirect": 7
+          },
+          "referring_links_attributes": {
+            "noopener": 1342,
+            "nofollow": 671,
+            "noreferrer": 584,
+            "external": 196,
+            "ugc": 10,
+            "sponsored": 1
+          },
+          "referring_links_platform_types": {
+            "unknown": 3121,
+            "blogs": 3072,
+            "cms": 2325,
+            "organization": 1697,
+            "ecommerce": 198,
+            "news": 122,
+            "message-boards": 5
+          },
+          "referring_links_semantic_locations": {
+            "": 2888,
+            "section": 1536,
+            "article": 974,
+            "main": 875,
+            "aside": 832,
+            "header": 98,
+            "footer": 83,
+            "nav": 44,
+            "figure": 38,
+            "figcaption": 21
+          },
+          "referring_links_countries": {
+            "US": 3539,
+            "": 3142,
+            "WW": 370,
+            "CA": 102,
+            "GB": 47,
+            "AU": 44,
+            "RU": 30,
+            "IO": 21,
+            "VC": 9,
+            "HU": 9
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "version": "0.1.20260731",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "0.2116 sec.",
+  "cost": 0.024036,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "08012113-1561-0265-0000-3407c75b1441",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "0.2002 sec.",
+      "cost": 0.024036,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "backlinks",
+        "summary",
+        "live"
+      ],
+      "data": {
+        "api": "backlinks",
+        "function": "summary",
+        "target": "dkorinteriors.com",
+        "internal_list_limit": 5,
+        "include_subdomains": true,
+        "backlinks_status_type": "live"
+      },
+      "result": [
+        {
+          "target": "dkorinteriors.com",
+          "first_seen": "2019-01-16 02:06:53 +00:00",
+          "lost_date": null,
+          "rank": 306,
+          "backlinks": 16945,
+          "backlinks_spam_score": 22,
+          "crawled_pages": 1558,
+          "info": {
+            "server": "cloudflare",
+            "cms": null,
+            "platform_type": [
+              "organization"
+            ],
+            "ip_address": "172.67.68.71",
+            "country": "US",
+            "is_ip": false,
+            "target_spam_score": 0
+          },
+          "internal_links_count": 30948,
+          "external_links_count": 8498,
+          "broken_backlinks": 45,
+          "broken_pages": 98,
+          "referring_domains": 6501,
+          "referring_domains_nofollow": 337,
+          "referring_main_domains": 6473,
+          "referring_main_domains_nofollow": 337,
+          "referring_ips": 692,
+          "referring_subnets": 555,
+          "referring_pages": 15473,
+          "referring_pages_nofollow": 829,
+          "referring_links_tld": {
+            "blogspot.com": 11446,
+            "com": 1623,
+            "web.app": 1191,
+            "homes": 350,
+            "firebaseapp.com": 177
+          },
+          "referring_links_types": {
+            "image": 12913,
+            "anchor": 2549,
+            "canonical": 6,
+            "redirect": 5
+          },
+          "referring_links_attributes": {
+            "nofollow": 825,
+            "noopener": 811,
+            "noreferrer": 306,
+            "external": 91,
+            "ugc": 11
+          },
+          "referring_links_platform_types": {
+            "blogs": 12105,
+            "organization": 5624,
+            "unknown": 2493,
+            "cms": 1094,
+            "news": 487
+          },
+          "referring_links_semantic_locations": {
+            "aside": 8195,
+            "": 2497,
+            "article": 2419,
+            "main": 1849,
+            "section": 363
+          },
+          "referring_links_countries": {
+            "": 14366,
+            "US": 471,
+            "WW": 186,
+            "RU": 120,
+            "ID": 52
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3642 @@
+{
+  "version": "0.1.20260731",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "0.0978 sec.",
+  "cost": 0.0276,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "08012105-1561-0273-0000-6d349e65dc4d",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "0.0886 sec.",
+      "cost": 0.0276,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "backlinks",
+        "referring_domains",
+        "live"
+      ],
+      "data": {
+        "api": "backlinks",
+        "function": "referring_domains",
+        "target": "wassersfurniture.com",
+        "limit": 100,
+        "include_subdomains": true,
+        "backlinks_status_type": "live",
+        "order_by": [
+          "rank,desc"
+        ]
+      },
+      "result": [
+        {
+          "target": "wassersfurniture.com",
+          "total_count": 385,
+          "items_count": 100,
+          "items": [
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "bestsleepersofatips.com",
+              "rank": 68,
+              "backlinks": 54,
+              "first_seen": "2022-12-26 19:51:15 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 24,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 0,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 0,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 51,
+              "referring_pages_nofollow": 0,
+              "referring_links_tld": {
+                "com": 51
+              },
+              "referring_links_types": {
+                "image": 51
+              },
+              "referring_links_attributes": null,
+              "referring_links_platform_types": {
+                "blogs": 51,
+                "cms": 51,
+                "organization": 51
+              },
+              "referring_links_semantic_locations": {
+                "article": 51
+              },
+              "referring_links_countries": {
+                "": 51
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "biospeleologia.blogspot.com",
+              "rank": 60,
+              "backlinks": 23,
+              "first_seen": "2023-10-04 17:35:08 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 1,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 0,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 0,
+              "referring_ips": 6,
+              "referring_subnets": 4,
+              "referring_pages": 23,
+              "referring_pages_nofollow": 0,
+              "referring_links_tld": {
+                "blogspot.com": 23
+              },
+              "referring_links_types": {
+                "image": 23
+              },
+              "referring_links_attributes": null,
+              "referring_links_platform_types": {
+                "blogs": 23
+              },
+              "referring_links_semantic_locations": {
+                "": 23
+              },
+              "referring_links_countries": {
+                "": 23
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "esches-strandbistro.de",
+              "rank": 51,
+              "backlinks": 1,
+              "first_seen": "2024-11-26 22:43:46 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 0,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 0,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 0,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 1,
+              "referring_pages_nofollow": 0,
+              "referring_links_tld": {
+                "de": 1
+              },
+              "referring_links_types": {
+                "anchor": 1
+              },
+              "referring_links_attributes": {
+                "noopener": 1
+              },
+              "referring_links_platform_types": {
+                "organization": 1
+              },
+              "referring_links_semantic_locations": {
+                "article": 1
+              },
+              "referring_links_countries": {
+                "DE": 1
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "beforeitsnews.com",
+              "rank": 37,
+              "backlinks": 4,
+              "first_seen": "2023-02-10 08:46:43 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 15,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 2,
+              "referring_domains_nofollow": 0,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 0,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 4,
+              "referring_pages_nofollow": 0,
+              "referring_links_tld": {
+                "com": 4
+              },
+              "referring_links_types": {
+                "anchor": 4
+              },
+              "referring_links_attributes": null,
+              "referring_links_platform_types": {
+                "news": 4
+              },
+              "referring_links_semantic_locations": {
+                "": 2,
+                "article": 2
+              },
+              "referring_links_countries": {
+                "US": 4
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "bit.ly",
+              "rank": 36,
+              "backlinks": 1,
+              "first_seen": "2025-12-24 06:34:35 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 0,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 0,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 0,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 1,
+              "referring_pages_nofollow": 0,
+              "referring_links_tld": {
+                "ly": 1
+              },
+              "referring_links_types": {
+                "redirect": 1
+              },
+              "referring_links_attributes": null,
+              "referring_links_platform_types": null,
+              "referring_links_semantic_locations": {
+                "": 1
+              },
+              "referring_links_countries": {
+                "LY": 1
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "choicediningtable.blogspot.com",
+              "rank": 35,
+              "backlinks": 36,
+              "first_seen": "2023-10-03 12:55:00 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 23,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 0,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 0,
+              "referring_ips": 7,
+              "referring_subnets": 5,
+              "referring_pages": 36,
+              "referring_pages_nofollow": 0,
+              "referring_links_tld": {
+                "blogspot.com": 36
+              },
+              "referring_links_types": {
+                "image": 36
+              },
+              "referring_links_attributes": null,
+              "referring_links_platform_types": {
+                "blogs": 36
+              },
+              "referring_links_semantic_locations": {
+                "": 36
+              },
+              "referring_links_countries": {
+                "": 36
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "mydiningtablehome.blogspot.com",
+              "rank": 32,
+              "backlinks": 34,
+              "first_seen": "2023-10-11 04:57:54 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 23,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 0,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 0,
+              "referring_ips": 13,
+              "referring_subnets": 7,
+              "referring_pages": 33,
+              "referring_pages_nofollow": 0,
+              "referring_links_tld": {
+                "blogspot.com": 33
+              },
+              "referring_links_types": {
+                "image": 33
+              },
+              "referring_links_attributes": null,
+              "referring_links_platform_types": {
+                "blogs": 33
+              },
+              "referring_links_semantic_locations": {
+                "": 33
+              },
+              "referring_links_countries": {
+                "": 33
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "aptdeco.com",
+              "rank": 23,
+              "backlinks": 5,
+              "first_seen": "2026-07-02 10:50:22 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 11,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 0,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 0,
+              "referring_ips": 3,
+              "referring_subnets": 3,
+              "referring_pages": 5,
+              "referring_pages_nofollow": 0,
+              "referring_links_tld": {
+                "com": 5
+              },
+              "referring_links_types": {
+                "anchor": 5
+              },
+              "referring_links_attributes": null,
+              "referring_links_platform_types": {
+                "organization": 5
+              },
+              "referring_links_semantic_locations": {
+                "section": 5
+              },
+              "referring_links_countries": {
+                "US": 5
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "dentesthic.hu",
+              "rank": 23,
+              "backlinks": 3,
+              "first_seen": "2025-08-26 20:52:20 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 18,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 0,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 0,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 3,
+              "referring_pages_nofollow": 0,
+              "referring_links_tld": {
+                "hu": 3
+              },
+              "referring_links_types": {
+                "image": 3
+              },
+              "referring_links_attributes": null,
+              "referring_links_platform_types": {
+                "ecommerce": 3
+              },
+              "referring_links_semantic_locations": {
+                "": 3
+              },
+              "referring_links_countries": {
+                "HU": 3
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "diningtabletoday.blogspot.com",
+              "rank": 17,
+              "backlinks": 31,
+              "first_seen": "2023-10-04 23:25:51 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 28,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 0,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 0,
+              "referring_ips": 9,
+              "referring_subnets": 4,
+              "referring_pages": 29,
+              "referring_pages_nofollow": 0,
+              "referring_links_tld": {
+                "blogspot.com": 29
+              },
+              "referring_links_types": {
+                "image": 29
+              },
+              "referring_links_attributes": null,
+              "referring_links_platform_types": {
+                "blogs": 29
+              },
+              "referring_links_semantic_locations": {
+                "": 29
+              },
+              "referring_links_countries": {
+                "": 29
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "comfortingwords.web.app",
+              "rank": 14,
+              "backlinks": 8,
+              "first_seen": "2025-08-05 17:25:45 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 13,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 0,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 0,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 8,
+              "referring_pages_nofollow": 0,
+              "referring_links_tld": {
+                "web.app": 8
+              },
+              "referring_links_types": {
+                "image": 8
+              },
+              "referring_links_attributes": null,
+              "referring_links_platform_types": {
+                "unknown": 8
+              },
+              "referring_links_semantic_locations": {
+                "main": 8
+              },
+              "referring_links_countries": {
+                "": 8
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "losguayanes.blogspot.com",
+              "rank": 12,
+              "backlinks": 7,
+              "first_seen": "2023-10-06 11:16:58 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 3,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 0,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 0,
+              "referring_ips": 4,
+              "referring_subnets": 3,
+              "referring_pages": 7,
+              "referring_pages_nofollow": 0,
+              "referring_links_tld": {
+                "blogspot.com": 7
+              },
+              "referring_links_types": {
+                "image": 7
+              },
+              "referring_links_attributes": null,
+              "referring_links_platform_types": {
+                "blogs": 7
+              },
+              "referring_links_semantic_locations": {
+                "": 7
+              },
+              "referring_links_countries": {
+                "": 7
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "prwe.com",
+              "rank": 7,
+              "backlinks": 2,
+              "first_seen": "2025-08-20 04:23:49 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 5,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 2,
+              "referring_domains_nofollow": 0,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 0,
+              "referring_ips": 2,
+              "referring_subnets": 2,
+              "referring_pages": 2,
+              "referring_pages_nofollow": 0,
+              "referring_links_tld": {
+                "com": 2
+              },
+              "referring_links_types": {
+                "image": 2
+              },
+              "referring_links_attributes": null,
+              "referring_links_platform_types": {
+                "ecommerce": 2
+              },
+              "referring_links_semantic_locations": {
+                "section": 2
+              },
+              "referring_links_countries": {
+                "US": 2
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "ardronesolutions.com",
+              "rank": 7,
+              "backlinks": 2,
+              "first_seen": "2025-08-14 12:19:23 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 25,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 0,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 0,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 2,
+              "referring_pages_nofollow": 0,
+              "referring_links_tld": {
+                "com": 2
+              },
+              "referring_links_types": {
+                "image": 2
+              },
+              "referring_links_attributes": null,
+              "referring_links_platform_types": {
+                "ecommerce": 2
+              },
+              "referring_links_semantic_locations": {
+                "article": 2
+              },
+              "referring_links_countries": {
+                "US": 2
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "bronsspce.blogspot.com",
+              "rank": 6,
+              "backlinks": 4,
+              "first_seen": "2023-10-05 20:04:28 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 25,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 0,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 0,
+              "referring_ips": 4,
+              "referring_subnets": 3,
+              "referring_pages": 4,
+              "referring_pages_nofollow": 0,
+              "referring_links_tld": {
+                "blogspot.com": 4
+              },
+              "referring_links_types": {
+                "image": 4
+              },
+              "referring_links_attributes": null,
+              "referring_links_platform_types": {
+                "blogs": 4,
+                "organization": 4
+              },
+              "referring_links_semantic_locations": {
+                "article": 4
+              },
+              "referring_links_countries": {
+                "": 4
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "belocalhb.com",
+              "rank": 3,
+              "backlinks": 1,
+              "first_seen": "2026-06-23 18:01:08 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 0,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 0,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 0,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 1,
+              "referring_pages_nofollow": 0,
+              "referring_links_tld": {
+                "com": 1
+              },
+              "referring_links_types": {
+                "anchor": 1
+              },
+              "referring_links_attributes": null,
+              "referring_links_platform_types": {
+                "blogs": 1,
+                "cms": 1,
+                "organization": 1
+              },
+              "referring_links_semantic_locations": {
+                "article": 1
+              },
+              "referring_links_countries": {
+                "US": 1
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "anchorurl.cloud",
+              "rank": 0,
+              "backlinks": 1,
+              "first_seen": "2026-07-22 03:08:10 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 50,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 1,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 1,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 1,
+              "referring_pages_nofollow": 1,
+              "referring_links_tld": {
+                "cloud": 1
+              },
+              "referring_links_types": {
+                "anchor": 1
+              },
+              "referring_links_attributes": {
+                "nofollow": 1
+              },
+              "referring_links_platform_types": {
+                "unknown": 1
+              },
+              "referring_links_semantic_locations": {
+                "": 1
+              },
+              "referring_links_countries": {
+                "": 1
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "way2check.cv",
+              "rank": 0,
+              "backlinks": 1,
+              "first_seen": "2026-06-10 03:53:35 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 60,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 0,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 0,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 1,
+              "referring_pages_nofollow": 0,
+              "referring_links_tld": {
+                "cv": 1
+              },
+              "referring_links_types": {
+                "anchor": 1
+              },
+              "referring_links_attributes": null,
+              "referring_links_platform_types": {
+                "blogs": 1,
+                "cms": 1
+              },
+              "referring_links_semantic_locations": {
+                "": 1
+              },
+              "referring_links_countries": {
+                "CV": 1
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "zoominfo.com",
+              "rank": 0,
+              "backlinks": 1,
+              "first_seen": "2026-06-06 23:37:59 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 10,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 1,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 1,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 1,
+              "referring_pages_nofollow": 1,
+              "referring_links_tld": {
+                "com": 1
+              },
+              "referring_links_types": {
+                "anchor": 1
+              },
+              "referring_links_attributes": {
+                "nofollow": 1
+              },
+              "referring_links_platform_types": {
+                "organization": 1
+              },
+              "referring_links_semantic_locations": {
+                "main": 1
+              },
+              "referring_links_countries": {
+                "US": 1
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "quero.party",
+              "rank": 0,
+              "backlinks": 1,
+              "first_seen": "2026-06-01 07:40:19 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 50,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 1,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 1,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 1,
+              "referring_pages_nofollow": 1,
+              "referring_links_tld": {
+                "party": 1
+              },
+              "referring_links_types": {
+                "anchor": 1
+              },
+              "referring_links_attributes": {
+                "nofollow": 1
+              },
+              "referring_links_platform_types": {
+                "unknown": 1
+              },
+              "referring_links_semantic_locations": {
+                "": 1
+              },
+              "referring_links_countries": {
+                "": 1
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "buzzshrink.website",
+              "rank": 0,
+              "backlinks": 1,
+              "first_seen": "2026-05-22 19:43:46 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 50,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 1,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 1,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 1,
+              "referring_pages_nofollow": 1,
+              "referring_links_tld": {
+                "website": 1
+              },
+              "referring_links_types": {
+                "anchor": 1
+              },
+              "referring_links_attributes": {
+                "nofollow": 1
+              },
+              "referring_links_platform_types": {
+                "unknown": 1
+              },
+              "referring_links_semantic_locations": {
+                "": 1
+              },
+              "referring_links_countries": {
+                "": 1
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "decoupage-paper.com",
+              "rank": 0,
+              "backlinks": 4,
+              "first_seen": "2026-05-05 17:41:54 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 3,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 1,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 1,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 3,
+              "referring_pages_nofollow": 3,
+              "referring_links_tld": {
+                "com": 3
+              },
+              "referring_links_types": {
+                "anchor": 3
+              },
+              "referring_links_attributes": {
+                "nofollow": 3,
+                "noopener": 3
+              },
+              "referring_links_platform_types": {
+                "organization": 3
+              },
+              "referring_links_semantic_locations": {
+                "article": 3
+              },
+              "referring_links_countries": {
+                "": 3
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "read.org.in",
+              "rank": 0,
+              "backlinks": 2,
+              "first_seen": "2026-05-02 22:26:05 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 60,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 2,
+              "referring_domains_nofollow": 0,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 0,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 2,
+              "referring_pages_nofollow": 0,
+              "referring_links_tld": {
+                "org.in": 2
+              },
+              "referring_links_types": {
+                "anchor": 2
+              },
+              "referring_links_attributes": null,
+              "referring_links_platform_types": {
+                "blogs": 2,
+                "cms": 2
+              },
+              "referring_links_semantic_locations": {
+                "": 2
+              },
+              "referring_links_countries": {
+                "IN": 2
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "mtbs3d.com",
+              "rank": 0,
+              "backlinks": 1,
+              "first_seen": "2026-05-02 19:51:57 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 40,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 0,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 0,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 1,
+              "referring_pages_nofollow": 0,
+              "referring_links_tld": {
+                "com": 1
+              },
+              "referring_links_types": {
+                "anchor": 1
+              },
+              "referring_links_attributes": null,
+              "referring_links_platform_types": {
+                "unknown": 1
+              },
+              "referring_links_semantic_locations": {
+                "": 1
+              },
+              "referring_links_countries": {
+                "US": 1
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "ruckerholdem.com",
+              "rank": 0,
+              "backlinks": 2,
+              "first_seen": "2026-04-30 19:06:57 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 65,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 0,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 0,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 2,
+              "referring_pages_nofollow": 0,
+              "referring_links_tld": {
+                "com": 2
+              },
+              "referring_links_types": {
+                "anchor": 2
+              },
+              "referring_links_attributes": null,
+              "referring_links_platform_types": {
+                "blogs": 2,
+                "cms": 2
+              },
+              "referring_links_semantic_locations": {
+                "": 2
+              },
+              "referring_links_countries": {
+                "": 2
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "marketingexperts.click",
+              "rank": 0,
+              "backlinks": 1,
+              "first_seen": "2026-04-28 23:39:44 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 50,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 1,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 1,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 1,
+              "referring_pages_nofollow": 1,
+              "referring_links_tld": {
+                "click": 1
+              },
+              "referring_links_types": {
+                "anchor": 1
+              },
+              "referring_links_attributes": {
+                "nofollow": 1
+              },
+              "referring_links_platform_types": {
+                "blogs": 1,
+                "cms": 1
+              },
+              "referring_links_semantic_locations": {
+                "article": 1
+              },
+              "referring_links_countries": {
+                "": 1
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "daolink.mom",
+              "rank": 0,
+              "backlinks": 1,
+              "first_seen": "2026-04-23 00:55:06 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 40,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 1,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 1,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 1,
+              "referring_pages_nofollow": 1,
+              "referring_links_tld": {
+                "mom": 1
+              },
+              "referring_links_types": {
+                "anchor": 1
+              },
+              "referring_links_attributes": {
+                "nofollow": 1
+              },
+              "referring_links_platform_types": {
+                "blogs": 1,
+                "cms": 1
+              },
+              "referring_links_semantic_locations": {
+                "article": 1
+              },
+              "referring_links_countries": {
+                "": 1
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "dltech.forum",
+              "rank": 0,
+              "backlinks": 1,
+              "first_seen": "2026-04-23 00:54:58 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 40,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 1,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 1,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 1,
+              "referring_pages_nofollow": 1,
+              "referring_links_tld": {
+                "forum": 1
+              },
+              "referring_links_types": {
+                "anchor": 1
+              },
+              "referring_links_attributes": {
+                "nofollow": 1
+              },
+              "referring_links_platform_types": {
+                "blogs": 1,
+                "cms": 1
+              },
+              "referring_links_semantic_locations": {
+                "article": 1
+              },
+              "referring_links_countries": {
+                "": 1
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "websiterace.com",
+              "rank": 0,
+              "backlinks": 1,
+              "first_seen": "2026-04-16 08:49:20 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 50,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 0,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 0,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 1,
+              "referring_pages_nofollow": 0,
+              "referring_links_tld": {
+                "com": 1
+              },
+              "referring_links_types": {
+                "anchor": 1
+              },
+              "referring_links_attributes": null,
+              "referring_links_platform_types": {
+                "blogs": 1,
+                "cms": 1
+              },
+              "referring_links_semantic_locations": {
+                "": 1
+              },
+              "referring_links_countries": {
+                "": 1
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "worldbusinesspromote.com",
+              "rank": 0,
+              "backlinks": 1,
+              "first_seen": "2026-04-11 03:18:14 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 50,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 1,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 1,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 1,
+              "referring_pages_nofollow": 1,
+              "referring_links_tld": {
+                "com": 1
+              },
+              "referring_links_types": {
+                "anchor": 1
+              },
+              "referring_links_attributes": {
+                "nofollow": 1
+              },
+              "referring_links_platform_types": {
+                "blogs": 1,
+                "cms": 1
+              },
+              "referring_links_semantic_locations": {
+                "article": 1
+              },
+              "referring_links_countries": {
+                "": 1
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "pagesearch.net",
+              "rank": 0,
+              "backlinks": 1,
+              "first_seen": "2026-03-16 00:38:45 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 50,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 0,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 0,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 1,
+              "referring_pages_nofollow": 0,
+              "referring_links_tld": {
+                "net": 1
+              },
+              "referring_links_types": {
+                "anchor": 1
+              },
+              "referring_links_attributes": null,
+              "referring_links_platform_types": {
+                "blogs": 1,
+                "cms": 1
+              },
+              "referring_links_semantic_locations": {
+                "": 1
+              },
+              "referring_links_countries": {
+                "": 1
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "shortenurls.eu",
+              "rank": 0,
+              "backlinks": 1,
+              "first_seen": "2026-03-15 03:09:06 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 50,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 1,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 1,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 1,
+              "referring_pages_nofollow": 1,
+              "referring_links_tld": {
+                "eu": 1
+              },
+              "referring_links_types": {
+                "anchor": 1
+              },
+              "referring_links_attributes": {
+                "nofollow": 1
+              },
+              "referring_links_platform_types": {
+                "unknown": 1
+              },
+              "referring_links_semantic_locations": {
+                "": 1
+              },
+              "referring_links_countries": {
+                "": 1
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "localitybiz.com",
+              "rank": 0,
+              "backlinks": 16,
+              "first_seen": "2026-03-02 04:53:13 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 0,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 1,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 1,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 15,
+              "referring_pages_nofollow": 15,
+              "referring_links_tld": {
+                "com": 15
+              },
+              "referring_links_types": {
+                "anchor": 15
+              },
+              "referring_links_attributes": {
+                "nofollow": 15,
+                "noopener": 15,
+                "noreferrer": 15,
+                "ugc": 15
+              },
+              "referring_links_platform_types": {
+                "organization": 15
+              },
+              "referring_links_semantic_locations": {
+                "article": 14,
+                "header": 1
+              },
+              "referring_links_countries": {
+                "UA": 15
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "urls-shortener.eu",
+              "rank": 0,
+              "backlinks": 1,
+              "first_seen": "2026-02-25 02:05:30 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 50,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 1,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 1,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 1,
+              "referring_pages_nofollow": 1,
+              "referring_links_tld": {
+                "eu": 1
+              },
+              "referring_links_types": {
+                "anchor": 1
+              },
+              "referring_links_attributes": {
+                "nofollow": 1
+              },
+              "referring_links_platform_types": {
+                "unknown": 1
+              },
+              "referring_links_semantic_locations": {
+                "": 1
+              },
+              "referring_links_countries": {
+                "DE": 1
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "accordiluminacao.com",
+              "rank": 0,
+              "backlinks": 1,
+              "first_seen": "2026-02-25 01:58:42 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 30,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 0,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 0,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 1,
+              "referring_pages_nofollow": 0,
+              "referring_links_tld": {
+                "com": 1
+              },
+              "referring_links_types": {
+                "anchor": 1
+              },
+              "referring_links_attributes": null,
+              "referring_links_platform_types": {
+                "unknown": 1
+              },
+              "referring_links_semantic_locations": {
+                "section": 1
+              },
+              "referring_links_countries": {
+                "WW": 1
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "wallpapers.pro",
+              "rank": 0,
+              "backlinks": 1,
+              "first_seen": "2026-02-23 19:26:44 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 50,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 0,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 0,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 1,
+              "referring_pages_nofollow": 0,
+              "referring_links_tld": {
+                "pro": 1
+              },
+              "referring_links_types": {
+                "anchor": 1
+              },
+              "referring_links_attributes": null,
+              "referring_links_platform_types": {
+                "blogs": 1,
+                "cms": 1
+              },
+              "referring_links_semantic_locations": {
+                "": 1
+              },
+              "referring_links_countries": {
+                "": 1
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "housemadrid.com.es",
+              "rank": 0,
+              "backlinks": 1,
+              "first_seen": "2026-02-19 19:53:47 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 0,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 1,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 1,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 1,
+              "referring_pages_nofollow": 1,
+              "referring_links_tld": {
+                "com.es": 1
+              },
+              "referring_links_types": {
+                "anchor": 1
+              },
+              "referring_links_attributes": {
+                "nofollow": 1,
+                "noopener": 1
+              },
+              "referring_links_platform_types": {
+                "organization": 1
+              },
+              "referring_links_semantic_locations": {
+                "article": 1
+              },
+              "referring_links_countries": {
+                "ES": 1
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "jake.eu",
+              "rank": 0,
+              "backlinks": 1,
+              "first_seen": "2026-02-12 17:12:35 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 50,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 1,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 1,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 1,
+              "referring_pages_nofollow": 1,
+              "referring_links_tld": {
+                "eu": 1
+              },
+              "referring_links_types": {
+                "anchor": 1
+              },
+              "referring_links_attributes": {
+                "nofollow": 1
+              },
+              "referring_links_platform_types": {
+                "unknown": 1
+              },
+              "referring_links_semantic_locations": {
+                "": 1
+              },
+              "referring_links_countries": {
+                "": 1
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "musweb.org",
+              "rank": 0,
+              "backlinks": 1,
+              "first_seen": "2026-02-12 16:34:15 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 60,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 0,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 0,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 1,
+              "referring_pages_nofollow": 0,
+              "referring_links_tld": {
+                "org": 1
+              },
+              "referring_links_types": {
+                "anchor": 1
+              },
+              "referring_links_attributes": null,
+              "referring_links_platform_types": {
+                "blogs": 1,
+                "cms": 1
+              },
+              "referring_links_semantic_locations": {
+                "": 1
+              },
+              "referring_links_countries": {
+                "": 1
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "jedgar.co",
+              "rank": 0,
+              "backlinks": 1,
+              "first_seen": "2026-02-12 12:00:49 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 0,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 0,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 0,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 1,
+              "referring_pages_nofollow": 0,
+              "referring_links_tld": {
+                "co": 1
+              },
+              "referring_links_types": {
+                "image": 1
+              },
+              "referring_links_attributes": null,
+              "referring_links_platform_types": {
+                "blogs": 1
+              },
+              "referring_links_semantic_locations": {
+                "section": 1
+              },
+              "referring_links_countries": {
+                "CO": 1
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "adwordtechnology.com",
+              "rank": 0,
+              "backlinks": 1,
+              "first_seen": "2026-02-09 09:13:45 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 0,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 0,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 0,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 1,
+              "referring_pages_nofollow": 0,
+              "referring_links_tld": {
+                "com": 1
+              },
+              "referring_links_types": {
+                "anchor": 1
+              },
+              "referring_links_attributes": null,
+              "referring_links_platform_types": {
+                "organization": 1
+              },
+              "referring_links_semantic_locations": {
+                "article": 1
+              },
+              "referring_links_countries": {
+                "": 1
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "ready.pro",
+              "rank": 0,
+              "backlinks": 2,
+              "first_seen": "2026-02-03 09:22:52 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 50,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 1,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 1,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 2,
+              "referring_pages_nofollow": 2,
+              "referring_links_tld": {
+                "pro": 2
+              },
+              "referring_links_types": {
+                "anchor": 2
+              },
+              "referring_links_attributes": {
+                "nofollow": 2
+              },
+              "referring_links_platform_types": {
+                "unknown": 2
+              },
+              "referring_links_semantic_locations": {
+                "": 2
+              },
+              "referring_links_countries": {
+                "": 2
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "booksreadr.org",
+              "rank": 0,
+              "backlinks": 1,
+              "first_seen": "2026-02-02 13:20:04 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 60,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 0,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 0,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 1,
+              "referring_pages_nofollow": 0,
+              "referring_links_tld": {
+                "org": 1
+              },
+              "referring_links_types": {
+                "anchor": 1
+              },
+              "referring_links_attributes": null,
+              "referring_links_platform_types": {
+                "blogs": 1,
+                "cms": 1
+              },
+              "referring_links_semantic_locations": {
+                "": 1
+              },
+              "referring_links_countries": {
+                "": 1
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "assurances.gov.gh",
+              "rank": 0,
+              "backlinks": 1,
+              "first_seen": "2026-02-01 20:26:44 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 0,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 0,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 0,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 1,
+              "referring_pages_nofollow": 0,
+              "referring_links_tld": {
+                "gov.gh": 1
+              },
+              "referring_links_types": {
+                "image": 1
+              },
+              "referring_links_attributes": null,
+              "referring_links_platform_types": {
+                "blogs": 1
+              },
+              "referring_links_semantic_locations": {
+                "section": 1
+              },
+              "referring_links_countries": {
+                "GH": 1
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "tindercash.com",
+              "rank": 0,
+              "backlinks": 214,
+              "first_seen": "2026-02-01 10:07:37 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 0,
+              "broken_backlinks": 2,
+              "broken_pages": 2,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 1,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 1,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 214,
+              "referring_pages_nofollow": 214,
+              "referring_links_tld": {
+                "com": 214
+              },
+              "referring_links_types": {
+                "anchor": 214
+              },
+              "referring_links_attributes": {
+                "nofollow": 214
+              },
+              "referring_links_platform_types": {
+                "unknown": 214
+              },
+              "referring_links_semantic_locations": {
+                "": 214
+              },
+              "referring_links_countries": {
+                "WW": 214
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "screenshots.wiki",
+              "rank": 0,
+              "backlinks": 2,
+              "first_seen": "2026-01-29 13:16:36 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 50,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 1,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 1,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 2,
+              "referring_pages_nofollow": 2,
+              "referring_links_tld": {
+                "wiki": 2
+              },
+              "referring_links_types": {
+                "anchor": 2
+              },
+              "referring_links_attributes": {
+                "nofollow": 2
+              },
+              "referring_links_platform_types": {
+                "unknown": 2
+              },
+              "referring_links_semantic_locations": {
+                "": 2
+              },
+              "referring_links_countries": {
+                "": 2
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "alljobs.info",
+              "rank": 0,
+              "backlinks": 2,
+              "first_seen": "2026-01-26 10:31:53 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 50,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 2,
+              "referring_domains_nofollow": 0,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 0,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 2,
+              "referring_pages_nofollow": 0,
+              "referring_links_tld": {
+                "info": 2
+              },
+              "referring_links_types": {
+                "anchor": 2
+              },
+              "referring_links_attributes": null,
+              "referring_links_platform_types": {
+                "blogs": 2,
+                "cms": 2
+              },
+              "referring_links_semantic_locations": {
+                "": 2
+              },
+              "referring_links_countries": {
+                "": 2
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "globalecommerce.org",
+              "rank": 0,
+              "backlinks": 1,
+              "first_seen": "2026-01-25 13:43:48 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 60,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 0,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 0,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 1,
+              "referring_pages_nofollow": 0,
+              "referring_links_tld": {
+                "org": 1
+              },
+              "referring_links_types": {
+                "anchor": 1
+              },
+              "referring_links_attributes": null,
+              "referring_links_platform_types": {
+                "blogs": 1,
+                "cms": 1
+              },
+              "referring_links_semantic_locations": {
+                "": 1
+              },
+              "referring_links_countries": {
+                "": 1
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "pick4d.live",
+              "rank": 0,
+              "backlinks": 1,
+              "first_seen": "2026-01-09 23:21:22 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 40,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 1,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 1,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 1,
+              "referring_pages_nofollow": 1,
+              "referring_links_tld": {
+                "live": 1
+              },
+              "referring_links_types": {
+                "anchor": 1
+              },
+              "referring_links_attributes": {
+                "nofollow": 1
+              },
+              "referring_links_platform_types": {
+                "blogs": 1,
+                "cms": 1
+              },
+              "referring_links_semantic_locations": {
+                "article": 1
+              },
+              "referring_links_countries": {
+                "": 1
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "electricity-engeer37.blogspot.com",
+              "rank": 0,
+              "backlinks": 1,
+              "first_seen": "2026-01-08 12:31:10 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 15,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 0,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 0,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 1,
+              "referring_pages_nofollow": 0,
+              "referring_links_tld": {
+                "blogspot.com": 1
+              },
+              "referring_links_types": {
+                "image": 1
+              },
+              "referring_links_attributes": null,
+              "referring_links_platform_types": {
+                "blogs": 1
+              },
+              "referring_links_semantic_locations": {
+                "aside": 1
+              },
+              "referring_links_countries": {
+                "": 1
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "getwebsiteworth.com",
+              "rank": 0,
+              "backlinks": 2,
+              "first_seen": "2026-01-02 12:24:22 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 55,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 2,
+              "referring_domains_nofollow": 0,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 0,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 2,
+              "referring_pages_nofollow": 0,
+              "referring_links_tld": {
+                "com": 2
+              },
+              "referring_links_types": {
+                "anchor": 2
+              },
+              "referring_links_attributes": null,
+              "referring_links_platform_types": {
+                "blogs": 2,
+                "cms": 2
+              },
+              "referring_links_semantic_locations": {
+                "": 2
+              },
+              "referring_links_countries": {
+                "": 2
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "wheretobuybest.link",
+              "rank": 0,
+              "backlinks": 1,
+              "first_seen": "2025-12-28 22:27:43 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 80,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 1,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 1,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 1,
+              "referring_pages_nofollow": 1,
+              "referring_links_tld": {
+                "link": 1
+              },
+              "referring_links_types": {
+                "anchor": 1
+              },
+              "referring_links_attributes": {
+                "nofollow": 1
+              },
+              "referring_links_platform_types": {
+                "unknown": 1
+              },
+              "referring_links_semantic_locations": {
+                "": 1
+              },
+              "referring_links_countries": {
+                "": 1
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "thecloudherald.com",
+              "rank": 0,
+              "backlinks": 1,
+              "first_seen": "2025-12-25 20:32:03 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 60,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 1,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 1,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 1,
+              "referring_pages_nofollow": 1,
+              "referring_links_tld": {
+                "com": 1
+              },
+              "referring_links_types": {
+                "anchor": 1
+              },
+              "referring_links_attributes": {
+                "nofollow": 1
+              },
+              "referring_links_platform_types": {
+                "unknown": 1
+              },
+              "referring_links_semantic_locations": {
+                "": 1
+              },
+              "referring_links_countries": {
+                "": 1
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "danaoliving.com",
+              "rank": 0,
+              "backlinks": 1,
+              "first_seen": "2025-12-10 07:44:38 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 0,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 0,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 0,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 1,
+              "referring_pages_nofollow": 0,
+              "referring_links_tld": {
+                "com": 1
+              },
+              "referring_links_types": {
+                "anchor": 1
+              },
+              "referring_links_attributes": null,
+              "referring_links_platform_types": {
+                "organization": 1
+              },
+              "referring_links_semantic_locations": {
+                "section": 1
+              },
+              "referring_links_countries": {
+                "": 1
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "furniture-companies.com",
+              "rank": 0,
+              "backlinks": 4,
+              "first_seen": "2025-12-05 16:50:57 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 0,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 1,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 1,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 1,
+              "referring_pages_nofollow": 1,
+              "referring_links_tld": {
+                "com": 1
+              },
+              "referring_links_types": {
+                "anchor": 1
+              },
+              "referring_links_attributes": {
+                "nofollow": 1
+              },
+              "referring_links_platform_types": {
+                "unknown": 1
+              },
+              "referring_links_semantic_locations": {
+                "": 1
+              },
+              "referring_links_countries": {
+                "": 1
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "topcustomfurnituredesigners.com",
+              "rank": 0,
+              "backlinks": 4,
+              "first_seen": "2025-12-01 15:53:51 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 5,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 0,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 0,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 1,
+              "referring_pages_nofollow": 0,
+              "referring_links_tld": {
+                "com": 1
+              },
+              "referring_links_types": {
+                "anchor": 1
+              },
+              "referring_links_attributes": null,
+              "referring_links_platform_types": {
+                "unknown": 1
+              },
+              "referring_links_semantic_locations": {
+                "": 1
+              },
+              "referring_links_countries": {
+                "": 1
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "bobbytonboulevard.blogspot.com",
+              "rank": 0,
+              "backlinks": 3,
+              "first_seen": "2025-11-28 04:17:51 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 65,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 0,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 0,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 3,
+              "referring_pages_nofollow": 0,
+              "referring_links_tld": {
+                "blogspot.com": 3
+              },
+              "referring_links_types": {
+                "image": 3
+              },
+              "referring_links_attributes": null,
+              "referring_links_platform_types": {
+                "blogs": 3,
+                "organization": 3
+              },
+              "referring_links_semantic_locations": {
+                "article": 3
+              },
+              "referring_links_countries": {
+                "": 3
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "ruangguru-614.blogspot.com",
+              "rank": 0,
+              "backlinks": 1,
+              "first_seen": "2025-11-26 18:25:58 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 45,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 0,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 0,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 1,
+              "referring_pages_nofollow": 0,
+              "referring_links_tld": {
+                "blogspot.com": 1
+              },
+              "referring_links_types": {
+                "image": 1
+              },
+              "referring_links_attributes": null,
+              "referring_links_platform_types": {
+                "blogs": 1,
+                "organization": 1
+              },
+              "referring_links_semantic_locations": {
+                "aside": 1
+              },
+              "referring_links_countries": {
+                "": 1
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "prologisfreight.com",
+              "rank": 0,
+              "backlinks": 1,
+              "first_seen": "2025-11-24 07:14:27 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 25,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 0,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 0,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 1,
+              "referring_pages_nofollow": 0,
+              "referring_links_tld": {
+                "com": 1
+              },
+              "referring_links_types": {
+                "image": 1
+              },
+              "referring_links_attributes": null,
+              "referring_links_platform_types": {
+                "ecommerce": 1,
+                "organization": 1
+              },
+              "referring_links_semantic_locations": {
+                "article": 1
+              },
+              "referring_links_countries": {
+                "WW": 1
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "apathtosavingmoney.blogspot.com",
+              "rank": 0,
+              "backlinks": 1,
+              "first_seen": "2025-11-23 03:11:30 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 50,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 0,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 0,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 1,
+              "referring_pages_nofollow": 0,
+              "referring_links_tld": {
+                "blogspot.com": 1
+              },
+              "referring_links_types": {
+                "image": 1
+              },
+              "referring_links_attributes": null,
+              "referring_links_platform_types": {
+                "blogs": 1
+              },
+              "referring_links_semantic_locations": {
+                "": 1
+              },
+              "referring_links_countries": {
+                "": 1
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "greatinteriordesig.blogspot.com",
+              "rank": 0,
+              "backlinks": 1,
+              "first_seen": "2025-11-20 08:37:12 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 50,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 0,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 0,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 1,
+              "referring_pages_nofollow": 0,
+              "referring_links_tld": {
+                "blogspot.com": 1
+              },
+              "referring_links_types": {
+                "image": 1
+              },
+              "referring_links_attributes": null,
+              "referring_links_platform_types": {
+                "blogs": 1
+              },
+              "referring_links_semantic_locations": {
+                "": 1
+              },
+              "referring_links_countries": {
+                "": 1
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "picturescards.blogspot.com",
+              "rank": 0,
+              "backlinks": 1,
+              "first_seen": "2025-11-20 04:37:43 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 0,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 0,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 0,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 1,
+              "referring_pages_nofollow": 0,
+              "referring_links_tld": {
+                "blogspot.com": 1
+              },
+              "referring_links_types": {
+                "image": 1
+              },
+              "referring_links_attributes": null,
+              "referring_links_platform_types": {
+                "blogs": 1,
+                "organization": 1
+              },
+              "referring_links_semantic_locations": {
+                "aside": 1
+              },
+              "referring_links_countries": {
+                "": 1
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "rumahbelajarpintar75.blogspot.com",
+              "rank": 0,
+              "backlinks": 1,
+              "first_seen": "2025-11-15 07:35:10 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 15,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 0,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 0,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 1,
+              "referring_pages_nofollow": 0,
+              "referring_links_tld": {
+                "blogspot.com": 1
+              },
+              "referring_links_types": {
+                "image": 1
+              },
+              "referring_links_attributes": null,
+              "referring_links_platform_types": {
+                "blogs": 1
+              },
+              "referring_links_semantic_locations": {
+                "aside": 1
+              },
+              "referring_links_countries": {
+                "": 1
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "rumahbelajarpintar62.blogspot.com",
+              "rank": 0,
+              "backlinks": 2,
+              "first_seen": "2025-11-15 07:32:24 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 15,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 0,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 0,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 1,
+              "referring_pages_nofollow": 0,
+              "referring_links_tld": {
+                "blogspot.com": 1
+              },
+              "referring_links_types": {
+                "image": 1
+              },
+              "referring_links_attributes": null,
+              "referring_links_platform_types": {
+                "blogs": 1
+              },
+              "referring_links_semantic_locations": {
+                "aside": 1
+              },
+              "referring_links_countries": {
+                "": 1
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "rumahbelajarpintar684.blogspot.com",
+              "rank": 0,
+              "backlinks": 1,
+              "first_seen": "2025-11-15 07:16:57 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 15,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 0,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 0,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 1,
+              "referring_pages_nofollow": 0,
+              "referring_links_tld": {
+                "blogspot.com": 1
+              },
+              "referring_links_types": {
+                "image": 1
+              },
+              "referring_links_attributes": null,
+              "referring_links_platform_types": {
+                "blogs": 1
+              },
+              "referring_links_semantic_locations": {
+                "aside": 1
+              },
+              "referring_links_countries": {
+                "": 1
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "obesbye.blogspot.com",
+              "rank": 0,
+              "backlinks": 3,
+              "first_seen": "2025-11-14 06:31:16 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 15,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 0,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 0,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 3,
+              "referring_pages_nofollow": 0,
+              "referring_links_tld": {
+                "blogspot.com": 3
+              },
+              "referring_links_types": {
+                "image": 3
+              },
+              "referring_links_attributes": null,
+              "referring_links_platform_types": {
+                "blogs": 3
+              },
+              "referring_links_semantic_locations": {
+                "": 3
+              },
+              "referring_links_countries": {
+                "": 3
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "diningromideaa.blogspot.com",
+              "rank": 0,
+              "backlinks": 1,
+              "first_seen": "2025-11-13 05:59:24 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 0,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 0,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 0,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 1,
+              "referring_pages_nofollow": 0,
+              "referring_links_tld": {
+                "blogspot.com": 1
+              },
+              "referring_links_types": {
+                "image": 1
+              },
+              "referring_links_attributes": null,
+              "referring_links_platform_types": {
+                "blogs": 1
+              },
+              "referring_links_semantic_locations": {
+                "article": 1
+              },
+              "referring_links_countries": {
+                "": 1
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "everythingfurniture-co.blogspot.com",
+              "rank": 0,
+              "backlinks": 1,
+              "first_seen": "2025-11-12 23:01:57 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 0,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 1,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 1,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 1,
+              "referring_pages_nofollow": 1,
+              "referring_links_tld": {
+                "blogspot.com": 1
+              },
+              "referring_links_types": {
+                "anchor": 1
+              },
+              "referring_links_attributes": {
+                "nofollow": 1,
+                "noreferrer": 1
+              },
+              "referring_links_platform_types": {
+                "blogs": 1,
+                "organization": 1
+              },
+              "referring_links_semantic_locations": {
+                "article": 1
+              },
+              "referring_links_countries": {
+                "": 1
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "brasilnapratica.com.br",
+              "rank": 0,
+              "backlinks": 1,
+              "first_seen": "2025-11-10 05:14:27 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 0,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 0,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 0,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 1,
+              "referring_pages_nofollow": 0,
+              "referring_links_tld": {
+                "com.br": 1
+              },
+              "referring_links_types": {
+                "image": 1
+              },
+              "referring_links_attributes": null,
+              "referring_links_platform_types": {
+                "blogs": 1
+              },
+              "referring_links_semantic_locations": {
+                "section": 1
+              },
+              "referring_links_countries": {
+                "BR": 1
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "bestimagesarchives.blogspot.com",
+              "rank": 0,
+              "backlinks": 1,
+              "first_seen": "2025-11-09 01:26:59 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 20,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 0,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 0,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 1,
+              "referring_pages_nofollow": 0,
+              "referring_links_tld": {
+                "blogspot.com": 1
+              },
+              "referring_links_types": {
+                "image": 1
+              },
+              "referring_links_attributes": null,
+              "referring_links_platform_types": {
+                "blogs": 1,
+                "organization": 1
+              },
+              "referring_links_semantic_locations": {
+                "aside": 1
+              },
+              "referring_links_countries": {
+                "": 1
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "blockchainproper.blogspot.com",
+              "rank": 0,
+              "backlinks": 1,
+              "first_seen": "2025-11-07 21:57:17 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 25,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 0,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 0,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 1,
+              "referring_pages_nofollow": 0,
+              "referring_links_tld": {
+                "blogspot.com": 1
+              },
+              "referring_links_types": {
+                "image": 1
+              },
+              "referring_links_attributes": null,
+              "referring_links_platform_types": {
+                "blogs": 1,
+                "organization": 1
+              },
+              "referring_links_semantic_locations": {
+                "aside": 1
+              },
+              "referring_links_countries": {
+                "": 1
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "theswingersdiaries.blogspot.com",
+              "rank": 0,
+              "backlinks": 1,
+              "first_seen": "2025-11-07 21:26:38 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 20,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 0,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 0,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 1,
+              "referring_pages_nofollow": 0,
+              "referring_links_tld": {
+                "blogspot.com": 1
+              },
+              "referring_links_types": {
+                "image": 1
+              },
+              "referring_links_attributes": null,
+              "referring_links_platform_types": {
+                "blogs": 1
+              },
+              "referring_links_semantic_locations": {
+                "article": 1
+              },
+              "referring_links_countries": {
+                "": 1
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "thecitadelphotos.blogspot.com",
+              "rank": 0,
+              "backlinks": 1,
+              "first_seen": "2025-11-06 15:56:46 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 0,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 0,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 0,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 1,
+              "referring_pages_nofollow": 0,
+              "referring_links_tld": {
+                "blogspot.com": 1
+              },
+              "referring_links_types": {
+                "image": 1
+              },
+              "referring_links_attributes": null,
+              "referring_links_platform_types": {
+                "blogs": 1,
+                "organization": 1
+              },
+              "referring_links_semantic_locations": {
+                "aside": 1
+              },
+              "referring_links_countries": {
+                "": 1
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "allloyalphotos.blogspot.com",
+              "rank": 0,
+              "backlinks": 2,
+              "first_seen": "2025-11-06 14:20:57 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 0,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 0,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 0,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 2,
+              "referring_pages_nofollow": 0,
+              "referring_links_tld": {
+                "blogspot.com": 2
+              },
+              "referring_links_types": {
+                "image": 2
+              },
+              "referring_links_attributes": null,
+              "referring_links_platform_types": {
+                "blogs": 2,
+                "organization": 2
+              },
+              "referring_links_semantic_locations": {
+                "aside": 2
+              },
+              "referring_links_countries": {
+                "": 2
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "theimagesspark.blogspot.com",
+              "rank": 0,
+              "backlinks": 1,
+              "first_seen": "2025-11-06 05:17:59 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 20,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 0,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 0,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 1,
+              "referring_pages_nofollow": 0,
+              "referring_links_tld": {
+                "blogspot.com": 1
+              },
+              "referring_links_types": {
+                "image": 1
+              },
+              "referring_links_attributes": null,
+              "referring_links_platform_types": {
+                "blogs": 1,
+                "organization": 1
+              },
+              "referring_links_semantic_locations": {
+                "aside": 1
+              },
+              "referring_links_countries": {
+                "": 1
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "birthstonbonatura.blogspot.com",
+              "rank": 0,
+              "backlinks": 1,
+              "first_seen": "2025-11-06 03:35:57 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 25,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 0,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 0,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 1,
+              "referring_pages_nofollow": 0,
+              "referring_links_tld": {
+                "blogspot.com": 1
+              },
+              "referring_links_types": {
+                "image": 1
+              },
+              "referring_links_attributes": null,
+              "referring_links_platform_types": {
+                "blogs": 1
+              },
+              "referring_links_semantic_locations": {
+                "aside": 1
+              },
+              "referring_links_countries": {
+                "": 1
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "harmonicimages.blogspot.com",
+              "rank": 0,
+              "backlinks": 1,
+              "first_seen": "2025-11-05 18:21:15 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 5,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 0,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 0,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 1,
+              "referring_pages_nofollow": 0,
+              "referring_links_tld": {
+                "blogspot.com": 1
+              },
+              "referring_links_types": {
+                "image": 1
+              },
+              "referring_links_attributes": null,
+              "referring_links_platform_types": {
+                "blogs": 1
+              },
+              "referring_links_semantic_locations": {
+                "aside": 1
+              },
+              "referring_links_countries": {
+                "": 1
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "bestphotosmaniac.blogspot.com",
+              "rank": 0,
+              "backlinks": 1,
+              "first_seen": "2025-11-05 17:07:40 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 20,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 0,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 0,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 1,
+              "referring_pages_nofollow": 0,
+              "referring_links_tld": {
+                "blogspot.com": 1
+              },
+              "referring_links_types": {
+                "image": 1
+              },
+              "referring_links_attributes": null,
+              "referring_links_platform_types": {
+                "blogs": 1,
+                "organization": 1
+              },
+              "referring_links_semantic_locations": {
+                "aside": 1
+              },
+              "referring_links_countries": {
+                "": 1
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "hairstylesnet.blogspot.com",
+              "rank": 0,
+              "backlinks": 1,
+              "first_seen": "2025-11-05 13:34:47 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 60,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 0,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 0,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 1,
+              "referring_pages_nofollow": 0,
+              "referring_links_tld": {
+                "blogspot.com": 1
+              },
+              "referring_links_types": {
+                "image": 1
+              },
+              "referring_links_attributes": null,
+              "referring_links_platform_types": {
+                "blogs": 1
+              },
+              "referring_links_semantic_locations": {
+                "": 1
+              },
+              "referring_links_countries": {
+                "": 1
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "homeconceptwarehouse.blogspot.com",
+              "rank": 0,
+              "backlinks": 2,
+              "first_seen": "2025-11-05 12:49:13 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 20,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 0,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 0,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 2,
+              "referring_pages_nofollow": 0,
+              "referring_links_tld": {
+                "blogspot.com": 2
+              },
+              "referring_links_types": {
+                "image": 2
+              },
+              "referring_links_attributes": null,
+              "referring_links_platform_types": {
+                "blogs": 2,
+                "organization": 2
+              },
+              "referring_links_semantic_locations": {
+                "aside": 2
+              },
+              "referring_links_countries": {
+                "": 2
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "skylinkseo.site",
+              "rank": 0,
+              "backlinks": 1,
+              "first_seen": "2025-11-05 12:41:08 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 40,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 1,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 1,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 1,
+              "referring_pages_nofollow": 1,
+              "referring_links_tld": {
+                "site": 1
+              },
+              "referring_links_types": {
+                "anchor": 1
+              },
+              "referring_links_attributes": {
+                "nofollow": 1
+              },
+              "referring_links_platform_types": {
+                "blogs": 1,
+                "cms": 1
+              },
+              "referring_links_semantic_locations": {
+                "article": 1
+              },
+              "referring_links_countries": {
+                "": 1
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "ruangbelajar-667.blogspot.com",
+              "rank": 0,
+              "backlinks": 2,
+              "first_seen": "2025-10-28 01:37:33 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 15,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 0,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 0,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 1,
+              "referring_pages_nofollow": 0,
+              "referring_links_tld": {
+                "blogspot.com": 1
+              },
+              "referring_links_types": {
+                "image": 1
+              },
+              "referring_links_attributes": null,
+              "referring_links_platform_types": {
+                "blogs": 1
+              },
+              "referring_links_semantic_locations": {
+                "aside": 1
+              },
+              "referring_links_countries": {
+                "": 1
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "philca.ch",
+              "rank": 0,
+              "backlinks": 1,
+              "first_seen": "2025-10-20 17:52:45 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 25,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 0,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 0,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 1,
+              "referring_pages_nofollow": 0,
+              "referring_links_tld": {
+                "ch": 1
+              },
+              "referring_links_types": {
+                "image": 1
+              },
+              "referring_links_attributes": null,
+              "referring_links_platform_types": {
+                "ecommerce": 1
+              },
+              "referring_links_semantic_locations": {
+                "": 1
+              },
+              "referring_links_countries": {
+                "CH": 1
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "noblesseobligevignola.com",
+              "rank": 0,
+              "backlinks": 1,
+              "first_seen": "2025-10-10 08:01:32 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 25,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 0,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 0,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 1,
+              "referring_pages_nofollow": 0,
+              "referring_links_tld": {
+                "com": 1
+              },
+              "referring_links_types": {
+                "image": 1
+              },
+              "referring_links_attributes": null,
+              "referring_links_platform_types": {
+                "ecommerce": 1
+              },
+              "referring_links_semantic_locations": {
+                "main": 1
+              },
+              "referring_links_countries": {
+                "US": 1
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "iheart.com",
+              "rank": 0,
+              "backlinks": 3,
+              "first_seen": "2025-10-03 14:11:21 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 0,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 0,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 0,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 3,
+              "referring_pages_nofollow": 0,
+              "referring_links_tld": {
+                "com": 3
+              },
+              "referring_links_types": {
+                "anchor": 3
+              },
+              "referring_links_attributes": null,
+              "referring_links_platform_types": {
+                "unknown": 3
+              },
+              "referring_links_semantic_locations": {
+                "section": 3
+              },
+              "referring_links_countries": {
+                "US": 3
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "imageinfohub.blogspot.com",
+              "rank": 0,
+              "backlinks": 1,
+              "first_seen": "2025-09-28 03:22:08 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 0,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 0,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 0,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 1,
+              "referring_pages_nofollow": 0,
+              "referring_links_tld": {
+                "blogspot.com": 1
+              },
+              "referring_links_types": {
+                "image": 1
+              },
+              "referring_links_attributes": null,
+              "referring_links_platform_types": {
+                "blogs": 1,
+                "organization": 1
+              },
+              "referring_links_semantic_locations": {
+                "aside": 1
+              },
+              "referring_links_countries": {
+                "": 1
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "twinbunkbedsforboys.blogspot.com",
+              "rank": 0,
+              "backlinks": 2,
+              "first_seen": "2025-09-28 02:40:46 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 20,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 0,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 0,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 2,
+              "referring_pages_nofollow": 0,
+              "referring_links_tld": {
+                "blogspot.com": 2
+              },
+              "referring_links_types": {
+                "image": 2
+              },
+              "referring_links_attributes": null,
+              "referring_links_platform_types": {
+                "blogs": 2,
+                "organization": 2
+              },
+              "referring_links_semantic_locations": {
+                "article": 2
+              },
+              "referring_links_countries": {
+                "": 2
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "innovativechemicals.pk",
+              "rank": 0,
+              "backlinks": 2,
+              "first_seen": "2025-09-28 00:24:28 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 25,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 0,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 0,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 2,
+              "referring_pages_nofollow": 0,
+              "referring_links_tld": {
+                "pk": 2
+              },
+              "referring_links_types": {
+                "image": 2
+              },
+              "referring_links_attributes": null,
+              "referring_links_platform_types": {
+                "ecommerce": 2
+              },
+              "referring_links_semantic_locations": {
+                "main": 2
+              },
+              "referring_links_countries": {
+                "PK": 2
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "electricity-engeer06.blogspot.com",
+              "rank": 0,
+              "backlinks": 1,
+              "first_seen": "2025-09-22 20:26:55 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 15,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 0,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 0,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 1,
+              "referring_pages_nofollow": 0,
+              "referring_links_tld": {
+                "blogspot.com": 1
+              },
+              "referring_links_types": {
+                "image": 1
+              },
+              "referring_links_attributes": null,
+              "referring_links_platform_types": {
+                "blogs": 1
+              },
+              "referring_links_semantic_locations": {
+                "aside": 1
+              },
+              "referring_links_countries": {
+                "": 1
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "localfurniturestores.net",
+              "rank": 0,
+              "backlinks": 2,
+              "first_seen": "2025-09-19 05:55:28 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 0,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 2,
+              "referring_domains_nofollow": 2,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 1,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 2,
+              "referring_pages_nofollow": 2,
+              "referring_links_tld": {
+                "net": 2
+              },
+              "referring_links_types": {
+                "anchor": 2
+              },
+              "referring_links_attributes": {
+                "nofollow": 2,
+                "noopener": 2
+              },
+              "referring_links_platform_types": {
+                "unknown": 2
+              },
+              "referring_links_semantic_locations": {
+                "main": 2
+              },
+              "referring_links_countries": {
+                "": 2
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "baitytax.com",
+              "rank": 0,
+              "backlinks": 1,
+              "first_seen": "2025-09-19 03:31:09 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 5,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 0,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 0,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 1,
+              "referring_pages_nofollow": 0,
+              "referring_links_tld": {
+                "com": 1
+              },
+              "referring_links_types": {
+                "image": 1
+              },
+              "referring_links_attributes": null,
+              "referring_links_platform_types": {
+                "ecommerce": 1
+              },
+              "referring_links_semantic_locations": {
+                "section": 1
+              },
+              "referring_links_countries": {
+                "": 1
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "cukasihsejahtera.org",
+              "rank": 0,
+              "backlinks": 1,
+              "first_seen": "2025-09-15 12:41:32 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 25,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 0,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 0,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 1,
+              "referring_pages_nofollow": 0,
+              "referring_links_tld": {
+                "org": 1
+              },
+              "referring_links_types": {
+                "image": 1
+              },
+              "referring_links_attributes": null,
+              "referring_links_platform_types": {
+                "ecommerce": 1
+              },
+              "referring_links_semantic_locations": {
+                "main": 1
+              },
+              "referring_links_countries": {
+                "US": 1
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "furnitureswall.blogspot.com",
+              "rank": 0,
+              "backlinks": 2,
+              "first_seen": "2025-09-13 01:49:00 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 15,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 0,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 0,
+              "referring_ips": 2,
+              "referring_subnets": 1,
+              "referring_pages": 2,
+              "referring_pages_nofollow": 0,
+              "referring_links_tld": {
+                "blogspot.com": 2
+              },
+              "referring_links_types": {
+                "image": 2
+              },
+              "referring_links_attributes": null,
+              "referring_links_platform_types": {
+                "blogs": 2
+              },
+              "referring_links_semantic_locations": {
+                "aside": 2
+              },
+              "referring_links_countries": {
+                "": 2
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "laurawilliamsmusings.blogspot.com",
+              "rank": 0,
+              "backlinks": 2,
+              "first_seen": "2025-09-07 10:31:20 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 0,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 0,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 0,
+              "referring_ips": 2,
+              "referring_subnets": 2,
+              "referring_pages": 2,
+              "referring_pages_nofollow": 0,
+              "referring_links_tld": {
+                "blogspot.com": 2
+              },
+              "referring_links_types": {
+                "image": 2
+              },
+              "referring_links_attributes": null,
+              "referring_links_platform_types": {
+                "blogs": 2
+              },
+              "referring_links_semantic_locations": {
+                "article": 2
+              },
+              "referring_links_countries": {
+                "": 2
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "1stcallglasscare.com",
+              "rank": 0,
+              "backlinks": 1,
+              "first_seen": "2025-09-06 00:20:57 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 55,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 0,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 0,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 1,
+              "referring_pages_nofollow": 0,
+              "referring_links_tld": {
+                "com": 1
+              },
+              "referring_links_types": {
+                "anchor": 1
+              },
+              "referring_links_attributes": null,
+              "referring_links_platform_types": {
+                "blogs": 1,
+                "cms": 1
+              },
+              "referring_links_semantic_locations": {
+                "article": 1
+              },
+              "referring_links_countries": {
+                "": 1
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "bentosi.vn",
+              "rank": 0,
+              "backlinks": 1,
+              "first_seen": "2025-08-25 11:58:18 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 50,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 0,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 0,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 1,
+              "referring_pages_nofollow": 0,
+              "referring_links_tld": {
+                "vn": 1
+              },
+              "referring_links_types": {
+                "image": 1
+              },
+              "referring_links_attributes": null,
+              "referring_links_platform_types": {
+                "unknown": 1
+              },
+              "referring_links_semantic_locations": {
+                "": 1
+              },
+              "referring_links_countries": {
+                "VN": 1
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "deluxurydectujuh.web.app",
+              "rank": 0,
+              "backlinks": 3,
+              "first_seen": "2025-08-25 06:12:37 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 35,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 0,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 0,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 3,
+              "referring_pages_nofollow": 0,
+              "referring_links_tld": {
+                "web.app": 3
+              },
+              "referring_links_types": {
+                "image": 3
+              },
+              "referring_links_attributes": null,
+              "referring_links_platform_types": {
+                "unknown": 3
+              },
+              "referring_links_semantic_locations": {
+                "main": 3
+              },
+              "referring_links_countries": {
+                "": 3
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "localfurniturestore.net",
+              "rank": 0,
+              "backlinks": 2,
+              "first_seen": "2025-08-24 09:21:50 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 0,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 2,
+              "referring_domains_nofollow": 2,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 1,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 2,
+              "referring_pages_nofollow": 2,
+              "referring_links_tld": {
+                "net": 2
+              },
+              "referring_links_types": {
+                "anchor": 2
+              },
+              "referring_links_attributes": {
+                "nofollow": 2,
+                "noopener": 2
+              },
+              "referring_links_platform_types": {
+                "unknown": 2
+              },
+              "referring_links_semantic_locations": {
+                "main": 2
+              },
+              "referring_links_countries": {
+                "": 2
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "fillerzone.co",
+              "rank": 0,
+              "backlinks": 2,
+              "first_seen": "2025-08-20 09:26:20 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 10,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 0,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 0,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 2,
+              "referring_pages_nofollow": 0,
+              "referring_links_tld": {
+                "co": 2
+              },
+              "referring_links_types": {
+                "image": 2
+              },
+              "referring_links_attributes": null,
+              "referring_links_platform_types": {
+                "ecommerce": 2
+              },
+              "referring_links_semantic_locations": {
+                "section": 2
+              },
+              "referring_links_countries": {
+                "CO": 2
+              }
+            },
+            {
+              "type": "backlinks_referring_domain",
+              "domain": "daniellevasquezk2ja.web.app",
+              "rank": 0,
+              "backlinks": 1,
+              "first_seen": "2025-08-18 12:26:47 +00:00",
+              "lost_date": null,
+              "backlinks_spam_score": 10,
+              "broken_backlinks": 0,
+              "broken_pages": 0,
+              "referring_domains": 1,
+              "referring_domains_nofollow": 0,
+              "referring_main_domains": 1,
+              "referring_main_domains_nofollow": 0,
+              "referring_ips": 1,
+              "referring_subnets": 1,
+              "referring_pages": 1,
+              "referring_pages_nofollow": 0,
+              "referring_links_tld": {
+                "web.app": 1
+              },
+              "referring_links_types": {
+                "image": 1
+              },
+              "referring_links_attributes": null,
+              "referring_links_platform_types": {
+                "unknown": 1
+              },
+              "referring_links_semantic_locations": {
+                "main": 1
+              },
+              "referring_links_countries": {
+                "": 1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

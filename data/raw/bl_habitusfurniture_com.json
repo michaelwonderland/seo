@@ -1,0 +1,106 @@
+{
+  "version": "0.1.20260731",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "0.1931 sec.",
+  "cost": 0.024036,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "08012114-1561-0265-0000-e65b755820eb",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "0.1876 sec.",
+      "cost": 0.024036,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "backlinks",
+        "summary",
+        "live"
+      ],
+      "data": {
+        "api": "backlinks",
+        "function": "summary",
+        "target": "habitusfurniture.com",
+        "internal_list_limit": 5,
+        "include_subdomains": true,
+        "backlinks_status_type": "live"
+      },
+      "result": [
+        {
+          "target": "habitusfurniture.com",
+          "first_seen": "2019-08-24 14:00:56 +00:00",
+          "lost_date": null,
+          "rank": 147,
+          "backlinks": 373,
+          "backlinks_spam_score": 29,
+          "crawled_pages": 774,
+          "info": {
+            "server": "cloudflare",
+            "cms": null,
+            "platform_type": [
+              "ecommerce"
+            ],
+            "ip_address": "23.227.38.32",
+            "country": "US",
+            "is_ip": false,
+            "target_spam_score": 25
+          },
+          "internal_links_count": 52651,
+          "external_links_count": 7388,
+          "broken_backlinks": 0,
+          "broken_pages": 12,
+          "referring_domains": 131,
+          "referring_domains_nofollow": 44,
+          "referring_main_domains": 123,
+          "referring_main_domains_nofollow": 41,
+          "referring_ips": 79,
+          "referring_subnets": 68,
+          "referring_pages": 342,
+          "referring_pages_nofollow": 211,
+          "referring_links_tld": {
+            "ru": 121,
+            "com": 93,
+            "blogspot.com": 55,
+            "web.app": 17,
+            "net": 12
+          },
+          "referring_links_types": {
+            "anchor": 244,
+            "image": 98
+          },
+          "referring_links_attributes": {
+            "nofollow": 211,
+            "noopener": 65,
+            "noreferrer": 31,
+            "ugc": 22,
+            "external": 3
+          },
+          "referring_links_platform_types": {
+            "unknown": 206,
+            "blogs": 92,
+            "organization": 67,
+            "cms": 37,
+            "ecommerce": 4
+          },
+          "referring_links_semantic_locations": {
+            "": 218,
+            "article": 54,
+            "main": 31,
+            "section": 18,
+            "aside": 16
+          },
+          "referring_links_countries": {
+            "": 138,
+            "RU": 121,
+            "US": 41,
+            "UA": 22,
+            "WW": 7
+          }
+        }
+      ]
+    }
+  ]
+}

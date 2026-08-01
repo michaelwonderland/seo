@@ -1,0 +1,108 @@
+{
+  "version": "0.1.20260731",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "0.2190 sec.",
+  "cost": 0.024036,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "08012114-1561-0265-0000-7354183e6ccb",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "0.1998 sec.",
+      "cost": 0.024036,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "backlinks",
+        "summary",
+        "live"
+      ],
+      "data": {
+        "api": "backlinks",
+        "function": "summary",
+        "target": "cityfurniture.com",
+        "internal_list_limit": 5,
+        "include_subdomains": true,
+        "backlinks_status_type": "live"
+      },
+      "result": [
+        {
+          "target": "cityfurniture.com",
+          "first_seen": "2019-01-16 14:34:43 +00:00",
+          "lost_date": null,
+          "rank": 307,
+          "backlinks": 11967,
+          "backlinks_spam_score": 19,
+          "crawled_pages": 1323,
+          "info": {
+            "server": "CloudFront",
+            "cms": null,
+            "platform_type": [
+              "organization"
+            ],
+            "ip_address": "18.244.18.20",
+            "country": "US",
+            "is_ip": false,
+            "target_spam_score": 0
+          },
+          "internal_links_count": 4869,
+          "external_links_count": 3381,
+          "broken_backlinks": 6607,
+          "broken_pages": 683,
+          "referring_domains": 2707,
+          "referring_domains_nofollow": 699,
+          "referring_main_domains": 2564,
+          "referring_main_domains_nofollow": 601,
+          "referring_ips": 1572,
+          "referring_subnets": 920,
+          "referring_pages": 10265,
+          "referring_pages_nofollow": 3605,
+          "referring_links_tld": {
+            "com": 4901,
+            "house": 1034,
+            "blogspot.com": 997,
+            "org": 807,
+            "web.app": 622
+          },
+          "referring_links_types": {
+            "anchor": 5822,
+            "image": 4343,
+            "redirect": 88,
+            "canonical": 12
+          },
+          "referring_links_attributes": {
+            "nofollow": 3604,
+            "noopener": 2596,
+            "noreferrer": 860,
+            "ugc": 261,
+            "external": 61
+          },
+          "referring_links_platform_types": {
+            "unknown": 5724,
+            "blogs": 2905,
+            "organization": 2879,
+            "cms": 2109,
+            "news": 258
+          },
+          "referring_links_semantic_locations": {
+            "": 4078,
+            "article": 1856,
+            "main": 1497,
+            "section": 1147,
+            "aside": 951
+          },
+          "referring_links_countries": {
+            "": 4598,
+            "US": 3971,
+            "WW": 555,
+            "AU": 222,
+            "IN": 206
+          }
+        }
+      ]
+    }
+  ]
+}

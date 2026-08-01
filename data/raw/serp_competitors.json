@@ -1,0 +1,2028 @@
+{
+  "version": "0.1.20260731",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "0.0757 sec.",
+  "cost": 0.024,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "08012112-1561-0383-0000-25ed163a278f",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "0.0530 sec.",
+      "cost": 0.024,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "dataforseo_labs",
+        "google",
+        "serp_competitors",
+        "live"
+      ],
+      "data": {
+        "api": "dataforseo_labs",
+        "function": "serp_competitors",
+        "se_type": "google",
+        "keywords": [
+          "high end furniture store",
+          "furniture stores miami",
+          "luxury furniture store",
+          "furniture stores fort lauderdale",
+          "modern furniture store near me",
+          "outdoor furniture miami",
+          "modern furniture miami",
+          "italian furniture store",
+          "interior design miami",
+          "office furniture miami",
+          "furniture stores aventura",
+          "furniture stores hollywood fl",
+          "modern furniture fort lauderdale",
+          "bedroom furniture miami",
+          "italian furniture miami",
+          "furniture stores hallandale",
+          "luxury furniture miami",
+          "custom furniture miami",
+          "contemporary furniture miami",
+          "sectional sofas miami"
+        ],
+        "location_code": 2840,
+        "language_code": "en",
+        "limit": 100,
+        "order_by": [
+          "median_position,asc"
+        ]
+      },
+      "result": [
+        {
+          "se_type": "google",
+          "seed_keywords": [
+            "high end furniture store",
+            "furniture stores miami",
+            "luxury furniture store",
+            "furniture stores fort lauderdale",
+            "modern furniture store near me",
+            "outdoor furniture miami",
+            "modern furniture miami",
+            "italian furniture store",
+            "interior design miami",
+            "office furniture miami",
+            "furniture stores aventura",
+            "furniture stores hollywood fl",
+            "modern furniture fort lauderdale",
+            "bedroom furniture miami",
+            "italian furniture miami",
+            "furniture stores hallandale",
+            "luxury furniture miami",
+            "custom furniture miami",
+            "contemporary furniture miami",
+            "sectional sofas miami"
+          ],
+          "location_code": 2840,
+          "language_code": "en",
+          "total_count": 393,
+          "items_count": 100,
+          "items": [
+            {
+              "se_type": "google",
+              "domain": "nyfurniture.com",
+              "avg_position": 27.5,
+              "median_position": 1,
+              "rating": 145,
+              "etv": 179.59099999999998,
+              "keywords_count": 2,
+              "visibility": 1,
+              "relevant_serp_items": 2,
+              "keywords_positions": {
+                "italian furniture store": [
+                  1
+                ],
+                "italian furniture miami": [
+                  54
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "italodesignusa.com",
+              "avg_position": 7,
+              "median_position": 1,
+              "rating": 186,
+              "etv": 36.921,
+              "keywords_count": 2,
+              "visibility": 1.05,
+              "relevant_serp_items": 2,
+              "keywords_positions": {
+                "italian furniture store": [
+                  13
+                ],
+                "italian furniture miami": [
+                  1
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "www.natalianeverko.com",
+              "avg_position": 8,
+              "median_position": 1,
+              "rating": 184,
+              "etv": 182.36899999999997,
+              "keywords_count": 1,
+              "visibility": 1.05,
+              "relevant_serp_items": 2,
+              "keywords_positions": {
+                "interior design miami": [
+                  1,
+                  15
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "allweatherpatio.com",
+              "avg_position": 2,
+              "median_position": 2,
+              "rating": 98,
+              "etv": 162,
+              "keywords_count": 1,
+              "visibility": 0.9,
+              "relevant_serp_items": 1,
+              "keywords_positions": {
+                "outdoor furniture miami": [
+                  2
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "shop.officefurniture4sale.com",
+              "avg_position": 2,
+              "median_position": 2,
+              "rating": 98,
+              "etv": 63.18,
+              "keywords_count": 1,
+              "visibility": 0.9,
+              "relevant_serp_items": 1,
+              "keywords_positions": {
+                "office furniture miami": [
+                  2
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "telaitalianfurniture.com",
+              "avg_position": 25.5,
+              "median_position": 2,
+              "rating": 149,
+              "etv": 95.81099999999999,
+              "keywords_count": 2,
+              "visibility": 0.9,
+              "relevant_serp_items": 2,
+              "keywords_positions": {
+                "italian furniture store": [
+                  2
+                ],
+                "italian furniture miami": [
+                  49
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "ds-miami.com",
+              "avg_position": 8,
+              "median_position": 2,
+              "rating": 184,
+              "etv": 98.884,
+              "keywords_count": 1,
+              "visibility": 0.9500000000000001,
+              "relevant_serp_items": 2,
+              "keywords_positions": {
+                "interior design miami": [
+                  2,
+                  14
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "dkorinteriors.com",
+              "avg_position": 2,
+              "median_position": 2,
+              "rating": 98,
+              "etv": 95.58,
+              "keywords_count": 1,
+              "visibility": 0.9,
+              "relevant_serp_items": 1,
+              "keywords_positions": {
+                "interior design miami": [
+                  2
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "ironhorsehome.com",
+              "avg_position": 2,
+              "median_position": 2,
+              "rating": 98,
+              "etv": 4.86,
+              "keywords_count": 1,
+              "visibility": 0.9,
+              "relevant_serp_items": 1,
+              "keywords_positions": {
+                "sectional sofas miami": [
+                  2
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "www.miamicustomfurnitureandupholstery.com",
+              "avg_position": 2,
+              "median_position": 2,
+              "rating": 98,
+              "etv": 11.34,
+              "keywords_count": 1,
+              "visibility": 0.9,
+              "relevant_serp_items": 1,
+              "keywords_positions": {
+                "custom furniture miami": [
+                  2
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "officefurnitureonline.com",
+              "avg_position": 3,
+              "median_position": 3,
+              "rating": 97,
+              "etv": 37.946999999999996,
+              "keywords_count": 1,
+              "visibility": 0.8,
+              "relevant_serp_items": 1,
+              "keywords_positions": {
+                "office furniture miami": [
+                  3
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "addisonhouse.com",
+              "avg_position": 6.5,
+              "median_position": 3,
+              "rating": 561,
+              "etv": 111.763,
+              "keywords_count": 6,
+              "visibility": 3.6,
+              "relevant_serp_items": 6,
+              "keywords_positions": {
+                "modern furniture miami": [
+                  3
+                ],
+                "modern furniture fort lauderdale": [
+                  19
+                ],
+                "luxury furniture miami": [
+                  1
+                ],
+                "italian furniture miami": [
+                  11
+                ],
+                "furniture stores aventura": [
+                  3
+                ],
+                "contemporary furniture miami": [
+                  2
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "www.scandesign.com",
+              "avg_position": 5,
+              "median_position": 3,
+              "rating": 380,
+              "etv": 90.463,
+              "keywords_count": 4,
+              "visibility": 2.55,
+              "relevant_serp_items": 4,
+              "keywords_positions": {
+                "modern furniture miami": [
+                  4
+                ],
+                "furniture stores fort lauderdale": [
+                  12
+                ],
+                "modern furniture fort lauderdale": [
+                  1
+                ],
+                "contemporary furniture miami": [
+                  3
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "www.bebitalia.com",
+              "avg_position": 8.5,
+              "median_position": 3,
+              "rating": 183,
+              "etv": 58.022999999999996,
+              "keywords_count": 2,
+              "visibility": 0.8500000000000001,
+              "relevant_serp_items": 2,
+              "keywords_positions": {
+                "italian furniture store": [
+                  3
+                ],
+                "italian furniture miami": [
+                  14
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "www.studio790.com",
+              "avg_position": 9.5,
+              "median_position": 3,
+              "rating": 181,
+              "etv": 59.943999999999996,
+              "keywords_count": 1,
+              "visibility": 0.8500000000000001,
+              "relevant_serp_items": 2,
+              "keywords_positions": {
+                "interior design miami": [
+                  3,
+                  16
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "sdhstudio.com",
+              "avg_position": 3,
+              "median_position": 3,
+              "rating": 97,
+              "etv": 57.407,
+              "keywords_count": 1,
+              "visibility": 0.8,
+              "relevant_serp_items": 1,
+              "keywords_positions": {
+                "interior design miami": [
+                  3
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "www.poliform.it",
+              "avg_position": 9.5,
+              "median_position": 3,
+              "rating": 181,
+              "etv": 10.875,
+              "keywords_count": 2,
+              "visibility": 0.8500000000000001,
+              "relevant_serp_items": 2,
+              "keywords_positions": {
+                "italian furniture miami": [
+                  3
+                ],
+                "contemporary furniture miami": [
+                  16
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "www.holzwoodshop.com",
+              "avg_position": 3,
+              "median_position": 3,
+              "rating": 97,
+              "etv": 6.811,
+              "keywords_count": 1,
+              "visibility": 0.8,
+              "relevant_serp_items": 1,
+              "keywords_positions": {
+                "custom furniture miami": [
+                  3
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "www.modernmiami.com",
+              "avg_position": 6.833333333333333,
+              "median_position": 4,
+              "rating": 1118,
+              "etv": 445.22300000000007,
+              "keywords_count": 12,
+              "visibility": 7.1,
+              "relevant_serp_items": 12,
+              "keywords_positions": {
+                "outdoor furniture miami": [
+                  3
+                ],
+                "office furniture miami": [
+                  1
+                ],
+                "modern furniture miami": [
+                  1
+                ],
+                "furniture stores fort lauderdale": [
+                  23
+                ],
+                "sectional sofas miami": [
+                  4
+                ],
+                "modern furniture fort lauderdale": [
+                  7
+                ],
+                "luxury furniture miami": [
+                  2
+                ],
+                "italian furniture miami": [
+                  4
+                ],
+                "furniture stores hollywood fl": [
+                  6
+                ],
+                "furniture stores aventura": [
+                  15
+                ],
+                "custom furniture miami": [
+                  15
+                ],
+                "contemporary furniture miami": [
+                  1
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "www.uoffurniture.com",
+              "avg_position": 4,
+              "median_position": 4,
+              "rating": 96,
+              "etv": 25.701,
+              "keywords_count": 1,
+              "visibility": 0.7,
+              "relevant_serp_items": 1,
+              "keywords_positions": {
+                "office furniture miami": [
+                  4
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "www.natuzzi.com",
+              "avg_position": 4,
+              "median_position": 4,
+              "rating": 288,
+              "etv": 60.419,
+              "keywords_count": 3,
+              "visibility": 2.1,
+              "relevant_serp_items": 3,
+              "keywords_positions": {
+                "italian furniture store": [
+                  4
+                ],
+                "modern furniture fort lauderdale": [
+                  2
+                ],
+                "italian furniture miami": [
+                  6
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "www.architecturaldigest.com",
+              "avg_position": 4,
+              "median_position": 4,
+              "rating": 96,
+              "etv": 38.881,
+              "keywords_count": 1,
+              "visibility": 0.7,
+              "relevant_serp_items": 1,
+              "keywords_positions": {
+                "interior design miami": [
+                  4
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "www.baers.com",
+              "avg_position": 13.666666666666666,
+              "median_position": 4,
+              "rating": 259,
+              "etv": 134.56099999999998,
+              "keywords_count": 3,
+              "visibility": 1.7,
+              "relevant_serp_items": 3,
+              "keywords_positions": {
+                "furniture stores fort lauderdale": [
+                  4
+                ],
+                "sectional sofas miami": [
+                  1
+                ],
+                "modern furniture fort lauderdale": [
+                  36
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "stores.cortfurnitureoutlet.com",
+              "avg_position": 11,
+              "median_position": 4,
+              "rating": 178,
+              "etv": 23.404,
+              "keywords_count": 2,
+              "visibility": 0.75,
+              "relevant_serp_items": 2,
+              "keywords_positions": {
+                "furniture stores fort lauderdale": [
+                  18
+                ],
+                "furniture stores hollywood fl": [
+                  4
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "www.yelp.com",
+              "avg_position": 5.3076923076923075,
+              "median_position": 5,
+              "rating": 1231,
+              "etv": 326.226,
+              "keywords_count": 13,
+              "visibility": 7.55,
+              "relevant_serp_items": 13,
+              "keywords_positions": {
+                "outdoor furniture miami": [
+                  5
+                ],
+                "office furniture miami": [
+                  5
+                ],
+                "modern furniture miami": [
+                  9
+                ],
+                "interior design miami": [
+                  12
+                ],
+                "furniture stores fort lauderdale": [
+                  3
+                ],
+                "sectional sofas miami": [
+                  6
+                ],
+                "modern furniture fort lauderdale": [
+                  3
+                ],
+                "luxury furniture miami": [
+                  3
+                ],
+                "italian furniture miami": [
+                  5
+                ],
+                "furniture stores hollywood fl": [
+                  3
+                ],
+                "furniture stores aventura": [
+                  7
+                ],
+                "custom furniture miami": [
+                  4
+                ],
+                "contemporary furniture miami": [
+                  4
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "www.woodworkshomefurnishings.com",
+              "avg_position": 20.5,
+              "median_position": 5,
+              "rating": 159,
+              "etv": 5.383,
+              "keywords_count": 2,
+              "visibility": 0.6,
+              "relevant_serp_items": 2,
+              "keywords_positions": {
+                "outdoor furniture miami": [
+                  36
+                ],
+                "custom furniture miami": [
+                  5
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "www.miamidesigndistrict.com",
+              "avg_position": 6.666666666666667,
+              "median_position": 5,
+              "rating": 280,
+              "etv": 56.585,
+              "keywords_count": 3,
+              "visibility": 1.3,
+              "relevant_serp_items": 3,
+              "keywords_positions": {
+                "modern furniture miami": [
+                  5
+                ],
+                "interior design miami": [
+                  5
+                ],
+                "italian furniture miami": [
+                  10
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "italiafurniture.com",
+              "avg_position": 5,
+              "median_position": 5,
+              "rating": 95,
+              "etv": 27.671,
+              "keywords_count": 1,
+              "visibility": 0.6,
+              "relevant_serp_items": 1,
+              "keywords_positions": {
+                "italian furniture store": [
+                  5
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "www.thebrowarddesigncenter.com",
+              "avg_position": 7.5,
+              "median_position": 5,
+              "rating": 185,
+              "etv": 90.353,
+              "keywords_count": 2,
+              "visibility": 0.7,
+              "relevant_serp_items": 2,
+              "keywords_positions": {
+                "furniture stores fort lauderdale": [
+                  5
+                ],
+                "modern furniture fort lauderdale": [
+                  10
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "www.conceptomodernliving.com",
+              "avg_position": 20,
+              "median_position": 5,
+              "rating": 160,
+              "etv": 5.242999999999999,
+              "keywords_count": 2,
+              "visibility": 0.6,
+              "relevant_serp_items": 2,
+              "keywords_positions": {
+                "modern furniture fort lauderdale": [
+                  5
+                ],
+                "contemporary furniture miami": [
+                  35
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "www.camerichmiami.com",
+              "avg_position": 5.5,
+              "median_position": 5,
+              "rating": 189,
+              "etv": 10.663999999999998,
+              "keywords_count": 2,
+              "visibility": 1.1,
+              "relevant_serp_items": 2,
+              "keywords_positions": {
+                "furniture stores aventura": [
+                  6
+                ],
+                "contemporary furniture miami": [
+                  5
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "www.allmodern.com",
+              "avg_position": 20,
+              "median_position": 6,
+              "rating": 160,
+              "etv": 33.884,
+              "keywords_count": 2,
+              "visibility": 0.5,
+              "relevant_serp_items": 2,
+              "keywords_positions": {
+                "outdoor furniture miami": [
+                  6
+                ],
+                "contemporary furniture miami": [
+                  34
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "www.marcusofficefurniture.com",
+              "avg_position": 6,
+              "median_position": 6,
+              "rating": 94,
+              "etv": 13.181999999999999,
+              "keywords_count": 1,
+              "visibility": 0.5,
+              "relevant_serp_items": 1,
+              "keywords_positions": {
+                "office furniture miami": [
+                  6
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "habitusfurniture.com",
+              "avg_position": 5.666666666666667,
+              "median_position": 6,
+              "rating": 283,
+              "etv": 38.099999999999994,
+              "keywords_count": 3,
+              "visibility": 1.6,
+              "relevant_serp_items": 3,
+              "keywords_positions": {
+                "modern furniture miami": [
+                  6
+                ],
+                "furniture stores aventura": [
+                  4
+                ],
+                "contemporary furniture miami": [
+                  7
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "m.yelp.com",
+              "avg_position": 6,
+              "median_position": 6,
+              "rating": 94,
+              "etv": 19.941999999999997,
+              "keywords_count": 1,
+              "visibility": 0.5,
+              "relevant_serp_items": 1,
+              "keywords_positions": {
+                "italian furniture store": [
+                  6
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "interiorarchitects.com",
+              "avg_position": 6,
+              "median_position": 6,
+              "rating": 94,
+              "etv": 19.941999999999997,
+              "keywords_count": 1,
+              "visibility": 0.5,
+              "relevant_serp_items": 1,
+              "keywords_positions": {
+                "interior design miami": [
+                  6
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "mezagroup.com",
+              "avg_position": 6,
+              "median_position": 6,
+              "rating": 188,
+              "etv": 67.938,
+              "keywords_count": 2,
+              "visibility": 1,
+              "relevant_serp_items": 2,
+              "keywords_positions": {
+                "furniture stores fort lauderdale": [
+                  6
+                ],
+                "modern furniture fort lauderdale": [
+                  6
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "woodart.miami",
+              "avg_position": 6,
+              "median_position": 6,
+              "rating": 94,
+              "etv": 2.3659999999999997,
+              "keywords_count": 1,
+              "visibility": 0.5,
+              "relevant_serp_items": 1,
+              "keywords_positions": {
+                "custom furniture miami": [
+                  6
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "masof.us",
+              "avg_position": 7,
+              "median_position": 7,
+              "rating": 93,
+              "etv": 9.984,
+              "keywords_count": 1,
+              "visibility": 0.4,
+              "relevant_serp_items": 1,
+              "keywords_positions": {
+                "office furniture miami": [
+                  7
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "camodernhome.com",
+              "avg_position": 7,
+              "median_position": 7,
+              "rating": 93,
+              "etv": 15.104000000000001,
+              "keywords_count": 1,
+              "visibility": 0.4,
+              "relevant_serp_items": 1,
+              "keywords_positions": {
+                "modern furniture miami": [
+                  7
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "lazzoni.com",
+              "avg_position": 14,
+              "median_position": 7,
+              "rating": 172,
+              "etv": 16.461000000000002,
+              "keywords_count": 2,
+              "visibility": 0.4,
+              "relevant_serp_items": 2,
+              "keywords_positions": {
+                "modern furniture miami": [
+                  21
+                ],
+                "italian furniture store": [
+                  7
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "chatburnliving.com",
+              "avg_position": 7,
+              "median_position": 7,
+              "rating": 93,
+              "etv": 1.792,
+              "keywords_count": 1,
+              "visibility": 0.4,
+              "relevant_serp_items": 1,
+              "keywords_positions": {
+                "luxury furniture miami": [
+                  7
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "www.patioliving.com",
+              "avg_position": 8,
+              "median_position": 8,
+              "rating": 92,
+              "etv": 19.7,
+              "keywords_count": 1,
+              "visibility": 0.3,
+              "relevant_serp_items": 1,
+              "keywords_positions": {
+                "outdoor furniture miami": [
+                  8
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "zzofficefurniture.com",
+              "avg_position": 16,
+              "median_position": 8,
+              "rating": 168,
+              "etv": 7.914,
+              "keywords_count": 2,
+              "visibility": 0.3,
+              "relevant_serp_items": 2,
+              "keywords_positions": {
+                "office furniture miami": [
+                  8
+                ],
+                "italian furniture miami": [
+                  24
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "www.houzz.com",
+              "avg_position": 12,
+              "median_position": 8,
+              "rating": 704,
+              "etv": 88.58800000000001,
+              "keywords_count": 8,
+              "visibility": 2.05,
+              "relevant_serp_items": 8,
+              "keywords_positions": {
+                "modern furniture miami": [
+                  10
+                ],
+                "interior design miami": [
+                  7
+                ],
+                "furniture stores fort lauderdale": [
+                  7
+                ],
+                "modern furniture fort lauderdale": [
+                  16
+                ],
+                "italian furniture miami": [
+                  34
+                ],
+                "furniture stores hollywood fl": [
+                  9
+                ],
+                "furniture stores aventura": [
+                  5
+                ],
+                "custom furniture miami": [
+                  8
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "italmodfurniture.com",
+              "avg_position": 27,
+              "median_position": 8,
+              "rating": 146,
+              "etv": 11.854,
+              "keywords_count": 2,
+              "visibility": 0.3,
+              "relevant_serp_items": 2,
+              "keywords_positions": {
+                "italian furniture store": [
+                  8
+                ],
+                "italian furniture miami": [
+                  46
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "www.interiorsbysteveng.com",
+              "avg_position": 8,
+              "median_position": 8,
+              "rating": 92,
+              "etv": 11.623,
+              "keywords_count": 1,
+              "visibility": 0.3,
+              "relevant_serp_items": 1,
+              "keywords_positions": {
+                "interior design miami": [
+                  8
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "www.ethanallen.com",
+              "avg_position": 13,
+              "median_position": 8,
+              "rating": 174,
+              "etv": 37.793,
+              "keywords_count": 2,
+              "visibility": 0.35,
+              "relevant_serp_items": 2,
+              "keywords_positions": {
+                "furniture stores fort lauderdale": [
+                  8
+                ],
+                "modern furniture fort lauderdale": [
+                  18
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "www.sofasandsectionals.com",
+              "avg_position": 8,
+              "median_position": 8,
+              "rating": 92,
+              "etv": 0.591,
+              "keywords_count": 1,
+              "visibility": 0.3,
+              "relevant_serp_items": 1,
+              "keywords_positions": {
+                "sectional sofas miami": [
+                  8
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "www.mantrafurnishings.com",
+              "avg_position": 8,
+              "median_position": 8,
+              "rating": 92,
+              "etv": 2.167,
+              "keywords_count": 1,
+              "visibility": 0.3,
+              "relevant_serp_items": 1,
+              "keywords_positions": {
+                "modern furniture fort lauderdale": [
+                  8
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "www.esperiri.com",
+              "avg_position": 8,
+              "median_position": 8,
+              "rating": 92,
+              "etv": 2.167,
+              "keywords_count": 1,
+              "visibility": 0.3,
+              "relevant_serp_items": 1,
+              "keywords_positions": {
+                "italian furniture miami": [
+                  8
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "judithnorman.com",
+              "avg_position": 8,
+              "median_position": 8,
+              "rating": 92,
+              "etv": 5.122,
+              "keywords_count": 1,
+              "visibility": 0.3,
+              "relevant_serp_items": 1,
+              "keywords_positions": {
+                "furniture stores hollywood fl": [
+                  8
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "www.kfrooms.com",
+              "avg_position": 9,
+              "median_position": 9,
+              "rating": 91,
+              "etv": 5.85,
+              "keywords_count": 1,
+              "visibility": 0.2,
+              "relevant_serp_items": 1,
+              "keywords_positions": {
+                "office furniture miami": [
+                  9
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "cassoni.com",
+              "avg_position": 14,
+              "median_position": 9,
+              "rating": 172,
+              "etv": 9.147,
+              "keywords_count": 2,
+              "visibility": 0.25,
+              "relevant_serp_items": 2,
+              "keywords_positions": {
+                "italian furniture store": [
+                  9
+                ],
+                "italian furniture miami": [
+                  19
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "www.furniture.com",
+              "avg_position": 21.5,
+              "median_position": 9,
+              "rating": 314,
+              "etv": 15.157000000000002,
+              "keywords_count": 4,
+              "visibility": 0.6000000000000001,
+              "relevant_serp_items": 4,
+              "keywords_positions": {
+                "furniture stores fort lauderdale": [
+                  21
+                ],
+                "modern furniture fort lauderdale": [
+                  49
+                ],
+                "furniture stores hollywood fl": [
+                  7
+                ],
+                "furniture stores aventura": [
+                  9
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "eurolivingfurniture.com",
+              "avg_position": 9,
+              "median_position": 9,
+              "rating": 91,
+              "etv": 0.44999999999999996,
+              "keywords_count": 1,
+              "visibility": 0.2,
+              "relevant_serp_items": 1,
+              "keywords_positions": {
+                "sectional sofas miami": [
+                  9
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "www.idealcasa.us",
+              "avg_position": 9,
+              "median_position": 9,
+              "rating": 91,
+              "etv": 1.65,
+              "keywords_count": 1,
+              "visibility": 0.2,
+              "relevant_serp_items": 1,
+              "keywords_positions": {
+                "italian furniture miami": [
+                  9
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "radamiami.com",
+              "avg_position": 9,
+              "median_position": 9,
+              "rating": 91,
+              "etv": 1.05,
+              "keywords_count": 1,
+              "visibility": 0.2,
+              "relevant_serp_items": 1,
+              "keywords_positions": {
+                "custom furniture miami": [
+                  9
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "www.mh2g.com",
+              "avg_position": 9.857142857142858,
+              "median_position": 10,
+              "rating": 631,
+              "etv": 169.31,
+              "keywords_count": 7,
+              "visibility": 2.8000000000000003,
+              "relevant_serp_items": 7,
+              "keywords_positions": {
+                "outdoor furniture miami": [
+                  31
+                ],
+                "modern furniture miami": [
+                  2
+                ],
+                "furniture stores fort lauderdale": [
+                  10
+                ],
+                "sectional sofas miami": [
+                  10
+                ],
+                "modern furniture fort lauderdale": [
+                  4
+                ],
+                "furniture stores aventura": [
+                  2
+                ],
+                "contemporary furniture miami": [
+                  10
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "www.axisoffice.com",
+              "avg_position": 10,
+              "median_position": 10,
+              "rating": 90,
+              "etv": 4.407,
+              "keywords_count": 1,
+              "visibility": 0.1,
+              "relevant_serp_items": 1,
+              "keywords_positions": {
+                "office furniture miami": [
+                  10
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "italy2000usa.com",
+              "avg_position": 10,
+              "median_position": 10,
+              "rating": 90,
+              "etv": 6.667,
+              "keywords_count": 1,
+              "visibility": 0.1,
+              "relevant_serp_items": 1,
+              "keywords_positions": {
+                "italian furniture store": [
+                  10
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "www.boconcept.com",
+              "avg_position": 13.5,
+              "median_position": 10,
+              "rating": 173,
+              "etv": 3.11,
+              "keywords_count": 2,
+              "visibility": 0.15000000000000002,
+              "relevant_serp_items": 2,
+              "keywords_positions": {
+                "furniture stores aventura": [
+                  10
+                ],
+                "contemporary furniture miami": [
+                  17
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "shopharbour.com",
+              "avg_position": 29.5,
+              "median_position": 11,
+              "rating": 282,
+              "etv": 305.96,
+              "keywords_count": 4,
+              "visibility": 1.05,
+              "relevant_serp_items": 4,
+              "keywords_positions": {
+                "outdoor furniture miami": [
+                  1
+                ],
+                "modern furniture miami": [
+                  62
+                ],
+                "luxury furniture miami": [
+                  11
+                ],
+                "contemporary furniture miami": [
+                  44
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "www.instagram.com",
+              "avg_position": 18.416666666666668,
+              "median_position": 11,
+              "rating": 979,
+              "etv": 248.06999999999996,
+              "keywords_count": 12,
+              "visibility": 3.2,
+              "relevant_serp_items": 12,
+              "keywords_positions": {
+                "outdoor furniture miami": [
+                  7
+                ],
+                "office furniture miami": [
+                  17
+                ],
+                "modern furniture miami": [
+                  8
+                ],
+                "italian furniture store": [
+                  58
+                ],
+                "interior design miami": [
+                  1
+                ],
+                "furniture stores fort lauderdale": [
+                  50
+                ],
+                "sectional sofas miami": [
+                  28
+                ],
+                "modern furniture fort lauderdale": [
+                  11
+                ],
+                "italian furniture miami": [
+                  12
+                ],
+                "furniture stores aventura": [
+                  20
+                ],
+                "custom furniture miami": [
+                  1
+                ],
+                "contemporary furniture miami": [
+                  8
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "www.miamioutdoorfurniture.com",
+              "avg_position": 11,
+              "median_position": 11,
+              "rating": 89,
+              "etv": 9.1,
+              "keywords_count": 1,
+              "visibility": 0.05,
+              "relevant_serp_items": 1,
+              "keywords_positions": {
+                "outdoor furniture miami": [
+                  11
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "www.decorilla.com",
+              "avg_position": 26,
+              "median_position": 11,
+              "rating": 296,
+              "etv": 5.207999999999999,
+              "keywords_count": 4,
+              "visibility": 0.55,
+              "relevant_serp_items": 4,
+              "keywords_positions": {
+                "modern furniture miami": [
+                  40
+                ],
+                "interior design miami": [
+                  47
+                ],
+                "luxury furniture miami": [
+                  6
+                ],
+                "contemporary furniture miami": [
+                  11
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "materiacollection.com",
+              "avg_position": 34.5,
+              "median_position": 11,
+              "rating": 131,
+              "etv": 5.453,
+              "keywords_count": 2,
+              "visibility": 0.05,
+              "relevant_serp_items": 2,
+              "keywords_positions": {
+                "italian furniture store": [
+                  11
+                ],
+                "contemporary furniture miami": [
+                  58
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "www.nardesignstudio.com",
+              "avg_position": 11,
+              "median_position": 11,
+              "rating": 89,
+              "etv": 5.369000000000001,
+              "keywords_count": 1,
+              "visibility": 0.05,
+              "relevant_serp_items": 1,
+              "keywords_positions": {
+                "interior design miami": [
+                  11
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "badcocksfl.com",
+              "avg_position": 21,
+              "median_position": 11,
+              "rating": 316,
+              "etv": 96.624,
+              "keywords_count": 4,
+              "visibility": 1.05,
+              "relevant_serp_items": 4,
+              "keywords_positions": {
+                "furniture stores fort lauderdale": [
+                  11
+                ],
+                "sectional sofas miami": [
+                  33
+                ],
+                "modern furniture fort lauderdale": [
+                  39
+                ],
+                "furniture stores hollywood fl": [
+                  1
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "aventuramall.com",
+              "avg_position": 11,
+              "median_position": 11,
+              "rating": 89,
+              "etv": 2.366,
+              "keywords_count": 1,
+              "visibility": 0.05,
+              "relevant_serp_items": 1,
+              "keywords_positions": {
+                "furniture stores aventura": [
+                  11
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "miamiwoodworkfurniture.com",
+              "avg_position": 11,
+              "median_position": 11,
+              "rating": 89,
+              "etv": 0.637,
+              "keywords_count": 1,
+              "visibility": 0.05,
+              "relevant_serp_items": 1,
+              "keywords_positions": {
+                "custom furniture miami": [
+                  11
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "lagoonfurnitures.com",
+              "avg_position": 12,
+              "median_position": 12,
+              "rating": 88,
+              "etv": 7.5,
+              "keywords_count": 1,
+              "visibility": 0.05,
+              "relevant_serp_items": 1,
+              "keywords_positions": {
+                "outdoor furniture miami": [
+                  12
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "officesolutionsfl.com",
+              "avg_position": 12,
+              "median_position": 12,
+              "rating": 88,
+              "etv": 2.925,
+              "keywords_count": 1,
+              "visibility": 0.05,
+              "relevant_serp_items": 1,
+              "keywords_positions": {
+                "office furniture miami": [
+                  12
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "calligarisnyc.com",
+              "avg_position": 12,
+              "median_position": 12,
+              "rating": 88,
+              "etv": 4.425,
+              "keywords_count": 1,
+              "visibility": 0.05,
+              "relevant_serp_items": 1,
+              "keywords_positions": {
+                "italian furniture store": [
+                  12
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "www.havertys.com",
+              "avg_position": 17.333333333333332,
+              "median_position": 12,
+              "rating": 248,
+              "etv": 578.9710000000001,
+              "keywords_count": 3,
+              "visibility": 1.05,
+              "relevant_serp_items": 3,
+              "keywords_positions": {
+                "furniture stores fort lauderdale": [
+                  1
+                ],
+                "modern furniture fort lauderdale": [
+                  12
+                ],
+                "furniture stores hollywood fl": [
+                  39
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "www.palliser.com",
+              "avg_position": 12,
+              "median_position": 12,
+              "rating": 88,
+              "etv": 0.22499999999999998,
+              "keywords_count": 1,
+              "visibility": 0.05,
+              "relevant_serp_items": 1,
+              "keywords_positions": {
+                "sectional sofas miami": [
+                  12
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "www.bocadolobo.com",
+              "avg_position": 12,
+              "median_position": 12,
+              "rating": 88,
+              "etv": 0.525,
+              "keywords_count": 1,
+              "visibility": 0.05,
+              "relevant_serp_items": 1,
+              "keywords_positions": {
+                "luxury furniture miami": [
+                  12
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "animadomus.com",
+              "avg_position": 12.5,
+              "median_position": 12,
+              "rating": 175,
+              "etv": 2.599,
+              "keywords_count": 2,
+              "visibility": 0.1,
+              "relevant_serp_items": 2,
+              "keywords_positions": {
+                "italian furniture miami": [
+                  13
+                ],
+                "furniture stores aventura": [
+                  12
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "www.buddyrents.com",
+              "avg_position": 12,
+              "median_position": 12,
+              "rating": 88,
+              "etv": 1.95,
+              "keywords_count": 1,
+              "visibility": 0.05,
+              "relevant_serp_items": 1,
+              "keywords_positions": {
+                "furniture stores hollywood fl": [
+                  12
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "miamifurnituremanufacturing.com",
+              "avg_position": 12,
+              "median_position": 12,
+              "rating": 88,
+              "etv": 0.525,
+              "keywords_count": 1,
+              "visibility": 0.05,
+              "relevant_serp_items": 1,
+              "keywords_positions": {
+                "custom furniture miami": [
+                  12
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "rattanshack.com",
+              "avg_position": 33,
+              "median_position": 13,
+              "rating": 134,
+              "etv": 5.962999999999999,
+              "keywords_count": 2,
+              "visibility": 0.05,
+              "relevant_serp_items": 2,
+              "keywords_positions": {
+                "outdoor furniture miami": [
+                  13
+                ],
+                "sectional sofas miami": [
+                  53
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "gablesofficefurniture.com",
+              "avg_position": 13,
+              "median_position": 13,
+              "rating": 87,
+              "etv": 2.301,
+              "keywords_count": 1,
+              "visibility": 0.05,
+              "relevant_serp_items": 1,
+              "keywords_positions": {
+                "office furniture miami": [
+                  13
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "atmosphereinteriors.com",
+              "avg_position": 13,
+              "median_position": 13,
+              "rating": 87,
+              "etv": 0.177,
+              "keywords_count": 1,
+              "visibility": 0.05,
+              "relevant_serp_items": 1,
+              "keywords_positions": {
+                "sectional sofas miami": [
+                  13
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "www.hollywoodglamfurniture.com",
+              "avg_position": 13,
+              "median_position": 13,
+              "rating": 87,
+              "etv": 1.534,
+              "keywords_count": 1,
+              "visibility": 0.05,
+              "relevant_serp_items": 1,
+              "keywords_positions": {
+                "furniture stores hollywood fl": [
+                  13
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "abtmodern.com",
+              "avg_position": 13,
+              "median_position": 13,
+              "rating": 87,
+              "etv": 0.236,
+              "keywords_count": 1,
+              "visibility": 0.05,
+              "relevant_serp_items": 1,
+              "keywords_positions": {
+                "contemporary furniture miami": [
+                  13
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "www.brownjordan.com",
+              "avg_position": 14,
+              "median_position": 14,
+              "rating": 86,
+              "etv": 5.6,
+              "keywords_count": 1,
+              "visibility": 0.05,
+              "relevant_serp_items": 1,
+              "keywords_positions": {
+                "outdoor furniture miami": [
+                  14
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "www.ethosource.com",
+              "avg_position": 14,
+              "median_position": 14,
+              "rating": 86,
+              "etv": 2.184,
+              "keywords_count": 1,
+              "visibility": 0.05,
+              "relevant_serp_items": 1,
+              "keywords_positions": {
+                "office furniture miami": [
+                  14
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "miamifurnitureoutlet.com",
+              "avg_position": 23.2,
+              "median_position": 14,
+              "rating": 384,
+              "etv": 9.601999999999999,
+              "keywords_count": 5,
+              "visibility": 0.4,
+              "relevant_serp_items": 5,
+              "keywords_positions": {
+                "office furniture miami": [
+                  47
+                ],
+                "modern furniture miami": [
+                  14
+                ],
+                "sectional sofas miami": [
+                  11
+                ],
+                "furniture stores aventura": [
+                  8
+                ],
+                "contemporary furniture miami": [
+                  36
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "www.cityfurniture.com",
+              "avg_position": 12,
+              "median_position": 14,
+              "rating": 264,
+              "etv": 4.001,
+              "keywords_count": 3,
+              "visibility": 0.5,
+              "relevant_serp_items": 3,
+              "keywords_positions": {
+                "modern furniture miami": [
+                  15
+                ],
+                "sectional sofas miami": [
+                  7
+                ],
+                "contemporary furniture miami": [
+                  14
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "artemest.com",
+              "avg_position": 14,
+              "median_position": 14,
+              "rating": 86,
+              "etv": 3.304,
+              "keywords_count": 1,
+              "visibility": 0.05,
+              "relevant_serp_items": 1,
+              "keywords_positions": {
+                "italian furniture store": [
+                  14
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "www.whitelinemod.com",
+              "avg_position": 14,
+              "median_position": 14,
+              "rating": 86,
+              "etv": 0.168,
+              "keywords_count": 1,
+              "visibility": 0.05,
+              "relevant_serp_items": 1,
+              "keywords_positions": {
+                "sectional sofas miami": [
+                  14
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "www.homegoods.com",
+              "avg_position": 14,
+              "median_position": 14,
+              "rating": 86,
+              "etv": 1.456,
+              "keywords_count": 1,
+              "visibility": 0.05,
+              "relevant_serp_items": 1,
+              "keywords_positions": {
+                "furniture stores aventura": [
+                  14
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "www.target.com",
+              "avg_position": 18.5,
+              "median_position": 15,
+              "rating": 163,
+              "etv": 5.166,
+              "keywords_count": 2,
+              "visibility": 0.05,
+              "relevant_serp_items": 2,
+              "keywords_positions": {
+                "outdoor furniture miami": [
+                  15
+                ],
+                "sectional sofas miami": [
+                  22
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "www.rentfurniture.com",
+              "avg_position": 15,
+              "median_position": 15,
+              "rating": 85,
+              "etv": 1.989,
+              "keywords_count": 1,
+              "visibility": 0.05,
+              "relevant_serp_items": 1,
+              "keywords_positions": {
+                "office furniture miami": [
+                  15
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "www.creativefurniturestore.com",
+              "avg_position": 15,
+              "median_position": 15,
+              "rating": 85,
+              "etv": 3.0090000000000003,
+              "keywords_count": 1,
+              "visibility": 0.05,
+              "relevant_serp_items": 1,
+              "keywords_positions": {
+                "italian furniture store": [
+                  15
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "www.thecurated.group",
+              "avg_position": 27,
+              "median_position": 15,
+              "rating": 219,
+              "etv": 7.108,
+              "keywords_count": 3,
+              "visibility": 0.15000000000000002,
+              "relevant_serp_items": 3,
+              "keywords_positions": {
+                "interior design miami": [
+                  10
+                ],
+                "luxury furniture miami": [
+                  15
+                ],
+                "contemporary furniture miami": [
+                  56
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "www.veninifurniture.com",
+              "avg_position": 15,
+              "median_position": 15,
+              "rating": 85,
+              "etv": 9.690000000000001,
+              "keywords_count": 1,
+              "visibility": 0.05,
+              "relevant_serp_items": 1,
+              "keywords_positions": {
+                "furniture stores fort lauderdale": [
+                  15
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "www.faithfarm.org",
+              "avg_position": 24,
+              "median_position": 15,
+              "rating": 152,
+              "etv": 5.316,
+              "keywords_count": 2,
+              "visibility": 0.05,
+              "relevant_serp_items": 2,
+              "keywords_positions": {
+                "furniture stores fort lauderdale": [
+                  33
+                ],
+                "furniture stores hollywood fl": [
+                  15
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "sobefurniture.com",
+              "avg_position": 30,
+              "median_position": 15,
+              "rating": 140,
+              "etv": 1.107,
+              "keywords_count": 2,
+              "visibility": 0.05,
+              "relevant_serp_items": 2,
+              "keywords_positions": {
+                "modern furniture fort lauderdale": [
+                  15
+                ],
+                "furniture stores hollywood fl": [
+                  45
+                ]
+              }
+            },
+            {
+              "se_type": "google",
+              "domain": "www.imperialmiami.com",
+              "avg_position": 21.666666666666668,
+              "median_position": 15,
+              "rating": 235,
+              "etv": 1.6950000000000003,
+              "keywords_count": 3,
+              "visibility": 0.25,
+              "relevant_serp_items": 3,
+              "keywords_positions": {
+                "luxury furniture miami": [
+                  9
+                ],
+                "italian furniture miami": [
+                  15
+                ],
+                "contemporary furniture miami": [
+                  41
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

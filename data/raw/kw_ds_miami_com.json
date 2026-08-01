@@ -1,0 +1,4438 @@
+{
+  "version": "0.1.20260731",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "0.3010 sec.",
+  "cost": 0.01452,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "08012113-1561-0381-0000-4c0a07aed035",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "0.2883 sec.",
+      "cost": 0.01452,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "dataforseo_labs",
+        "google",
+        "ranked_keywords",
+        "live"
+      ],
+      "data": {
+        "api": "dataforseo_labs",
+        "function": "ranked_keywords",
+        "se_type": "google",
+        "target": "ds-miami.com",
+        "location_code": 2840,
+        "language_code": "en",
+        "limit": 100,
+        "order_by": [
+          "ranked_serp_element.serp_item.etv,desc"
+        ],
+        "filters": [
+          [
+            "ranked_serp_element.serp_item.type",
+            "=",
+            "organic"
+          ],
+          "and",
+          [
+            "ranked_serp_element.serp_item.rank_group",
+            "<=",
+            10
+          ]
+        ]
+      },
+      "result": [
+        {
+          "se_type": "google",
+          "target": "ds-miami.com",
+          "location_code": 2840,
+          "language_code": "en",
+          "total_count": 21,
+          "items_count": 21,
+          "metrics": {
+            "organic": {
+              "pos_1": 5,
+              "pos_2_3": 4,
+              "pos_4_10": 12,
+              "pos_11_20": 0,
+              "pos_21_30": 0,
+              "pos_31_40": 0,
+              "pos_41_50": 0,
+              "pos_51_60": 0,
+              "pos_61_70": 0,
+              "pos_71_80": 0,
+              "pos_81_90": 0,
+              "pos_91_100": 0,
+              "etv": 392.8570017814636,
+              "count": 21,
+              "estimated_paid_traffic_cost": 1670.6577543616295,
+              "is_new": 1,
+              "is_up": 7,
+              "is_down": 8,
+              "is_lost": 0,
+              "clickstream_etv": null,
+              "clickstream_gender_distribution": null,
+              "clickstream_age_distribution": null
+            },
+            "paid": {
+              "pos_1": 0,
+              "pos_2_3": 0,
+              "pos_4_10": 0,
+              "pos_11_20": 0,
+              "pos_21_30": 0,
+              "pos_31_40": 0,
+              "pos_41_50": 0,
+              "pos_51_60": 0,
+              "pos_61_70": 0,
+              "pos_71_80": 0,
+              "pos_81_90": 0,
+              "pos_91_100": 0,
+              "etv": 0,
+              "count": 0,
+              "estimated_paid_traffic_cost": 0,
+              "is_new": 0,
+              "is_up": 0,
+              "is_down": 0,
+              "is_lost": 0,
+              "clickstream_etv": null,
+              "clickstream_gender_distribution": null,
+              "clickstream_age_distribution": null
+            },
+            "featured_snippet": null,
+            "local_pack": null,
+            "ai_overview_reference": null
+          },
+          "metrics_absolute": null,
+          "items": [
+            {
+              "se_type": "google",
+              "keyword_data": {
+                "se_type": "google",
+                "keyword": "design solutions",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-07-13 17:00:22 +00:00",
+                  "competition": 0.05999999865889549,
+                  "competition_level": "LOW",
+                  "cpc": 5.230000019073486,
+                  "search_volume": 1000,
+                  "low_top_of_page_bid": 1.2799999713897705,
+                  "high_top_of_page_bid": 8.569999694824219,
+                  "categories": [
+                    10004,
+                    10004,
+                    10273,
+                    10273,
+                    13734
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2026,
+                      "month": 6,
+                      "search_volume": 1300
+                    },
+                    {
+                      "year": 2026,
+                      "month": 5,
+                      "search_volume": 1600
+                    },
+                    {
+                      "year": 2026,
+                      "month": 4,
+                      "search_volume": 880
+                    },
+                    {
+                      "year": 2026,
+                      "month": 3,
+                      "search_volume": 1000
+                    },
+                    {
+                      "year": 2026,
+                      "month": 2,
+                      "search_volume": 880
+                    },
+                    {
+                      "year": 2026,
+                      "month": 1,
+                      "search_volume": 1300
+                    },
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 1000
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 1000
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 1000
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 1600
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 1000
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 720
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": -19,
+                    "quarterly": 48,
+                    "yearly": 48
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": "solution by design",
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 2,
+                  "detected_language": "en",
+                  "is_another_language": false
+                },
+                "serp_info": {
+                  "se_type": "google",
+                  "check_url": "https://www.google.com/search?q=design%20solutions&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                  "serp_item_types": [
+                    "organic",
+                    "local_pack",
+                    "people_also_ask",
+                    "images",
+                    "related_searches"
+                  ],
+                  "se_results_count": 145,
+                  "last_updated_time": "2026-05-19 19:55:42 +00:00",
+                  "previous_updated_time": "2026-03-16 02:31:43 +00:00"
+                },
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 3628.199951171875,
+                  "dofollow": 3581.60009765625,
+                  "referring_pages": 3608.10009765625,
+                  "referring_domains": 40.29999923706055,
+                  "referring_main_domains": 38.70000076293945,
+                  "rank": 82.5999984741211,
+                  "main_domain_rank": 358.6000061035156,
+                  "last_updated_time": "2026-05-19 19:59:45 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "navigational",
+                  "foreign_intent": [
+                    "commercial",
+                    "informational"
+                  ],
+                  "last_updated_time": "2026-04-27 02:22:24 +00:00"
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "google",
+                "serp_item": {
+                  "se_type": "google",
+                  "type": "organic",
+                  "rank_group": 2,
+                  "rank_absolute": 2,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]",
+                  "domain": "ds-miami.com",
+                  "title": "Design Solutions Miami",
+                  "url": "https://ds-miami.com/",
+                  "breadcrumb": "https://ds-miami.com",
+                  "website_name": "DS Miami",
+                  "is_image": false,
+                  "is_video": false,
+                  "is_featured_snippet": false,
+                  "is_malicious": false,
+                  "description": "At Design Solutions, we specialize in luxury interior and exterior design, guiding clients from concept to completion with unmatched attention to detail. Read more",
+                  "pre_snippet": null,
+                  "extended_snippet": null,
+                  "amp_version": false,
+                  "rating": null,
+                  "highlighted": [
+                    "luxury interior and exterior design"
+                  ],
+                  "links": null,
+                  "about_this_result": null,
+                  "main_domain": "ds-miami.com",
+                  "relative_url": "/",
+                  "etv": 162,
+                  "estimated_paid_traffic_cost": 847.260009765625,
+                  "clickstream_etv": null,
+                  "rank_changes": {
+                    "previous_rank_absolute": 2,
+                    "is_new": false,
+                    "is_up": false,
+                    "is_down": false
+                  },
+                  "backlinks_info": {
+                    "referring_domains": 254,
+                    "referring_main_domains": 241,
+                    "referring_pages": 35844,
+                    "dofollow": 35666,
+                    "backlinks": 36034,
+                    "time_update": "2026-07-21 04:16:55 +00:00"
+                  },
+                  "rank_info": {
+                    "page_rank": 274,
+                    "main_domain_rank": 195
+                  }
+                },
+                "check_url": "https://www.google.com/search?q=design%20solutions&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                "serp_item_types": [
+                  "organic",
+                  "local_pack",
+                  "people_also_ask",
+                  "images",
+                  "related_searches"
+                ],
+                "se_results_count": 145,
+                "keyword_difficulty": 2,
+                "is_lost": false,
+                "last_updated_time": "2026-05-19 19:55:42 +00:00",
+                "previous_updated_time": "2026-03-16 02:31:43 +00:00"
+              }
+            },
+            {
+              "se_type": "google",
+              "keyword_data": {
+                "se_type": "google",
+                "keyword": "design solutions miami",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-07-14 21:20:48 +00:00",
+                  "competition": 0.03999999910593033,
+                  "competition_level": "LOW",
+                  "cpc": 2.490000009536743,
+                  "search_volume": 210,
+                  "low_top_of_page_bid": 2.130000114440918,
+                  "high_top_of_page_bid": 12.010000228881836,
+                  "categories": [
+                    10004,
+                    10273,
+                    13734
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2026,
+                      "month": 6,
+                      "search_volume": 170
+                    },
+                    {
+                      "year": 2026,
+                      "month": 5,
+                      "search_volume": 210
+                    },
+                    {
+                      "year": 2026,
+                      "month": 4,
+                      "search_volume": 210
+                    },
+                    {
+                      "year": 2026,
+                      "month": 3,
+                      "search_volume": 210
+                    },
+                    {
+                      "year": 2026,
+                      "month": 2,
+                      "search_volume": 210
+                    },
+                    {
+                      "year": 2026,
+                      "month": 1,
+                      "search_volume": 210
+                    },
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 140
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 140
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 210
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 210
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 210
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 210
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": -19,
+                    "quarterly": -19,
+                    "yearly": 0
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": null,
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 14,
+                  "detected_language": "en",
+                  "is_another_language": false
+                },
+                "serp_info": {
+                  "se_type": "google",
+                  "check_url": "https://www.google.com/search?q=design%20solutions%20miami&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                  "serp_item_types": [
+                    "organic",
+                    "people_also_ask",
+                    "related_searches",
+                    "knowledge_graph",
+                    "google_reviews",
+                    "third_party_reviews",
+                    "images"
+                  ],
+                  "se_results_count": 109,
+                  "last_updated_time": "2026-07-07 23:05:50 +00:00",
+                  "previous_updated_time": "2026-04-28 23:30:52 +00:00"
+                },
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 3615.89990234375,
+                  "dofollow": 3576.5,
+                  "referring_pages": 3595.39990234375,
+                  "referring_domains": 27.200000762939453,
+                  "referring_main_domains": 25.799999237060547,
+                  "rank": 102.4000015258789,
+                  "main_domain_rank": 668.2999877929688,
+                  "last_updated_time": "2026-07-07 23:05:51 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "navigational",
+                  "foreign_intent": [
+                    "commercial"
+                  ],
+                  "last_updated_time": "2026-04-29 14:21:21 +00:00"
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "google",
+                "serp_item": {
+                  "se_type": "google",
+                  "type": "organic",
+                  "rank_group": 1,
+                  "rank_absolute": 1,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[11]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+                  "domain": "ds-miami.com",
+                  "title": "DS Miami: Homepage",
+                  "url": "https://ds-miami.com/",
+                  "breadcrumb": "https://ds-miami.com",
+                  "website_name": "DS Miami",
+                  "is_image": false,
+                  "is_video": false,
+                  "is_featured_snippet": false,
+                  "is_malicious": false,
+                  "description": "At Design Solutions, we specialize in luxury interior and exterior design, guiding clients from concept to completion with unmatched attention to detail.",
+                  "pre_snippet": null,
+                  "extended_snippet": null,
+                  "amp_version": false,
+                  "rating": null,
+                  "highlighted": [
+                    "Design Solutions"
+                  ],
+                  "links": [
+                    {
+                      "type": "link_element",
+                      "title": "Contact",
+                      "description": null,
+                      "url": "https://ds-miami.com/contact/"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "Who We Are",
+                      "description": null,
+                      "url": "https://ds-miami.com/who-we-are/"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "Press",
+                      "description": null,
+                      "url": "https://ds-miami.com/press/"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "Interior design",
+                      "description": null,
+                      "url": "https://ds-miami.com/interior-design-in-miami/"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "Portfolio",
+                      "description": null,
+                      "url": "https://ds-miami.com/portfolio/"
+                    }
+                  ],
+                  "about_this_result": null,
+                  "main_domain": "ds-miami.com",
+                  "relative_url": "/",
+                  "etv": 63.84000015258789,
+                  "estimated_paid_traffic_cost": 158.9615936279297,
+                  "clickstream_etv": null,
+                  "rank_changes": {
+                    "previous_rank_absolute": 1,
+                    "is_new": false,
+                    "is_up": false,
+                    "is_down": false
+                  },
+                  "backlinks_info": {
+                    "referring_domains": 254,
+                    "referring_main_domains": 241,
+                    "referring_pages": 35844,
+                    "dofollow": 35666,
+                    "backlinks": 36034,
+                    "time_update": "2026-07-21 04:16:55 +00:00"
+                  },
+                  "rank_info": {
+                    "page_rank": 274,
+                    "main_domain_rank": 193
+                  }
+                },
+                "check_url": "https://www.google.com/search?q=design%20solutions%20miami&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                "serp_item_types": [
+                  "organic",
+                  "people_also_ask",
+                  "related_searches",
+                  "knowledge_graph",
+                  "google_reviews",
+                  "third_party_reviews",
+                  "images"
+                ],
+                "se_results_count": 109,
+                "keyword_difficulty": 14,
+                "is_lost": false,
+                "last_updated_time": "2026-07-07 23:05:50 +00:00",
+                "previous_updated_time": "2026-04-28 23:30:52 +00:00"
+              }
+            },
+            {
+              "se_type": "google",
+              "keyword_data": {
+                "se_type": "google",
+                "keyword": "design solution",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-07-13 16:12:25 +00:00",
+                  "competition": 0.05999999865889549,
+                  "competition_level": "LOW",
+                  "cpc": 5.230000019073486,
+                  "search_volume": 1000,
+                  "low_top_of_page_bid": 1.2799999713897705,
+                  "high_top_of_page_bid": 8.569999694824219,
+                  "categories": [
+                    10004,
+                    10273
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2026,
+                      "month": 6,
+                      "search_volume": 1300
+                    },
+                    {
+                      "year": 2026,
+                      "month": 5,
+                      "search_volume": 1600
+                    },
+                    {
+                      "year": 2026,
+                      "month": 4,
+                      "search_volume": 880
+                    },
+                    {
+                      "year": 2026,
+                      "month": 3,
+                      "search_volume": 1000
+                    },
+                    {
+                      "year": 2026,
+                      "month": 2,
+                      "search_volume": 880
+                    },
+                    {
+                      "year": 2026,
+                      "month": 1,
+                      "search_volume": 1300
+                    },
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 1000
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 1000
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 1000
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 1600
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 1000
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 720
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": -19,
+                    "quarterly": 48,
+                    "yearly": 48
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": "solution by design",
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 4,
+                  "detected_language": "en",
+                  "is_another_language": false
+                },
+                "serp_info": {
+                  "se_type": "google",
+                  "check_url": "https://www.google.com/search?q=design%20solution&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                  "serp_item_types": [
+                    "local_pack",
+                    "people_also_ask",
+                    "organic",
+                    "images",
+                    "video",
+                    "related_searches"
+                  ],
+                  "se_results_count": 1300000000,
+                  "last_updated_time": "2026-04-20 03:59:38 +00:00",
+                  "previous_updated_time": "2026-03-04 00:47:24 +00:00"
+                },
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 3637.199951171875,
+                  "dofollow": 3581.89990234375,
+                  "referring_pages": 3612.39990234375,
+                  "referring_domains": 44.099998474121094,
+                  "referring_main_domains": 42.29999923706055,
+                  "rank": 88,
+                  "main_domain_rank": 416.20001220703125,
+                  "last_updated_time": "2026-04-20 03:59:38 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "informational",
+                  "foreign_intent": [
+                    "commercial"
+                  ],
+                  "last_updated_time": "2026-04-29 08:51:03 +00:00"
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "google",
+                "serp_item": {
+                  "se_type": "google",
+                  "type": "organic",
+                  "rank_group": 6,
+                  "rank_absolute": 11,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[16]/div[1]/div[1]",
+                  "domain": "ds-miami.com",
+                  "title": "Design Solutions Miami",
+                  "url": "https://ds-miami.com/",
+                  "breadcrumb": "https://ds-miami.com",
+                  "website_name": "Design Solutions Miami",
+                  "is_image": false,
+                  "is_video": false,
+                  "is_featured_snippet": false,
+                  "is_malicious": false,
+                  "description": "At Design Solutions, we specialize in luxury interior and exterior design, guiding clients from concept to completion with unmatched attention to detail. Read more",
+                  "pre_snippet": null,
+                  "extended_snippet": null,
+                  "amp_version": false,
+                  "rating": null,
+                  "highlighted": [
+                    "luxury interior and exterior design"
+                  ],
+                  "links": null,
+                  "about_this_result": null,
+                  "main_domain": "ds-miami.com",
+                  "relative_url": "/",
+                  "etv": 33.79999923706055,
+                  "estimated_paid_traffic_cost": 176.7740020751953,
+                  "clickstream_etv": null,
+                  "rank_changes": {
+                    "previous_rank_absolute": 13,
+                    "is_new": false,
+                    "is_up": true,
+                    "is_down": false
+                  },
+                  "backlinks_info": {
+                    "referring_domains": 254,
+                    "referring_main_domains": 241,
+                    "referring_pages": 35844,
+                    "dofollow": 35666,
+                    "backlinks": 36034,
+                    "time_update": "2026-07-21 04:16:55 +00:00"
+                  },
+                  "rank_info": {
+                    "page_rank": 268,
+                    "main_domain_rank": 190
+                  }
+                },
+                "check_url": "https://www.google.com/search?q=design%20solution&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                "serp_item_types": [
+                  "local_pack",
+                  "people_also_ask",
+                  "organic",
+                  "images",
+                  "video",
+                  "related_searches"
+                ],
+                "se_results_count": 1300000000,
+                "keyword_difficulty": 4,
+                "is_lost": false,
+                "last_updated_time": "2026-04-20 03:59:38 +00:00",
+                "previous_updated_time": "2026-03-04 00:47:24 +00:00"
+              }
+            },
+            {
+              "se_type": "google",
+              "keyword_data": {
+                "se_type": "google",
+                "keyword": "d s design",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-07-12 16:25:31 +00:00",
+                  "competition": 0.029999999329447746,
+                  "competition_level": "LOW",
+                  "cpc": 1.0299999713897705,
+                  "search_volume": 90,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10004,
+                    10273
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2026,
+                      "month": 6,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2026,
+                      "month": 5,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2026,
+                      "month": 4,
+                      "search_volume": 90
+                    },
+                    {
+                      "year": 2026,
+                      "month": 3,
+                      "search_volume": 110
+                    },
+                    {
+                      "year": 2026,
+                      "month": 2,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2026,
+                      "month": 1,
+                      "search_volume": 90
+                    },
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 90
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 90
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 90
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 90
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 90
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 70
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 0,
+                    "quarterly": -22,
+                    "yearly": 0
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": "d designs",
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 9,
+                  "detected_language": "en",
+                  "is_another_language": false
+                },
+                "serp_info": {
+                  "se_type": "google",
+                  "check_url": "https://www.google.com/search?q=d%20s%20design&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                  "serp_item_types": [
+                    "organic",
+                    "ai_overview",
+                    "related_searches"
+                  ],
+                  "se_results_count": 188,
+                  "last_updated_time": "2026-07-16 13:28:46 +00:00",
+                  "previous_updated_time": "2026-05-29 10:36:29 +00:00"
+                },
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 3654.300048828125,
+                  "dofollow": 3609.800048828125,
+                  "referring_pages": 3631.89990234375,
+                  "referring_domains": 38,
+                  "referring_main_domains": 36,
+                  "rank": 106.0999984741211,
+                  "main_domain_rank": 445,
+                  "last_updated_time": "2026-07-16 13:28:47 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "navigational",
+                  "foreign_intent": [
+                    "informational"
+                  ],
+                  "last_updated_time": "2026-04-29 10:14:10 +00:00"
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "google",
+                "serp_item": {
+                  "se_type": "google",
+                  "type": "organic",
+                  "rank_group": 1,
+                  "rank_absolute": 1,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+                  "domain": "ds-miami.com",
+                  "title": "DS Miami: Homepage",
+                  "url": "https://ds-miami.com/",
+                  "breadcrumb": "https://ds-miami.com",
+                  "website_name": "DS Miami",
+                  "is_image": false,
+                  "is_video": false,
+                  "is_featured_snippet": false,
+                  "is_malicious": false,
+                  "description": "At Design Solutions, we specialize in luxury interior and exterior design, guiding clients from concept to completion with unmatched attention to detail. Read more",
+                  "pre_snippet": null,
+                  "extended_snippet": null,
+                  "amp_version": false,
+                  "rating": null,
+                  "highlighted": [
+                    "luxury interior and exterior design"
+                  ],
+                  "links": null,
+                  "about_this_result": null,
+                  "main_domain": "ds-miami.com",
+                  "relative_url": "/",
+                  "etv": 27.360000610351562,
+                  "estimated_paid_traffic_cost": 28.18079948425293,
+                  "clickstream_etv": null,
+                  "rank_changes": {
+                    "previous_rank_absolute": 1,
+                    "is_new": false,
+                    "is_up": false,
+                    "is_down": false
+                  },
+                  "backlinks_info": {
+                    "referring_domains": 254,
+                    "referring_main_domains": 241,
+                    "referring_pages": 35844,
+                    "dofollow": 35666,
+                    "backlinks": 36034,
+                    "time_update": "2026-07-21 04:16:55 +00:00"
+                  },
+                  "rank_info": {
+                    "page_rank": 276,
+                    "main_domain_rank": 205
+                  }
+                },
+                "check_url": "https://www.google.com/search?q=d%20s%20design&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                "serp_item_types": [
+                  "organic",
+                  "ai_overview",
+                  "related_searches"
+                ],
+                "se_results_count": 188,
+                "keyword_difficulty": 9,
+                "is_lost": false,
+                "last_updated_time": "2026-07-16 13:28:46 +00:00",
+                "previous_updated_time": "2026-05-29 10:36:29 +00:00"
+              }
+            },
+            {
+              "se_type": "google",
+              "keyword_data": {
+                "se_type": "google",
+                "keyword": "ds design",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-07-15 04:56:55 +00:00",
+                  "competition": 0.029999999329447746,
+                  "competition_level": "LOW",
+                  "cpc": 1.0299999713897705,
+                  "search_volume": 90,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10004,
+                    10273,
+                    13733
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2026,
+                      "month": 6,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2026,
+                      "month": 5,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2026,
+                      "month": 4,
+                      "search_volume": 90
+                    },
+                    {
+                      "year": 2026,
+                      "month": 3,
+                      "search_volume": 110
+                    },
+                    {
+                      "year": 2026,
+                      "month": 2,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2026,
+                      "month": 1,
+                      "search_volume": 90
+                    },
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 90
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 90
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 90
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 90
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 90
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 70
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 0,
+                    "quarterly": -22,
+                    "yearly": 0
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": "ds designs",
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 9,
+                  "detected_language": "fr",
+                  "is_another_language": true
+                },
+                "serp_info": {
+                  "se_type": "google",
+                  "check_url": "https://www.google.com/search?q=ds%20design&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                  "serp_item_types": [
+                    "ai_overview",
+                    "organic",
+                    "images",
+                    "related_searches"
+                  ],
+                  "se_results_count": 190,
+                  "last_updated_time": "2026-07-16 10:09:06 +00:00",
+                  "previous_updated_time": "2026-05-29 09:59:10 +00:00"
+                },
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 3654.300048828125,
+                  "dofollow": 3609.800048828125,
+                  "referring_pages": 3631.89990234375,
+                  "referring_domains": 38,
+                  "referring_main_domains": 36,
+                  "rank": 106.0999984741211,
+                  "main_domain_rank": 445,
+                  "last_updated_time": "2026-07-16 10:09:07 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "navigational",
+                  "foreign_intent": [
+                    "informational"
+                  ],
+                  "last_updated_time": "2026-04-29 15:55:38 +00:00"
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "google",
+                "serp_item": {
+                  "se_type": "google",
+                  "type": "organic",
+                  "rank_group": 1,
+                  "rank_absolute": 1,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+                  "domain": "ds-miami.com",
+                  "title": "DS Miami: Homepage",
+                  "url": "https://ds-miami.com/",
+                  "breadcrumb": "https://ds-miami.com",
+                  "website_name": "DS Miami",
+                  "is_image": false,
+                  "is_video": false,
+                  "is_featured_snippet": false,
+                  "is_malicious": false,
+                  "description": "At Design Solutions, we specialize in luxury interior and exterior design, guiding clients from concept to completion with unmatched attention to detail. Read more",
+                  "pre_snippet": null,
+                  "extended_snippet": null,
+                  "amp_version": false,
+                  "rating": null,
+                  "highlighted": [
+                    "luxury interior and exterior design"
+                  ],
+                  "links": null,
+                  "about_this_result": null,
+                  "main_domain": "ds-miami.com",
+                  "relative_url": "/",
+                  "etv": 27.360000610351562,
+                  "estimated_paid_traffic_cost": 28.18079948425293,
+                  "clickstream_etv": null,
+                  "rank_changes": {
+                    "previous_rank_absolute": 1,
+                    "is_new": false,
+                    "is_up": false,
+                    "is_down": false
+                  },
+                  "backlinks_info": {
+                    "referring_domains": 254,
+                    "referring_main_domains": 241,
+                    "referring_pages": 35844,
+                    "dofollow": 35666,
+                    "backlinks": 36034,
+                    "time_update": "2026-07-21 04:16:55 +00:00"
+                  },
+                  "rank_info": {
+                    "page_rank": 276,
+                    "main_domain_rank": 205
+                  }
+                },
+                "check_url": "https://www.google.com/search?q=ds%20design&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                "serp_item_types": [
+                  "ai_overview",
+                  "organic",
+                  "images",
+                  "related_searches"
+                ],
+                "se_results_count": 190,
+                "keyword_difficulty": 9,
+                "is_lost": false,
+                "last_updated_time": "2026-07-16 10:09:06 +00:00",
+                "previous_updated_time": "2026-05-29 09:59:10 +00:00"
+              }
+            },
+            {
+              "se_type": "google",
+              "keyword_data": {
+                "se_type": "google",
+                "keyword": "ds-design",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-07-12 05:10:57 +00:00",
+                  "competition": 0.029999999329447746,
+                  "competition_level": "LOW",
+                  "cpc": 1.0299999713897705,
+                  "search_volume": 90,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10004,
+                    10273,
+                    13733
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2026,
+                      "month": 6,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2026,
+                      "month": 5,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2026,
+                      "month": 4,
+                      "search_volume": 90
+                    },
+                    {
+                      "year": 2026,
+                      "month": 3,
+                      "search_volume": 110
+                    },
+                    {
+                      "year": 2026,
+                      "month": 2,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2026,
+                      "month": 1,
+                      "search_volume": 90
+                    },
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 90
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 90
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 90
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 90
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 90
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 70
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 0,
+                    "quarterly": -22,
+                    "yearly": 0
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": "ds designs",
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 5,
+                  "detected_language": "en",
+                  "is_another_language": false
+                },
+                "serp_info": {
+                  "se_type": "google",
+                  "check_url": "https://www.google.com/search?q=ds-design&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                  "serp_item_types": [
+                    "organic",
+                    "ai_overview",
+                    "related_searches",
+                    "popular_products"
+                  ],
+                  "se_results_count": 189,
+                  "last_updated_time": "2026-07-16 10:23:14 +00:00",
+                  "previous_updated_time": "2026-05-29 10:03:02 +00:00"
+                },
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 3633,
+                  "dofollow": 3592.699951171875,
+                  "referring_pages": 3610.800048828125,
+                  "referring_domains": 31,
+                  "referring_main_domains": 29.399999618530273,
+                  "rank": 89,
+                  "main_domain_rank": 437.70001220703125,
+                  "last_updated_time": "2026-07-16 10:23:14 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "navigational",
+                  "foreign_intent": null,
+                  "last_updated_time": "2026-04-27 17:12:19 +00:00"
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "google",
+                "serp_item": {
+                  "se_type": "google",
+                  "type": "organic",
+                  "rank_group": 1,
+                  "rank_absolute": 1,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+                  "domain": "ds-miami.com",
+                  "title": "DS Miami: Homepage",
+                  "url": "https://ds-miami.com/",
+                  "breadcrumb": "https://ds-miami.com",
+                  "website_name": "DS Miami",
+                  "is_image": false,
+                  "is_video": false,
+                  "is_featured_snippet": false,
+                  "is_malicious": false,
+                  "description": "At Design Solutions, we specialize in luxury interior and exterior design, guiding clients from concept to completion with unmatched attention to detail. Read more",
+                  "pre_snippet": null,
+                  "extended_snippet": null,
+                  "amp_version": false,
+                  "rating": null,
+                  "highlighted": [
+                    "luxury interior and exterior design"
+                  ],
+                  "links": null,
+                  "about_this_result": null,
+                  "main_domain": "ds-miami.com",
+                  "relative_url": "/",
+                  "etv": 27.360000610351562,
+                  "estimated_paid_traffic_cost": 28.18079948425293,
+                  "clickstream_etv": null,
+                  "rank_changes": {
+                    "previous_rank_absolute": 1,
+                    "is_new": false,
+                    "is_up": false,
+                    "is_down": false
+                  },
+                  "backlinks_info": {
+                    "referring_domains": 254,
+                    "referring_main_domains": 241,
+                    "referring_pages": 35844,
+                    "dofollow": 35666,
+                    "backlinks": 36034,
+                    "time_update": "2026-07-21 04:16:55 +00:00"
+                  },
+                  "rank_info": {
+                    "page_rank": 276,
+                    "main_domain_rank": 205
+                  }
+                },
+                "check_url": "https://www.google.com/search?q=ds-design&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                "serp_item_types": [
+                  "organic",
+                  "ai_overview",
+                  "related_searches",
+                  "popular_products"
+                ],
+                "se_results_count": 189,
+                "keyword_difficulty": 5,
+                "is_lost": false,
+                "last_updated_time": "2026-07-16 10:23:14 +00:00",
+                "previous_updated_time": "2026-05-29 10:03:02 +00:00"
+              }
+            },
+            {
+              "se_type": "google",
+              "keyword_data": {
+                "se_type": "google",
+                "keyword": "design solutions architects",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-07-11 04:17:00 +00:00",
+                  "competition": 0.07999999821186066,
+                  "competition_level": "LOW",
+                  "cpc": 11.460000038146973,
+                  "search_volume": 50,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10004,
+                    10273,
+                    11130
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2026,
+                      "month": 6,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2026,
+                      "month": 5,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2026,
+                      "month": 4,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2026,
+                      "month": 3,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2026,
+                      "month": 2,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2026,
+                      "month": 1,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 90
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 40
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": -33,
+                    "quarterly": 0,
+                    "yearly": -78
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": "solution architect design",
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 2,
+                  "detected_language": "en",
+                  "is_another_language": false
+                },
+                "serp_info": {
+                  "se_type": "google",
+                  "check_url": "https://www.google.com/search?q=design%20solutions%20architects&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                  "serp_item_types": [
+                    "ai_overview",
+                    "organic",
+                    "people_also_ask",
+                    "related_searches",
+                    "knowledge_graph",
+                    "google_reviews"
+                  ],
+                  "se_results_count": 63900000,
+                  "last_updated_time": "2026-05-07 21:01:40 +00:00",
+                  "previous_updated_time": "2026-03-08 04:01:59 +00:00"
+                },
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 3630.300048828125,
+                  "dofollow": 3577,
+                  "referring_pages": 3610.800048828125,
+                  "referring_domains": 36.29999923706055,
+                  "referring_main_domains": 34.79999923706055,
+                  "rank": 71,
+                  "main_domain_rank": 449.29998779296875,
+                  "last_updated_time": "2026-05-07 21:02:37 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "navigational",
+                  "foreign_intent": null,
+                  "last_updated_time": "2026-04-27 05:21:02 +00:00"
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "google",
+                "serp_item": {
+                  "se_type": "google",
+                  "type": "organic",
+                  "rank_group": 1,
+                  "rank_absolute": 2,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[2]/div[1]",
+                  "domain": "ds-miami.com",
+                  "title": "Luxury Interior Design Miami | Miami Architecture Firm",
+                  "url": "https://ds-miami.com/",
+                  "breadcrumb": "https://ds-miami.com",
+                  "website_name": "Design Solutions Miami",
+                  "is_image": false,
+                  "is_video": false,
+                  "is_featured_snippet": false,
+                  "is_malicious": false,
+                  "description": "At Design Solutions, we specialize in luxury interior and exterior design, guiding clients from concept to completion with unmatched attention to detail. Read more",
+                  "pre_snippet": null,
+                  "extended_snippet": null,
+                  "amp_version": false,
+                  "rating": null,
+                  "highlighted": [
+                    "luxury interior and exterior design"
+                  ],
+                  "links": [
+                    {
+                      "type": "link_element",
+                      "title": "Who We Are",
+                      "description": null,
+                      "url": "https://ds-miami.com/who-we-are/"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "Portfolio",
+                      "description": null,
+                      "url": "https://ds-miami.com/project-status/completed/"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "Blog",
+                      "description": null,
+                      "url": "https://ds-miami.com/blog/"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "Media",
+                      "description": null,
+                      "url": "https://ds-miami.com/in-the-news/"
+                    }
+                  ],
+                  "about_this_result": null,
+                  "main_domain": "ds-miami.com",
+                  "relative_url": "/",
+                  "etv": 15.199999809265137,
+                  "estimated_paid_traffic_cost": 174.19200134277344,
+                  "clickstream_etv": null,
+                  "rank_changes": {
+                    "previous_rank_absolute": 1,
+                    "is_new": false,
+                    "is_up": false,
+                    "is_down": true
+                  },
+                  "backlinks_info": {
+                    "referring_domains": 254,
+                    "referring_main_domains": 241,
+                    "referring_pages": 35844,
+                    "dofollow": 35666,
+                    "backlinks": 36034,
+                    "time_update": "2026-07-21 04:16:55 +00:00"
+                  },
+                  "rank_info": {
+                    "page_rank": 271,
+                    "main_domain_rank": 192
+                  }
+                },
+                "check_url": "https://www.google.com/search?q=design%20solutions%20architects&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                "serp_item_types": [
+                  "ai_overview",
+                  "organic",
+                  "people_also_ask",
+                  "related_searches",
+                  "knowledge_graph",
+                  "google_reviews"
+                ],
+                "se_results_count": 63900000,
+                "keyword_difficulty": 2,
+                "is_lost": false,
+                "last_updated_time": "2026-05-07 21:01:40 +00:00",
+                "previous_updated_time": "2026-03-08 04:01:59 +00:00"
+              }
+            },
+            {
+              "se_type": "google",
+              "keyword_data": {
+                "se_type": "google",
+                "keyword": "luciana fragali",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-07-16 10:15:24 +00:00",
+                  "competition": 0.1599999964237213,
+                  "competition_level": "LOW",
+                  "cpc": 6.920000076293945,
+                  "search_volume": 70,
+                  "low_top_of_page_bid": 3.299999952316284,
+                  "high_top_of_page_bid": 5.300000190734863,
+                  "categories": [
+                    10004
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2026,
+                      "month": 6,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2026,
+                      "month": 5,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2026,
+                      "month": 4,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2026,
+                      "month": 3,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2026,
+                      "month": 2,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2026,
+                      "month": 1,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 90
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 70
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 0,
+                    "quarterly": -20,
+                    "yearly": 33
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": null,
+                  "synonym_clustering_algorithm": null,
+                  "keyword_difficulty": 4,
+                  "detected_language": "en",
+                  "is_another_language": false
+                },
+                "serp_info": {
+                  "se_type": "google",
+                  "check_url": "https://www.google.com/search?q=luciana%20fragali&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                  "serp_item_types": [
+                    "organic",
+                    "images",
+                    "people_also_ask",
+                    "video",
+                    "short_videos"
+                  ],
+                  "se_results_count": 60,
+                  "last_updated_time": "2026-07-19 02:01:34 +00:00",
+                  "previous_updated_time": "2026-05-07 07:40:14 +00:00"
+                },
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 3608.199951171875,
+                  "dofollow": 3571.800048828125,
+                  "referring_pages": 3589.199951171875,
+                  "referring_domains": 25.600000381469727,
+                  "referring_main_domains": 24.299999237060547,
+                  "rank": 73.5,
+                  "main_domain_rank": 520.9000244140625,
+                  "last_updated_time": "2026-07-19 02:01:34 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "informational",
+                  "foreign_intent": null,
+                  "last_updated_time": "2026-05-03 09:47:22 +00:00"
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "google",
+                "serp_item": {
+                  "se_type": "google",
+                  "type": "organic",
+                  "rank_group": 2,
+                  "rank_absolute": 2,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]",
+                  "domain": "ds-miami.com",
+                  "title": "DS Miami: Homepage",
+                  "url": "https://ds-miami.com/",
+                  "breadcrumb": "https://ds-miami.com",
+                  "website_name": "DS Miami",
+                  "is_image": false,
+                  "is_video": false,
+                  "is_featured_snippet": false,
+                  "is_malicious": false,
+                  "description": "Luciana Fragali, founder of Design Solutions \u2014 Miami's premier luxury interior design firm. With nearly 20 years of experience and over 400 high-end\u00a0...",
+                  "pre_snippet": null,
+                  "extended_snippet": null,
+                  "amp_version": false,
+                  "rating": null,
+                  "highlighted": [
+                    "Luciana Fragali"
+                  ],
+                  "links": [
+                    {
+                      "type": "link_element",
+                      "title": "Who We Are",
+                      "description": null,
+                      "url": "https://ds-miami.com/who-we-are/"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "Portfolio",
+                      "description": null,
+                      "url": "https://ds-miami.com/portfolio/"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "Blog",
+                      "description": null,
+                      "url": "https://ds-miami.com/blog/"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "Media",
+                      "description": null,
+                      "url": "https://ds-miami.com/press/"
+                    }
+                  ],
+                  "about_this_result": null,
+                  "main_domain": "ds-miami.com",
+                  "relative_url": "/",
+                  "etv": 11.34000015258789,
+                  "estimated_paid_traffic_cost": 78.4728012084961,
+                  "clickstream_etv": null,
+                  "rank_changes": {
+                    "previous_rank_absolute": 1,
+                    "is_new": false,
+                    "is_up": false,
+                    "is_down": true
+                  },
+                  "backlinks_info": {
+                    "referring_domains": 254,
+                    "referring_main_domains": 241,
+                    "referring_pages": 35844,
+                    "dofollow": 35666,
+                    "backlinks": 36034,
+                    "time_update": "2026-07-21 04:16:55 +00:00"
+                  },
+                  "rank_info": {
+                    "page_rank": 277,
+                    "main_domain_rank": 206
+                  }
+                },
+                "check_url": "https://www.google.com/search?q=luciana%20fragali&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                "serp_item_types": [
+                  "organic",
+                  "images",
+                  "people_also_ask",
+                  "video",
+                  "short_videos"
+                ],
+                "se_results_count": 60,
+                "keyword_difficulty": 4,
+                "is_lost": false,
+                "last_updated_time": "2026-07-19 02:01:34 +00:00",
+                "previous_updated_time": "2026-05-07 07:40:14 +00:00"
+              }
+            },
+            {
+              "se_type": "google",
+              "keyword_data": {
+                "se_type": "google",
+                "keyword": "design solutions architecture",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-07-13 12:32:19 +00:00",
+                  "competition": 0.07999999821186066,
+                  "competition_level": "LOW",
+                  "cpc": 11.460000038146973,
+                  "search_volume": 50,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10004,
+                    10273,
+                    11130
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2026,
+                      "month": 6,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2026,
+                      "month": 5,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2026,
+                      "month": 4,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2026,
+                      "month": 3,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2026,
+                      "month": 2,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2026,
+                      "month": 1,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 90
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 40
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": -33,
+                    "quarterly": 0,
+                    "yearly": -78
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": null,
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 9,
+                  "detected_language": "en",
+                  "is_another_language": false
+                },
+                "serp_info": {
+                  "se_type": "google",
+                  "check_url": "https://www.google.com/search?q=design%20solutions%20architecture&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                  "serp_item_types": [
+                    "organic",
+                    "local_pack",
+                    "perspectives",
+                    "video",
+                    "related_searches",
+                    "images"
+                  ],
+                  "se_results_count": 672000000,
+                  "last_updated_time": "2026-05-07 21:00:03 +00:00",
+                  "previous_updated_time": "2026-03-25 23:01:51 +00:00"
+                },
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 3654.800048828125,
+                  "dofollow": 3597.10009765625,
+                  "referring_pages": 3634.699951171875,
+                  "referring_domains": 54.900001525878906,
+                  "referring_main_domains": 52.599998474121094,
+                  "rank": 123.0999984741211,
+                  "main_domain_rank": 274,
+                  "last_updated_time": "2026-05-07 21:02:05 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "navigational",
+                  "foreign_intent": null,
+                  "last_updated_time": "2026-04-27 15:12:26 +00:00"
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "google",
+                "serp_item": {
+                  "se_type": "google",
+                  "type": "organic",
+                  "rank_group": 2,
+                  "rank_absolute": 5,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]",
+                  "domain": "ds-miami.com",
+                  "title": "Luxury Interior Design Miami | Miami Architecture Firm",
+                  "url": "https://ds-miami.com/",
+                  "breadcrumb": "https://ds-miami.com",
+                  "website_name": "Design Solutions Miami",
+                  "is_image": true,
+                  "is_video": false,
+                  "is_featured_snippet": false,
+                  "is_malicious": false,
+                  "description": "At Design Solutions, we specialize in luxury interior and exterior design, guiding clients from concept to completion with unmatched attention to detail. Read more",
+                  "pre_snippet": null,
+                  "extended_snippet": null,
+                  "amp_version": false,
+                  "rating": null,
+                  "highlighted": [
+                    "luxury interior and exterior design"
+                  ],
+                  "links": null,
+                  "about_this_result": null,
+                  "main_domain": "ds-miami.com",
+                  "relative_url": "/",
+                  "etv": 8.100000381469727,
+                  "estimated_paid_traffic_cost": 92.82599639892578,
+                  "clickstream_etv": null,
+                  "rank_changes": {
+                    "previous_rank_absolute": 27,
+                    "is_new": false,
+                    "is_up": true,
+                    "is_down": false
+                  },
+                  "backlinks_info": {
+                    "referring_domains": 254,
+                    "referring_main_domains": 241,
+                    "referring_pages": 35844,
+                    "dofollow": 35666,
+                    "backlinks": 36034,
+                    "time_update": "2026-07-21 04:16:55 +00:00"
+                  },
+                  "rank_info": {
+                    "page_rank": 271,
+                    "main_domain_rank": 192
+                  }
+                },
+                "check_url": "https://www.google.com/search?q=design%20solutions%20architecture&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                "serp_item_types": [
+                  "organic",
+                  "local_pack",
+                  "perspectives",
+                  "video",
+                  "related_searches",
+                  "images"
+                ],
+                "se_results_count": 672000000,
+                "keyword_difficulty": 9,
+                "is_lost": false,
+                "last_updated_time": "2026-05-07 21:00:03 +00:00",
+                "previous_updated_time": "2026-03-25 23:01:51 +00:00"
+              }
+            },
+            {
+              "se_type": "google",
+              "keyword_data": {
+                "se_type": "google",
+                "keyword": "miami design firm",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-07-16 07:19:39 +00:00",
+                  "competition": 0.3400000035762787,
+                  "competition_level": "MEDIUM",
+                  "cpc": 9.600000381469727,
+                  "search_volume": 40,
+                  "low_top_of_page_bid": 2.369999885559082,
+                  "high_top_of_page_bid": 12.0600004196167,
+                  "categories": [
+                    10004,
+                    10273
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2026,
+                      "month": 6,
+                      "search_volume": 90
+                    },
+                    {
+                      "year": 2026,
+                      "month": 5,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2026,
+                      "month": 4,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2026,
+                      "month": 3,
+                      "search_volume": 110
+                    },
+                    {
+                      "year": 2026,
+                      "month": 2,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2026,
+                      "month": 1,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 50
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 200,
+                    "quarterly": 350,
+                    "yearly": 29
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": "miami design firms",
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 45,
+                  "detected_language": "en",
+                  "is_another_language": false
+                },
+                "serp_info": {
+                  "se_type": "google",
+                  "check_url": "https://www.google.com/search?q=miami%20design%20firm&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                  "serp_item_types": [
+                    "local_pack",
+                    "organic",
+                    "related_searches"
+                  ],
+                  "se_results_count": 137,
+                  "last_updated_time": "2026-06-08 05:49:14 +00:00",
+                  "previous_updated_time": "2026-04-14 06:03:46 +00:00"
+                },
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 5436.7998046875,
+                  "dofollow": 4968.2998046875,
+                  "referring_pages": 5266.39990234375,
+                  "referring_domains": 404.1000061035156,
+                  "referring_main_domains": 383.29998779296875,
+                  "rank": 260.5,
+                  "main_domain_rank": 406.8999938964844,
+                  "last_updated_time": "2026-06-08 05:49:33 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "navigational",
+                  "foreign_intent": [
+                    "commercial"
+                  ],
+                  "last_updated_time": "2026-04-29 15:21:50 +00:00"
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "google",
+                "serp_item": {
+                  "se_type": "google",
+                  "type": "organic",
+                  "rank_group": 3,
+                  "rank_absolute": 6,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]",
+                  "domain": "ds-miami.com",
+                  "title": "Design Solutions Miami",
+                  "url": "https://ds-miami.com/",
+                  "breadcrumb": "https://ds-miami.com",
+                  "website_name": "DS Miami",
+                  "is_image": false,
+                  "is_video": false,
+                  "is_featured_snippet": false,
+                  "is_malicious": false,
+                  "description": "At Design Solutions, we specialize in luxury interior and exterior design, guiding clients from concept to completion with unmatched attention to detail. Read more",
+                  "pre_snippet": null,
+                  "extended_snippet": null,
+                  "amp_version": false,
+                  "rating": null,
+                  "highlighted": [
+                    "luxury interior and exterior design"
+                  ],
+                  "links": null,
+                  "about_this_result": null,
+                  "main_domain": "ds-miami.com",
+                  "relative_url": "/",
+                  "etv": 3.8919999599456787,
+                  "estimated_paid_traffic_cost": 37.36320114135742,
+                  "clickstream_etv": null,
+                  "rank_changes": {
+                    "previous_rank_absolute": 4,
+                    "is_new": false,
+                    "is_up": false,
+                    "is_down": true
+                  },
+                  "backlinks_info": {
+                    "referring_domains": 254,
+                    "referring_main_domains": 241,
+                    "referring_pages": 35844,
+                    "dofollow": 35666,
+                    "backlinks": 36034,
+                    "time_update": "2026-07-21 04:16:55 +00:00"
+                  },
+                  "rank_info": {
+                    "page_rank": 274,
+                    "main_domain_rank": 195
+                  }
+                },
+                "check_url": "https://www.google.com/search?q=miami%20design%20firm&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                "serp_item_types": [
+                  "local_pack",
+                  "organic",
+                  "related_searches"
+                ],
+                "se_results_count": 137,
+                "keyword_difficulty": 45,
+                "is_lost": false,
+                "last_updated_time": "2026-06-08 05:49:14 +00:00",
+                "previous_updated_time": "2026-04-14 06:03:46 +00:00"
+              }
+            },
+            {
+              "se_type": "google",
+              "keyword_data": {
+                "se_type": "google",
+                "keyword": "miami house style",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-07-14 19:53:26 +00:00",
+                  "competition": 0.46000000834465027,
+                  "competition_level": "MEDIUM",
+                  "cpc": 0.11999999731779099,
+                  "search_volume": 140,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10004,
+                    10273,
+                    11130
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2026,
+                      "month": 6,
+                      "search_volume": 110
+                    },
+                    {
+                      "year": 2026,
+                      "month": 5,
+                      "search_volume": 210
+                    },
+                    {
+                      "year": 2026,
+                      "month": 4,
+                      "search_volume": 170
+                    },
+                    {
+                      "year": 2026,
+                      "month": 3,
+                      "search_volume": 140
+                    },
+                    {
+                      "year": 2026,
+                      "month": 2,
+                      "search_volume": 110
+                    },
+                    {
+                      "year": 2026,
+                      "month": 1,
+                      "search_volume": 110
+                    },
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 110
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 90
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 90
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 110
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 140
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 110
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": -48,
+                    "quarterly": -35,
+                    "yearly": -35
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": "miami style houses",
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 0,
+                  "detected_language": "en",
+                  "is_another_language": false
+                },
+                "serp_info": {
+                  "se_type": "google",
+                  "check_url": "https://www.google.com/search?q=miami%20house%20style&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                  "serp_item_types": [
+                    "ai_overview",
+                    "images",
+                    "people_also_ask",
+                    "organic",
+                    "video",
+                    "related_searches"
+                  ],
+                  "se_results_count": 134,
+                  "last_updated_time": "2026-07-11 06:27:53 +00:00",
+                  "previous_updated_time": "2026-05-03 05:44:11 +00:00"
+                },
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 12.100000381469727,
+                  "dofollow": 7.699999809265137,
+                  "referring_pages": 8,
+                  "referring_domains": 5.599999904632568,
+                  "referring_main_domains": 5.5,
+                  "rank": 35.20000076293945,
+                  "main_domain_rank": 403.8999938964844,
+                  "last_updated_time": "2026-07-11 06:28:19 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "informational",
+                  "foreign_intent": [
+                    "commercial"
+                  ],
+                  "last_updated_time": "2026-04-29 21:00:20 +00:00"
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "google",
+                "serp_item": {
+                  "se_type": "google",
+                  "type": "organic",
+                  "rank_group": 7,
+                  "rank_absolute": 11,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[19]/div[1]/div[1]",
+                  "domain": "ds-miami.com",
+                  "title": "Iconic Miami Neighborhoods and Their Architectural Styles",
+                  "url": "https://ds-miami.com/miami-neighborhoods-architectural-styles/",
+                  "breadcrumb": "https://ds-miami.com \u203a miami-neighborhoods-architect...",
+                  "website_name": "DS Miami",
+                  "is_image": false,
+                  "is_video": false,
+                  "is_featured_snippet": false,
+                  "is_malicious": false,
+                  "description": "Feb 18, 2025 \u2014 The hallmarks are immediately recognizable: stucco walls in warm tones, red clay roof tiles, wrought-iron balconies, arched entryways, and\u00a0... Read more",
+                  "pre_snippet": "02/18/2025 00:00:00",
+                  "extended_snippet": null,
+                  "amp_version": false,
+                  "rating": null,
+                  "highlighted": null,
+                  "links": null,
+                  "about_this_result": null,
+                  "main_domain": "ds-miami.com",
+                  "relative_url": "/miami-neighborhoods-architectural-styles/",
+                  "etv": 3.5840001106262207,
+                  "estimated_paid_traffic_cost": 0.43007999658584595,
+                  "clickstream_etv": null,
+                  "rank_changes": {
+                    "previous_rank_absolute": 8,
+                    "is_new": false,
+                    "is_up": false,
+                    "is_down": true
+                  },
+                  "backlinks_info": null,
+                  "rank_info": {
+                    "page_rank": 0,
+                    "main_domain_rank": 205
+                  }
+                },
+                "check_url": "https://www.google.com/search?q=miami%20house%20style&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                "serp_item_types": [
+                  "ai_overview",
+                  "images",
+                  "people_also_ask",
+                  "organic",
+                  "video",
+                  "related_searches"
+                ],
+                "se_results_count": 134,
+                "keyword_difficulty": 0,
+                "is_lost": false,
+                "last_updated_time": "2026-07-11 06:27:53 +00:00",
+                "previous_updated_time": "2026-05-03 05:44:11 +00:00"
+              }
+            },
+            {
+              "se_type": "google",
+              "keyword_data": {
+                "se_type": "google",
+                "keyword": "miami architectural styles",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-07-14 08:06:15 +00:00",
+                  "competition": 0,
+                  "competition_level": "LOW",
+                  "cpc": null,
+                  "search_volume": 110,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10004,
+                    10273,
+                    11130
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2026,
+                      "month": 6,
+                      "search_volume": 90
+                    },
+                    {
+                      "year": 2026,
+                      "month": 5,
+                      "search_volume": 90
+                    },
+                    {
+                      "year": 2026,
+                      "month": 4,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2026,
+                      "month": 3,
+                      "search_volume": 110
+                    },
+                    {
+                      "year": 2026,
+                      "month": 2,
+                      "search_volume": 110
+                    },
+                    {
+                      "year": 2026,
+                      "month": 1,
+                      "search_volume": 140
+                    },
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 110
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 170
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 110
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 140
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 140
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 110
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 0,
+                    "quarterly": 29,
+                    "yearly": -47
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": "miami architecture style",
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 11,
+                  "detected_language": "en",
+                  "is_another_language": false
+                },
+                "serp_info": {
+                  "se_type": "google",
+                  "check_url": "https://www.google.com/search?q=miami%20architectural%20styles&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                  "serp_item_types": [
+                    "ai_overview",
+                    "organic",
+                    "people_also_ask",
+                    "related_searches"
+                  ],
+                  "se_results_count": 160,
+                  "last_updated_time": "2026-07-13 02:39:48 +00:00",
+                  "previous_updated_time": "2026-05-01 16:53:37 +00:00"
+                },
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 23.5,
+                  "dofollow": 18.799999237060547,
+                  "referring_pages": 19.399999618530273,
+                  "referring_domains": 11.100000381469727,
+                  "referring_main_domains": 10.199999809265137,
+                  "rank": 79.5999984741211,
+                  "main_domain_rank": 372.5,
+                  "last_updated_time": "2026-07-13 02:40:14 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "informational",
+                  "foreign_intent": null,
+                  "last_updated_time": "2026-04-29 17:02:38 +00:00"
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "google",
+                "serp_item": {
+                  "se_type": "google",
+                  "type": "organic",
+                  "rank_group": 8,
+                  "rank_absolute": 10,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[17]/div[1]/div[1]",
+                  "domain": "ds-miami.com",
+                  "title": "Iconic Miami Neighborhoods and Their Architectural Styles",
+                  "url": "https://ds-miami.com/miami-neighborhoods-architectural-styles/",
+                  "breadcrumb": "https://ds-miami.com \u203a miami-neighborhoods-architect...",
+                  "website_name": "DS Miami",
+                  "is_image": false,
+                  "is_video": false,
+                  "is_featured_snippet": false,
+                  "is_malicious": false,
+                  "description": "Feb 18, 2025 \u2014 Discover Miami's iconic architectural styles by neighborhood, from Art Deco to contemporary Brickell, and what they mean for your home.",
+                  "pre_snippet": "02/18/2025 00:00:00",
+                  "extended_snippet": null,
+                  "amp_version": false,
+                  "rating": null,
+                  "highlighted": [
+                    "Miami's iconic architectural styles by neighborhood"
+                  ],
+                  "links": [
+                    {
+                      "type": "link_element",
+                      "title": "Iconic Miami Neighborhoods...",
+                      "description": null,
+                      "url": "https://ds-miami.com/miami-neighborhoods-architectural-styles/"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "Coconut Grove: Tropical...",
+                      "description": null,
+                      "url": "https://ds-miami.com/miami-neighborhoods-architectural-styles/"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "Little Havana: Spanish...",
+                      "description": null,
+                      "url": "https://ds-miami.com/miami-neighborhoods-architectural-styles/"
+                    }
+                  ],
+                  "about_this_result": null,
+                  "main_domain": "ds-miami.com",
+                  "relative_url": "/miami-neighborhoods-architectural-styles/",
+                  "etv": 2.1670000553131104,
+                  "estimated_paid_traffic_cost": null,
+                  "clickstream_etv": null,
+                  "rank_changes": {
+                    "previous_rank_absolute": 9,
+                    "is_new": false,
+                    "is_up": false,
+                    "is_down": true
+                  },
+                  "backlinks_info": null,
+                  "rank_info": {
+                    "page_rank": 0,
+                    "main_domain_rank": 205
+                  }
+                },
+                "check_url": "https://www.google.com/search?q=miami%20architectural%20styles&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                "serp_item_types": [
+                  "ai_overview",
+                  "organic",
+                  "people_also_ask",
+                  "related_searches"
+                ],
+                "se_results_count": 160,
+                "keyword_difficulty": 11,
+                "is_lost": false,
+                "last_updated_time": "2026-07-13 02:39:48 +00:00",
+                "previous_updated_time": "2026-05-01 16:53:37 +00:00"
+              }
+            },
+            {
+              "se_type": "google",
+              "keyword_data": {
+                "se_type": "google",
+                "keyword": "miami house styles",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-07-13 23:47:47 +00:00",
+                  "competition": 0.46000000834465027,
+                  "competition_level": "MEDIUM",
+                  "cpc": 0.11999999731779099,
+                  "search_volume": 140,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10003,
+                    10037
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2026,
+                      "month": 6,
+                      "search_volume": 110
+                    },
+                    {
+                      "year": 2026,
+                      "month": 5,
+                      "search_volume": 210
+                    },
+                    {
+                      "year": 2026,
+                      "month": 4,
+                      "search_volume": 170
+                    },
+                    {
+                      "year": 2026,
+                      "month": 3,
+                      "search_volume": 140
+                    },
+                    {
+                      "year": 2026,
+                      "month": 2,
+                      "search_volume": 110
+                    },
+                    {
+                      "year": 2026,
+                      "month": 1,
+                      "search_volume": 110
+                    },
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 110
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 90
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 90
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 110
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 140
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 110
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": -48,
+                    "quarterly": -35,
+                    "yearly": -35
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": "miami style houses",
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 1,
+                  "detected_language": "en",
+                  "is_another_language": false
+                },
+                "serp_info": {
+                  "se_type": "google",
+                  "check_url": "https://www.google.com/search?q=miami%20house%20styles&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                  "serp_item_types": [
+                    "ai_overview",
+                    "organic",
+                    "people_also_ask",
+                    "images",
+                    "video",
+                    "related_searches"
+                  ],
+                  "se_results_count": 130,
+                  "last_updated_time": "2026-07-11 06:42:42 +00:00",
+                  "previous_updated_time": "2026-05-03 05:43:36 +00:00"
+                },
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 68,
+                  "dofollow": 43.29999923706055,
+                  "referring_pages": 51.70000076293945,
+                  "referring_domains": 31.100000381469727,
+                  "referring_main_domains": 29.200000762939453,
+                  "rank": 67.9000015258789,
+                  "main_domain_rank": 438.79998779296875,
+                  "last_updated_time": "2026-07-11 06:43:02 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "commercial",
+                  "foreign_intent": [
+                    "informational"
+                  ],
+                  "last_updated_time": "2026-04-29 16:33:00 +00:00"
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "google",
+                "serp_item": {
+                  "se_type": "google",
+                  "type": "organic",
+                  "rank_group": 10,
+                  "rank_absolute": 15,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]",
+                  "domain": "ds-miami.com",
+                  "title": "Iconic Miami Neighborhoods and Their Architectural Styles",
+                  "url": "https://ds-miami.com/miami-neighborhoods-architectural-styles/",
+                  "breadcrumb": "https://ds-miami.com \u203a miami-neighborhoods-architect...",
+                  "website_name": "DS Miami",
+                  "is_image": false,
+                  "is_video": false,
+                  "is_featured_snippet": false,
+                  "is_malicious": false,
+                  "description": "Feb 18, 2025 \u2014 Discover Miami's iconic architectural styles by neighborhood, from Art Deco to contemporary Brickell, and what they mean for your home.",
+                  "pre_snippet": "02/18/2025 00:00:00",
+                  "extended_snippet": null,
+                  "amp_version": false,
+                  "rating": null,
+                  "highlighted": [
+                    "Miami's iconic architectural styles by neighborhood"
+                  ],
+                  "links": null,
+                  "about_this_result": null,
+                  "main_domain": "ds-miami.com",
+                  "relative_url": "/miami-neighborhoods-architectural-styles/",
+                  "etv": 1.5820000171661377,
+                  "estimated_paid_traffic_cost": 0.18984000384807587,
+                  "clickstream_etv": null,
+                  "rank_changes": {
+                    "previous_rank_absolute": 11,
+                    "is_new": false,
+                    "is_up": false,
+                    "is_down": true
+                  },
+                  "backlinks_info": null,
+                  "rank_info": {
+                    "page_rank": 0,
+                    "main_domain_rank": 205
+                  }
+                },
+                "check_url": "https://www.google.com/search?q=miami%20house%20styles&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                "serp_item_types": [
+                  "ai_overview",
+                  "organic",
+                  "people_also_ask",
+                  "images",
+                  "video",
+                  "related_searches"
+                ],
+                "se_results_count": 130,
+                "keyword_difficulty": 1,
+                "is_lost": false,
+                "last_updated_time": "2026-07-11 06:42:42 +00:00",
+                "previous_updated_time": "2026-05-03 05:43:36 +00:00"
+              }
+            },
+            {
+              "se_type": "google",
+              "keyword_data": {
+                "se_type": "google",
+                "keyword": "florida board of architects and interior design",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-07-15 18:34:21 +00:00",
+                  "competition": 0.009999999776482582,
+                  "competition_level": "LOW",
+                  "cpc": null,
+                  "search_volume": 40,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10004,
+                    10273,
+                    11130
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2026,
+                      "month": 6,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2026,
+                      "month": 5,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2026,
+                      "month": 4,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2026,
+                      "month": 3,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2026,
+                      "month": 2,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2026,
+                      "month": 1,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 50
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": -50,
+                    "quarterly": -60,
+                    "yearly": -71
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": null,
+                  "synonym_clustering_algorithm": null,
+                  "keyword_difficulty": 0,
+                  "detected_language": "en",
+                  "is_another_language": false
+                },
+                "serp_info": {
+                  "se_type": "google",
+                  "check_url": "https://www.google.com/search?q=florida%20board%20of%20architects%20and%20interior%20design&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                  "serp_item_types": [
+                    "organic",
+                    "related_searches"
+                  ],
+                  "se_results_count": 5120000,
+                  "last_updated_time": "2026-05-09 18:56:03 +00:00",
+                  "previous_updated_time": "2026-03-08 17:55:05 +00:00"
+                },
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 14,
+                  "dofollow": 12.699999809265137,
+                  "referring_pages": 13.199999809265137,
+                  "referring_domains": 8.600000381469727,
+                  "referring_main_domains": 7.400000095367432,
+                  "rank": 51.599998474121094,
+                  "main_domain_rank": 350.3999938964844,
+                  "last_updated_time": "2026-05-09 18:56:03 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "navigational",
+                  "foreign_intent": null,
+                  "last_updated_time": "2026-04-29 07:40:40 +00:00"
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "google",
+                "serp_item": {
+                  "se_type": "google",
+                  "type": "organic",
+                  "rank_group": 6,
+                  "rank_absolute": 6,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[11]/div[1]/div[1]",
+                  "domain": "ds-miami.com",
+                  "title": "Florida Board of Architecture & Interior Design Overview",
+                  "url": "https://ds-miami.com/florida-board-architecture-interior-design-overview/",
+                  "breadcrumb": "https://ds-miami.com \u203a florida-board-architecture-interi...",
+                  "website_name": "Design Solutions Miami",
+                  "is_image": false,
+                  "is_video": false,
+                  "is_featured_snippet": false,
+                  "is_malicious": false,
+                  "description": "Jan 18, 2026 \u2014 Learn how Florida regulates interior designers, licensing standards, and why it matters for luxury residential projects.",
+                  "pre_snippet": "01/18/2026 00:00:00",
+                  "extended_snippet": null,
+                  "amp_version": false,
+                  "rating": null,
+                  "highlighted": [
+                    "Learn how Florida regulates interior designers"
+                  ],
+                  "links": null,
+                  "about_this_result": null,
+                  "main_domain": "ds-miami.com",
+                  "relative_url": "/florida-board-architecture-interior-design-overview/",
+                  "etv": 1.3519999980926514,
+                  "estimated_paid_traffic_cost": null,
+                  "clickstream_etv": null,
+                  "rank_changes": {
+                    "previous_rank_absolute": 5,
+                    "is_new": false,
+                    "is_up": false,
+                    "is_down": true
+                  },
+                  "backlinks_info": null,
+                  "rank_info": {
+                    "page_rank": 0,
+                    "main_domain_rank": 192
+                  }
+                },
+                "check_url": "https://www.google.com/search?q=florida%20board%20of%20architects%20and%20interior%20design&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                "serp_item_types": [
+                  "organic",
+                  "related_searches"
+                ],
+                "se_results_count": 5120000,
+                "keyword_difficulty": 0,
+                "is_lost": false,
+                "last_updated_time": "2026-05-09 18:56:03 +00:00",
+                "previous_updated_time": "2026-03-08 17:55:05 +00:00"
+              }
+            },
+            {
+              "se_type": "google",
+              "keyword_data": {
+                "se_type": "google",
+                "keyword": "miami modern interior design",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-07-10 06:01:04 +00:00",
+                  "competition": 0.8399999737739563,
+                  "competition_level": "HIGH",
+                  "cpc": 1.6200000047683716,
+                  "search_volume": 20,
+                  "low_top_of_page_bid": 1.5299999713897705,
+                  "high_top_of_page_bid": 2.690000057220459,
+                  "categories": [
+                    10004,
+                    10004,
+                    10009,
+                    10273,
+                    10273,
+                    10405,
+                    11130,
+                    13734
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2026,
+                      "month": 6,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2026,
+                      "month": 5,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2026,
+                      "month": 4,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2026,
+                      "month": 3,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2026,
+                      "month": 2,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2026,
+                      "month": 1,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 20
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 0,
+                    "quarterly": 100,
+                    "yearly": 0
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": "modern miami interior design",
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 7,
+                  "detected_language": "en",
+                  "is_another_language": false
+                },
+                "serp_info": {
+                  "se_type": "google",
+                  "check_url": "https://www.google.com/search?q=miami%20modern%20interior%20design&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                  "serp_item_types": [
+                    "images",
+                    "organic",
+                    "local_pack",
+                    "related_searches"
+                  ],
+                  "se_results_count": 95700000,
+                  "last_updated_time": "2026-04-18 01:28:01 +00:00",
+                  "previous_updated_time": "2025-10-18 23:48:32 +00:00"
+                },
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 3633,
+                  "dofollow": 3585,
+                  "referring_pages": 3607.5,
+                  "referring_domains": 36.099998474121094,
+                  "referring_main_domains": 34.79999923706055,
+                  "rank": 93.5999984741211,
+                  "main_domain_rank": 455.29998779296875,
+                  "last_updated_time": "2026-04-18 01:29:18 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "commercial",
+                  "foreign_intent": null,
+                  "last_updated_time": "2026-04-29 16:24:22 +00:00"
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "google",
+                "serp_item": {
+                  "se_type": "google",
+                  "type": "organic",
+                  "rank_group": 5,
+                  "rank_absolute": 6,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]",
+                  "domain": "ds-miami.com",
+                  "title": "Luxury Interior Design Miami",
+                  "url": "https://ds-miami.com/",
+                  "breadcrumb": "https://ds-miami.com",
+                  "website_name": "Design Solutions Miami",
+                  "is_image": true,
+                  "is_video": false,
+                  "is_featured_snippet": false,
+                  "is_malicious": false,
+                  "description": "Discover luxury with the #1 Miami interior design firm. Award-winning Miami architecture firms with 18+ years of experience. Schedule a consultation today.",
+                  "pre_snippet": null,
+                  "extended_snippet": null,
+                  "amp_version": false,
+                  "rating": null,
+                  "highlighted": [
+                    "1 Miami interior design firm"
+                  ],
+                  "links": null,
+                  "about_this_result": null,
+                  "main_domain": "ds-miami.com",
+                  "relative_url": "/",
+                  "etv": 0.9380000233650208,
+                  "estimated_paid_traffic_cost": 1.5195599794387817,
+                  "clickstream_etv": null,
+                  "rank_changes": {
+                    "previous_rank_absolute": 32,
+                    "is_new": false,
+                    "is_up": true,
+                    "is_down": false
+                  },
+                  "backlinks_info": {
+                    "referring_domains": 254,
+                    "referring_main_domains": 241,
+                    "referring_pages": 35844,
+                    "dofollow": 35666,
+                    "backlinks": 36034,
+                    "time_update": "2026-07-21 04:16:55 +00:00"
+                  },
+                  "rank_info": {
+                    "page_rank": 268,
+                    "main_domain_rank": 190
+                  }
+                },
+                "check_url": "https://www.google.com/search?q=miami%20modern%20interior%20design&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                "serp_item_types": [
+                  "images",
+                  "organic",
+                  "local_pack",
+                  "related_searches"
+                ],
+                "se_results_count": 95700000,
+                "keyword_difficulty": 7,
+                "is_lost": false,
+                "last_updated_time": "2026-04-18 01:28:01 +00:00",
+                "previous_updated_time": "2025-10-18 23:48:32 +00:00"
+              }
+            },
+            {
+              "se_type": "google",
+              "keyword_data": {
+                "se_type": "google",
+                "keyword": "ds interior design",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-07-12 04:57:59 +00:00",
+                  "competition": 0.03999999910593033,
+                  "competition_level": "LOW",
+                  "cpc": null,
+                  "search_volume": 40,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10004,
+                    10273,
+                    13734
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2026,
+                      "month": 6,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2026,
+                      "month": 5,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2026,
+                      "month": 4,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2026,
+                      "month": 3,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2026,
+                      "month": 2,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2026,
+                      "month": 1,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 70
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 67,
+                    "quarterly": 25,
+                    "yearly": 0
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": null,
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 0,
+                  "detected_language": "en",
+                  "is_another_language": false
+                },
+                "serp_info": {
+                  "se_type": "google",
+                  "check_url": "https://www.google.com/search?q=ds%20interior%20design&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                  "serp_item_types": [
+                    "organic",
+                    "local_pack",
+                    "people_also_ask",
+                    "related_searches",
+                    "images"
+                  ],
+                  "se_results_count": 171,
+                  "last_updated_time": "2026-06-04 14:46:17 +00:00",
+                  "previous_updated_time": "2026-04-12 00:41:23 +00:00"
+                },
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 3630.10009765625,
+                  "dofollow": 3587.60009765625,
+                  "referring_pages": 3610.5,
+                  "referring_domains": 36.70000076293945,
+                  "referring_main_domains": 35,
+                  "rank": 53.900001525878906,
+                  "main_domain_rank": 452.6000061035156,
+                  "last_updated_time": "2026-06-04 14:47:19 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "navigational",
+                  "foreign_intent": null,
+                  "last_updated_time": "2026-04-29 14:08:54 +00:00"
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "google",
+                "serp_item": {
+                  "se_type": "google",
+                  "type": "organic",
+                  "rank_group": 9,
+                  "rank_absolute": 12,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[18]/div[1]/div[1]",
+                  "domain": "ds-miami.com",
+                  "title": "Homepage - DS Miami",
+                  "url": "https://ds-miami.com/",
+                  "breadcrumb": "https://ds-miami.com",
+                  "website_name": "DS Miami",
+                  "is_image": false,
+                  "is_video": false,
+                  "is_featured_snippet": false,
+                  "is_malicious": false,
+                  "description": "At Design Solutions, we specialize in luxury interior and exterior design, guiding clients from concept to completion with unmatched attention to detail. Read more",
+                  "pre_snippet": null,
+                  "extended_snippet": null,
+                  "amp_version": false,
+                  "rating": null,
+                  "highlighted": [
+                    "luxury interior and exterior design"
+                  ],
+                  "links": [
+                    {
+                      "type": "link_element",
+                      "title": "Who We Are",
+                      "description": null,
+                      "url": "https://ds-miami.com/who-we-are/"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "Portfolio",
+                      "description": null,
+                      "url": "https://ds-miami.com/portfolio/"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "Blog",
+                      "description": null,
+                      "url": "https://ds-miami.com/blog/"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "Media",
+                      "description": null,
+                      "url": "https://ds-miami.com/press/"
+                    }
+                  ],
+                  "about_this_result": null,
+                  "main_domain": "ds-miami.com",
+                  "relative_url": "/",
+                  "etv": 0.6000000238418579,
+                  "estimated_paid_traffic_cost": null,
+                  "clickstream_etv": null,
+                  "rank_changes": {
+                    "previous_rank_absolute": 33,
+                    "is_new": false,
+                    "is_up": true,
+                    "is_down": false
+                  },
+                  "backlinks_info": {
+                    "referring_domains": 254,
+                    "referring_main_domains": 241,
+                    "referring_pages": 35844,
+                    "dofollow": 35666,
+                    "backlinks": 36034,
+                    "time_update": "2026-07-21 04:16:55 +00:00"
+                  },
+                  "rank_info": {
+                    "page_rank": 274,
+                    "main_domain_rank": 195
+                  }
+                },
+                "check_url": "https://www.google.com/search?q=ds%20interior%20design&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                "serp_item_types": [
+                  "organic",
+                  "local_pack",
+                  "people_also_ask",
+                  "related_searches",
+                  "images"
+                ],
+                "se_results_count": 171,
+                "keyword_difficulty": 0,
+                "is_lost": false,
+                "last_updated_time": "2026-06-04 14:46:17 +00:00",
+                "previous_updated_time": "2026-04-12 00:41:23 +00:00"
+              }
+            },
+            {
+              "se_type": "google",
+              "keyword_data": {
+                "se_type": "google",
+                "keyword": "luxury miami condo interior design",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-07-15 01:53:08 +00:00",
+                  "competition": 1,
+                  "competition_level": "HIGH",
+                  "cpc": 0.33000001311302185,
+                  "search_volume": 30,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10004,
+                    10273,
+                    13734
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2026,
+                      "month": 6,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2026,
+                      "month": 5,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2026,
+                      "month": 4,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2026,
+                      "month": 3,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2026,
+                      "month": 2,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2026,
+                      "month": 1,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 30
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": -40,
+                    "quarterly": -25,
+                    "yearly": -25
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": null,
+                  "synonym_clustering_algorithm": null,
+                  "keyword_difficulty": 0,
+                  "detected_language": "en",
+                  "is_another_language": false
+                },
+                "serp_info": {
+                  "se_type": "google",
+                  "check_url": "https://www.google.com/search?q=luxury%20miami%20condo%20interior%20design&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                  "serp_item_types": [
+                    "organic",
+                    "images",
+                    "related_searches"
+                  ],
+                  "se_results_count": 134,
+                  "last_updated_time": "2026-06-15 18:57:23 +00:00",
+                  "previous_updated_time": "2026-03-02 03:06:23 +00:00"
+                },
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 3608.10009765625,
+                  "dofollow": 3570,
+                  "referring_pages": 3588.699951171875,
+                  "referring_domains": 29,
+                  "referring_main_domains": 27.700000762939453,
+                  "rank": 42,
+                  "main_domain_rank": 502,
+                  "last_updated_time": "2026-06-15 18:57:23 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "commercial",
+                  "foreign_intent": null,
+                  "last_updated_time": "2026-04-28 17:03:50 +00:00"
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "google",
+                "serp_item": {
+                  "se_type": "google",
+                  "type": "organic",
+                  "rank_group": 8,
+                  "rank_absolute": 9,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[16]/div[1]/div[1]",
+                  "domain": "ds-miami.com",
+                  "title": "DS Miami: Homepage",
+                  "url": "https://ds-miami.com/",
+                  "breadcrumb": "https://ds-miami.com",
+                  "website_name": "DS Miami",
+                  "is_image": false,
+                  "is_video": false,
+                  "is_featured_snippet": false,
+                  "is_malicious": false,
+                  "description": "At Design Solutions, we specialize in luxury interior and exterior design, guiding clients from concept to completion with unmatched attention to detail. Read more",
+                  "pre_snippet": null,
+                  "extended_snippet": null,
+                  "amp_version": false,
+                  "rating": null,
+                  "highlighted": [
+                    "luxury interior and exterior design"
+                  ],
+                  "links": [
+                    {
+                      "type": "link_element",
+                      "title": "Portfolio",
+                      "description": null,
+                      "url": "https://ds-miami.com/portfolio/"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "Who We Are",
+                      "description": null,
+                      "url": "https://ds-miami.com/who-we-are/"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "Blog",
+                      "description": null,
+                      "url": "https://ds-miami.com/blog/"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "Media",
+                      "description": null,
+                      "url": "https://ds-miami.com/press/"
+                    }
+                  ],
+                  "about_this_result": null,
+                  "main_domain": "ds-miami.com",
+                  "relative_url": "/",
+                  "etv": 0.5910000205039978,
+                  "estimated_paid_traffic_cost": 0.19503000378608704,
+                  "clickstream_etv": null,
+                  "rank_changes": {
+                    "previous_rank_absolute": 13,
+                    "is_new": false,
+                    "is_up": true,
+                    "is_down": false
+                  },
+                  "backlinks_info": {
+                    "referring_domains": 254,
+                    "referring_main_domains": 241,
+                    "referring_pages": 35844,
+                    "dofollow": 35666,
+                    "backlinks": 36034,
+                    "time_update": "2026-07-21 04:16:55 +00:00"
+                  },
+                  "rank_info": {
+                    "page_rank": 273,
+                    "main_domain_rank": 195
+                  }
+                },
+                "check_url": "https://www.google.com/search?q=luxury%20miami%20condo%20interior%20design&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                "serp_item_types": [
+                  "organic",
+                  "images",
+                  "related_searches"
+                ],
+                "se_results_count": 134,
+                "keyword_difficulty": 0,
+                "is_lost": false,
+                "last_updated_time": "2026-06-15 18:57:23 +00:00",
+                "previous_updated_time": "2026-03-02 03:06:23 +00:00"
+              }
+            },
+            {
+              "se_type": "google",
+              "keyword_data": {
+                "se_type": "google",
+                "keyword": "miami decorators",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-07-14 17:02:34 +00:00",
+                  "competition": 0.5400000214576721,
+                  "competition_level": "MEDIUM",
+                  "cpc": 6.139999866485596,
+                  "search_volume": 30,
+                  "low_top_of_page_bid": 2.369999885559082,
+                  "high_top_of_page_bid": 4.639999866485596,
+                  "categories": [
+                    10009,
+                    10405
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2026,
+                      "month": 6,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2026,
+                      "month": 5,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2026,
+                      "month": 4,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2026,
+                      "month": 3,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2026,
+                      "month": 2,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2026,
+                      "month": 1,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 20
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 100,
+                    "quarterly": 33,
+                    "yearly": 0
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": "miami decorations",
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 41,
+                  "detected_language": "en",
+                  "is_another_language": false
+                },
+                "serp_info": {
+                  "se_type": "google",
+                  "check_url": "https://www.google.com/search?q=miami%20decorators&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                  "serp_item_types": [
+                    "local_pack",
+                    "organic",
+                    "video",
+                    "related_searches"
+                  ],
+                  "se_results_count": 134,
+                  "last_updated_time": "2026-06-15 11:56:59 +00:00",
+                  "previous_updated_time": "2026-04-18 02:55:12 +00:00"
+                },
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 7432.5,
+                  "dofollow": 7269,
+                  "referring_pages": 7326,
+                  "referring_domains": 101.4000015258789,
+                  "referring_main_domains": 98.0999984741211,
+                  "rank": 218.8000030517578,
+                  "main_domain_rank": 440.6000061035156,
+                  "last_updated_time": "2026-06-15 11:57:05 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "commercial",
+                  "foreign_intent": [
+                    "navigational"
+                  ],
+                  "last_updated_time": "2026-04-29 14:11:17 +00:00"
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "google",
+                "serp_item": {
+                  "se_type": "google",
+                  "type": "organic",
+                  "rank_group": 8,
+                  "rank_absolute": 12,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[18]/div[1]/div[1]",
+                  "domain": "ds-miami.com",
+                  "title": "DS Miami: Homepage",
+                  "url": "https://ds-miami.com/",
+                  "breadcrumb": "https://ds-miami.com",
+                  "website_name": "DS Miami",
+                  "is_image": false,
+                  "is_video": false,
+                  "is_featured_snippet": false,
+                  "is_malicious": false,
+                  "description": "At Design Solutions, we specialize in luxury interior and exterior design, guiding clients from concept to completion with unmatched attention to detail. Read more",
+                  "pre_snippet": null,
+                  "extended_snippet": null,
+                  "amp_version": false,
+                  "rating": null,
+                  "highlighted": [
+                    "luxury interior and exterior design"
+                  ],
+                  "links": null,
+                  "about_this_result": null,
+                  "main_domain": "ds-miami.com",
+                  "relative_url": "/",
+                  "etv": 0.5910000205039978,
+                  "estimated_paid_traffic_cost": 3.628740072250366,
+                  "clickstream_etv": null,
+                  "rank_changes": {
+                    "previous_rank_absolute": null,
+                    "is_new": true,
+                    "is_up": false,
+                    "is_down": false
+                  },
+                  "backlinks_info": {
+                    "referring_domains": 254,
+                    "referring_main_domains": 241,
+                    "referring_pages": 35844,
+                    "dofollow": 35666,
+                    "backlinks": 36034,
+                    "time_update": "2026-07-21 04:16:55 +00:00"
+                  },
+                  "rank_info": {
+                    "page_rank": 273,
+                    "main_domain_rank": 195
+                  }
+                },
+                "check_url": "https://www.google.com/search?q=miami%20decorators&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                "serp_item_types": [
+                  "local_pack",
+                  "organic",
+                  "video",
+                  "related_searches"
+                ],
+                "se_results_count": 134,
+                "keyword_difficulty": 41,
+                "is_lost": false,
+                "last_updated_time": "2026-06-15 11:56:59 +00:00",
+                "previous_updated_time": "2026-04-18 02:55:12 +00:00"
+              }
+            },
+            {
+              "se_type": "google",
+              "keyword_data": {
+                "se_type": "google",
+                "keyword": "miami condo interior design",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-07-10 08:12:02 +00:00",
+                  "competition": 0.3499999940395355,
+                  "competition_level": "MEDIUM",
+                  "cpc": 0.07999999821186066,
+                  "search_volume": 30,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10004,
+                    10273,
+                    13734
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2026,
+                      "month": 6,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2026,
+                      "month": 5,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2026,
+                      "month": 4,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2026,
+                      "month": 3,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2026,
+                      "month": 2,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2026,
+                      "month": 1,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 30
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 50,
+                    "quarterly": -25,
+                    "yearly": -25
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": null,
+                  "synonym_clustering_algorithm": null,
+                  "keyword_difficulty": 0,
+                  "detected_language": "en",
+                  "is_another_language": false
+                },
+                "serp_info": {
+                  "se_type": "google",
+                  "check_url": "https://www.google.com/search?q=miami%20condo%20interior%20design&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                  "serp_item_types": [
+                    "organic",
+                    "images",
+                    "local_pack",
+                    "related_searches"
+                  ],
+                  "se_results_count": 118,
+                  "last_updated_time": "2026-06-15 11:55:58 +00:00",
+                  "previous_updated_time": "2026-04-18 01:24:54 +00:00"
+                },
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 3609.60009765625,
+                  "dofollow": 3570.800048828125,
+                  "referring_pages": 3589.800048828125,
+                  "referring_domains": 29.899999618530273,
+                  "referring_main_domains": 28.600000381469727,
+                  "rank": 58.20000076293945,
+                  "main_domain_rank": 515.0999755859375,
+                  "last_updated_time": "2026-06-15 11:56:01 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "commercial",
+                  "foreign_intent": null,
+                  "last_updated_time": "2026-04-29 14:52:19 +00:00"
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "google",
+                "serp_item": {
+                  "se_type": "google",
+                  "type": "organic",
+                  "rank_group": 9,
+                  "rank_absolute": 10,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[18]/div[1]/div[1]",
+                  "domain": "ds-miami.com",
+                  "title": "DS Miami: Homepage",
+                  "url": "https://ds-miami.com/",
+                  "breadcrumb": "https://ds-miami.com",
+                  "website_name": "DS Miami",
+                  "is_image": false,
+                  "is_video": false,
+                  "is_featured_snippet": false,
+                  "is_malicious": false,
+                  "description": "At Design Solutions, we specialize in luxury interior and exterior design, guiding clients from concept to completion with unmatched attention to detail. Read more",
+                  "pre_snippet": null,
+                  "extended_snippet": null,
+                  "amp_version": false,
+                  "rating": null,
+                  "highlighted": [
+                    "luxury interior and exterior design"
+                  ],
+                  "links": [
+                    {
+                      "type": "link_element",
+                      "title": "Portfolio",
+                      "description": null,
+                      "url": "https://ds-miami.com/portfolio/"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "Who We Are",
+                      "description": null,
+                      "url": "https://ds-miami.com/who-we-are/"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "Blog",
+                      "description": null,
+                      "url": "https://ds-miami.com/blog/"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "Media",
+                      "description": null,
+                      "url": "https://ds-miami.com/press/"
+                    }
+                  ],
+                  "about_this_result": null,
+                  "main_domain": "ds-miami.com",
+                  "relative_url": "/",
+                  "etv": 0.44999998807907104,
+                  "estimated_paid_traffic_cost": 0.035999998450279236,
+                  "clickstream_etv": null,
+                  "rank_changes": {
+                    "previous_rank_absolute": 18,
+                    "is_new": false,
+                    "is_up": true,
+                    "is_down": false
+                  },
+                  "backlinks_info": {
+                    "referring_domains": 254,
+                    "referring_main_domains": 241,
+                    "referring_pages": 35844,
+                    "dofollow": 35666,
+                    "backlinks": 36034,
+                    "time_update": "2026-07-21 04:16:55 +00:00"
+                  },
+                  "rank_info": {
+                    "page_rank": 273,
+                    "main_domain_rank": 195
+                  }
+                },
+                "check_url": "https://www.google.com/search?q=miami%20condo%20interior%20design&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                "serp_item_types": [
+                  "organic",
+                  "images",
+                  "local_pack",
+                  "related_searches"
+                ],
+                "se_results_count": 118,
+                "keyword_difficulty": 0,
+                "is_lost": false,
+                "last_updated_time": "2026-06-15 11:55:58 +00:00",
+                "previous_updated_time": "2026-04-18 01:24:54 +00:00"
+              }
+            },
+            {
+              "se_type": "google",
+              "keyword_data": {
+                "se_type": "google",
+                "keyword": "miami home design",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-07-12 19:48:44 +00:00",
+                  "competition": 0.44999998807907104,
+                  "competition_level": "MEDIUM",
+                  "cpc": 30.350000381469727,
+                  "search_volume": 30,
+                  "low_top_of_page_bid": 2.6399998664855957,
+                  "high_top_of_page_bid": 19.280000686645508,
+                  "categories": [
+                    10004,
+                    10273,
+                    11130
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2026,
+                      "month": 6,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2026,
+                      "month": 5,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2026,
+                      "month": 4,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2026,
+                      "month": 3,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2026,
+                      "month": 2,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2026,
+                      "month": 1,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 30
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 0,
+                    "quarterly": 0,
+                    "yearly": -33
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": "miami home designers",
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 42,
+                  "detected_language": "en",
+                  "is_another_language": false
+                },
+                "serp_info": {
+                  "se_type": "google",
+                  "check_url": "https://www.google.com/search?q=miami%20home%20design&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                  "serp_item_types": [
+                    "local_pack",
+                    "organic",
+                    "video",
+                    "images",
+                    "related_searches"
+                  ],
+                  "se_results_count": 121,
+                  "last_updated_time": "2026-06-15 12:55:23 +00:00",
+                  "previous_updated_time": "2026-04-18 01:22:54 +00:00"
+                },
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 4167.39990234375,
+                  "dofollow": 4007,
+                  "referring_pages": 4084.199951171875,
+                  "referring_domains": 173.5,
+                  "referring_main_domains": 164.1999969482422,
+                  "rank": 218.10000610351562,
+                  "main_domain_rank": 541,
+                  "last_updated_time": "2026-06-15 12:55:24 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "commercial",
+                  "foreign_intent": null,
+                  "last_updated_time": "2026-04-29 20:12:25 +00:00"
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "google",
+                "serp_item": {
+                  "se_type": "google",
+                  "type": "organic",
+                  "rank_group": 9,
+                  "rank_absolute": 15,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]",
+                  "domain": "ds-miami.com",
+                  "title": "DS Miami: Homepage",
+                  "url": "https://ds-miami.com/",
+                  "breadcrumb": "https://ds-miami.com",
+                  "website_name": "DS Miami",
+                  "is_image": false,
+                  "is_video": false,
+                  "is_featured_snippet": false,
+                  "is_malicious": false,
+                  "description": "At Design Solutions, we specialize in luxury interior and exterior design, guiding clients from concept to completion with unmatched attention to detail. Read more",
+                  "pre_snippet": null,
+                  "extended_snippet": null,
+                  "amp_version": false,
+                  "rating": null,
+                  "highlighted": [
+                    "luxury interior and exterior design"
+                  ],
+                  "links": null,
+                  "about_this_result": null,
+                  "main_domain": "ds-miami.com",
+                  "relative_url": "/",
+                  "etv": 0.44999998807907104,
+                  "estimated_paid_traffic_cost": 13.657500267028809,
+                  "clickstream_etv": null,
+                  "rank_changes": {
+                    "previous_rank_absolute": 8,
+                    "is_new": false,
+                    "is_up": false,
+                    "is_down": true
+                  },
+                  "backlinks_info": {
+                    "referring_domains": 254,
+                    "referring_main_domains": 241,
+                    "referring_pages": 35844,
+                    "dofollow": 35666,
+                    "backlinks": 36034,
+                    "time_update": "2026-07-21 04:16:55 +00:00"
+                  },
+                  "rank_info": {
+                    "page_rank": 273,
+                    "main_domain_rank": 195
+                  }
+                },
+                "check_url": "https://www.google.com/search?q=miami%20home%20design&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                "serp_item_types": [
+                  "local_pack",
+                  "organic",
+                  "video",
+                  "images",
+                  "related_searches"
+                ],
+                "se_results_count": 121,
+                "keyword_difficulty": 42,
+                "is_lost": false,
+                "last_updated_time": "2026-06-15 12:55:23 +00:00",
+                "previous_updated_time": "2026-04-18 01:22:54 +00:00"
+              }
+            },
+            {
+              "se_type": "google",
+              "keyword_data": {
+                "se_type": "google",
+                "keyword": "modern miami apartment",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-07-12 17:18:09 +00:00",
+                  "competition": 0.17000000178813934,
+                  "competition_level": "LOW",
+                  "cpc": 2.0299999713897705,
+                  "search_volume": 20,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10003,
+                    10042
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2026,
+                      "month": 6,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2026,
+                      "month": 5,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2026,
+                      "month": 4,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2026,
+                      "month": 3,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2026,
+                      "month": 2,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2026,
+                      "month": 1,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 30
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": -67,
+                    "quarterly": -50,
+                    "yearly": -75
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": "modern apartments in miami",
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 0,
+                  "detected_language": "en",
+                  "is_another_language": false
+                },
+                "serp_info": {
+                  "se_type": "google",
+                  "check_url": "https://www.google.com/search?q=modern%20miami%20apartment&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                  "serp_item_types": [
+                    "organic",
+                    "local_pack",
+                    "video",
+                    "related_searches",
+                    "images"
+                  ],
+                  "se_results_count": 73500000,
+                  "last_updated_time": "2026-04-17 23:38:00 +00:00",
+                  "previous_updated_time": "2026-03-01 20:48:45 +00:00"
+                },
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 12.5,
+                  "dofollow": 6.599999904632568,
+                  "referring_pages": 11.399999618530273,
+                  "referring_domains": 9.100000381469727,
+                  "referring_main_domains": 8.5,
+                  "rank": 57.099998474121094,
+                  "main_domain_rank": 397,
+                  "last_updated_time": "2026-04-17 23:38:02 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "commercial",
+                  "foreign_intent": [
+                    "transactional"
+                  ],
+                  "last_updated_time": "2026-04-29 15:31:51 +00:00"
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "google",
+                "serp_item": {
+                  "se_type": "google",
+                  "type": "organic",
+                  "rank_group": 9,
+                  "rank_absolute": 13,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[21]/div[1]/div[1]",
+                  "domain": "ds-miami.com",
+                  "title": "A Modern Miami Beach Apartment Redefines Work-Life ...",
+                  "url": "https://ds-miami.com/a-modern-miami-beach-apartment-redefines-work-life-balance-with-effortless-style/",
+                  "breadcrumb": "https://ds-miami.com \u203a a-modern-miami-beach-apartme...",
+                  "website_name": "Design Solutions Miami",
+                  "is_image": false,
+                  "is_video": false,
+                  "is_featured_snippet": false,
+                  "is_malicious": false,
+                  "description": "Feb 18, 2025 \u2014 Explore a modern Miami Beach residence that redefines work-life balance through open layouts, natural light, and bespoke interiors.",
+                  "pre_snippet": "02/18/2025 00:00:00",
+                  "extended_snippet": null,
+                  "amp_version": false,
+                  "rating": null,
+                  "highlighted": [
+                    "Explore a modern Miami Beach residence"
+                  ],
+                  "links": null,
+                  "about_this_result": null,
+                  "main_domain": "ds-miami.com",
+                  "relative_url": "/a-modern-miami-beach-apartment-redefines-work-life-balance-with-effortless-style/",
+                  "etv": 0.30000001192092896,
+                  "estimated_paid_traffic_cost": 0.609000027179718,
+                  "clickstream_etv": null,
+                  "rank_changes": {
+                    "previous_rank_absolute": 22,
+                    "is_new": false,
+                    "is_up": true,
+                    "is_down": false
+                  },
+                  "backlinks_info": null,
+                  "rank_info": {
+                    "page_rank": 0,
+                    "main_domain_rank": 190
+                  }
+                },
+                "check_url": "https://www.google.com/search?q=modern%20miami%20apartment&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                "serp_item_types": [
+                  "organic",
+                  "local_pack",
+                  "video",
+                  "related_searches",
+                  "images"
+                ],
+                "se_results_count": 73500000,
+                "keyword_difficulty": 0,
+                "is_lost": false,
+                "last_updated_time": "2026-04-17 23:38:00 +00:00",
+                "previous_updated_time": "2026-03-01 20:48:45 +00:00"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

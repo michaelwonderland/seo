@@ -1,0 +1,4100 @@
+{
+  "version": "0.1.20260731",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "0.3592 sec.",
+  "cost": 0.0144,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "08012105-1561-0381-0000-0b74010c770f",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "0.3124 sec.",
+      "cost": 0.0144,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "dataforseo_labs",
+        "google",
+        "ranked_keywords",
+        "live"
+      ],
+      "data": {
+        "api": "dataforseo_labs",
+        "function": "ranked_keywords",
+        "se_type": "google",
+        "target": "wassersfurniture.com",
+        "location_code": 2840,
+        "language_code": "en",
+        "limit": 1000,
+        "order_by": [
+          "ranked_serp_element.serp_item.etv,desc"
+        ],
+        "filters": [
+          [
+            "ranked_serp_element.serp_item.type",
+            "=",
+            "organic"
+          ],
+          "and",
+          [
+            "ranked_serp_element.serp_item.rank_group",
+            ">=",
+            1
+          ],
+          "and",
+          [
+            "ranked_serp_element.serp_item.rank_group",
+            "<=",
+            10
+          ]
+        ]
+      },
+      "result": [
+        {
+          "se_type": "google",
+          "target": "wassersfurniture.com",
+          "location_code": 2840,
+          "language_code": "en",
+          "total_count": 20,
+          "items_count": 20,
+          "metrics": {
+            "organic": {
+              "pos_1": 3,
+              "pos_2_3": 3,
+              "pos_4_10": 14,
+              "pos_11_20": 0,
+              "pos_21_30": 0,
+              "pos_31_40": 0,
+              "pos_41_50": 0,
+              "pos_51_60": 0,
+              "pos_61_70": 0,
+              "pos_71_80": 0,
+              "pos_81_90": 0,
+              "pos_91_100": 0,
+              "etv": 748.4929767102003,
+              "count": 20,
+              "estimated_paid_traffic_cost": 666.9729586541653,
+              "is_new": 4,
+              "is_up": 6,
+              "is_down": 7,
+              "is_lost": 0,
+              "clickstream_etv": null,
+              "clickstream_gender_distribution": null,
+              "clickstream_age_distribution": null
+            },
+            "paid": {
+              "pos_1": 0,
+              "pos_2_3": 0,
+              "pos_4_10": 0,
+              "pos_11_20": 0,
+              "pos_21_30": 0,
+              "pos_31_40": 0,
+              "pos_41_50": 0,
+              "pos_51_60": 0,
+              "pos_61_70": 0,
+              "pos_71_80": 0,
+              "pos_81_90": 0,
+              "pos_91_100": 0,
+              "etv": 0,
+              "count": 0,
+              "estimated_paid_traffic_cost": 0,
+              "is_new": 0,
+              "is_up": 0,
+              "is_down": 0,
+              "is_lost": 0,
+              "clickstream_etv": null,
+              "clickstream_gender_distribution": null,
+              "clickstream_age_distribution": null
+            },
+            "featured_snippet": null,
+            "local_pack": null,
+            "ai_overview_reference": null
+          },
+          "metrics_absolute": null,
+          "items": [
+            {
+              "se_type": "google",
+              "keyword_data": {
+                "se_type": "google",
+                "keyword": "wassers",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-07-11 09:08:33 +00:00",
+                  "competition": 0,
+                  "competition_level": "LOW",
+                  "cpc": null,
+                  "search_volume": 1900,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10018,
+                    10160,
+                    10829,
+                    12111
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2026,
+                      "month": 6,
+                      "search_volume": 1900
+                    },
+                    {
+                      "year": 2026,
+                      "month": 5,
+                      "search_volume": 2400
+                    },
+                    {
+                      "year": 2026,
+                      "month": 4,
+                      "search_volume": 1900
+                    },
+                    {
+                      "year": 2026,
+                      "month": 3,
+                      "search_volume": 1900
+                    },
+                    {
+                      "year": 2026,
+                      "month": 2,
+                      "search_volume": 1900
+                    },
+                    {
+                      "year": 2026,
+                      "month": 1,
+                      "search_volume": 1900
+                    },
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 1900
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 1600
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 1900
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 1900
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 1900
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 1900
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": -21,
+                    "quarterly": 0,
+                    "yearly": 0
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": "wasser",
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 21,
+                  "detected_language": "de",
+                  "is_another_language": true
+                },
+                "serp_info": {
+                  "se_type": "google",
+                  "check_url": "https://www.google.com/search?q=wassers&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                  "serp_item_types": [
+                    "organic",
+                    "people_also_ask",
+                    "related_searches",
+                    "knowledge_graph",
+                    "google_reviews",
+                    "third_party_reviews",
+                    "images"
+                  ],
+                  "se_results_count": 108,
+                  "last_updated_time": "2026-06-30 11:45:42 +00:00",
+                  "previous_updated_time": "2026-03-14 12:12:41 +00:00"
+                },
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 757.9000244140625,
+                  "dofollow": 46.20000076293945,
+                  "referring_pages": 416.1000061035156,
+                  "referring_domains": 19.299999237060547,
+                  "referring_main_domains": 8.600000381469727,
+                  "rank": 134.89999389648438,
+                  "main_domain_rank": 638.2000122070312,
+                  "last_updated_time": "2026-06-30 11:46:26 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "informational",
+                  "foreign_intent": null,
+                  "last_updated_time": "2026-04-29 23:43:02 +00:00"
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "google",
+                "serp_item": {
+                  "se_type": "google",
+                  "type": "organic",
+                  "rank_group": 1,
+                  "rank_absolute": 1,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[9]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+                  "domain": "wassersfurniture.com",
+                  "title": "Wasser's Exclusive Furniture | Italian & Luxury Furniture ...",
+                  "url": "https://wassersfurniture.com/",
+                  "breadcrumb": "https://wassersfurniture.com",
+                  "website_name": "Wasser's Exclusive Furniture",
+                  "is_image": false,
+                  "is_video": false,
+                  "is_featured_snippet": false,
+                  "is_malicious": false,
+                  "description": "South Florida's authorized dealer for Cattelan Italia, Bernhardt, American Leather & 70+ luxury brands. Visit our Hallandale Beach showroom or call (954)\u00a0...",
+                  "pre_snippet": null,
+                  "extended_snippet": null,
+                  "amp_version": false,
+                  "rating": null,
+                  "highlighted": null,
+                  "links": [
+                    {
+                      "type": "link_element",
+                      "title": "The WASSER Experience",
+                      "description": null,
+                      "url": "https://wassersfurniture.com/pages/the-wasser-experience"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "About Us",
+                      "description": null,
+                      "url": "https://wassersfurniture.com/pages/about-us"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "Contact Us",
+                      "description": null,
+                      "url": "https://wassersfurniture.com/pages/contact"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "Customer Service",
+                      "description": null,
+                      "url": "https://wassersfurniture.com/pages/customer-service"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "Brands",
+                      "description": null,
+                      "url": "https://wassersfurniture.com/pages/brands"
+                    }
+                  ],
+                  "about_this_result": null,
+                  "main_domain": "wassersfurniture.com",
+                  "relative_url": "/",
+                  "etv": 577.5999755859375,
+                  "estimated_paid_traffic_cost": null,
+                  "clickstream_etv": null,
+                  "rank_changes": {
+                    "previous_rank_absolute": 1,
+                    "is_new": false,
+                    "is_up": false,
+                    "is_down": false
+                  },
+                  "backlinks_info": {
+                    "referring_domains": 64,
+                    "referring_main_domains": 58,
+                    "referring_pages": 102,
+                    "dofollow": 44,
+                    "backlinks": 107,
+                    "time_update": "2026-07-21 05:14:39 +00:00"
+                  },
+                  "rank_info": {
+                    "page_rank": 168,
+                    "main_domain_rank": 191
+                  }
+                },
+                "check_url": "https://www.google.com/search?q=wassers&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                "serp_item_types": [
+                  "organic",
+                  "people_also_ask",
+                  "related_searches",
+                  "knowledge_graph",
+                  "google_reviews",
+                  "third_party_reviews",
+                  "images"
+                ],
+                "se_results_count": 108,
+                "keyword_difficulty": 21,
+                "is_lost": false,
+                "last_updated_time": "2026-06-30 11:45:42 +00:00",
+                "previous_updated_time": "2026-03-14 12:12:41 +00:00"
+              }
+            },
+            {
+              "se_type": "google",
+              "keyword_data": {
+                "se_type": "google",
+                "keyword": "wasser furniture",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-07-15 23:02:04 +00:00",
+                  "competition": 0.9900000095367432,
+                  "competition_level": "HIGH",
+                  "cpc": 4.28000020980835,
+                  "search_volume": 210,
+                  "low_top_of_page_bid": 1.25,
+                  "high_top_of_page_bid": 4.039999961853027,
+                  "categories": [
+                    10009
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2026,
+                      "month": 6,
+                      "search_volume": 140
+                    },
+                    {
+                      "year": 2026,
+                      "month": 5,
+                      "search_volume": 210
+                    },
+                    {
+                      "year": 2026,
+                      "month": 4,
+                      "search_volume": 210
+                    },
+                    {
+                      "year": 2026,
+                      "month": 3,
+                      "search_volume": 210
+                    },
+                    {
+                      "year": 2026,
+                      "month": 2,
+                      "search_volume": 170
+                    },
+                    {
+                      "year": 2026,
+                      "month": 1,
+                      "search_volume": 260
+                    },
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 170
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 260
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 210
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 170
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 210
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 210
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": -33,
+                    "quarterly": -33,
+                    "yearly": -46
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": "wasser's furniture",
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 16,
+                  "detected_language": "en",
+                  "is_another_language": false
+                },
+                "serp_info": {
+                  "se_type": "google",
+                  "check_url": "https://www.google.com/search?q=wasser%20furniture&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                  "serp_item_types": [
+                    "organic",
+                    "people_also_ask",
+                    "related_searches",
+                    "knowledge_graph",
+                    "google_reviews",
+                    "third_party_reviews",
+                    "images"
+                  ],
+                  "se_results_count": 160,
+                  "last_updated_time": "2026-07-06 22:17:16 +00:00",
+                  "previous_updated_time": "2026-05-25 05:13:56 +00:00"
+                },
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 751.5,
+                  "dofollow": 56,
+                  "referring_pages": 407.29998779296875,
+                  "referring_domains": 8.100000381469727,
+                  "referring_main_domains": 7.5,
+                  "rank": 105.80000305175781,
+                  "main_domain_rank": 714.5999755859375,
+                  "last_updated_time": "2026-07-06 22:17:56 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "navigational",
+                  "foreign_intent": null,
+                  "last_updated_time": "2026-04-30 02:05:51 +00:00"
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "google",
+                "serp_item": {
+                  "se_type": "google",
+                  "type": "organic",
+                  "rank_group": 1,
+                  "rank_absolute": 1,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[9]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+                  "domain": "wassersfurniture.com",
+                  "title": "Wasser's Exclusive Furniture | Italian & Luxury Furniture ...",
+                  "url": "https://wassersfurniture.com/",
+                  "breadcrumb": "https://wassersfurniture.com",
+                  "website_name": "Wasser's Exclusive Furniture",
+                  "is_image": false,
+                  "is_video": false,
+                  "is_featured_snippet": false,
+                  "is_malicious": false,
+                  "description": "South Florida's authorized dealer for Cattelan Italia, Bernhardt, American Leather & 70+ luxury brands. Visit our Hallandale Beach showroom or call (954)\u00a0...",
+                  "pre_snippet": null,
+                  "extended_snippet": null,
+                  "amp_version": false,
+                  "rating": null,
+                  "highlighted": null,
+                  "links": [
+                    {
+                      "type": "link_element",
+                      "title": "Contact Us",
+                      "description": null,
+                      "url": "https://wassersfurniture.com/pages/contact"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "About Us",
+                      "description": null,
+                      "url": "https://wassersfurniture.com/pages/about-us"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "The WASSER Experience",
+                      "description": null,
+                      "url": "https://wassersfurniture.com/pages/the-wasser-experience"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "To The Trade",
+                      "description": null,
+                      "url": "https://wassersfurniture.com/pages/to-the-trade"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "Customer Service",
+                      "description": null,
+                      "url": "https://wassersfurniture.com/pages/customer-service"
+                    }
+                  ],
+                  "about_this_result": null,
+                  "main_domain": "wassersfurniture.com",
+                  "relative_url": "/",
+                  "etv": 63.84000015258789,
+                  "estimated_paid_traffic_cost": 273.2351989746094,
+                  "clickstream_etv": null,
+                  "rank_changes": {
+                    "previous_rank_absolute": 1,
+                    "is_new": false,
+                    "is_up": false,
+                    "is_down": false
+                  },
+                  "backlinks_info": {
+                    "referring_domains": 64,
+                    "referring_main_domains": 58,
+                    "referring_pages": 102,
+                    "dofollow": 44,
+                    "backlinks": 107,
+                    "time_update": "2026-07-21 05:14:39 +00:00"
+                  },
+                  "rank_info": {
+                    "page_rank": 168,
+                    "main_domain_rank": 189
+                  }
+                },
+                "check_url": "https://www.google.com/search?q=wasser%20furniture&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                "serp_item_types": [
+                  "organic",
+                  "people_also_ask",
+                  "related_searches",
+                  "knowledge_graph",
+                  "google_reviews",
+                  "third_party_reviews",
+                  "images"
+                ],
+                "se_results_count": 160,
+                "keyword_difficulty": 16,
+                "is_lost": false,
+                "last_updated_time": "2026-07-06 22:17:16 +00:00",
+                "previous_updated_time": "2026-05-25 05:13:56 +00:00"
+              }
+            },
+            {
+              "se_type": "google",
+              "keyword_data": {
+                "se_type": "google",
+                "keyword": "wassers furniture",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-07-11 23:48:59 +00:00",
+                  "competition": 0.9900000095367432,
+                  "competition_level": "HIGH",
+                  "cpc": 4.28000020980835,
+                  "search_volume": 210,
+                  "low_top_of_page_bid": 1.25,
+                  "high_top_of_page_bid": 4.039999961853027,
+                  "categories": [
+                    10009
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2026,
+                      "month": 6,
+                      "search_volume": 140
+                    },
+                    {
+                      "year": 2026,
+                      "month": 5,
+                      "search_volume": 210
+                    },
+                    {
+                      "year": 2026,
+                      "month": 4,
+                      "search_volume": 210
+                    },
+                    {
+                      "year": 2026,
+                      "month": 3,
+                      "search_volume": 210
+                    },
+                    {
+                      "year": 2026,
+                      "month": 2,
+                      "search_volume": 170
+                    },
+                    {
+                      "year": 2026,
+                      "month": 1,
+                      "search_volume": 260
+                    },
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 170
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 260
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 210
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 170
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 210
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 210
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": -33,
+                    "quarterly": -33,
+                    "yearly": -46
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": "wasser's furniture",
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 3,
+                  "detected_language": "en",
+                  "is_another_language": false
+                },
+                "serp_info": {
+                  "se_type": "google",
+                  "check_url": "https://www.google.com/search?q=wassers%20furniture&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                  "serp_item_types": [
+                    "organic",
+                    "people_also_ask",
+                    "related_searches",
+                    "knowledge_graph",
+                    "google_reviews",
+                    "third_party_reviews"
+                  ],
+                  "se_results_count": 344000,
+                  "last_updated_time": "2026-04-27 16:29:25 +00:00",
+                  "previous_updated_time": "2026-03-05 14:52:49 +00:00"
+                },
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 676.9000244140625,
+                  "dofollow": 5.599999904632568,
+                  "referring_pages": 345.29998779296875,
+                  "referring_domains": 7.400000095367432,
+                  "referring_main_domains": 7.099999904632568,
+                  "rank": 60.70000076293945,
+                  "main_domain_rank": 593.2999877929688,
+                  "last_updated_time": "2026-04-27 16:29:25 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "navigational",
+                  "foreign_intent": null,
+                  "last_updated_time": "2026-04-30 00:20:14 +00:00"
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "google",
+                "serp_item": {
+                  "se_type": "google",
+                  "type": "organic",
+                  "rank_group": 1,
+                  "rank_absolute": 1,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[8]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+                  "domain": "wassersfurniture.com",
+                  "title": "wassersfurniture",
+                  "url": "https://wassersfurniture.com/",
+                  "breadcrumb": "https://wassersfurniture.com",
+                  "website_name": "wassersfurniture.com",
+                  "is_image": false,
+                  "is_video": false,
+                  "is_featured_snippet": false,
+                  "is_malicious": false,
+                  "description": "A third-generation family business where decades of expertise make furnishing your home effortless. Shop now Book a Design Consultation. Shop by Collection.",
+                  "pre_snippet": null,
+                  "extended_snippet": null,
+                  "amp_version": false,
+                  "rating": null,
+                  "highlighted": null,
+                  "links": [
+                    {
+                      "type": "link_element",
+                      "title": "Dining Room",
+                      "description": null,
+                      "url": "https://wassersfurniture.com/furniture/diningroom.html"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "Sofas",
+                      "description": null,
+                      "url": "https://wassersfurniture.com/furniture/livingroom/sofas.html"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "Modern Bedroom Sets",
+                      "description": null,
+                      "url": "https://wassersfurniture.com/furniture/bedroom.html"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "Motion Living Room",
+                      "description": null,
+                      "url": "https://wassersfurniture.com/furniture/livingroom/motion-living-room.html"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "Outdoor Furniture",
+                      "description": null,
+                      "url": "https://wassersfurniture.com/furniture/outdoor-furniture.html?p=2"
+                    }
+                  ],
+                  "about_this_result": null,
+                  "main_domain": "wassersfurniture.com",
+                  "relative_url": "/",
+                  "etv": 63.84000015258789,
+                  "estimated_paid_traffic_cost": 273.2351989746094,
+                  "clickstream_etv": null,
+                  "rank_changes": {
+                    "previous_rank_absolute": 1,
+                    "is_new": false,
+                    "is_up": false,
+                    "is_down": false
+                  },
+                  "backlinks_info": {
+                    "referring_domains": 64,
+                    "referring_main_domains": 58,
+                    "referring_pages": 102,
+                    "dofollow": 44,
+                    "backlinks": 107,
+                    "time_update": "2026-07-21 05:14:39 +00:00"
+                  },
+                  "rank_info": {
+                    "page_rank": 79,
+                    "main_domain_rank": 196
+                  }
+                },
+                "check_url": "https://www.google.com/search?q=wassers%20furniture&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                "serp_item_types": [
+                  "organic",
+                  "people_also_ask",
+                  "related_searches",
+                  "knowledge_graph",
+                  "google_reviews",
+                  "third_party_reviews"
+                ],
+                "se_results_count": 344000,
+                "keyword_difficulty": 3,
+                "is_lost": false,
+                "last_updated_time": "2026-04-27 16:29:25 +00:00",
+                "previous_updated_time": "2026-03-05 14:52:49 +00:00"
+              }
+            },
+            {
+              "se_type": "google",
+              "keyword_data": {
+                "se_type": "google",
+                "keyword": "genuine leather ottoman",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-07-12 04:07:40 +00:00",
+                  "competition": 1,
+                  "competition_level": "HIGH",
+                  "cpc": 2.2300000190734863,
+                  "search_volume": 480,
+                  "low_top_of_page_bid": 0.5400000214576721,
+                  "high_top_of_page_bid": 2.7300000190734863,
+                  "categories": [
+                    10009,
+                    10413,
+                    11574,
+                    12818
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2026,
+                      "month": 6,
+                      "search_volume": 210
+                    },
+                    {
+                      "year": 2026,
+                      "month": 5,
+                      "search_volume": 260
+                    },
+                    {
+                      "year": 2026,
+                      "month": 4,
+                      "search_volume": 210
+                    },
+                    {
+                      "year": 2026,
+                      "month": 3,
+                      "search_volume": 260
+                    },
+                    {
+                      "year": 2026,
+                      "month": 2,
+                      "search_volume": 210
+                    },
+                    {
+                      "year": 2026,
+                      "month": 1,
+                      "search_volume": 480
+                    },
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 390
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 480
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 590
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 1000
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 720
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 880
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": -19,
+                    "quarterly": 0,
+                    "yearly": -56
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": null,
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 0,
+                  "detected_language": "en",
+                  "is_another_language": false
+                },
+                "serp_info": {
+                  "se_type": "google",
+                  "check_url": "https://www.google.com/search?q=genuine%20leather%20ottoman&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                  "serp_item_types": [
+                    "popular_products",
+                    "images",
+                    "organic",
+                    "related_searches"
+                  ],
+                  "se_results_count": 207,
+                  "last_updated_time": "2026-05-22 04:47:26 +00:00",
+                  "previous_updated_time": "2026-03-18 07:12:04 +00:00"
+                },
+                "avg_backlinks_info": null,
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "transactional",
+                  "foreign_intent": null,
+                  "last_updated_time": "2026-04-27 21:55:25 +00:00"
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "google",
+                "serp_item": {
+                  "se_type": "google",
+                  "type": "organic",
+                  "rank_group": 8,
+                  "rank_absolute": 12,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[23]/div[1]/div[1]/div[1]",
+                  "domain": "wassersfurniture.com",
+                  "title": "Genuine Leather Ottomans - In Stock",
+                  "url": "https://wassersfurniture.com/genuine-leather-ottomans-in-stock.html",
+                  "breadcrumb": "https://wassersfurniture.com \u203a genuine-leather-ottomans-i...",
+                  "website_name": "wassersfurniture.com",
+                  "is_image": false,
+                  "is_video": false,
+                  "is_featured_snippet": false,
+                  "is_malicious": false,
+                  "description": "On Display - Available for immediate pick-up or Delivery Made in USA - 100% Genuine Analine Leather - 4 Colors In stock.",
+                  "pre_snippet": null,
+                  "extended_snippet": null,
+                  "amp_version": false,
+                  "rating": null,
+                  "highlighted": [
+                    "100% Genuine Analine Leather"
+                  ],
+                  "links": null,
+                  "about_this_result": null,
+                  "main_domain": "wassersfurniture.com",
+                  "relative_url": "/genuine-leather-ottomans-in-stock.html",
+                  "etv": 9.456000328063965,
+                  "estimated_paid_traffic_cost": 21.08687973022461,
+                  "clickstream_etv": null,
+                  "rank_changes": {
+                    "previous_rank_absolute": 21,
+                    "is_new": false,
+                    "is_up": true,
+                    "is_down": false
+                  },
+                  "backlinks_info": null,
+                  "rank_info": {
+                    "page_rank": 0,
+                    "main_domain_rank": 194
+                  }
+                },
+                "check_url": "https://www.google.com/search?q=genuine%20leather%20ottoman&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                "serp_item_types": [
+                  "popular_products",
+                  "images",
+                  "organic",
+                  "related_searches"
+                ],
+                "se_results_count": 207,
+                "keyword_difficulty": 0,
+                "is_lost": false,
+                "last_updated_time": "2026-05-22 04:47:26 +00:00",
+                "previous_updated_time": "2026-03-18 07:12:04 +00:00"
+              }
+            },
+            {
+              "se_type": "google",
+              "keyword_data": {
+                "se_type": "google",
+                "keyword": "diva chandelier",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-07-15 09:05:15 +00:00",
+                  "competition": 0.9200000166893005,
+                  "competition_level": "HIGH",
+                  "cpc": 1.4500000476837158,
+                  "search_volume": 50,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10004,
+                    10282,
+                    11293,
+                    12612
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2026,
+                      "month": 6,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2026,
+                      "month": 5,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2026,
+                      "month": 4,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2026,
+                      "month": 3,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2026,
+                      "month": 2,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2026,
+                      "month": 1,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 70
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 0,
+                    "quarterly": 0,
+                    "yearly": -29
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": null,
+                  "synonym_clustering_algorithm": null,
+                  "keyword_difficulty": 0,
+                  "detected_language": "en",
+                  "is_another_language": false
+                },
+                "serp_info": {
+                  "se_type": "google",
+                  "check_url": "https://www.google.com/search?q=diva%20chandelier&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                  "serp_item_types": [
+                    "organic",
+                    "images",
+                    "popular_products",
+                    "video",
+                    "related_searches"
+                  ],
+                  "se_results_count": 2360000,
+                  "last_updated_time": "2026-05-09 22:43:56 +00:00",
+                  "previous_updated_time": "2026-03-08 19:50:44 +00:00"
+                },
+                "avg_backlinks_info": null,
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "transactional",
+                  "foreign_intent": null,
+                  "last_updated_time": "2026-04-27 16:11:57 +00:00"
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "google",
+                "serp_item": {
+                  "se_type": "google",
+                  "type": "organic",
+                  "rank_group": 2,
+                  "rank_absolute": 5,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]",
+                  "domain": "wassersfurniture.com",
+                  "title": "Regina Andrew Design - RAD - Diva - Chandelier - Grey",
+                  "url": "https://wassersfurniture.com/regina-andrew-design-rad-diva-chandelier-grey-item-16-1037gry-free-shipping-no-tax.html",
+                  "breadcrumb": "https://wassersfurniture.com \u203a regina-andrew-design-rad-...",
+                  "website_name": "Wasser's Furniture",
+                  "is_image": true,
+                  "is_video": false,
+                  "is_featured_snippet": false,
+                  "is_malicious": false,
+                  "description": "Item #: 16-1037GRY Height: 36.5 Width: 22.5 Depth: 22.5 Canopy: 5 in stepped Wattage: 40 Watt Max Bulb Qty: 8 Bulb Type: B Type Candelabra\u00a0...",
+                  "pre_snippet": null,
+                  "extended_snippet": null,
+                  "amp_version": false,
+                  "rating": null,
+                  "highlighted": null,
+                  "links": null,
+                  "about_this_result": null,
+                  "main_domain": "wassersfurniture.com",
+                  "relative_url": "/regina-andrew-design-rad-diva-chandelier-grey-item-16-1037gry-free-shipping-no-tax.html",
+                  "etv": 8.100000381469727,
+                  "estimated_paid_traffic_cost": 11.744999885559082,
+                  "clickstream_etv": null,
+                  "rank_changes": {
+                    "previous_rank_absolute": 4,
+                    "is_new": false,
+                    "is_up": false,
+                    "is_down": true
+                  },
+                  "backlinks_info": null,
+                  "rank_info": {
+                    "page_rank": 0,
+                    "main_domain_rank": 194
+                  }
+                },
+                "check_url": "https://www.google.com/search?q=diva%20chandelier&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                "serp_item_types": [
+                  "organic",
+                  "images",
+                  "popular_products",
+                  "video",
+                  "related_searches"
+                ],
+                "se_results_count": 2360000,
+                "keyword_difficulty": 0,
+                "is_lost": false,
+                "last_updated_time": "2026-05-09 22:43:56 +00:00",
+                "previous_updated_time": "2026-03-08 19:50:44 +00:00"
+              }
+            },
+            {
+              "se_type": "google",
+              "keyword_data": {
+                "se_type": "google",
+                "keyword": "mirror times",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-07-10 11:45:05 +00:00",
+                  "competition": 0.38999998569488525,
+                  "competition_level": "MEDIUM",
+                  "cpc": 0.5099999904632568,
+                  "search_volume": 110,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10009,
+                    10405,
+                    11534
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2026,
+                      "month": 6,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2026,
+                      "month": 5,
+                      "search_volume": 90
+                    },
+                    {
+                      "year": 2026,
+                      "month": 4,
+                      "search_volume": 110
+                    },
+                    {
+                      "year": 2026,
+                      "month": 3,
+                      "search_volume": 140
+                    },
+                    {
+                      "year": 2026,
+                      "month": 2,
+                      "search_volume": 110
+                    },
+                    {
+                      "year": 2026,
+                      "month": 1,
+                      "search_volume": 110
+                    },
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 140
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 90
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 90
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 110
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 110
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 110
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": -22,
+                    "quarterly": -36,
+                    "yearly": -50
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": "time mirror",
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 16,
+                  "detected_language": "en",
+                  "is_another_language": false
+                },
+                "serp_info": {
+                  "se_type": "google",
+                  "check_url": "https://www.google.com/search?q=mirror%20times&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                  "serp_item_types": [
+                    "ai_overview",
+                    "organic",
+                    "people_also_ask",
+                    "video",
+                    "related_searches",
+                    "images"
+                  ],
+                  "se_results_count": 109,
+                  "last_updated_time": "2026-07-13 02:38:40 +00:00",
+                  "previous_updated_time": "2026-05-03 05:29:06 +00:00"
+                },
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 97031.296875,
+                  "dofollow": 94294.8984375,
+                  "referring_pages": 94474.703125,
+                  "referring_domains": 479.79998779296875,
+                  "referring_main_domains": 455.5,
+                  "rank": 124.69999694824219,
+                  "main_domain_rank": 536.2999877929688,
+                  "last_updated_time": "2026-07-13 02:38:49 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "informational",
+                  "foreign_intent": [
+                    "navigational"
+                  ],
+                  "last_updated_time": "2026-04-29 16:40:21 +00:00"
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "google",
+                "serp_item": {
+                  "se_type": "google",
+                  "type": "organic",
+                  "rank_group": 5,
+                  "rank_absolute": 6,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]",
+                  "domain": "wassersfurniture.com",
+                  "title": "Times Mirror",
+                  "url": "https://wassersfurniture.com/products/times-mirror",
+                  "breadcrumb": "https://wassersfurniture.com \u203a products \u203a times-mirror",
+                  "website_name": "Wasser's Exclusive Furniture",
+                  "is_image": false,
+                  "is_video": false,
+                  "is_featured_snippet": false,
+                  "is_malicious": false,
+                  "description": "The Times mirrored clock is a decorative design accessory, which also focuses on functionality since the time can be set for three different time zones. The\u00a0... Read more",
+                  "pre_snippet": null,
+                  "extended_snippet": null,
+                  "amp_version": false,
+                  "rating": null,
+                  "highlighted": [
+                    "The Times mirrored clock is a decorative design accessory"
+                  ],
+                  "links": null,
+                  "about_this_result": null,
+                  "main_domain": "wassersfurniture.com",
+                  "relative_url": "/products/times-mirror",
+                  "etv": 5.158999919891357,
+                  "estimated_paid_traffic_cost": 2.631089925765991,
+                  "clickstream_etv": null,
+                  "rank_changes": {
+                    "previous_rank_absolute": 51,
+                    "is_new": false,
+                    "is_up": true,
+                    "is_down": false
+                  },
+                  "backlinks_info": null,
+                  "rank_info": {
+                    "page_rank": 0,
+                    "main_domain_rank": 189
+                  }
+                },
+                "check_url": "https://www.google.com/search?q=mirror%20times&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                "serp_item_types": [
+                  "ai_overview",
+                  "organic",
+                  "people_also_ask",
+                  "video",
+                  "related_searches",
+                  "images"
+                ],
+                "se_results_count": 109,
+                "keyword_difficulty": 16,
+                "is_lost": false,
+                "last_updated_time": "2026-07-13 02:38:40 +00:00",
+                "previous_updated_time": "2026-05-03 05:29:06 +00:00"
+              }
+            },
+            {
+              "se_type": "google",
+              "keyword_data": {
+                "se_type": "google",
+                "keyword": "sonos connect:amp gen1",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-07-13 07:04:38 +00:00",
+                  "competition": 1,
+                  "competition_level": "HIGH",
+                  "cpc": 0.44999998807907104,
+                  "search_volume": 320,
+                  "low_top_of_page_bid": 0.36000001430511475,
+                  "high_top_of_page_bid": 1.5399999618530273,
+                  "categories": [
+                    10019,
+                    10167,
+                    10873,
+                    12134
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2026,
+                      "month": 6,
+                      "search_volume": 260
+                    },
+                    {
+                      "year": 2026,
+                      "month": 5,
+                      "search_volume": 260
+                    },
+                    {
+                      "year": 2026,
+                      "month": 4,
+                      "search_volume": 260
+                    },
+                    {
+                      "year": 2026,
+                      "month": 3,
+                      "search_volume": 260
+                    },
+                    {
+                      "year": 2026,
+                      "month": 2,
+                      "search_volume": 260
+                    },
+                    {
+                      "year": 2026,
+                      "month": 1,
+                      "search_volume": 390
+                    },
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 390
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 320
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 260
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 260
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 320
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 320
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 0,
+                    "quarterly": 0,
+                    "yearly": -33
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": "sonos connect amp gen 1",
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 0,
+                  "detected_language": "en",
+                  "is_another_language": false
+                },
+                "serp_info": {
+                  "se_type": "google",
+                  "check_url": "https://www.google.com/search?q=sonos%20connect%3Aamp%20gen1&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                  "serp_item_types": [
+                    "ai_overview",
+                    "organic",
+                    "discussions_and_forums",
+                    "popular_products",
+                    "video",
+                    "images",
+                    "related_searches"
+                  ],
+                  "se_results_count": 246000,
+                  "last_updated_time": "2026-04-22 16:08:57 +00:00",
+                  "previous_updated_time": null
+                },
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 2.5,
+                  "dofollow": 2.299999952316284,
+                  "referring_pages": 2.5,
+                  "referring_domains": 1.600000023841858,
+                  "referring_main_domains": 1,
+                  "rank": 12,
+                  "main_domain_rank": 545.0999755859375,
+                  "last_updated_time": "2026-04-22 16:17:10 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "transactional",
+                  "foreign_intent": [
+                    "navigational",
+                    "commercial"
+                  ],
+                  "last_updated_time": "2026-04-29 20:53:23 +00:00"
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "google",
+                "serp_item": {
+                  "se_type": "google",
+                  "type": "organic",
+                  "rank_group": 9,
+                  "rank_absolute": 16,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]",
+                  "domain": "wassersfurniture.com",
+                  "title": "SONOS - CONNECT - AMP - Wasser's Furniture",
+                  "url": "https://wassersfurniture.com/sonos-connect-amp.html",
+                  "breadcrumb": "https://wassersfurniture.com \u203a sonos-connect-amp",
+                  "website_name": "wassersfurniture.com",
+                  "is_image": false,
+                  "is_video": false,
+                  "is_featured_snippet": false,
+                  "is_malicious": false,
+                  "description": "Built-in, powerful digital amplifier. Powers large or small speakers with 55W per channel. Class-D amplifier. State of the art, great sounding amplifier. Read more",
+                  "pre_snippet": null,
+                  "extended_snippet": null,
+                  "amp_version": false,
+                  "rating": null,
+                  "highlighted": [
+                    "Class-D amplifier"
+                  ],
+                  "links": null,
+                  "about_this_result": null,
+                  "main_domain": "wassersfurniture.com",
+                  "relative_url": "/sonos-connect-amp.html",
+                  "etv": 4.800000190734863,
+                  "estimated_paid_traffic_cost": 2.1600000858306885,
+                  "clickstream_etv": null,
+                  "rank_changes": {
+                    "previous_rank_absolute": null,
+                    "is_new": true,
+                    "is_up": false,
+                    "is_down": false
+                  },
+                  "backlinks_info": null,
+                  "rank_info": {
+                    "page_rank": 0,
+                    "main_domain_rank": 196
+                  }
+                },
+                "check_url": "https://www.google.com/search?q=sonos%20connect%3Aamp%20gen1&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                "serp_item_types": [
+                  "ai_overview",
+                  "organic",
+                  "discussions_and_forums",
+                  "popular_products",
+                  "video",
+                  "images",
+                  "related_searches"
+                ],
+                "se_results_count": 246000,
+                "keyword_difficulty": 0,
+                "is_lost": false,
+                "last_updated_time": "2026-04-22 16:08:57 +00:00",
+                "previous_updated_time": null
+              }
+            },
+            {
+              "se_type": "google",
+              "keyword_data": {
+                "se_type": "google",
+                "keyword": "tempur cloud luxe breeze king",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-07-11 18:40:40 +00:00",
+                  "competition": 1,
+                  "competition_level": "HIGH",
+                  "cpc": 8.640000343322754,
+                  "search_volume": 20,
+                  "low_top_of_page_bid": 1.309999942779541,
+                  "high_top_of_page_bid": 7.400000095367432,
+                  "categories": [
+                    10005,
+                    10057
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2026,
+                      "month": 6,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2026,
+                      "month": 5,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2026,
+                      "month": 4,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2026,
+                      "month": 3,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2026,
+                      "month": 2,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2026,
+                      "month": 1,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 20
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": -50,
+                    "quarterly": -50,
+                    "yearly": -67
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": null,
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 0,
+                  "detected_language": "en",
+                  "is_another_language": false
+                },
+                "serp_info": {
+                  "se_type": "google",
+                  "check_url": "https://www.google.com/search?q=tempur%20cloud%20luxe%20breeze%20king&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                  "serp_item_types": [
+                    "organic",
+                    "popular_products",
+                    "people_also_ask",
+                    "discussions_and_forums",
+                    "related_searches"
+                  ],
+                  "se_results_count": 230000,
+                  "last_updated_time": "2026-04-17 02:19:40 +00:00",
+                  "previous_updated_time": "2026-02-27 18:00:26 +00:00"
+                },
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 10.199999809265137,
+                  "dofollow": 6.800000190734863,
+                  "referring_pages": 8.300000190734863,
+                  "referring_domains": 3,
+                  "referring_main_domains": 2.5999999046325684,
+                  "rank": 35.79999923706055,
+                  "main_domain_rank": 470.20001220703125,
+                  "last_updated_time": "2026-04-17 02:21:54 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "transactional",
+                  "foreign_intent": null,
+                  "last_updated_time": "2026-04-29 23:23:20 +00:00"
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "google",
+                "serp_item": {
+                  "se_type": "google",
+                  "type": "organic",
+                  "rank_group": 2,
+                  "rank_absolute": 2,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]",
+                  "domain": "wassersfurniture.com",
+                  "title": "Tempur-Cloud Luxe Breeze",
+                  "url": "https://wassersfurniture.com/tempur-cloud-luxe-breeze.html",
+                  "breadcrumb": "https://wassersfurniture.com \u203a tempur-cloud-luxe-breeze",
+                  "website_name": "Wasser's Furniture",
+                  "is_image": true,
+                  "is_video": false,
+                  "is_featured_snippet": false,
+                  "is_malicious": false,
+                  "description": "The TEMPUR-Cloud\u00ae Luxe Breeze helps keep you cool and comfortable with a 3-part cooling system that really works. The top cover includes TEMPUR-Breeze\u2122 Cooling\u00a0... Read more",
+                  "pre_snippet": null,
+                  "extended_snippet": null,
+                  "amp_version": false,
+                  "rating": null,
+                  "highlighted": [
+                    "helps keep you cool and comfortable"
+                  ],
+                  "links": null,
+                  "about_this_result": null,
+                  "main_domain": "wassersfurniture.com",
+                  "relative_url": "/tempur-cloud-luxe-breeze.html",
+                  "etv": 3.240000009536743,
+                  "estimated_paid_traffic_cost": 27.993600845336914,
+                  "clickstream_etv": null,
+                  "rank_changes": {
+                    "previous_rank_absolute": 3,
+                    "is_new": false,
+                    "is_up": true,
+                    "is_down": false
+                  },
+                  "backlinks_info": null,
+                  "rank_info": {
+                    "page_rank": 0,
+                    "main_domain_rank": 196
+                  }
+                },
+                "check_url": "https://www.google.com/search?q=tempur%20cloud%20luxe%20breeze%20king&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                "serp_item_types": [
+                  "organic",
+                  "popular_products",
+                  "people_also_ask",
+                  "discussions_and_forums",
+                  "related_searches"
+                ],
+                "se_results_count": 230000,
+                "keyword_difficulty": 0,
+                "is_lost": false,
+                "last_updated_time": "2026-04-17 02:19:40 +00:00",
+                "previous_updated_time": "2026-02-27 18:00:26 +00:00"
+              }
+            },
+            {
+              "se_type": "google",
+              "keyword_data": {
+                "se_type": "google",
+                "keyword": "tempur-cloud luxe breeze king",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-07-15 01:22:39 +00:00",
+                  "competition": 1,
+                  "competition_level": "HIGH",
+                  "cpc": 8.640000343322754,
+                  "search_volume": 20,
+                  "low_top_of_page_bid": 1.309999942779541,
+                  "high_top_of_page_bid": 7.400000095367432,
+                  "categories": [
+                    10008
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2026,
+                      "month": 6,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2026,
+                      "month": 5,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2026,
+                      "month": 4,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2026,
+                      "month": 3,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2026,
+                      "month": 2,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2026,
+                      "month": 1,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 20
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": -50,
+                    "quarterly": -50,
+                    "yearly": -67
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": "tempur cloud luxe breeze king",
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 0,
+                  "detected_language": "id",
+                  "is_another_language": true
+                },
+                "serp_info": {
+                  "se_type": "google",
+                  "check_url": "https://www.google.com/search?q=tempur-cloud%20luxe%20breeze%20king&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                  "serp_item_types": [
+                    "organic",
+                    "popular_products",
+                    "people_also_ask",
+                    "discussions_and_forums",
+                    "related_searches"
+                  ],
+                  "se_results_count": 227000,
+                  "last_updated_time": "2026-04-17 02:21:32 +00:00",
+                  "previous_updated_time": "2026-02-27 17:58:39 +00:00"
+                },
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 10.199999809265137,
+                  "dofollow": 6.800000190734863,
+                  "referring_pages": 8.300000190734863,
+                  "referring_domains": 3,
+                  "referring_main_domains": 2.5999999046325684,
+                  "rank": 35.79999923706055,
+                  "main_domain_rank": 476.6000061035156,
+                  "last_updated_time": "2026-04-17 02:21:55 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "transactional",
+                  "foreign_intent": null,
+                  "last_updated_time": "2026-04-29 21:50:32 +00:00"
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "google",
+                "serp_item": {
+                  "se_type": "google",
+                  "type": "organic",
+                  "rank_group": 2,
+                  "rank_absolute": 4,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[7]/div[1]/div[1]/div[1]",
+                  "domain": "wassersfurniture.com",
+                  "title": "Tempur-Cloud Luxe Breeze",
+                  "url": "https://wassersfurniture.com/tempur-cloud-luxe-breeze.html",
+                  "breadcrumb": "https://wassersfurniture.com \u203a tempur-cloud-luxe-breeze",
+                  "website_name": "Wasser's Furniture",
+                  "is_image": true,
+                  "is_video": false,
+                  "is_featured_snippet": false,
+                  "is_malicious": false,
+                  "description": "The TEMPUR-Cloud\u00ae Luxe Breeze helps keep you cool and comfortable with a 3-part cooling system that really works. The top cover includes TEMPUR-Breeze\u2122 Cooling\u00a0... Read more",
+                  "pre_snippet": null,
+                  "extended_snippet": null,
+                  "amp_version": false,
+                  "rating": null,
+                  "highlighted": [
+                    "helps keep you cool and comfortable"
+                  ],
+                  "links": null,
+                  "about_this_result": null,
+                  "main_domain": "wassersfurniture.com",
+                  "relative_url": "/tempur-cloud-luxe-breeze.html",
+                  "etv": 3.240000009536743,
+                  "estimated_paid_traffic_cost": 27.993600845336914,
+                  "clickstream_etv": null,
+                  "rank_changes": {
+                    "previous_rank_absolute": 3,
+                    "is_new": false,
+                    "is_up": false,
+                    "is_down": true
+                  },
+                  "backlinks_info": null,
+                  "rank_info": {
+                    "page_rank": 0,
+                    "main_domain_rank": 196
+                  }
+                },
+                "check_url": "https://www.google.com/search?q=tempur-cloud%20luxe%20breeze%20king&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                "serp_item_types": [
+                  "organic",
+                  "popular_products",
+                  "people_also_ask",
+                  "discussions_and_forums",
+                  "related_searches"
+                ],
+                "se_results_count": 227000,
+                "keyword_difficulty": 0,
+                "is_lost": false,
+                "last_updated_time": "2026-04-17 02:21:32 +00:00",
+                "previous_updated_time": "2026-02-27 17:58:39 +00:00"
+              }
+            },
+            {
+              "se_type": "google",
+              "keyword_data": {
+                "se_type": "google",
+                "keyword": "furniture store hallandale",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-07-13 13:49:52 +00:00",
+                  "competition": 1,
+                  "competition_level": "HIGH",
+                  "cpc": 2.799999952316284,
+                  "search_volume": 90,
+                  "low_top_of_page_bid": 1.059999942779541,
+                  "high_top_of_page_bid": 4.050000190734863,
+                  "categories": [
+                    10009,
+                    10413
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2026,
+                      "month": 6,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2026,
+                      "month": 5,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2026,
+                      "month": 4,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2026,
+                      "month": 3,
+                      "search_volume": 110
+                    },
+                    {
+                      "year": 2026,
+                      "month": 2,
+                      "search_volume": 110
+                    },
+                    {
+                      "year": 2026,
+                      "month": 1,
+                      "search_volume": 140
+                    },
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 110
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 140
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 90
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 110
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 50
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 40,
+                    "quarterly": 40,
+                    "yearly": -36
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": null,
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 5,
+                  "detected_language": "en",
+                  "is_another_language": false
+                },
+                "serp_info": {
+                  "se_type": "google",
+                  "check_url": "https://www.google.com/search?q=furniture%20store%20hallandale&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                  "serp_item_types": [
+                    "organic",
+                    "local_pack",
+                    "people_also_ask",
+                    "related_searches",
+                    "google_reviews"
+                  ],
+                  "se_results_count": 172,
+                  "last_updated_time": "2026-07-16 05:51:07 +00:00",
+                  "previous_updated_time": "2026-05-28 08:59:42 +00:00"
+                },
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 1008.2000122070312,
+                  "dofollow": 998.0999755859375,
+                  "referring_pages": 1007.2999877929688,
+                  "referring_domains": 14.199999809265137,
+                  "referring_main_domains": 13.199999809265137,
+                  "rank": 78.4000015258789,
+                  "main_domain_rank": 498.8999938964844,
+                  "last_updated_time": "2026-07-16 05:51:07 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "navigational",
+                  "foreign_intent": null,
+                  "last_updated_time": "2026-04-29 08:55:48 +00:00"
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "google",
+                "serp_item": {
+                  "se_type": "google",
+                  "type": "organic",
+                  "rank_group": 8,
+                  "rank_absolute": 11,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[17]/div[1]/div[1]",
+                  "domain": "wassersfurniture.com",
+                  "title": "Wasser's Exclusive Furniture | Italian & Luxury Furniture ...",
+                  "url": "https://wassersfurniture.com/",
+                  "breadcrumb": "https://wassersfurniture.com",
+                  "website_name": "Wasser's Exclusive Furniture",
+                  "is_image": false,
+                  "is_video": false,
+                  "is_featured_snippet": false,
+                  "is_malicious": false,
+                  "description": "Wasser's Exclusive Furniture. Showroom: 19 NE 1st Avenue Hallandale Beach, FL 33009. (954) 454-9500. (954) 457-1240. info@wassersfurniture.com. OPENING HOURS. Read more",
+                  "pre_snippet": null,
+                  "extended_snippet": null,
+                  "amp_version": false,
+                  "rating": null,
+                  "highlighted": [
+                    "Furniture",
+                    "Hallandale"
+                  ],
+                  "links": [
+                    {
+                      "type": "link_element",
+                      "title": "Living Room",
+                      "description": null,
+                      "url": "https://wassersfurniture.com/collections/living-room"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "Moxy Coffee Table",
+                      "description": null,
+                      "url": "https://wassersfurniture.com/products/moxy-coffee-table"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "Philly Coffee Table",
+                      "description": null,
+                      "url": "https://wassersfurniture.com/products/philly-coffee-table"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "Bedroom",
+                      "description": null,
+                      "url": "https://wassersfurniture.com/collections/bedroom"
+                    }
+                  ],
+                  "about_this_result": null,
+                  "main_domain": "wassersfurniture.com",
+                  "relative_url": "/",
+                  "etv": 1.7730000019073486,
+                  "estimated_paid_traffic_cost": 4.964399814605713,
+                  "clickstream_etv": null,
+                  "rank_changes": {
+                    "previous_rank_absolute": 10,
+                    "is_new": false,
+                    "is_up": false,
+                    "is_down": true
+                  },
+                  "backlinks_info": {
+                    "referring_domains": 64,
+                    "referring_main_domains": 58,
+                    "referring_pages": 102,
+                    "dofollow": 44,
+                    "backlinks": 107,
+                    "time_update": "2026-07-21 05:14:39 +00:00"
+                  },
+                  "rank_info": {
+                    "page_rank": 169,
+                    "main_domain_rank": 189
+                  }
+                },
+                "check_url": "https://www.google.com/search?q=furniture%20store%20hallandale&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                "serp_item_types": [
+                  "organic",
+                  "local_pack",
+                  "people_also_ask",
+                  "related_searches",
+                  "google_reviews"
+                ],
+                "se_results_count": 172,
+                "keyword_difficulty": 5,
+                "is_lost": false,
+                "last_updated_time": "2026-07-16 05:51:07 +00:00",
+                "previous_updated_time": "2026-05-28 08:59:42 +00:00"
+              }
+            },
+            {
+              "se_type": "google",
+              "keyword_data": {
+                "se_type": "google",
+                "keyword": "furniture store in hallandale fl",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-07-10 04:07:49 +00:00",
+                  "competition": 1,
+                  "competition_level": "HIGH",
+                  "cpc": 2.799999952316284,
+                  "search_volume": 90,
+                  "low_top_of_page_bid": 1.059999942779541,
+                  "high_top_of_page_bid": 4.050000190734863,
+                  "categories": [
+                    10004,
+                    10271,
+                    11058,
+                    13804
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2026,
+                      "month": 6,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2026,
+                      "month": 5,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2026,
+                      "month": 4,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2026,
+                      "month": 3,
+                      "search_volume": 110
+                    },
+                    {
+                      "year": 2026,
+                      "month": 2,
+                      "search_volume": 110
+                    },
+                    {
+                      "year": 2026,
+                      "month": 1,
+                      "search_volume": 140
+                    },
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 110
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 140
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 90
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 110
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 50
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 40,
+                    "quarterly": 40,
+                    "yearly": -36
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": "furniture store hallandale fl",
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 5,
+                  "detected_language": "en",
+                  "is_another_language": false
+                },
+                "serp_info": {
+                  "se_type": "google",
+                  "check_url": "https://www.google.com/search?q=furniture%20store%20in%20hallandale%20fl&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                  "serp_item_types": [
+                    "local_pack",
+                    "organic",
+                    "related_searches"
+                  ],
+                  "se_results_count": 105,
+                  "last_updated_time": "2026-07-16 05:52:49 +00:00",
+                  "previous_updated_time": "2026-05-03 14:06:28 +00:00"
+                },
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 1008.2000122070312,
+                  "dofollow": 998.0999755859375,
+                  "referring_pages": 1007.2999877929688,
+                  "referring_domains": 14.199999809265137,
+                  "referring_main_domains": 13.199999809265137,
+                  "rank": 78.4000015258789,
+                  "main_domain_rank": 498.8999938964844,
+                  "last_updated_time": "2026-07-16 05:52:50 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "navigational",
+                  "foreign_intent": null,
+                  "last_updated_time": "2026-04-29 07:28:56 +00:00"
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "google",
+                "serp_item": {
+                  "se_type": "google",
+                  "type": "organic",
+                  "rank_group": 10,
+                  "rank_absolute": 14,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+                  "domain": "wassersfurniture.com",
+                  "title": "Wasser's Exclusive Furniture | Italian & Luxury Furniture ...",
+                  "url": "https://wassersfurniture.com/",
+                  "breadcrumb": "https://wassersfurniture.com",
+                  "website_name": "Wasser's Exclusive Furniture",
+                  "is_image": false,
+                  "is_video": false,
+                  "is_featured_snippet": false,
+                  "is_malicious": false,
+                  "description": "Wasser's Exclusive Furniture. Showroom: 19 NE 1st Avenue Hallandale Beach, FL 33009. (954) 454-9500. (954) 457-1240. info@wassersfurniture.com. OPENING HOURS. Read more",
+                  "pre_snippet": null,
+                  "extended_snippet": null,
+                  "amp_version": false,
+                  "rating": null,
+                  "highlighted": [
+                    "Furniture",
+                    "Hallandale Beach",
+                    "FL"
+                  ],
+                  "links": null,
+                  "about_this_result": null,
+                  "main_domain": "wassersfurniture.com",
+                  "relative_url": "/",
+                  "etv": 1.0169999599456787,
+                  "estimated_paid_traffic_cost": 2.847599983215332,
+                  "clickstream_etv": null,
+                  "rank_changes": {
+                    "previous_rank_absolute": 6,
+                    "is_new": false,
+                    "is_up": false,
+                    "is_down": true
+                  },
+                  "backlinks_info": {
+                    "referring_domains": 64,
+                    "referring_main_domains": 58,
+                    "referring_pages": 102,
+                    "dofollow": 44,
+                    "backlinks": 107,
+                    "time_update": "2026-07-21 05:14:39 +00:00"
+                  },
+                  "rank_info": {
+                    "page_rank": 169,
+                    "main_domain_rank": 189
+                  }
+                },
+                "check_url": "https://www.google.com/search?q=furniture%20store%20in%20hallandale%20fl&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                "serp_item_types": [
+                  "local_pack",
+                  "organic",
+                  "related_searches"
+                ],
+                "se_results_count": 105,
+                "keyword_difficulty": 5,
+                "is_lost": false,
+                "last_updated_time": "2026-07-16 05:52:49 +00:00",
+                "previous_updated_time": "2026-05-03 14:06:28 +00:00"
+              }
+            },
+            {
+              "se_type": "google",
+              "keyword_data": {
+                "se_type": "google",
+                "keyword": "furniture stores hallandale fl",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-07-12 18:56:03 +00:00",
+                  "competition": 1,
+                  "competition_level": "HIGH",
+                  "cpc": 2.799999952316284,
+                  "search_volume": 90,
+                  "low_top_of_page_bid": 1.059999942779541,
+                  "high_top_of_page_bid": 4.050000190734863,
+                  "categories": [
+                    10004,
+                    10271,
+                    11058,
+                    13804
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2026,
+                      "month": 6,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2026,
+                      "month": 5,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2026,
+                      "month": 4,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2026,
+                      "month": 3,
+                      "search_volume": 110
+                    },
+                    {
+                      "year": 2026,
+                      "month": 2,
+                      "search_volume": 110
+                    },
+                    {
+                      "year": 2026,
+                      "month": 1,
+                      "search_volume": 140
+                    },
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 110
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 140
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 90
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 110
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 50
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 40,
+                    "quarterly": 40,
+                    "yearly": -36
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": "furniture store hallandale fl",
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 5,
+                  "detected_language": "en",
+                  "is_another_language": false
+                },
+                "serp_info": {
+                  "se_type": "google",
+                  "check_url": "https://www.google.com/search?q=furniture%20stores%20hallandale%20fl&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                  "serp_item_types": [
+                    "local_pack",
+                    "organic",
+                    "related_searches"
+                  ],
+                  "se_results_count": 175,
+                  "last_updated_time": "2026-07-16 05:52:35 +00:00",
+                  "previous_updated_time": "2026-05-03 14:05:16 +00:00"
+                },
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 1008.2000122070312,
+                  "dofollow": 998.0999755859375,
+                  "referring_pages": 1007.2999877929688,
+                  "referring_domains": 14.199999809265137,
+                  "referring_main_domains": 13.199999809265137,
+                  "rank": 78.4000015258789,
+                  "main_domain_rank": 498.8999938964844,
+                  "last_updated_time": "2026-07-16 05:52:35 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "navigational",
+                  "foreign_intent": [
+                    "commercial"
+                  ],
+                  "last_updated_time": "2026-04-29 16:53:38 +00:00"
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "google",
+                "serp_item": {
+                  "se_type": "google",
+                  "type": "organic",
+                  "rank_group": 10,
+                  "rank_absolute": 14,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+                  "domain": "wassersfurniture.com",
+                  "title": "Wasser's Exclusive Furniture | Italian & Luxury Furniture ...",
+                  "url": "https://wassersfurniture.com/",
+                  "breadcrumb": "https://wassersfurniture.com",
+                  "website_name": "Wasser's Exclusive Furniture",
+                  "is_image": false,
+                  "is_video": false,
+                  "is_featured_snippet": false,
+                  "is_malicious": false,
+                  "description": "Wasser's Exclusive Furniture. Showroom: 19 NE 1st Avenue Hallandale Beach, FL 33009. (954) 454-9500. (954) 457-1240. info@wassersfurniture.com. OPENING HOURS. Read more",
+                  "pre_snippet": null,
+                  "extended_snippet": null,
+                  "amp_version": false,
+                  "rating": null,
+                  "highlighted": [
+                    "Furniture",
+                    "Hallandale Beach",
+                    "FL"
+                  ],
+                  "links": null,
+                  "about_this_result": null,
+                  "main_domain": "wassersfurniture.com",
+                  "relative_url": "/",
+                  "etv": 1.0169999599456787,
+                  "estimated_paid_traffic_cost": 2.847599983215332,
+                  "clickstream_etv": null,
+                  "rank_changes": {
+                    "previous_rank_absolute": 11,
+                    "is_new": false,
+                    "is_up": false,
+                    "is_down": true
+                  },
+                  "backlinks_info": {
+                    "referring_domains": 64,
+                    "referring_main_domains": 58,
+                    "referring_pages": 102,
+                    "dofollow": 44,
+                    "backlinks": 107,
+                    "time_update": "2026-07-21 05:14:39 +00:00"
+                  },
+                  "rank_info": {
+                    "page_rank": 169,
+                    "main_domain_rank": 189
+                  }
+                },
+                "check_url": "https://www.google.com/search?q=furniture%20stores%20hallandale%20fl&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                "serp_item_types": [
+                  "local_pack",
+                  "organic",
+                  "related_searches"
+                ],
+                "se_results_count": 175,
+                "keyword_difficulty": 5,
+                "is_lost": false,
+                "last_updated_time": "2026-07-16 05:52:35 +00:00",
+                "previous_updated_time": "2026-05-03 14:05:16 +00:00"
+              }
+            },
+            {
+              "se_type": "google",
+              "keyword_data": {
+                "se_type": "google",
+                "keyword": "alligator leather chair",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-07-15 02:52:39 +00:00",
+                  "competition": 1,
+                  "competition_level": "HIGH",
+                  "cpc": 0.4000000059604645,
+                  "search_volume": 50,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10004,
+                    10300,
+                    11323,
+                    12633
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2026,
+                      "month": 6,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2026,
+                      "month": 5,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2026,
+                      "month": 4,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2026,
+                      "month": 3,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2026,
+                      "month": 2,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2026,
+                      "month": 1,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 90
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 70
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": -20,
+                    "quarterly": -20,
+                    "yearly": -43
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": null,
+                  "synonym_clustering_algorithm": null,
+                  "keyword_difficulty": 0,
+                  "detected_language": "en",
+                  "is_another_language": false
+                },
+                "serp_info": {
+                  "se_type": "google",
+                  "check_url": "https://www.google.com/search?q=alligator%20leather%20chair&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                  "serp_item_types": [
+                    "popular_products",
+                    "organic",
+                    "images",
+                    "people_also_ask",
+                    "related_searches"
+                  ],
+                  "se_results_count": 1290000,
+                  "last_updated_time": "2026-05-08 05:57:55 +00:00",
+                  "previous_updated_time": "2026-03-08 05:22:06 +00:00"
+                },
+                "avg_backlinks_info": null,
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "transactional",
+                  "foreign_intent": null,
+                  "last_updated_time": "2026-04-29 04:19:47 +00:00"
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "google",
+                "serp_item": {
+                  "se_type": "google",
+                  "type": "organic",
+                  "rank_group": 8,
+                  "rank_absolute": 13,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[25]/div[1]/div[1]/div[1]",
+                  "domain": "wassersfurniture.com",
+                  "title": "Dining Chair - In Stock Croc Embossed Leather",
+                  "url": "https://wassersfurniture.com/dining-chair-made-in-italy-in-stock-croc-embossed-leather.html",
+                  "breadcrumb": "https://wassersfurniture.com \u203a dining-chair-made-in-italy...",
+                  "website_name": "wassersfurniture.com",
+                  "is_image": true,
+                  "is_video": false,
+                  "is_featured_snippet": false,
+                  "is_malicious": false,
+                  "description": "Dining chair made in italy light grey leather embossed Leather wrapped legs 23\" x 17\" x 36\" H.",
+                  "pre_snippet": null,
+                  "extended_snippet": null,
+                  "amp_version": false,
+                  "rating": null,
+                  "highlighted": [
+                    "Dining chair made in italy light grey leather"
+                  ],
+                  "links": null,
+                  "about_this_result": null,
+                  "main_domain": "wassersfurniture.com",
+                  "relative_url": "/dining-chair-made-in-italy-in-stock-croc-embossed-leather.html",
+                  "etv": 0.9850000143051147,
+                  "estimated_paid_traffic_cost": 0.39399999380111694,
+                  "clickstream_etv": null,
+                  "rank_changes": {
+                    "previous_rank_absolute": null,
+                    "is_new": true,
+                    "is_up": false,
+                    "is_down": false
+                  },
+                  "backlinks_info": null,
+                  "rank_info": {
+                    "page_rank": 0,
+                    "main_domain_rank": 197
+                  }
+                },
+                "check_url": "https://www.google.com/search?q=alligator%20leather%20chair&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                "serp_item_types": [
+                  "popular_products",
+                  "organic",
+                  "images",
+                  "people_also_ask",
+                  "related_searches"
+                ],
+                "se_results_count": 1290000,
+                "keyword_difficulty": 0,
+                "is_lost": false,
+                "last_updated_time": "2026-05-08 05:57:55 +00:00",
+                "previous_updated_time": "2026-03-08 05:22:06 +00:00"
+              }
+            },
+            {
+              "se_type": "google",
+              "keyword_data": {
+                "se_type": "google",
+                "keyword": "naos coffee tables",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-07-13 17:06:38 +00:00",
+                  "competition": 0.9900000095367432,
+                  "competition_level": "HIGH",
+                  "cpc": 1.2300000190734863,
+                  "search_volume": 50,
+                  "low_top_of_page_bid": 0.6800000071525574,
+                  "high_top_of_page_bid": 4.380000114440918,
+                  "categories": [
+                    10009,
+                    10413,
+                    11574,
+                    12819
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2026,
+                      "month": 6,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2026,
+                      "month": 5,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2026,
+                      "month": 4,
+                      "search_volume": 90
+                    },
+                    {
+                      "year": 2026,
+                      "month": 3,
+                      "search_volume": 170
+                    },
+                    {
+                      "year": 2026,
+                      "month": 2,
+                      "search_volume": 90
+                    },
+                    {
+                      "year": 2026,
+                      "month": 1,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 40
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": -29,
+                    "quarterly": -44,
+                    "yearly": 0
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": null,
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 0,
+                  "detected_language": "en",
+                  "is_another_language": false
+                },
+                "serp_info": {
+                  "se_type": "google",
+                  "check_url": "https://www.google.com/search?q=naos%20coffee%20tables&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                  "serp_item_types": [
+                    "organic",
+                    "popular_products",
+                    "images",
+                    "related_searches"
+                  ],
+                  "se_results_count": 356000,
+                  "last_updated_time": "2026-04-14 03:33:22 +00:00",
+                  "previous_updated_time": "2026-02-25 04:49:28 +00:00"
+                },
+                "avg_backlinks_info": null,
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "transactional",
+                  "foreign_intent": null,
+                  "last_updated_time": "2026-04-29 16:27:22 +00:00"
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "google",
+                "serp_item": {
+                  "se_type": "google",
+                  "type": "organic",
+                  "rank_group": 8,
+                  "rank_absolute": 9,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[17]/div[1]/div[1]/div[1]",
+                  "domain": "wassersfurniture.com",
+                  "title": "Naos - Coffee Table - Hula - Motion - QUICKSHIP",
+                  "url": "https://wassersfurniture.com/naos-coffee-table-hula-motion-quickship.html",
+                  "breadcrumb": "https://wassersfurniture.com \u203a naos-coffee-table-hula-m...",
+                  "website_name": "Wasser's Furniture",
+                  "is_image": true,
+                  "is_video": false,
+                  "is_featured_snippet": false,
+                  "is_malicious": false,
+                  "description": "Naos - Coffee Table - Hula - Motion - QUICKSHIP \u00b7 Cherry base \u00b7 Sand blasted Nickel supports \u00b7 1/2\" clear glass tops. In stock and available for Quick Ship\u00a0... Read more",
+                  "pre_snippet": null,
+                  "extended_snippet": null,
+                  "amp_version": false,
+                  "rating": null,
+                  "highlighted": [
+                    "Naos - Coffee Table - Hula - Motion - QUICKSHIP"
+                  ],
+                  "links": null,
+                  "about_this_result": null,
+                  "main_domain": "wassersfurniture.com",
+                  "relative_url": "/naos-coffee-table-hula-motion-quickship.html",
+                  "etv": 0.9850000143051147,
+                  "estimated_paid_traffic_cost": 1.211549997329712,
+                  "clickstream_etv": null,
+                  "rank_changes": {
+                    "previous_rank_absolute": 12,
+                    "is_new": false,
+                    "is_up": true,
+                    "is_down": false
+                  },
+                  "backlinks_info": null,
+                  "rank_info": {
+                    "page_rank": 0,
+                    "main_domain_rank": 196
+                  }
+                },
+                "check_url": "https://www.google.com/search?q=naos%20coffee%20tables&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                "serp_item_types": [
+                  "organic",
+                  "popular_products",
+                  "images",
+                  "related_searches"
+                ],
+                "se_results_count": 356000,
+                "keyword_difficulty": 0,
+                "is_lost": false,
+                "last_updated_time": "2026-04-14 03:33:22 +00:00",
+                "previous_updated_time": "2026-02-25 04:49:28 +00:00"
+              }
+            },
+            {
+              "se_type": "google",
+              "keyword_data": {
+                "se_type": "google",
+                "keyword": "american leather luxe",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-07-11 21:17:39 +00:00",
+                  "competition": 0.75,
+                  "competition_level": "HIGH",
+                  "cpc": 0.4399999976158142,
+                  "search_volume": 40,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10004,
+                    10298,
+                    11300,
+                    13464
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2026,
+                      "month": 6,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2026,
+                      "month": 5,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2026,
+                      "month": 4,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2026,
+                      "month": 3,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2026,
+                      "month": 2,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2026,
+                      "month": 1,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 20
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 0,
+                    "quarterly": 50,
+                    "yearly": 50
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": null,
+                  "synonym_clustering_algorithm": null,
+                  "keyword_difficulty": 0,
+                  "detected_language": "en",
+                  "is_another_language": false
+                },
+                "serp_info": {
+                  "se_type": "google",
+                  "check_url": "https://www.google.com/search?q=american%20leather%20luxe&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                  "serp_item_types": [
+                    "organic",
+                    "popular_products",
+                    "images",
+                    "related_searches"
+                  ],
+                  "se_results_count": 26300000,
+                  "last_updated_time": "2026-05-13 02:13:21 +00:00",
+                  "previous_updated_time": "2026-03-09 17:21:20 +00:00"
+                },
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 156.1999969482422,
+                  "dofollow": 95.5999984741211,
+                  "referring_pages": 113.80000305175781,
+                  "referring_domains": 42.400001525878906,
+                  "referring_main_domains": 40.400001525878906,
+                  "rank": 48.900001525878906,
+                  "main_domain_rank": 372.6000061035156,
+                  "last_updated_time": "2026-05-13 02:13:21 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "navigational",
+                  "foreign_intent": [
+                    "commercial",
+                    "transactional"
+                  ],
+                  "last_updated_time": "2026-04-25 14:37:11 +00:00"
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "google",
+                "serp_item": {
+                  "se_type": "google",
+                  "type": "organic",
+                  "rank_group": 8,
+                  "rank_absolute": 10,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[19]/div[1]/div[1]/div[1]",
+                  "domain": "wassersfurniture.com",
+                  "title": "American Leather Luxe Sectional Sofa Chair",
+                  "url": "http://wassersfurniture.com/furniture/livingroom/american-leather-luxe.html",
+                  "breadcrumb": "http://wassersfurniture.com \u203a furniture \u203a livingroom \u203a a...",
+                  "website_name": "wassersfurniture.com",
+                  "is_image": true,
+                  "is_video": false,
+                  "is_featured_snippet": false,
+                  "is_malicious": false,
+                  "description": "The ultimate in glamorous seating, the Luxe makes a sophisticated statement that brings back Deco, the divine Dorothy Draper and 1930's classic fashion. Read more",
+                  "pre_snippet": null,
+                  "extended_snippet": null,
+                  "amp_version": false,
+                  "rating": null,
+                  "highlighted": [
+                    "The ultimate in glamorous seating"
+                  ],
+                  "links": null,
+                  "about_this_result": null,
+                  "main_domain": "wassersfurniture.com",
+                  "relative_url": "/furniture/livingroom/american-leather-luxe.html",
+                  "etv": 0.7879999876022339,
+                  "estimated_paid_traffic_cost": 0.34672001004219055,
+                  "clickstream_etv": null,
+                  "rank_changes": {
+                    "previous_rank_absolute": null,
+                    "is_new": true,
+                    "is_up": false,
+                    "is_down": false
+                  },
+                  "backlinks_info": null,
+                  "rank_info": {
+                    "page_rank": 0,
+                    "main_domain_rank": 194
+                  }
+                },
+                "check_url": "https://www.google.com/search?q=american%20leather%20luxe&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                "serp_item_types": [
+                  "organic",
+                  "popular_products",
+                  "images",
+                  "related_searches"
+                ],
+                "se_results_count": 26300000,
+                "keyword_difficulty": 0,
+                "is_lost": false,
+                "last_updated_time": "2026-05-13 02:13:21 +00:00",
+                "previous_updated_time": "2026-03-09 17:21:20 +00:00"
+              }
+            },
+            {
+              "se_type": "google",
+              "keyword_data": {
+                "se_type": "google",
+                "keyword": "w.s furniture",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-07-13 02:39:22 +00:00",
+                  "competition": 0.6600000262260437,
+                  "competition_level": "MEDIUM",
+                  "cpc": 6.960000038146973,
+                  "search_volume": 50,
+                  "low_top_of_page_bid": 2,
+                  "high_top_of_page_bid": 7.239999771118164,
+                  "categories": [
+                    10009,
+                    10413
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2026,
+                      "month": 6,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2026,
+                      "month": 5,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2026,
+                      "month": 4,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2026,
+                      "month": 3,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2026,
+                      "month": 2,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2026,
+                      "month": 1,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 70
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 0,
+                    "quarterly": -29,
+                    "yearly": -29
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": "s w furniture",
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 23,
+                  "detected_language": "en",
+                  "is_another_language": false
+                },
+                "serp_info": {
+                  "se_type": "google",
+                  "check_url": "https://www.google.com/search?q=w.s%20furniture&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                  "serp_item_types": [
+                    "organic",
+                    "people_also_ask",
+                    "popular_products",
+                    "related_searches",
+                    "knowledge_graph",
+                    "google_reviews"
+                  ],
+                  "se_results_count": 149,
+                  "last_updated_time": "2026-06-01 05:59:43 +00:00",
+                  "previous_updated_time": "2026-04-10 05:10:29 +00:00"
+                },
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 2734.300048828125,
+                  "dofollow": 1893.699951171875,
+                  "referring_pages": 2187.5,
+                  "referring_domains": 410,
+                  "referring_main_domains": 397,
+                  "rank": 161.39999389648438,
+                  "main_domain_rank": 485.5,
+                  "last_updated_time": "2026-06-01 06:01:12 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "navigational",
+                  "foreign_intent": null,
+                  "last_updated_time": "2026-04-30 15:31:14 +00:00"
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "google",
+                "serp_item": {
+                  "se_type": "google",
+                  "type": "organic",
+                  "rank_group": 9,
+                  "rank_absolute": 11,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[21]/div[1]/div[1]",
+                  "domain": "wassersfurniture.com",
+                  "title": "Wassers Furniture",
+                  "url": "https://wassersfurniture.com/",
+                  "breadcrumb": "https://wassersfurniture.com",
+                  "website_name": "wassersfurniture.com",
+                  "is_image": false,
+                  "is_video": false,
+                  "is_featured_snippet": false,
+                  "is_malicious": false,
+                  "description": "Seating. Sofas \u00b7 Accent Chairs \u00b7 Chaise Lounges \u00b7 Loveseats \u00b7 Lounge Chairs \u00b7 Ottomans / Poufs \u00b7 Recliners \u00b7 Sectionals \u00b7 Sleeper Sofas. Read more",
+                  "pre_snippet": null,
+                  "extended_snippet": null,
+                  "amp_version": false,
+                  "rating": null,
+                  "highlighted": [
+                    "Sofas"
+                  ],
+                  "links": null,
+                  "about_this_result": null,
+                  "main_domain": "wassersfurniture.com",
+                  "relative_url": "/",
+                  "etv": 0.75,
+                  "estimated_paid_traffic_cost": 5.21999979019165,
+                  "clickstream_etv": null,
+                  "rank_changes": {
+                    "previous_rank_absolute": null,
+                    "is_new": true,
+                    "is_up": false,
+                    "is_down": false
+                  },
+                  "backlinks_info": {
+                    "referring_domains": 64,
+                    "referring_main_domains": 58,
+                    "referring_pages": 102,
+                    "dofollow": 44,
+                    "backlinks": 107,
+                    "time_update": "2026-07-21 05:14:39 +00:00"
+                  },
+                  "rank_info": {
+                    "page_rank": 166,
+                    "main_domain_rank": 195
+                  }
+                },
+                "check_url": "https://www.google.com/search?q=w.s%20furniture&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                "serp_item_types": [
+                  "organic",
+                  "people_also_ask",
+                  "popular_products",
+                  "related_searches",
+                  "knowledge_graph",
+                  "google_reviews"
+                ],
+                "se_results_count": 149,
+                "keyword_difficulty": 23,
+                "is_lost": false,
+                "last_updated_time": "2026-06-01 05:59:43 +00:00",
+                "previous_updated_time": "2026-04-10 05:10:29 +00:00"
+              }
+            },
+            {
+              "se_type": "google",
+              "keyword_data": {
+                "se_type": "google",
+                "keyword": "luxe sofa american leather",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-07-13 21:24:43 +00:00",
+                  "competition": 1,
+                  "competition_level": "HIGH",
+                  "cpc": 3.7899999618530273,
+                  "search_volume": 40,
+                  "low_top_of_page_bid": 0.09000000357627869,
+                  "high_top_of_page_bid": 2.9600000381469727,
+                  "categories": [
+                    10004,
+                    10298,
+                    11300,
+                    13464
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2026,
+                      "month": 6,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2026,
+                      "month": 5,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2026,
+                      "month": 4,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2026,
+                      "month": 3,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2026,
+                      "month": 2,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2026,
+                      "month": 1,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 40
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 0,
+                    "quarterly": -25,
+                    "yearly": -57
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": null,
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 0,
+                  "detected_language": "en",
+                  "is_another_language": false
+                },
+                "serp_info": {
+                  "se_type": "google",
+                  "check_url": "https://www.google.com/search?q=luxe%20sofa%20american%20leather&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                  "serp_item_types": [
+                    "organic",
+                    "people_also_ask",
+                    "images",
+                    "popular_products",
+                    "related_searches"
+                  ],
+                  "se_results_count": 2150000,
+                  "last_updated_time": "2026-05-09 07:58:12 +00:00",
+                  "previous_updated_time": "2026-03-25 21:14:35 +00:00"
+                },
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 163.8000030517578,
+                  "dofollow": 100.0999984741211,
+                  "referring_pages": 118.80000305175781,
+                  "referring_domains": 43.20000076293945,
+                  "referring_main_domains": 41.29999923706055,
+                  "rank": 41.70000076293945,
+                  "main_domain_rank": 329.3999938964844,
+                  "last_updated_time": "2026-05-09 07:58:13 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "transactional",
+                  "foreign_intent": null,
+                  "last_updated_time": "2026-04-28 14:37:13 +00:00"
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "google",
+                "serp_item": {
+                  "se_type": "google",
+                  "type": "organic",
+                  "rank_group": 9,
+                  "rank_absolute": 13,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[25]/div[1]/div[1]/div[1]",
+                  "domain": "wassersfurniture.com",
+                  "title": "American Leather Luxe Sectional Sofa Chair",
+                  "url": "http://wassersfurniture.com/furniture/livingroom/american-leather-luxe.html",
+                  "breadcrumb": "http://wassersfurniture.com \u203a furniture \u203a livingroom \u203a a...",
+                  "website_name": "Wasser's Furniture",
+                  "is_image": true,
+                  "is_video": false,
+                  "is_featured_snippet": false,
+                  "is_malicious": false,
+                  "description": "The ultimate in glamorous seating, the Luxe makes a sophisticated statement that brings back Deco, the divine Dorothy Draper and 1930's classic fashion. Read more",
+                  "pre_snippet": null,
+                  "extended_snippet": null,
+                  "amp_version": false,
+                  "rating": null,
+                  "highlighted": [
+                    "The ultimate in glamorous seating"
+                  ],
+                  "links": null,
+                  "about_this_result": null,
+                  "main_domain": "wassersfurniture.com",
+                  "relative_url": "/furniture/livingroom/american-leather-luxe.html",
+                  "etv": 0.6000000238418579,
+                  "estimated_paid_traffic_cost": 2.2739999294281006,
+                  "clickstream_etv": null,
+                  "rank_changes": {
+                    "previous_rank_absolute": 12,
+                    "is_new": false,
+                    "is_up": false,
+                    "is_down": true
+                  },
+                  "backlinks_info": null,
+                  "rank_info": {
+                    "page_rank": 0,
+                    "main_domain_rank": 194
+                  }
+                },
+                "check_url": "https://www.google.com/search?q=luxe%20sofa%20american%20leather&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                "serp_item_types": [
+                  "organic",
+                  "people_also_ask",
+                  "images",
+                  "popular_products",
+                  "related_searches"
+                ],
+                "se_results_count": 2150000,
+                "keyword_difficulty": 0,
+                "is_lost": false,
+                "last_updated_time": "2026-05-09 07:58:12 +00:00",
+                "previous_updated_time": "2026-03-25 21:14:35 +00:00"
+              }
+            },
+            {
+              "se_type": "google",
+              "keyword_data": {
+                "se_type": "google",
+                "keyword": "ws furniture",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-07-12 08:18:38 +00:00",
+                  "competition": 0.6600000262260437,
+                  "competition_level": "MEDIUM",
+                  "cpc": 6.960000038146973,
+                  "search_volume": 50,
+                  "low_top_of_page_bid": 2,
+                  "high_top_of_page_bid": 7.239999771118164,
+                  "categories": [
+                    10009,
+                    10413
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2026,
+                      "month": 6,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2026,
+                      "month": 5,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2026,
+                      "month": 4,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2026,
+                      "month": 3,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2026,
+                      "month": 2,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2026,
+                      "month": 1,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 70
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 0,
+                    "quarterly": -29,
+                    "yearly": -29
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": "w.s furniture",
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 36,
+                  "detected_language": "en",
+                  "is_another_language": false
+                },
+                "serp_info": {
+                  "se_type": "google",
+                  "check_url": "https://www.google.com/search?q=ws%20furniture&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                  "serp_item_types": [
+                    "organic",
+                    "related_searches",
+                    "knowledge_graph",
+                    "google_reviews",
+                    "images"
+                  ],
+                  "se_results_count": 123,
+                  "last_updated_time": "2026-06-01 23:36:13 +00:00",
+                  "previous_updated_time": "2026-04-10 00:39:19 +00:00"
+                },
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 2809.39990234375,
+                  "dofollow": 1953.699951171875,
+                  "referring_pages": 2260,
+                  "referring_domains": 425.29998779296875,
+                  "referring_main_domains": 405.20001220703125,
+                  "rank": 187.5,
+                  "main_domain_rank": 439.1000061035156,
+                  "last_updated_time": "2026-06-01 23:36:20 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "navigational",
+                  "foreign_intent": null,
+                  "last_updated_time": "2026-04-30 08:19:49 +00:00"
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "google",
+                "serp_item": {
+                  "se_type": "google",
+                  "type": "organic",
+                  "rank_group": 10,
+                  "rank_absolute": 10,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[19]/div[1]/div[1]",
+                  "domain": "wassersfurniture.com",
+                  "title": "Wassers Furniture",
+                  "url": "https://wassersfurniture.com/",
+                  "breadcrumb": "https://wassersfurniture.com",
+                  "website_name": "wassersfurniture.com",
+                  "is_image": false,
+                  "is_video": false,
+                  "is_featured_snippet": false,
+                  "is_malicious": false,
+                  "description": "Seating. Sofas \u00b7 Accent Chairs \u00b7 Chaise Lounges \u00b7 Loveseats \u00b7 Lounge Chairs \u00b7 Ottomans / Poufs \u00b7 Recliners \u00b7 Sectionals \u00b7 Sleeper Sofas. Read more",
+                  "pre_snippet": null,
+                  "extended_snippet": null,
+                  "amp_version": false,
+                  "rating": null,
+                  "highlighted": [
+                    "Sofas"
+                  ],
+                  "links": null,
+                  "about_this_result": null,
+                  "main_domain": "wassersfurniture.com",
+                  "relative_url": "/",
+                  "etv": 0.5649999976158142,
+                  "estimated_paid_traffic_cost": 3.9323999881744385,
+                  "clickstream_etv": null,
+                  "rank_changes": {
+                    "previous_rank_absolute": 40,
+                    "is_new": false,
+                    "is_up": true,
+                    "is_down": false
+                  },
+                  "backlinks_info": {
+                    "referring_domains": 64,
+                    "referring_main_domains": 58,
+                    "referring_pages": 102,
+                    "dofollow": 44,
+                    "backlinks": 107,
+                    "time_update": "2026-07-21 05:14:39 +00:00"
+                  },
+                  "rank_info": {
+                    "page_rank": 166,
+                    "main_domain_rank": 195
+                  }
+                },
+                "check_url": "https://www.google.com/search?q=ws%20furniture&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                "serp_item_types": [
+                  "organic",
+                  "related_searches",
+                  "knowledge_graph",
+                  "google_reviews",
+                  "images"
+                ],
+                "se_results_count": 123,
+                "keyword_difficulty": 36,
+                "is_lost": false,
+                "last_updated_time": "2026-06-01 23:36:13 +00:00",
+                "previous_updated_time": "2026-04-10 00:39:19 +00:00"
+              }
+            },
+            {
+              "se_type": "google",
+              "keyword_data": {
+                "se_type": "google",
+                "keyword": "romina new york crib",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-07-11 18:04:13 +00:00",
+                  "competition": 1,
+                  "competition_level": "HIGH",
+                  "cpc": 4.929999828338623,
+                  "search_volume": 20,
+                  "low_top_of_page_bid": 2.7699999809265137,
+                  "high_top_of_page_bid": 7.929999828338623,
+                  "categories": [
+                    10008
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2026,
+                      "month": 6,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2026,
+                      "month": 5,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2026,
+                      "month": 4,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2026,
+                      "month": 3,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2026,
+                      "month": 2,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2026,
+                      "month": 1,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 30
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": -50,
+                    "quarterly": -67,
+                    "yearly": -67
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": null,
+                  "synonym_clustering_algorithm": null,
+                  "keyword_difficulty": 0,
+                  "detected_language": "en",
+                  "is_another_language": false
+                },
+                "serp_info": {
+                  "se_type": "google",
+                  "check_url": "https://www.google.com/search?q=romina%20new%20york%20crib&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                  "serp_item_types": [
+                    "organic",
+                    "popular_products",
+                    "ai_overview",
+                    "related_searches",
+                    "images"
+                  ],
+                  "se_results_count": 49200,
+                  "last_updated_time": "2026-04-17 10:10:21 +00:00",
+                  "previous_updated_time": "2026-02-28 06:43:46 +00:00"
+                },
+                "avg_backlinks_info": null,
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "navigational",
+                  "foreign_intent": [
+                    "transactional",
+                    "commercial"
+                  ],
+                  "last_updated_time": "2026-04-29 20:02:08 +00:00"
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "google",
+                "serp_item": {
+                  "se_type": "google",
+                  "type": "organic",
+                  "rank_group": 7,
+                  "rank_absolute": 9,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[13]/div[1]/div[1]",
+                  "domain": "wassersfurniture.com",
+                  "title": "Romina Furniture New York Crib",
+                  "url": "https://wassersfurniture.com/romina-furniture-new-york-crib.html",
+                  "breadcrumb": "https://wassersfurniture.com \u203a romina-furniture-new-yo...",
+                  "website_name": "Wasser's Furniture",
+                  "is_image": false,
+                  "is_video": false,
+                  "is_featured_snippet": false,
+                  "is_malicious": false,
+                  "description": "New York Crib is designed about the busy big city lifestyle, fit for small spaces with big ideas, contemporary in style with mid-century essence.",
+                  "pre_snippet": null,
+                  "extended_snippet": null,
+                  "amp_version": false,
+                  "rating": null,
+                  "highlighted": [
+                    "designed about the busy big city lifestyle"
+                  ],
+                  "links": null,
+                  "about_this_result": null,
+                  "main_domain": "wassersfurniture.com",
+                  "relative_url": "/romina-furniture-new-york-crib.html",
+                  "etv": 0.5120000243186951,
+                  "estimated_paid_traffic_cost": 2.5241599082946777,
+                  "clickstream_etv": null,
+                  "rank_changes": {
+                    "previous_rank_absolute": 8,
+                    "is_new": false,
+                    "is_up": false,
+                    "is_down": true
+                  },
+                  "backlinks_info": null,
+                  "rank_info": {
+                    "page_rank": 0,
+                    "main_domain_rank": 196
+                  }
+                },
+                "check_url": "https://www.google.com/search?q=romina%20new%20york%20crib&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                "serp_item_types": [
+                  "organic",
+                  "popular_products",
+                  "ai_overview",
+                  "related_searches",
+                  "images"
+                ],
+                "se_results_count": 49200,
+                "keyword_difficulty": 0,
+                "is_lost": false,
+                "last_updated_time": "2026-04-17 10:10:21 +00:00",
+                "previous_updated_time": "2026-02-28 06:43:46 +00:00"
+              }
+            },
+            {
+              "se_type": "google",
+              "keyword_data": {
+                "se_type": "google",
+                "keyword": "small wood bead chandelier",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-07-12 21:07:36 +00:00",
+                  "competition": 1,
+                  "competition_level": "HIGH",
+                  "cpc": 1.4600000381469727,
+                  "search_volume": 20,
+                  "low_top_of_page_bid": 0.6499999761581421,
+                  "high_top_of_page_bid": 3.299999952316284,
+                  "categories": [
+                    10004,
+                    10282,
+                    11293,
+                    12612
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2026,
+                      "month": 6,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2026,
+                      "month": 5,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2026,
+                      "month": 4,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2026,
+                      "month": 3,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2026,
+                      "month": 2,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2026,
+                      "month": 1,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 30
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 0,
+                    "quarterly": 0,
+                    "yearly": 0
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": "small wood beaded chandelier",
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 0,
+                  "detected_language": "en",
+                  "is_another_language": false
+                },
+                "serp_info": {
+                  "se_type": "google",
+                  "check_url": "https://www.google.com/search?q=small%20wood%20bead%20chandelier&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                  "serp_item_types": [
+                    "images",
+                    "organic",
+                    "popular_products",
+                    "video",
+                    "related_searches"
+                  ],
+                  "se_results_count": 1460000,
+                  "last_updated_time": "2026-04-17 06:40:40 +00:00",
+                  "previous_updated_time": "2026-02-27 22:48:10 +00:00"
+                },
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 0.10000000149011612,
+                  "dofollow": 0.10000000149011612,
+                  "referring_pages": 0.10000000149011612,
+                  "referring_domains": 0.10000000149011612,
+                  "referring_main_domains": 0.10000000149011612,
+                  "rank": 2.299999952316284,
+                  "main_domain_rank": 492.3999938964844,
+                  "last_updated_time": "2026-04-17 06:43:13 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "transactional",
+                  "foreign_intent": null,
+                  "last_updated_time": "2026-04-29 20:51:36 +00:00"
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "google",
+                "serp_item": {
+                  "se_type": "google",
+                  "type": "organic",
+                  "rank_group": 10,
+                  "rank_absolute": 16,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]",
+                  "domain": "wassersfurniture.com",
+                  "title": "Little Wasser's Boho Wood Bead Chandelier",
+                  "url": "https://wassersfurniture.com/little-wasser-s-boho-wood-bead-chandelier.html",
+                  "breadcrumb": "https://wassersfurniture.com \u203a little-wasser-s-boho-woo...",
+                  "website_name": "Wasser's Furniture",
+                  "is_image": false,
+                  "is_video": false,
+                  "is_featured_snippet": false,
+                  "is_malicious": false,
+                  "description": "Classic style meets modern charm with this chandelier. A bevy of draped wooden beads in weathered white, dresses up the steel structure, bringing out an earthy\u00a0... Read more",
+                  "pre_snippet": null,
+                  "extended_snippet": null,
+                  "amp_version": false,
+                  "rating": null,
+                  "highlighted": [
+                    "Classic style meets modern charm with this chandelier"
+                  ],
+                  "links": null,
+                  "about_this_result": null,
+                  "main_domain": "wassersfurniture.com",
+                  "relative_url": "/little-wasser-s-boho-wood-bead-chandelier.html",
+                  "etv": 0.22599999606609344,
+                  "estimated_paid_traffic_cost": 0.3299599885940552,
+                  "clickstream_etv": null,
+                  "rank_changes": {
+                    "previous_rank_absolute": 18,
+                    "is_new": false,
+                    "is_up": true,
+                    "is_down": false
+                  },
+                  "backlinks_info": null,
+                  "rank_info": {
+                    "page_rank": 0,
+                    "main_domain_rank": 196
+                  }
+                },
+                "check_url": "https://www.google.com/search?q=small%20wood%20bead%20chandelier&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                "serp_item_types": [
+                  "images",
+                  "organic",
+                  "popular_products",
+                  "video",
+                  "related_searches"
+                ],
+                "se_results_count": 1460000,
+                "keyword_difficulty": 0,
+                "is_lost": false,
+                "last_updated_time": "2026-04-17 06:40:40 +00:00",
+                "previous_updated_time": "2026-02-27 22:48:10 +00:00"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

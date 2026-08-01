@@ -1,0 +1,107 @@
+{
+  "version": "0.1.20260731",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "0.3413 sec.",
+  "cost": 0.024036,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "08012113-1561-0265-0000-28585db45c4c",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "0.2020 sec.",
+      "cost": 0.024036,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "backlinks",
+        "summary",
+        "live"
+      ],
+      "data": {
+        "api": "backlinks",
+        "function": "summary",
+        "target": "ds-miami.com",
+        "internal_list_limit": 5,
+        "include_subdomains": true,
+        "backlinks_status_type": "live"
+      },
+      "result": [
+        {
+          "target": "ds-miami.com",
+          "first_seen": "2019-04-24 06:51:34 +00:00",
+          "lost_date": null,
+          "rank": 206,
+          "backlinks": 17604,
+          "backlinks_spam_score": 31,
+          "crawled_pages": 143,
+          "info": {
+            "server": "LiteSpeed",
+            "cms": "wordpress",
+            "platform_type": [
+              "cms",
+              "blogs",
+              "organization"
+            ],
+            "ip_address": "82.197.80.239",
+            "country": "US",
+            "is_ip": false,
+            "target_spam_score": 0
+          },
+          "internal_links_count": 1722,
+          "external_links_count": 592,
+          "broken_backlinks": 64,
+          "broken_pages": 51,
+          "referring_domains": 279,
+          "referring_domains_nofollow": 74,
+          "referring_main_domains": 269,
+          "referring_main_domains_nofollow": 73,
+          "referring_ips": 196,
+          "referring_subnets": 162,
+          "referring_pages": 17345,
+          "referring_pages_nofollow": 108,
+          "referring_links_tld": {
+            "com": 12294,
+            "ro": 1586,
+            "com.br": 1546,
+            "app": 852,
+            "org": 421
+          },
+          "referring_links_types": {
+            "anchor": 17303,
+            "image": 42
+          },
+          "referring_links_attributes": {
+            "noopener": 131,
+            "nofollow": 108,
+            "noreferrer": 41,
+            "external": 9
+          },
+          "referring_links_platform_types": {
+            "blogs": 17152,
+            "cms": 17130,
+            "organization": 10960,
+            "ecommerce": 1587,
+            "unknown": 104
+          },
+          "referring_links_semantic_locations": {
+            "": 17088,
+            "section": 90,
+            "article": 67,
+            "main": 50,
+            "aside": 41
+          },
+          "referring_links_countries": {
+            "": 13605,
+            "RO": 1586,
+            "BR": 1549,
+            "US": 119,
+            "PL": 116
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "version": "0.1.20260731",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "0.2511 sec.",
+  "cost": 0.024036,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "08012114-1561-0265-0000-0f5f8c0fb8c9",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "0.2046 sec.",
+      "cost": 0.024036,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "backlinks",
+        "summary",
+        "live"
+      ],
+      "data": {
+        "api": "backlinks",
+        "function": "summary",
+        "target": "camerichmiami.com",
+        "internal_list_limit": 5,
+        "include_subdomains": true,
+        "backlinks_status_type": "live"
+      },
+      "result": [
+        {
+          "target": "camerichmiami.com",
+          "first_seen": "2020-02-18 10:21:21 +00:00",
+          "lost_date": null,
+          "rank": 55,
+          "backlinks": 82,
+          "backlinks_spam_score": 27,
+          "crawled_pages": 333,
+          "info": {
+            "server": "Pepyaka",
+            "cms": "wix",
+            "platform_type": [
+              "cms",
+              "blogs"
+            ],
+            "ip_address": "34.149.87.45",
+            "country": null,
+            "is_ip": false,
+            "target_spam_score": 0
+          },
+          "internal_links_count": 2998,
+          "external_links_count": 1083,
+          "broken_backlinks": 0,
+          "broken_pages": 165,
+          "referring_domains": 53,
+          "referring_domains_nofollow": 28,
+          "referring_main_domains": 46,
+          "referring_main_domains_nofollow": 26,
+          "referring_ips": 30,
+          "referring_subnets": 29,
+          "referring_pages": 69,
+          "referring_pages_nofollow": 38,
+          "referring_links_tld": {
+            "com": 32,
+            "info": 5,
+            "eu": 5,
+            "net": 5,
+            "co": 5
+          },
+          "referring_links_types": {
+            "anchor": 67,
+            "redirect": 1,
+            "image": 1
+          },
+          "referring_links_attributes": {
+            "nofollow": 38,
+            "noopener": 16,
+            "noreferrer": 10,
+            "ugc": 6
+          },
+          "referring_links_platform_types": {
+            "unknown": 35,
+            "blogs": 25,
+            "cms": 25,
+            "organization": 15
+          },
+          "referring_links_semantic_locations": {
+            "": 55,
+            "article": 6,
+            "section": 4,
+            "main": 4
+          },
+          "referring_links_countries": {
+            "": 36,
+            "US": 15,
+            "UA": 6,
+            "CO": 5,
+            "IN": 3
+          }
+        }
+      ]
+    }
+  ]
+}

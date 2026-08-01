@@ -1,0 +1,108 @@
+{
+  "version": "0.1.20260731",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "0.2596 sec.",
+  "cost": 0.024036,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "08012114-1561-0265-0000-dd5e37b85734",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "0.2399 sec.",
+      "cost": 0.024036,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "backlinks",
+        "summary",
+        "live"
+      ],
+      "data": {
+        "api": "backlinks",
+        "function": "summary",
+        "target": "eldoradofurniture.com",
+        "internal_list_limit": 5,
+        "include_subdomains": true,
+        "backlinks_status_type": "live"
+      },
+      "result": [
+        {
+          "target": "eldoradofurniture.com",
+          "first_seen": "2019-02-20 19:09:08 +00:00",
+          "lost_date": null,
+          "rank": 332,
+          "backlinks": 13765,
+          "backlinks_spam_score": 20,
+          "crawled_pages": 20562,
+          "info": {
+            "server": "cloudflare",
+            "cms": "methode",
+            "platform_type": [
+              "ecommerce",
+              "organization"
+            ],
+            "ip_address": "104.20.47.199",
+            "country": "US",
+            "is_ip": false,
+            "target_spam_score": 10
+          },
+          "internal_links_count": 1032899,
+          "external_links_count": 92703,
+          "broken_backlinks": 868,
+          "broken_pages": 989,
+          "referring_domains": 3243,
+          "referring_domains_nofollow": 855,
+          "referring_main_domains": 3033,
+          "referring_main_domains_nofollow": 654,
+          "referring_ips": 806,
+          "referring_subnets": 555,
+          "referring_pages": 13002,
+          "referring_pages_nofollow": 2178,
+          "referring_links_tld": {
+            "blogspot.com": 5933,
+            "com": 2995,
+            "web.app": 1890,
+            "online": 455,
+            "xyz": 219
+          },
+          "referring_links_types": {
+            "image": 8269,
+            "anchor": 4713,
+            "redirect": 20
+          },
+          "referring_links_attributes": {
+            "nofollow": 2178,
+            "external": 1671,
+            "noopener": 710,
+            "noreferrer": 418,
+            "ugc": 132
+          },
+          "referring_links_platform_types": {
+            "blogs": 6205,
+            "unknown": 4272,
+            "organization": 2746,
+            "ecommerce": 1884,
+            "cms": 369
+          },
+          "referring_links_semantic_locations": {
+            "": 4766,
+            "aside": 3285,
+            "main": 2778,
+            "article": 1709,
+            "section": 423
+          },
+          "referring_links_countries": {
+            "": 11383,
+            "US": 700,
+            "RU": 187,
+            "AU": 128,
+            "WW": 119
+          }
+        }
+      ]
+    }
+  ]
+}

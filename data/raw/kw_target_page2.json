@@ -1,0 +1,3950 @@
+{
+  "version": "0.1.20260731",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "0.4198 sec.",
+  "cost": 0.0144,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "08012105-1561-0381-0000-e8349154b49c",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "0.3656 sec.",
+      "cost": 0.0144,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "dataforseo_labs",
+        "google",
+        "ranked_keywords",
+        "live"
+      ],
+      "data": {
+        "api": "dataforseo_labs",
+        "function": "ranked_keywords",
+        "se_type": "google",
+        "target": "wassersfurniture.com",
+        "location_code": 2840,
+        "language_code": "en",
+        "limit": 1000,
+        "order_by": [
+          "ranked_serp_element.serp_item.etv,desc"
+        ],
+        "filters": [
+          [
+            "ranked_serp_element.serp_item.type",
+            "=",
+            "organic"
+          ],
+          "and",
+          [
+            "ranked_serp_element.serp_item.rank_group",
+            ">=",
+            11
+          ],
+          "and",
+          [
+            "ranked_serp_element.serp_item.rank_group",
+            "<=",
+            20
+          ]
+        ]
+      },
+      "result": [
+        {
+          "se_type": "google",
+          "target": "wassersfurniture.com",
+          "location_code": 2840,
+          "language_code": "en",
+          "total_count": 20,
+          "items_count": 20,
+          "metrics": {
+            "organic": {
+              "pos_1": 0,
+              "pos_2_3": 0,
+              "pos_4_10": 0,
+              "pos_11_20": 20,
+              "pos_21_30": 0,
+              "pos_31_40": 0,
+              "pos_41_50": 0,
+              "pos_51_60": 0,
+              "pos_61_70": 0,
+              "pos_71_80": 0,
+              "pos_81_90": 0,
+              "pos_91_100": 0,
+              "etv": 14.422999650239944,
+              "count": 20,
+              "estimated_paid_traffic_cost": 19.14811971783638,
+              "is_new": 11,
+              "is_up": 6,
+              "is_down": 3,
+              "is_lost": 0,
+              "clickstream_etv": null,
+              "clickstream_gender_distribution": null,
+              "clickstream_age_distribution": null
+            },
+            "paid": {
+              "pos_1": 0,
+              "pos_2_3": 0,
+              "pos_4_10": 0,
+              "pos_11_20": 0,
+              "pos_21_30": 0,
+              "pos_31_40": 0,
+              "pos_41_50": 0,
+              "pos_51_60": 0,
+              "pos_61_70": 0,
+              "pos_71_80": 0,
+              "pos_81_90": 0,
+              "pos_91_100": 0,
+              "etv": 0,
+              "count": 0,
+              "estimated_paid_traffic_cost": 0,
+              "is_new": 0,
+              "is_up": 0,
+              "is_down": 0,
+              "is_lost": 0,
+              "clickstream_etv": null,
+              "clickstream_gender_distribution": null,
+              "clickstream_age_distribution": null
+            },
+            "featured_snippet": null,
+            "local_pack": null,
+            "ai_overview_reference": null
+          },
+          "metrics_absolute": null,
+          "items": [
+            {
+              "se_type": "google",
+              "keyword_data": {
+                "se_type": "google",
+                "keyword": "burke manual recliner",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-07-16 09:34:48 +00:00",
+                  "competition": 1,
+                  "competition_level": "HIGH",
+                  "cpc": null,
+                  "search_volume": 70,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10009,
+                    10413,
+                    11574
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2026,
+                      "month": 6,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2026,
+                      "month": 5,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2026,
+                      "month": 4,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2026,
+                      "month": 3,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2026,
+                      "month": 2,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2026,
+                      "month": 1,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 170
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 480
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 30
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 0,
+                    "quarterly": 0,
+                    "yearly": -50
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": null,
+                  "synonym_clustering_algorithm": null,
+                  "keyword_difficulty": 0,
+                  "detected_language": "en",
+                  "is_another_language": false
+                },
+                "serp_info": {
+                  "se_type": "google",
+                  "check_url": "https://www.google.com/search?q=burke%20manual%20recliner&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                  "serp_item_types": [
+                    "popular_products",
+                    "organic",
+                    "related_searches"
+                  ],
+                  "se_results_count": 129,
+                  "last_updated_time": "2026-07-20 19:55:10 +00:00",
+                  "previous_updated_time": "2026-05-08 01:32:24 +00:00"
+                },
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 14.800000190734863,
+                  "dofollow": 10.600000381469727,
+                  "referring_pages": 14.5,
+                  "referring_domains": 13.800000190734863,
+                  "referring_main_domains": 13.199999809265137,
+                  "rank": 40,
+                  "main_domain_rank": 406.70001220703125,
+                  "last_updated_time": "2026-07-20 19:55:12 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "transactional",
+                  "foreign_intent": null,
+                  "last_updated_time": "2026-04-28 23:56:21 +00:00"
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "google",
+                "serp_item": {
+                  "se_type": "google",
+                  "type": "organic",
+                  "rank_group": 11,
+                  "rank_absolute": 14,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+                  "domain": "wassersfurniture.com",
+                  "title": "Burke Recliner \u2013 wassersfurniture",
+                  "url": "https://wassersfurniture.com/products/burke-recliner",
+                  "breadcrumb": "https://wassersfurniture.com \u203a products \u203a burke-recliner",
+                  "website_name": "wassersfurniture.com",
+                  "is_image": false,
+                  "is_video": false,
+                  "is_featured_snippet": false,
+                  "is_malicious": false,
+                  "description": "Tailored and classically fashionable, the sloping roll arms of the Burke have an approachable familiarity. Down-filled pillow tops add softness to the\u00a0...",
+                  "pre_snippet": null,
+                  "extended_snippet": null,
+                  "amp_version": false,
+                  "rating": null,
+                  "highlighted": [
+                    "Tailored and classically fashionable"
+                  ],
+                  "links": null,
+                  "about_this_result": null,
+                  "main_domain": "wassersfurniture.com",
+                  "relative_url": "/products/burke-recliner",
+                  "etv": 8.1899995803833,
+                  "estimated_paid_traffic_cost": null,
+                  "clickstream_etv": null,
+                  "rank_changes": {
+                    "previous_rank_absolute": null,
+                    "is_new": true,
+                    "is_up": false,
+                    "is_down": false
+                  },
+                  "backlinks_info": null,
+                  "rank_info": {
+                    "page_rank": 0,
+                    "main_domain_rank": 189
+                  }
+                },
+                "check_url": "https://www.google.com/search?q=burke%20manual%20recliner&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                "serp_item_types": [
+                  "popular_products",
+                  "organic",
+                  "related_searches"
+                ],
+                "se_results_count": 129,
+                "keyword_difficulty": 0,
+                "is_lost": false,
+                "last_updated_time": "2026-07-20 19:55:10 +00:00",
+                "previous_updated_time": "2026-05-08 01:32:24 +00:00"
+              }
+            },
+            {
+              "se_type": "google",
+              "keyword_data": {
+                "se_type": "google",
+                "keyword": "eforma",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-07-10 01:17:50 +00:00",
+                  "competition": 0.2800000011920929,
+                  "competition_level": "LOW",
+                  "cpc": 6.380000114440918,
+                  "search_volume": 390,
+                  "low_top_of_page_bid": 1.9800000190734863,
+                  "high_top_of_page_bid": 8.9399995803833,
+                  "categories": [
+                    10004,
+                    13804
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2026,
+                      "month": 6,
+                      "search_volume": 320
+                    },
+                    {
+                      "year": 2026,
+                      "month": 5,
+                      "search_volume": 390
+                    },
+                    {
+                      "year": 2026,
+                      "month": 4,
+                      "search_volume": 480
+                    },
+                    {
+                      "year": 2026,
+                      "month": 3,
+                      "search_volume": 390
+                    },
+                    {
+                      "year": 2026,
+                      "month": 2,
+                      "search_volume": 390
+                    },
+                    {
+                      "year": 2026,
+                      "month": 1,
+                      "search_volume": 480
+                    },
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 320
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 320
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 260
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 320
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 320
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 320
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": -18,
+                    "quarterly": -33,
+                    "yearly": 0
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": "e forma",
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 0,
+                  "detected_language": "es",
+                  "is_another_language": true
+                },
+                "serp_info": {
+                  "se_type": "google",
+                  "check_url": "https://www.google.com/search?q=eforma&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                  "serp_item_types": [
+                    "organic",
+                    "related_searches",
+                    "google_reviews",
+                    "knowledge_graph",
+                    "images"
+                  ],
+                  "se_results_count": 114,
+                  "last_updated_time": "2026-07-04 06:30:02 +00:00",
+                  "previous_updated_time": "2026-05-23 22:13:57 +00:00"
+                },
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 20.100000381469727,
+                  "dofollow": 19.200000762939453,
+                  "referring_pages": 19.299999237060547,
+                  "referring_domains": 1.7999999523162842,
+                  "referring_main_domains": 1.7000000476837158,
+                  "rank": 49.79999923706055,
+                  "main_domain_rank": 380.20001220703125,
+                  "last_updated_time": "2026-07-04 06:30:35 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "informational",
+                  "foreign_intent": null,
+                  "last_updated_time": "2026-04-29 12:05:33 +00:00"
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "google",
+                "serp_item": {
+                  "se_type": "google",
+                  "type": "organic",
+                  "rank_group": 16,
+                  "rank_absolute": 17,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]",
+                  "domain": "wassersfurniture.com",
+                  "title": "eforma",
+                  "url": "https://wassersfurniture.com/collections/eforma",
+                  "breadcrumb": "https://wassersfurniture.com \u203a collections \u203a eforma",
+                  "website_name": "Wasser's Exclusive Furniture",
+                  "is_image": false,
+                  "is_video": false,
+                  "is_featured_snippet": false,
+                  "is_malicious": false,
+                  "description": null,
+                  "pre_snippet": null,
+                  "extended_snippet": null,
+                  "amp_version": false,
+                  "rating": null,
+                  "highlighted": null,
+                  "links": null,
+                  "about_this_result": null,
+                  "main_domain": "wassersfurniture.com",
+                  "relative_url": "/collections/eforma",
+                  "etv": 1.6770000457763672,
+                  "estimated_paid_traffic_cost": 10.699259757995605,
+                  "clickstream_etv": null,
+                  "rank_changes": {
+                    "previous_rank_absolute": 18,
+                    "is_new": false,
+                    "is_up": true,
+                    "is_down": false
+                  },
+                  "backlinks_info": null,
+                  "rank_info": {
+                    "page_rank": 0,
+                    "main_domain_rank": 189
+                  }
+                },
+                "check_url": "https://www.google.com/search?q=eforma&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                "serp_item_types": [
+                  "organic",
+                  "related_searches",
+                  "google_reviews",
+                  "knowledge_graph",
+                  "images"
+                ],
+                "se_results_count": 114,
+                "keyword_difficulty": 0,
+                "is_lost": false,
+                "last_updated_time": "2026-07-04 06:30:02 +00:00",
+                "previous_updated_time": "2026-05-23 22:13:57 +00:00"
+              }
+            },
+            {
+              "se_type": "google",
+              "keyword_data": {
+                "se_type": "google",
+                "keyword": "alta cabinets",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-07-11 04:21:51 +00:00",
+                  "competition": 0.10999999940395355,
+                  "competition_level": "LOW",
+                  "cpc": 1.850000023841858,
+                  "search_volume": 110,
+                  "low_top_of_page_bid": 1.440000057220459,
+                  "high_top_of_page_bid": 17.719999313354492,
+                  "categories": [
+                    10009,
+                    11282
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2026,
+                      "month": 6,
+                      "search_volume": 170
+                    },
+                    {
+                      "year": 2026,
+                      "month": 5,
+                      "search_volume": 210
+                    },
+                    {
+                      "year": 2026,
+                      "month": 4,
+                      "search_volume": 170
+                    },
+                    {
+                      "year": 2026,
+                      "month": 3,
+                      "search_volume": 210
+                    },
+                    {
+                      "year": 2026,
+                      "month": 2,
+                      "search_volume": 110
+                    },
+                    {
+                      "year": 2026,
+                      "month": 1,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 210
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 90
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 40
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": -19,
+                    "quarterly": 0,
+                    "yearly": 467
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": null,
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 2,
+                  "detected_language": "en",
+                  "is_another_language": false
+                },
+                "serp_info": {
+                  "se_type": "google",
+                  "check_url": "https://www.google.com/search?q=alta%20cabinets&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                  "serp_item_types": [
+                    "local_pack",
+                    "organic",
+                    "people_also_ask",
+                    "related_searches",
+                    "popular_products"
+                  ],
+                  "se_results_count": 179,
+                  "last_updated_time": "2026-07-14 07:28:32 +00:00",
+                  "previous_updated_time": "2026-05-29 12:29:55 +00:00"
+                },
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 31.600000381469727,
+                  "dofollow": 19.100000381469727,
+                  "referring_pages": 20.5,
+                  "referring_domains": 6.199999809265137,
+                  "referring_main_domains": 5.599999904632568,
+                  "rank": 74,
+                  "main_domain_rank": 449.6000061035156,
+                  "last_updated_time": "2026-07-14 07:29:09 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "navigational",
+                  "foreign_intent": [
+                    "transactional",
+                    "commercial"
+                  ],
+                  "last_updated_time": "2026-04-29 03:44:00 +00:00"
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "google",
+                "serp_item": {
+                  "se_type": "google",
+                  "type": "organic",
+                  "rank_group": 14,
+                  "rank_absolute": 19,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]",
+                  "domain": "wassersfurniture.com",
+                  "title": "Boutique Alta Cabinet",
+                  "url": "https://wassersfurniture.com/products/boutique-alta-cabinet",
+                  "breadcrumb": "https://wassersfurniture.com \u203a products \u203a boutique-alta-c...",
+                  "website_name": "Wasser's Exclusive Furniture",
+                  "is_image": false,
+                  "is_video": false,
+                  "is_featured_snippet": false,
+                  "is_malicious": false,
+                  "description": "The most valuable items are displayed and preserved at once by the exquisite Boutique sideboard, conceived by Alberto Danese. The internal glass shelves,\u00a0...",
+                  "pre_snippet": null,
+                  "extended_snippet": null,
+                  "amp_version": false,
+                  "rating": null,
+                  "highlighted": [
+                    "exquisite Boutique sideboard"
+                  ],
+                  "links": null,
+                  "about_this_result": null,
+                  "main_domain": "wassersfurniture.com",
+                  "relative_url": "/products/boutique-alta-cabinet",
+                  "etv": 0.6159999966621399,
+                  "estimated_paid_traffic_cost": 1.1396000385284424,
+                  "clickstream_etv": null,
+                  "rank_changes": {
+                    "previous_rank_absolute": null,
+                    "is_new": true,
+                    "is_up": false,
+                    "is_down": false
+                  },
+                  "backlinks_info": null,
+                  "rank_info": {
+                    "page_rank": 0,
+                    "main_domain_rank": 189
+                  }
+                },
+                "check_url": "https://www.google.com/search?q=alta%20cabinets&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                "serp_item_types": [
+                  "local_pack",
+                  "organic",
+                  "people_also_ask",
+                  "related_searches",
+                  "popular_products"
+                ],
+                "se_results_count": 179,
+                "keyword_difficulty": 2,
+                "is_lost": false,
+                "last_updated_time": "2026-07-14 07:28:32 +00:00",
+                "previous_updated_time": "2026-05-29 12:29:55 +00:00"
+              }
+            },
+            {
+              "se_type": "google",
+              "keyword_data": {
+                "se_type": "google",
+                "keyword": "onyx console table",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-07-15 21:11:31 +00:00",
+                  "competition": 1,
+                  "competition_level": "HIGH",
+                  "cpc": 1.0099999904632568,
+                  "search_volume": 50,
+                  "low_top_of_page_bid": 0.949999988079071,
+                  "high_top_of_page_bid": 4.119999885559082,
+                  "categories": [
+                    10009,
+                    10009,
+                    10413,
+                    10413,
+                    11574,
+                    11574,
+                    12819
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2026,
+                      "month": 6,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2026,
+                      "month": 5,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2026,
+                      "month": 4,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2026,
+                      "month": 3,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2026,
+                      "month": 2,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2026,
+                      "month": 1,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 50
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 40,
+                    "quarterly": 40,
+                    "yearly": 0
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": null,
+                  "synonym_clustering_algorithm": null,
+                  "keyword_difficulty": 0,
+                  "detected_language": "it",
+                  "is_another_language": true
+                },
+                "serp_info": {
+                  "se_type": "google",
+                  "check_url": "https://www.google.com/search?q=onyx%20console%20table&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                  "serp_item_types": [
+                    "images",
+                    "popular_products",
+                    "organic",
+                    "related_searches"
+                  ],
+                  "se_results_count": 2760000,
+                  "last_updated_time": "2026-05-09 03:05:46 +00:00",
+                  "previous_updated_time": "2026-03-26 23:25:35 +00:00"
+                },
+                "avg_backlinks_info": null,
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "transactional",
+                  "foreign_intent": null,
+                  "last_updated_time": "2026-04-29 17:53:38 +00:00"
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "google",
+                "serp_item": {
+                  "se_type": "google",
+                  "type": "organic",
+                  "rank_group": 11,
+                  "rank_absolute": 17,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]",
+                  "domain": "wassersfurniture.com",
+                  "title": "Stone International Onyx Console Table",
+                  "url": "https://wassersfurniture.com/stone-international-onyx-console-table.html",
+                  "breadcrumb": "https://wassersfurniture.com \u203a stone-international-onyx-c...",
+                  "website_name": "Wasser's Furniture",
+                  "is_image": false,
+                  "is_video": false,
+                  "is_featured_snippet": false,
+                  "is_malicious": false,
+                  "description": "Console table - Polished steel base Dimensions: 67\" x 22\" x h. 29 Weight: 187\" In Stock and on display in our Hallandale/Aventura Showroom. Read more",
+                  "pre_snippet": null,
+                  "extended_snippet": null,
+                  "amp_version": false,
+                  "rating": null,
+                  "highlighted": [
+                    "Dimensions: 67\" x 22\" x h. 29"
+                  ],
+                  "links": null,
+                  "about_this_result": null,
+                  "main_domain": "wassersfurniture.com",
+                  "relative_url": "/stone-international-onyx-console-table.html",
+                  "etv": 0.45500001311302185,
+                  "estimated_paid_traffic_cost": 0.45954999327659607,
+                  "clickstream_etv": null,
+                  "rank_changes": {
+                    "previous_rank_absolute": null,
+                    "is_new": true,
+                    "is_up": false,
+                    "is_down": false
+                  },
+                  "backlinks_info": null,
+                  "rank_info": {
+                    "page_rank": 0,
+                    "main_domain_rank": 194
+                  }
+                },
+                "check_url": "https://www.google.com/search?q=onyx%20console%20table&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                "serp_item_types": [
+                  "images",
+                  "popular_products",
+                  "organic",
+                  "related_searches"
+                ],
+                "se_results_count": 2760000,
+                "keyword_difficulty": 0,
+                "is_lost": false,
+                "last_updated_time": "2026-05-09 03:05:46 +00:00",
+                "previous_updated_time": "2026-03-26 23:25:35 +00:00"
+              }
+            },
+            {
+              "se_type": "google",
+              "keyword_data": {
+                "se_type": "google",
+                "keyword": "pink bead chandelier",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-07-13 01:55:05 +00:00",
+                  "competition": 1,
+                  "competition_level": "HIGH",
+                  "cpc": 0.9599999785423279,
+                  "search_volume": 40,
+                  "low_top_of_page_bid": 0.4399999976158142,
+                  "high_top_of_page_bid": 1.6700000762939453,
+                  "categories": [
+                    10004,
+                    10282,
+                    11293,
+                    12612
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2026,
+                      "month": 6,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2026,
+                      "month": 5,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2026,
+                      "month": 4,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2026,
+                      "month": 3,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2026,
+                      "month": 2,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2026,
+                      "month": 1,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 40
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 40,
+                    "quarterly": 133,
+                    "yearly": 75
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": "beaded chandelier pink",
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 0,
+                  "detected_language": "en",
+                  "is_another_language": false
+                },
+                "serp_info": {
+                  "se_type": "google",
+                  "check_url": "https://www.google.com/search?q=pink%20bead%20chandelier&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                  "serp_item_types": [
+                    "images",
+                    "organic",
+                    "popular_products"
+                  ],
+                  "se_results_count": 2160000,
+                  "last_updated_time": "2026-04-13 22:36:49 +00:00",
+                  "previous_updated_time": "2025-09-10 06:40:18 +00:00"
+                },
+                "avg_backlinks_info": null,
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "transactional",
+                  "foreign_intent": null,
+                  "last_updated_time": "2026-04-29 18:47:45 +00:00"
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "google",
+                "serp_item": {
+                  "se_type": "google",
+                  "type": "organic",
+                  "rank_group": 11,
+                  "rank_absolute": 14,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]",
+                  "domain": "wassersfurniture.com",
+                  "title": "Little Wasser's Boho Wood Bead Pink Chandelier",
+                  "url": "https://wassersfurniture.com/little-wasser-s-boho-wood-bead-pink-chandelier.html",
+                  "breadcrumb": "https://wassersfurniture.com \u203a little-wasser-s-boho-woo...",
+                  "website_name": "Wasser's Furniture",
+                  "is_image": true,
+                  "is_video": false,
+                  "is_featured_snippet": false,
+                  "is_malicious": false,
+                  "description": "Classic style meets modern charm with this chandelier. A bevy of draped wooden beads in weathered white, dresses up the steel structure. Read more",
+                  "pre_snippet": null,
+                  "extended_snippet": null,
+                  "amp_version": false,
+                  "rating": null,
+                  "highlighted": [
+                    "Classic style meets modern charm with this chandelier"
+                  ],
+                  "links": null,
+                  "about_this_result": null,
+                  "main_domain": "wassersfurniture.com",
+                  "relative_url": "/little-wasser-s-boho-wood-bead-pink-chandelier.html",
+                  "etv": 0.36399999260902405,
+                  "estimated_paid_traffic_cost": 0.3494400084018707,
+                  "clickstream_etv": null,
+                  "rank_changes": {
+                    "previous_rank_absolute": 9,
+                    "is_new": false,
+                    "is_up": false,
+                    "is_down": true
+                  },
+                  "backlinks_info": null,
+                  "rank_info": {
+                    "page_rank": 0,
+                    "main_domain_rank": 196
+                  }
+                },
+                "check_url": "https://www.google.com/search?q=pink%20bead%20chandelier&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                "serp_item_types": [
+                  "images",
+                  "organic",
+                  "popular_products"
+                ],
+                "se_results_count": 2160000,
+                "keyword_difficulty": 0,
+                "is_lost": false,
+                "last_updated_time": "2026-04-13 22:36:49 +00:00",
+                "previous_updated_time": "2025-09-10 06:40:18 +00:00"
+              }
+            },
+            {
+              "se_type": "google",
+              "keyword_data": {
+                "se_type": "google",
+                "keyword": "american leather sleeper sofa prices",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-07-12 05:17:48 +00:00",
+                  "competition": 1,
+                  "competition_level": "HIGH",
+                  "cpc": 2.799999952316284,
+                  "search_volume": 140,
+                  "low_top_of_page_bid": 0.5799999833106995,
+                  "high_top_of_page_bid": 3.509999990463257,
+                  "categories": [
+                    10009,
+                    10413,
+                    11574,
+                    12818
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2026,
+                      "month": 6,
+                      "search_volume": 110
+                    },
+                    {
+                      "year": 2026,
+                      "month": 5,
+                      "search_volume": 140
+                    },
+                    {
+                      "year": 2026,
+                      "month": 4,
+                      "search_volume": 140
+                    },
+                    {
+                      "year": 2026,
+                      "month": 3,
+                      "search_volume": 140
+                    },
+                    {
+                      "year": 2026,
+                      "month": 2,
+                      "search_volume": 140
+                    },
+                    {
+                      "year": 2026,
+                      "month": 1,
+                      "search_volume": 170
+                    },
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 110
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 110
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 110
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 90
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 110
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 90
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": -21,
+                    "quarterly": -21,
+                    "yearly": 22
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": null,
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 0,
+                  "detected_language": "en",
+                  "is_another_language": false
+                },
+                "serp_info": {
+                  "se_type": "google",
+                  "check_url": "https://www.google.com/search?q=american%20leather%20sleeper%20sofa%20prices&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                  "serp_item_types": [
+                    "popular_products",
+                    "ai_overview",
+                    "organic",
+                    "people_also_ask",
+                    "related_searches",
+                    "images"
+                  ],
+                  "se_results_count": 1320000,
+                  "last_updated_time": "2026-05-04 04:57:46 +00:00",
+                  "previous_updated_time": "2026-03-07 09:59:38 +00:00"
+                },
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 3.5999999046325684,
+                  "dofollow": 2,
+                  "referring_pages": 2.5,
+                  "referring_domains": 1.600000023841858,
+                  "referring_main_domains": 1.5,
+                  "rank": 24,
+                  "main_domain_rank": 349.79998779296875,
+                  "last_updated_time": "2026-05-04 04:57:47 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "commercial",
+                  "foreign_intent": [
+                    "transactional"
+                  ],
+                  "last_updated_time": "2026-04-29 00:39:04 +00:00"
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "google",
+                "serp_item": {
+                  "se_type": "google",
+                  "type": "organic",
+                  "rank_group": 20,
+                  "rank_absolute": 25,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]/div[1]",
+                  "domain": "wassersfurniture.com",
+                  "title": "American Leather Comfort Sleeper - Wasser's Furniture",
+                  "url": "https://wassersfurniture.com/shop-by-brand/a-c/american-leather/comfort-sleeper-by-american-leather.html",
+                  "breadcrumb": "https://wassersfurniture.com \u203a shop-by-brand \u203a comfort-...",
+                  "website_name": "wassersfurniture.com",
+                  "is_image": true,
+                  "is_video": false,
+                  "is_featured_snippet": false,
+                  "is_malicious": false,
+                  "description": "American Leather Comfort Sleepers and Sleeper Sofas at the Lowest Prices ! Delivery in 30 Days, Anywhere in the USA. Call Now: 954-454-9500.",
+                  "pre_snippet": null,
+                  "extended_snippet": null,
+                  "amp_version": false,
+                  "rating": null,
+                  "highlighted": [
+                    "American Leather Comfort Sleepers and Sleeper Sofas at the Lowest Prices"
+                  ],
+                  "links": null,
+                  "about_this_result": null,
+                  "main_domain": "wassersfurniture.com",
+                  "relative_url": "/shop-by-brand/a-c/american-leather/comfort-sleeper-by-american-leather.html",
+                  "etv": 0.335999995470047,
+                  "estimated_paid_traffic_cost": 0.9408000111579895,
+                  "clickstream_etv": null,
+                  "rank_changes": {
+                    "previous_rank_absolute": 52,
+                    "is_new": false,
+                    "is_up": true,
+                    "is_down": false
+                  },
+                  "backlinks_info": null,
+                  "rank_info": {
+                    "page_rank": 0,
+                    "main_domain_rank": 197
+                  }
+                },
+                "check_url": "https://www.google.com/search?q=american%20leather%20sleeper%20sofa%20prices&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                "serp_item_types": [
+                  "popular_products",
+                  "ai_overview",
+                  "organic",
+                  "people_also_ask",
+                  "related_searches",
+                  "images"
+                ],
+                "se_results_count": 1320000,
+                "keyword_difficulty": 0,
+                "is_lost": false,
+                "last_updated_time": "2026-05-04 04:57:46 +00:00",
+                "previous_updated_time": "2026-03-07 09:59:38 +00:00"
+              }
+            },
+            {
+              "se_type": "google",
+              "keyword_data": {
+                "se_type": "google",
+                "keyword": "american leather operations",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-07-11 00:34:18 +00:00",
+                  "competition": 0.05000000074505806,
+                  "competition_level": "LOW",
+                  "cpc": 7.510000228881836,
+                  "search_volume": 70,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10004,
+                    10298,
+                    11300,
+                    13464
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2026,
+                      "month": 6,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2026,
+                      "month": 5,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2026,
+                      "month": 4,
+                      "search_volume": 90
+                    },
+                    {
+                      "year": 2026,
+                      "month": 3,
+                      "search_volume": 90
+                    },
+                    {
+                      "year": 2026,
+                      "month": 2,
+                      "search_volume": 90
+                    },
+                    {
+                      "year": 2026,
+                      "month": 1,
+                      "search_volume": 90
+                    },
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 110
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 90
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 50
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 0,
+                    "quarterly": -22,
+                    "yearly": 0
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": null,
+                  "synonym_clustering_algorithm": null,
+                  "keyword_difficulty": 0,
+                  "detected_language": "en",
+                  "is_another_language": false
+                },
+                "serp_info": {
+                  "se_type": "google",
+                  "check_url": "https://www.google.com/search?q=american%20leather%20operations&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                  "serp_item_types": [
+                    "organic",
+                    "video",
+                    "people_also_ask",
+                    "related_searches",
+                    "knowledge_graph",
+                    "google_reviews",
+                    "images"
+                  ],
+                  "se_results_count": 43300000,
+                  "last_updated_time": "2026-05-08 05:54:22 +00:00",
+                  "previous_updated_time": "2026-03-27 01:54:39 +00:00"
+                },
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 167.60000610351562,
+                  "dofollow": 102.5,
+                  "referring_pages": 122.5999984741211,
+                  "referring_domains": 44.900001525878906,
+                  "referring_main_domains": 42.79999923706055,
+                  "rank": 51.70000076293945,
+                  "main_domain_rank": 438,
+                  "last_updated_time": "2026-05-08 05:54:23 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "navigational",
+                  "foreign_intent": [
+                    "commercial"
+                  ],
+                  "last_updated_time": "2026-04-29 00:15:40 +00:00"
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "google",
+                "serp_item": {
+                  "se_type": "google",
+                  "type": "organic",
+                  "rank_group": 16,
+                  "rank_absolute": 19,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]",
+                  "domain": "wassersfurniture.com",
+                  "title": "American Leather \u2013 wassersfurniture",
+                  "url": "https://wassersfurniture.com/collections/american-leather",
+                  "breadcrumb": "https://wassersfurniture.com \u203a collections \u203a american-leat...",
+                  "website_name": "wassersfurniture.com",
+                  "is_image": false,
+                  "is_video": false,
+                  "is_featured_snippet": false,
+                  "is_malicious": false,
+                  "description": "From a small team to more than 600 employees, the family culture of American Leather is company pillar. We believe that employees are our biggest asset\u00a0... Read more",
+                  "pre_snippet": null,
+                  "extended_snippet": null,
+                  "amp_version": false,
+                  "rating": null,
+                  "highlighted": [
+                    "more than 600 employees"
+                  ],
+                  "links": null,
+                  "about_this_result": null,
+                  "main_domain": "wassersfurniture.com",
+                  "relative_url": "/collections/american-leather",
+                  "etv": 0.3009999990463257,
+                  "estimated_paid_traffic_cost": 2.260509967803955,
+                  "clickstream_etv": null,
+                  "rank_changes": {
+                    "previous_rank_absolute": null,
+                    "is_new": true,
+                    "is_up": false,
+                    "is_down": false
+                  },
+                  "backlinks_info": {
+                    "referring_domains": 1,
+                    "referring_main_domains": 1,
+                    "referring_pages": 1,
+                    "dofollow": 1,
+                    "backlinks": 1,
+                    "time_update": "2026-07-11 04:18:35 +00:00"
+                  },
+                  "rank_info": {
+                    "page_rank": 0,
+                    "main_domain_rank": 197
+                  }
+                },
+                "check_url": "https://www.google.com/search?q=american%20leather%20operations&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                "serp_item_types": [
+                  "organic",
+                  "video",
+                  "people_also_ask",
+                  "related_searches",
+                  "knowledge_graph",
+                  "google_reviews",
+                  "images"
+                ],
+                "se_results_count": 43300000,
+                "keyword_difficulty": 0,
+                "is_lost": false,
+                "last_updated_time": "2026-05-08 05:54:22 +00:00",
+                "previous_updated_time": "2026-03-27 01:54:39 +00:00"
+              }
+            },
+            {
+              "se_type": "google",
+              "keyword_data": {
+                "se_type": "google",
+                "keyword": "african print accent chair",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-07-10 02:29:43 +00:00",
+                  "competition": 1,
+                  "competition_level": "HIGH",
+                  "cpc": 1.3600000143051147,
+                  "search_volume": 40,
+                  "low_top_of_page_bid": 0.25999999046325684,
+                  "high_top_of_page_bid": 1.100000023841858,
+                  "categories": [
+                    10009,
+                    10413,
+                    11574,
+                    12818
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2026,
+                      "month": 6,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2026,
+                      "month": 5,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2026,
+                      "month": 4,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2026,
+                      "month": 3,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2026,
+                      "month": 2,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2026,
+                      "month": 1,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 30
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": -25,
+                    "quarterly": -25,
+                    "yearly": -57
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": null,
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 0,
+                  "detected_language": "en",
+                  "is_another_language": false
+                },
+                "serp_info": {
+                  "se_type": "google",
+                  "check_url": "https://www.google.com/search?q=african%20print%20accent%20chair&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                  "serp_item_types": [
+                    "organic",
+                    "popular_products",
+                    "images",
+                    "related_searches"
+                  ],
+                  "se_results_count": 2170000,
+                  "last_updated_time": "2026-04-16 17:45:30 +00:00",
+                  "previous_updated_time": "2026-02-23 23:32:08 +00:00"
+                },
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 0.699999988079071,
+                  "dofollow": 0.699999988079071,
+                  "referring_pages": 0.699999988079071,
+                  "referring_domains": 0.30000001192092896,
+                  "referring_main_domains": 0.30000001192092896,
+                  "rank": 7.5,
+                  "main_domain_rank": 579.9000244140625,
+                  "last_updated_time": "2026-04-16 17:49:36 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "transactional",
+                  "foreign_intent": null,
+                  "last_updated_time": "2026-04-29 05:16:08 +00:00"
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "google",
+                "serp_item": {
+                  "se_type": "google",
+                  "type": "organic",
+                  "rank_group": 12,
+                  "rank_absolute": 16,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]",
+                  "domain": "wassersfurniture.com",
+                  "title": "Swivel Chair Custom African Print Fabric",
+                  "url": "https://wassersfurniture.com/swivel-chair-custom-african-print-fabric.html",
+                  "breadcrumb": "https://wassersfurniture.com \u203a swivel-chair-custom-afric...",
+                  "website_name": "Wasser's Furniture",
+                  "is_image": false,
+                  "is_video": false,
+                  "is_featured_snippet": false,
+                  "is_malicious": false,
+                  "description": "Swivel Chair Custom African Print Fabric. Be the first to review this product. was $2,425.00\u00a0... Read more",
+                  "pre_snippet": null,
+                  "extended_snippet": null,
+                  "amp_version": false,
+                  "rating": null,
+                  "highlighted": [
+                    "Swivel Chair Custom African Print Fabric"
+                  ],
+                  "links": null,
+                  "about_this_result": null,
+                  "main_domain": "wassersfurniture.com",
+                  "relative_url": "/swivel-chair-custom-african-print-fabric.html",
+                  "etv": 0.30000001192092896,
+                  "estimated_paid_traffic_cost": 0.40799999237060547,
+                  "clickstream_etv": null,
+                  "rank_changes": {
+                    "previous_rank_absolute": 17,
+                    "is_new": false,
+                    "is_up": true,
+                    "is_down": false
+                  },
+                  "backlinks_info": null,
+                  "rank_info": {
+                    "page_rank": 0,
+                    "main_domain_rank": 196
+                  }
+                },
+                "check_url": "https://www.google.com/search?q=african%20print%20accent%20chair&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                "serp_item_types": [
+                  "organic",
+                  "popular_products",
+                  "images",
+                  "related_searches"
+                ],
+                "se_results_count": 2170000,
+                "keyword_difficulty": 0,
+                "is_lost": false,
+                "last_updated_time": "2026-04-16 17:45:30 +00:00",
+                "previous_updated_time": "2026-02-23 23:32:08 +00:00"
+              }
+            },
+            {
+              "se_type": "google",
+              "keyword_data": {
+                "se_type": "google",
+                "keyword": "domitalia",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-07-14 13:56:43 +00:00",
+                  "competition": 0.800000011920929,
+                  "competition_level": "HIGH",
+                  "cpc": 1.2400000095367432,
+                  "search_volume": 30,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10017,
+                    10142,
+                    10769,
+                    12067
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2026,
+                      "month": 6,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2026,
+                      "month": 5,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2026,
+                      "month": 4,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2026,
+                      "month": 3,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2026,
+                      "month": 2,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2026,
+                      "month": 1,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 30
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 100,
+                    "quarterly": 33,
+                    "yearly": 33
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": "dom's italia",
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 0,
+                  "detected_language": "es",
+                  "is_another_language": true
+                },
+                "serp_info": {
+                  "se_type": "google",
+                  "check_url": "https://www.google.com/search?q=domitalia&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                  "serp_item_types": [
+                    "organic",
+                    "popular_products",
+                    "related_searches",
+                    "images"
+                  ],
+                  "se_results_count": 172000,
+                  "last_updated_time": "2026-04-15 02:48:48 +00:00",
+                  "previous_updated_time": "2026-02-25 22:49:39 +00:00"
+                },
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 1.2999999523162842,
+                  "dofollow": 1.100000023841858,
+                  "referring_pages": 1.2999999523162842,
+                  "referring_domains": 1.2000000476837158,
+                  "referring_main_domains": 1.100000023841858,
+                  "rank": 16.600000381469727,
+                  "main_domain_rank": 309.1000061035156,
+                  "last_updated_time": "2026-04-15 02:48:48 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "informational",
+                  "foreign_intent": [
+                    "navigational"
+                  ],
+                  "last_updated_time": "2026-04-27 14:41:13 +00:00"
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "google",
+                "serp_item": {
+                  "se_type": "google",
+                  "type": "organic",
+                  "rank_group": 11,
+                  "rank_absolute": 13,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+                  "domain": "wassersfurniture.com",
+                  "title": "Domitalia Furniture",
+                  "url": "https://wassersfurniture.com/shop-by-brand/d-g/dom-italia.html",
+                  "breadcrumb": "https://wassersfurniture.com \u203a shop-by-brand \u203a dom-italia",
+                  "website_name": "Wasser's Furniture",
+                  "is_image": false,
+                  "is_video": false,
+                  "is_featured_snippet": false,
+                  "is_malicious": false,
+                  "description": "Since its on set, DOMITALIA* has always been specialised in producing chairs, tables and occasionals, for residential and contract or community markets. Read more",
+                  "pre_snippet": null,
+                  "extended_snippet": null,
+                  "amp_version": false,
+                  "rating": null,
+                  "highlighted": [
+                    "DOMITALIA"
+                  ],
+                  "links": null,
+                  "about_this_result": null,
+                  "main_domain": "wassersfurniture.com",
+                  "relative_url": "/shop-by-brand/d-g/dom-italia.html",
+                  "etv": 0.27300000190734863,
+                  "estimated_paid_traffic_cost": 0.33851999044418335,
+                  "clickstream_etv": null,
+                  "rank_changes": {
+                    "previous_rank_absolute": 14,
+                    "is_new": false,
+                    "is_up": true,
+                    "is_down": false
+                  },
+                  "backlinks_info": null,
+                  "rank_info": {
+                    "page_rank": 0,
+                    "main_domain_rank": 196
+                  }
+                },
+                "check_url": "https://www.google.com/search?q=domitalia&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                "serp_item_types": [
+                  "organic",
+                  "popular_products",
+                  "related_searches",
+                  "images"
+                ],
+                "se_results_count": 172000,
+                "keyword_difficulty": 0,
+                "is_lost": false,
+                "last_updated_time": "2026-04-15 02:48:48 +00:00",
+                "previous_updated_time": "2026-02-25 22:49:39 +00:00"
+              }
+            },
+            {
+              "se_type": "google",
+              "keyword_data": {
+                "se_type": "google",
+                "keyword": "eforma furniture",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-07-15 06:24:28 +00:00",
+                  "competition": 0.5600000023841858,
+                  "competition_level": "MEDIUM",
+                  "cpc": 2.930000066757202,
+                  "search_volume": 40,
+                  "low_top_of_page_bid": 1.2899999618530273,
+                  "high_top_of_page_bid": 3.819999933242798,
+                  "categories": [
+                    10009,
+                    10413,
+                    11574
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2026,
+                      "month": 6,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2026,
+                      "month": 5,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2026,
+                      "month": 4,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2026,
+                      "month": 3,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2026,
+                      "month": 2,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2026,
+                      "month": 1,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 40
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 0,
+                    "quarterly": -20,
+                    "yearly": 0
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": null,
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 0,
+                  "detected_language": "en",
+                  "is_another_language": false
+                },
+                "serp_info": {
+                  "se_type": "google",
+                  "check_url": "https://www.google.com/search?q=eforma%20furniture&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                  "serp_item_types": [
+                    "organic",
+                    "popular_products",
+                    "related_searches",
+                    "google_reviews",
+                    "knowledge_graph",
+                    "images"
+                  ],
+                  "se_results_count": 708000,
+                  "last_updated_time": "2026-05-12 12:32:13 +00:00",
+                  "previous_updated_time": "2026-03-27 05:34:00 +00:00"
+                },
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 22.799999237060547,
+                  "dofollow": 18.100000381469727,
+                  "referring_pages": 22.100000381469727,
+                  "referring_domains": 2.200000047683716,
+                  "referring_main_domains": 2,
+                  "rank": 36.5,
+                  "main_domain_rank": 370.1000061035156,
+                  "last_updated_time": "2026-05-12 12:32:13 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "navigational",
+                  "foreign_intent": null,
+                  "last_updated_time": "2026-04-27 18:07:46 +00:00"
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "google",
+                "serp_item": {
+                  "se_type": "google",
+                  "type": "organic",
+                  "rank_group": 13,
+                  "rank_absolute": 15,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]",
+                  "domain": "wassersfurniture.com",
+                  "title": "Eforma - D-G - Brands - Wasser's Furniture",
+                  "url": "https://wassersfurniture.com/shop-by-brand/d-g/eforma.html",
+                  "breadcrumb": "https://wassersfurniture.com \u203a shop-by-brand \u203a eforma",
+                  "website_name": "wassersfurniture.com",
+                  "is_image": false,
+                  "is_video": false,
+                  "is_featured_snippet": false,
+                  "is_malicious": false,
+                  "description": "Shop furniture - 1 of a kind, executive gifts - antiques - baby, juvenile, kids, teen, tween - bars & bar stools - accessories & pedestals - bedroom - dining\u00a0... Read more",
+                  "pre_snippet": null,
+                  "extended_snippet": null,
+                  "amp_version": false,
+                  "rating": null,
+                  "highlighted": [
+                    "Shop furniture"
+                  ],
+                  "links": null,
+                  "about_this_result": null,
+                  "main_domain": "wassersfurniture.com",
+                  "relative_url": "/shop-by-brand/d-g/eforma.html",
+                  "etv": 0.23600000143051147,
+                  "estimated_paid_traffic_cost": 0.6914799809455872,
+                  "clickstream_etv": null,
+                  "rank_changes": {
+                    "previous_rank_absolute": null,
+                    "is_new": true,
+                    "is_up": false,
+                    "is_down": false
+                  },
+                  "backlinks_info": null,
+                  "rank_info": {
+                    "page_rank": 0,
+                    "main_domain_rank": 194
+                  }
+                },
+                "check_url": "https://www.google.com/search?q=eforma%20furniture&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                "serp_item_types": [
+                  "organic",
+                  "popular_products",
+                  "related_searches",
+                  "google_reviews",
+                  "knowledge_graph",
+                  "images"
+                ],
+                "se_results_count": 708000,
+                "keyword_difficulty": 0,
+                "is_lost": false,
+                "last_updated_time": "2026-05-12 12:32:13 +00:00",
+                "previous_updated_time": "2026-03-27 05:34:00 +00:00"
+              }
+            },
+            {
+              "se_type": "google",
+              "keyword_data": {
+                "se_type": "google",
+                "keyword": "marlon upholstered standard bed",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-07-10 08:03:05 +00:00",
+                  "competition": 1,
+                  "competition_level": "HIGH",
+                  "cpc": 0.949999988079071,
+                  "search_volume": 70,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10009,
+                    10413,
+                    11571,
+                    12812,
+                    13260
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2026,
+                      "month": 6,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2026,
+                      "month": 5,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2026,
+                      "month": 4,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2026,
+                      "month": 3,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2026,
+                      "month": 2,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2026,
+                      "month": 1,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 70
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 0,
+                    "quarterly": 0,
+                    "yearly": 0
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": null,
+                  "synonym_clustering_algorithm": null,
+                  "keyword_difficulty": 0,
+                  "detected_language": "en",
+                  "is_another_language": false
+                },
+                "serp_info": {
+                  "se_type": "google",
+                  "check_url": "https://www.google.com/search?q=marlon%20upholstered%20standard%20bed&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                  "serp_item_types": [
+                    "ai_overview",
+                    "organic",
+                    "people_also_ask",
+                    "related_searches",
+                    "google_reviews",
+                    "knowledge_graph",
+                    "popular_products"
+                  ],
+                  "se_results_count": 217000,
+                  "last_updated_time": "2026-07-19 00:42:20 +00:00",
+                  "previous_updated_time": "2026-05-30 20:20:14 +00:00"
+                },
+                "avg_backlinks_info": null,
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "transactional",
+                  "foreign_intent": null,
+                  "last_updated_time": "2026-04-29 14:52:02 +00:00"
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "google",
+                "serp_item": {
+                  "se_type": "google",
+                  "type": "organic",
+                  "rank_group": 18,
+                  "rank_absolute": 21,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]",
+                  "domain": "wassersfurniture.com",
+                  "title": "Marlon Night Bed",
+                  "url": "https://wassersfurniture.com/products/marlon-night-bed",
+                  "breadcrumb": "https://wassersfurniture.com \u203a products \u203a marlon-night-bed",
+                  "website_name": "Wasser's Exclusive Furniture",
+                  "is_image": false,
+                  "is_video": false,
+                  "is_featured_snippet": false,
+                  "is_malicious": false,
+                  "description": "Marlon Night is a king-size leather-upholstered bed with a strikingly dramatic design and a harmonious blend of classic charm and modern flair.",
+                  "pre_snippet": null,
+                  "extended_snippet": null,
+                  "amp_version": false,
+                  "rating": null,
+                  "highlighted": [
+                    "king-size leather-upholstered bed"
+                  ],
+                  "links": null,
+                  "about_this_result": null,
+                  "main_domain": "wassersfurniture.com",
+                  "relative_url": "/products/marlon-night-bed",
+                  "etv": 0.23100000619888306,
+                  "estimated_paid_traffic_cost": 0.2194499969482422,
+                  "clickstream_etv": null,
+                  "rank_changes": {
+                    "previous_rank_absolute": null,
+                    "is_new": true,
+                    "is_up": false,
+                    "is_down": false
+                  },
+                  "backlinks_info": null,
+                  "rank_info": {
+                    "page_rank": 0,
+                    "main_domain_rank": 189
+                  }
+                },
+                "check_url": "https://www.google.com/search?q=marlon%20upholstered%20standard%20bed&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                "serp_item_types": [
+                  "ai_overview",
+                  "organic",
+                  "people_also_ask",
+                  "related_searches",
+                  "google_reviews",
+                  "knowledge_graph",
+                  "popular_products"
+                ],
+                "se_results_count": 217000,
+                "keyword_difficulty": 0,
+                "is_lost": false,
+                "last_updated_time": "2026-07-19 00:42:20 +00:00",
+                "previous_updated_time": "2026-05-30 20:20:14 +00:00"
+              }
+            },
+            {
+              "se_type": "google",
+              "keyword_data": {
+                "se_type": "google",
+                "keyword": "terminal-table",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-07-14 09:41:30 +00:00",
+                  "competition": 0,
+                  "competition_level": "LOW",
+                  "cpc": null,
+                  "search_volume": 50,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10009,
+                    10413,
+                    11574,
+                    12819
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2026,
+                      "month": 6,
+                      "search_volume": 90
+                    },
+                    {
+                      "year": 2026,
+                      "month": 5,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2026,
+                      "month": 4,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2026,
+                      "month": 3,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2026,
+                      "month": 2,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2026,
+                      "month": 1,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 90
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 80,
+                    "quarterly": 125,
+                    "yearly": 80
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": "terminal table",
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 3,
+                  "detected_language": "zh-TW",
+                  "is_another_language": true
+                },
+                "serp_info": {
+                  "se_type": "google",
+                  "check_url": "https://www.google.com/search?q=terminal-table&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                  "serp_item_types": [
+                    "organic",
+                    "images",
+                    "people_also_ask",
+                    "video",
+                    "related_searches"
+                  ],
+                  "se_results_count": 375000000,
+                  "last_updated_time": "2026-05-08 17:05:19 +00:00",
+                  "previous_updated_time": "2026-03-23 20:55:37 +00:00"
+                },
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 128.1999969482422,
+                  "dofollow": 69.4000015258789,
+                  "referring_pages": 121.30000305175781,
+                  "referring_domains": 16.200000762939453,
+                  "referring_main_domains": 14.399999618530273,
+                  "rank": 60.70000076293945,
+                  "main_domain_rank": 585.2999877929688,
+                  "last_updated_time": "2026-05-08 17:05:20 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "transactional",
+                  "foreign_intent": null,
+                  "last_updated_time": "2026-04-29 22:44:16 +00:00"
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "google",
+                "serp_item": {
+                  "se_type": "google",
+                  "type": "organic",
+                  "rank_group": 17,
+                  "rank_absolute": 22,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]",
+                  "domain": "wassersfurniture.com",
+                  "title": "Terminal Console Table - Wasser's Furniture",
+                  "url": "https://wassersfurniture.com/products/terminal-console-table",
+                  "breadcrumb": "https://wassersfurniture.com \u203a products \u203a terminal-consol...",
+                  "website_name": "wassersfurniture.com",
+                  "is_image": true,
+                  "is_video": false,
+                  "is_featured_snippet": false,
+                  "is_malicious": false,
+                  "description": "The family includes several models. The Terminal version is a modern wooden console with an irregular solid wood top or a geometric pattern of balanced joints. Read more",
+                  "pre_snippet": null,
+                  "extended_snippet": null,
+                  "amp_version": false,
+                  "rating": null,
+                  "highlighted": [
+                    "modern wooden console with an irregular solid wood top or"
+                  ],
+                  "links": null,
+                  "about_this_result": null,
+                  "main_domain": "wassersfurniture.com",
+                  "relative_url": "/products/terminal-console-table",
+                  "etv": 0.2150000035762787,
+                  "estimated_paid_traffic_cost": null,
+                  "clickstream_etv": null,
+                  "rank_changes": {
+                    "previous_rank_absolute": null,
+                    "is_new": true,
+                    "is_up": false,
+                    "is_down": false
+                  },
+                  "backlinks_info": null,
+                  "rank_info": {
+                    "page_rank": 0,
+                    "main_domain_rank": 197
+                  }
+                },
+                "check_url": "https://www.google.com/search?q=terminal-table&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                "serp_item_types": [
+                  "organic",
+                  "images",
+                  "people_also_ask",
+                  "video",
+                  "related_searches"
+                ],
+                "se_results_count": 375000000,
+                "keyword_difficulty": 3,
+                "is_lost": false,
+                "last_updated_time": "2026-05-08 17:05:19 +00:00",
+                "previous_updated_time": "2026-03-23 20:55:37 +00:00"
+              }
+            },
+            {
+              "se_type": "google",
+              "keyword_data": {
+                "se_type": "google",
+                "keyword": "american leather dallas outlet",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-07-14 01:20:30 +00:00",
+                  "competition": 1,
+                  "competition_level": "HIGH",
+                  "cpc": 1.1100000143051147,
+                  "search_volume": 70,
+                  "low_top_of_page_bid": 1.1200000047683716,
+                  "high_top_of_page_bid": 4.059999942779541,
+                  "categories": [
+                    13575,
+                    13719
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2026,
+                      "month": 6,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2026,
+                      "month": 5,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2026,
+                      "month": 4,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2026,
+                      "month": 3,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2026,
+                      "month": 2,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2026,
+                      "month": 1,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 70
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": -29,
+                    "quarterly": 0,
+                    "yearly": -29
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": "american leather outlet dallas",
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 0,
+                  "detected_language": "en",
+                  "is_another_language": false
+                },
+                "serp_info": {
+                  "se_type": "google",
+                  "check_url": "https://www.google.com/search?q=american%20leather%20dallas%20outlet&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                  "serp_item_types": [
+                    "organic",
+                    "related_searches",
+                    "google_reviews",
+                    "knowledge_graph"
+                  ],
+                  "se_results_count": 4990000,
+                  "last_updated_time": "2026-05-08 05:43:42 +00:00",
+                  "previous_updated_time": "2025-07-19 20:08:25 +00:00"
+                },
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 167.3000030517578,
+                  "dofollow": 102,
+                  "referring_pages": 122,
+                  "referring_domains": 44.5,
+                  "referring_main_domains": 42.599998474121094,
+                  "rank": 46.400001525878906,
+                  "main_domain_rank": 423.3999938964844,
+                  "last_updated_time": "2026-05-08 05:43:44 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "commercial",
+                  "foreign_intent": [
+                    "transactional"
+                  ],
+                  "last_updated_time": "2026-04-29 02:04:24 +00:00"
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "google",
+                "serp_item": {
+                  "se_type": "google",
+                  "type": "organic",
+                  "rank_group": 19,
+                  "rank_absolute": 20,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]",
+                  "domain": "wassersfurniture.com",
+                  "title": "American Leather \u2013 wassersfurniture",
+                  "url": "https://wassersfurniture.com/collections/american-leather",
+                  "breadcrumb": "https://wassersfurniture.com \u203a collections \u203a american-leat...",
+                  "website_name": "wassersfurniture.com",
+                  "is_image": false,
+                  "is_video": false,
+                  "is_featured_snippet": false,
+                  "is_malicious": false,
+                  "description": "Have an account? Log in to check out faster. Continue shopping \u00b7 Call Us at (954) 454-9500 | info@wassersfurniture.com. More. Living Room \u00b7 Seating \u00b7 Sofas\u00a0... Read more",
+                  "pre_snippet": null,
+                  "extended_snippet": null,
+                  "amp_version": false,
+                  "rating": null,
+                  "highlighted": [
+                    "Call Us at (954) 454-9500"
+                  ],
+                  "links": null,
+                  "about_this_result": null,
+                  "main_domain": "wassersfurniture.com",
+                  "relative_url": "/collections/american-leather",
+                  "etv": 0.1889999955892563,
+                  "estimated_paid_traffic_cost": 0.20979000627994537,
+                  "clickstream_etv": null,
+                  "rank_changes": {
+                    "previous_rank_absolute": null,
+                    "is_new": true,
+                    "is_up": false,
+                    "is_down": false
+                  },
+                  "backlinks_info": {
+                    "referring_domains": 1,
+                    "referring_main_domains": 1,
+                    "referring_pages": 1,
+                    "dofollow": 1,
+                    "backlinks": 1,
+                    "time_update": "2026-07-11 04:18:35 +00:00"
+                  },
+                  "rank_info": {
+                    "page_rank": 0,
+                    "main_domain_rank": 197
+                  }
+                },
+                "check_url": "https://www.google.com/search?q=american%20leather%20dallas%20outlet&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                "serp_item_types": [
+                  "organic",
+                  "related_searches",
+                  "google_reviews",
+                  "knowledge_graph"
+                ],
+                "se_results_count": 4990000,
+                "keyword_difficulty": 0,
+                "is_lost": false,
+                "last_updated_time": "2026-05-08 05:43:42 +00:00",
+                "previous_updated_time": "2025-07-19 20:08:25 +00:00"
+              }
+            },
+            {
+              "se_type": "google",
+              "keyword_data": {
+                "se_type": "google",
+                "keyword": "american furniture leather recliners",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-07-15 20:40:06 +00:00",
+                  "competition": 1,
+                  "competition_level": "HIGH",
+                  "cpc": 0.6100000143051147,
+                  "search_volume": 30,
+                  "low_top_of_page_bid": 0.28999999165534973,
+                  "high_top_of_page_bid": 2.5,
+                  "categories": [
+                    10009,
+                    10413,
+                    11574,
+                    12818
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2026,
+                      "month": 6,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2026,
+                      "month": 5,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2026,
+                      "month": 4,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2026,
+                      "month": 3,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2026,
+                      "month": 2,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2026,
+                      "month": 1,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 40
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": -50,
+                    "quarterly": -33,
+                    "yearly": -33
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": null,
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 0,
+                  "detected_language": "en",
+                  "is_another_language": false
+                },
+                "serp_info": {
+                  "se_type": "google",
+                  "check_url": "https://www.google.com/search?q=american%20furniture%20leather%20recliners&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                  "serp_item_types": [
+                    "organic",
+                    "popular_products",
+                    "images",
+                    "people_also_ask",
+                    "local_pack",
+                    "related_searches"
+                  ],
+                  "se_results_count": 3250000,
+                  "last_updated_time": "2026-04-16 17:15:36 +00:00",
+                  "previous_updated_time": "2026-02-26 12:53:33 +00:00"
+                },
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 0.8999999761581421,
+                  "dofollow": 0.8999999761581421,
+                  "referring_pages": 0.8999999761581421,
+                  "referring_domains": 0.800000011920929,
+                  "referring_main_domains": 0.800000011920929,
+                  "rank": 20.600000381469727,
+                  "main_domain_rank": 466.79998779296875,
+                  "last_updated_time": "2026-04-16 17:25:00 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "transactional",
+                  "foreign_intent": null,
+                  "last_updated_time": "2026-04-29 00:29:27 +00:00"
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "google",
+                "serp_item": {
+                  "se_type": "google",
+                  "type": "organic",
+                  "rank_group": 13,
+                  "rank_absolute": 21,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]",
+                  "domain": "wassersfurniture.com",
+                  "title": "American Leather Comfort Recliner",
+                  "url": "https://wassersfurniture.com/shop-by-brand/a-c/american-leather/comfort-recliner-by-american-leather.html",
+                  "breadcrumb": "https://wassersfurniture.com \u203a shop-by-brand \u203a comfort...",
+                  "website_name": "Wasser's Furniture",
+                  "is_image": true,
+                  "is_video": false,
+                  "is_featured_snippet": false,
+                  "is_malicious": false,
+                  "description": "Our leather is among the finest in the world: full aniline dyed for beauty, softness, and a supple hand. We offer hundreds of fabric options including designer\u00a0...",
+                  "pre_snippet": null,
+                  "extended_snippet": null,
+                  "amp_version": false,
+                  "rating": null,
+                  "highlighted": [
+                    "leather"
+                  ],
+                  "links": null,
+                  "about_this_result": null,
+                  "main_domain": "wassersfurniture.com",
+                  "relative_url": "/shop-by-brand/a-c/american-leather/comfort-recliner-by-american-leather.html",
+                  "etv": 0.1770000010728836,
+                  "estimated_paid_traffic_cost": 0.10796999931335449,
+                  "clickstream_etv": null,
+                  "rank_changes": {
+                    "previous_rank_absolute": 40,
+                    "is_new": false,
+                    "is_up": true,
+                    "is_down": false
+                  },
+                  "backlinks_info": null,
+                  "rank_info": {
+                    "page_rank": 0,
+                    "main_domain_rank": 196
+                  }
+                },
+                "check_url": "https://www.google.com/search?q=american%20furniture%20leather%20recliners&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                "serp_item_types": [
+                  "organic",
+                  "popular_products",
+                  "images",
+                  "people_also_ask",
+                  "local_pack",
+                  "related_searches"
+                ],
+                "se_results_count": 3250000,
+                "keyword_difficulty": 0,
+                "is_lost": false,
+                "last_updated_time": "2026-04-16 17:15:36 +00:00",
+                "previous_updated_time": "2026-02-26 12:53:33 +00:00"
+              }
+            },
+            {
+              "se_type": "google",
+              "keyword_data": {
+                "se_type": "google",
+                "keyword": "adam beds",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-07-12 11:55:47 +00:00",
+                  "competition": 0.9200000166893005,
+                  "competition_level": "HIGH",
+                  "cpc": 0.8299999833106995,
+                  "search_volume": 40,
+                  "low_top_of_page_bid": null,
+                  "high_top_of_page_bid": null,
+                  "categories": [
+                    10009,
+                    10413,
+                    11571,
+                    12812,
+                    13260
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2026,
+                      "month": 6,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2026,
+                      "month": 5,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2026,
+                      "month": 4,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2026,
+                      "month": 3,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2026,
+                      "month": 2,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2026,
+                      "month": 1,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 40
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": -25,
+                    "quarterly": 0,
+                    "yearly": -40
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": "adams bed",
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 0,
+                  "detected_language": "en",
+                  "is_another_language": false
+                },
+                "serp_info": {
+                  "se_type": "google",
+                  "check_url": "https://www.google.com/search?q=adam%20beds&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                  "serp_item_types": [
+                    "organic",
+                    "popular_products",
+                    "images",
+                    "related_searches"
+                  ],
+                  "se_results_count": 30700000,
+                  "last_updated_time": "2026-05-13 03:22:21 +00:00",
+                  "previous_updated_time": null
+                },
+                "avg_backlinks_info": null,
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "transactional",
+                  "foreign_intent": null,
+                  "last_updated_time": "2026-04-24 16:55:30 +00:00"
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "google",
+                "serp_item": {
+                  "se_type": "google",
+                  "type": "organic",
+                  "rank_group": 17,
+                  "rank_absolute": 22,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]/div[1]",
+                  "domain": "wassersfurniture.com",
+                  "title": "Adam Bed \u2013 wassersfurniture",
+                  "url": "https://wassersfurniture.com/products/adam-bed",
+                  "breadcrumb": "https://wassersfurniture.com \u203a products \u203a adam-bed",
+                  "website_name": "wassersfurniture.com",
+                  "is_image": false,
+                  "is_video": false,
+                  "is_featured_snippet": false,
+                  "is_malicious": false,
+                  "description": "The Adam upholstered bed is a refined and comfortable model, fully covered in a wide and elegant color palette. The profile outlining the soft headboard can\u00a0...",
+                  "pre_snippet": null,
+                  "extended_snippet": null,
+                  "amp_version": false,
+                  "rating": null,
+                  "highlighted": [
+                    "refined and comfortable model"
+                  ],
+                  "links": null,
+                  "about_this_result": null,
+                  "main_domain": "wassersfurniture.com",
+                  "relative_url": "/products/adam-bed",
+                  "etv": 0.1720000058412552,
+                  "estimated_paid_traffic_cost": 0.1427599936723709,
+                  "clickstream_etv": null,
+                  "rank_changes": {
+                    "previous_rank_absolute": null,
+                    "is_new": true,
+                    "is_up": false,
+                    "is_down": false
+                  },
+                  "backlinks_info": null,
+                  "rank_info": {
+                    "page_rank": 0,
+                    "main_domain_rank": 194
+                  }
+                },
+                "check_url": "https://www.google.com/search?q=adam%20beds&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                "serp_item_types": [
+                  "organic",
+                  "popular_products",
+                  "images",
+                  "related_searches"
+                ],
+                "se_results_count": 30700000,
+                "keyword_difficulty": 0,
+                "is_lost": false,
+                "last_updated_time": "2026-05-13 03:22:21 +00:00",
+                "previous_updated_time": null
+              }
+            },
+            {
+              "se_type": "google",
+              "keyword_data": {
+                "se_type": "google",
+                "keyword": "african accent chairs",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-07-11 14:47:06 +00:00",
+                  "competition": 1,
+                  "competition_level": "HIGH",
+                  "cpc": 0.9100000262260437,
+                  "search_volume": 40,
+                  "low_top_of_page_bid": 0.20999999344348907,
+                  "high_top_of_page_bid": 1.7599999904632568,
+                  "categories": [
+                    10009,
+                    10413,
+                    11568,
+                    12810
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2026,
+                      "month": 6,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2026,
+                      "month": 5,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2026,
+                      "month": 4,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2026,
+                      "month": 3,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2026,
+                      "month": 2,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2026,
+                      "month": 1,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 50
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 0,
+                    "quarterly": 0,
+                    "yearly": -43
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": "african accent chair",
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 0,
+                  "detected_language": "en",
+                  "is_another_language": false
+                },
+                "serp_info": {
+                  "se_type": "google",
+                  "check_url": "https://www.google.com/search?q=african%20accent%20chairs&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                  "serp_item_types": [
+                    "popular_products",
+                    "organic",
+                    "related_searches"
+                  ],
+                  "se_results_count": 179,
+                  "last_updated_time": "2026-04-12 18:33:18 +00:00",
+                  "previous_updated_time": "2026-01-26 09:53:39 +00:00"
+                },
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 0.699999988079071,
+                  "dofollow": 0.699999988079071,
+                  "referring_pages": 0.699999988079071,
+                  "referring_domains": 0.30000001192092896,
+                  "referring_main_domains": 0.30000001192092896,
+                  "rank": 7.5,
+                  "main_domain_rank": 672.2000122070312,
+                  "last_updated_time": "2026-04-12 18:33:20 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "transactional",
+                  "foreign_intent": [
+                    "commercial"
+                  ],
+                  "last_updated_time": "2026-04-29 05:16:30 +00:00"
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "google",
+                "serp_item": {
+                  "se_type": "google",
+                  "type": "organic",
+                  "rank_group": 16,
+                  "rank_absolute": 20,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]/div[1]",
+                  "domain": "wassersfurniture.com",
+                  "title": "Swivel Chair Custom African Print Fabric",
+                  "url": "https://wassersfurniture.com/swivel-chair-custom-african-print-fabric.html",
+                  "breadcrumb": "https://wassersfurniture.com \u203a swivel-chair-custom-afric...",
+                  "website_name": "Wasser's Furniture",
+                  "is_image": false,
+                  "is_video": false,
+                  "is_featured_snippet": false,
+                  "is_malicious": false,
+                  "description": "Swivel Chair Custom African Print Fabric. Be the first to review this product. was $2,425.00\u00a0... Read more",
+                  "pre_snippet": null,
+                  "extended_snippet": null,
+                  "amp_version": false,
+                  "rating": null,
+                  "highlighted": [
+                    "Swivel Chair Custom African Print Fabric"
+                  ],
+                  "links": null,
+                  "about_this_result": null,
+                  "main_domain": "wassersfurniture.com",
+                  "relative_url": "/swivel-chair-custom-african-print-fabric.html",
+                  "etv": 0.1720000058412552,
+                  "estimated_paid_traffic_cost": 0.15651999413967133,
+                  "clickstream_etv": null,
+                  "rank_changes": {
+                    "previous_rank_absolute": 64,
+                    "is_new": false,
+                    "is_up": true,
+                    "is_down": false
+                  },
+                  "backlinks_info": null,
+                  "rank_info": {
+                    "page_rank": 0,
+                    "main_domain_rank": 196
+                  }
+                },
+                "check_url": "https://www.google.com/search?q=african%20accent%20chairs&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                "serp_item_types": [
+                  "popular_products",
+                  "organic",
+                  "related_searches"
+                ],
+                "se_results_count": 179,
+                "keyword_difficulty": 0,
+                "is_lost": false,
+                "last_updated_time": "2026-04-12 18:33:18 +00:00",
+                "previous_updated_time": "2026-01-26 09:53:39 +00:00"
+              }
+            },
+            {
+              "se_type": "google",
+              "keyword_data": {
+                "se_type": "google",
+                "keyword": "american leather factory outlet",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-07-13 03:39:03 +00:00",
+                  "competition": 1,
+                  "competition_level": "HIGH",
+                  "cpc": 2.140000104904175,
+                  "search_volume": 50,
+                  "low_top_of_page_bid": 0.6899999976158142,
+                  "high_top_of_page_bid": 3.069999933242798,
+                  "categories": [
+                    13575,
+                    13719
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2026,
+                      "month": 6,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2026,
+                      "month": 5,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2026,
+                      "month": 4,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2026,
+                      "month": 3,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2026,
+                      "month": 2,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2026,
+                      "month": 1,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 70
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 90
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 90
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 110
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": -71,
+                    "quarterly": -33,
+                    "yearly": -82
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": null,
+                  "synonym_clustering_algorithm": null,
+                  "keyword_difficulty": 0,
+                  "detected_language": "en",
+                  "is_another_language": false
+                },
+                "serp_info": {
+                  "se_type": "google",
+                  "check_url": "https://www.google.com/search?q=american%20leather%20factory%20outlet&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                  "serp_item_types": [
+                    "organic",
+                    "people_also_ask",
+                    "related_searches",
+                    "google_reviews",
+                    "knowledge_graph"
+                  ],
+                  "se_results_count": 31400000,
+                  "last_updated_time": "2026-05-08 05:43:34 +00:00",
+                  "previous_updated_time": "2026-03-07 10:04:10 +00:00"
+                },
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 170.6999969482422,
+                  "dofollow": 103,
+                  "referring_pages": 124.5,
+                  "referring_domains": 45.29999923706055,
+                  "referring_main_domains": 43.29999923706055,
+                  "rank": 70.9000015258789,
+                  "main_domain_rank": 337.6000061035156,
+                  "last_updated_time": "2026-05-08 05:43:34 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "navigational",
+                  "foreign_intent": null,
+                  "last_updated_time": "2026-04-29 06:09:23 +00:00"
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "google",
+                "serp_item": {
+                  "se_type": "google",
+                  "type": "organic",
+                  "rank_group": 18,
+                  "rank_absolute": 20,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]",
+                  "domain": "wassersfurniture.com",
+                  "title": "American Leather \u2013 wassersfurniture",
+                  "url": "https://wassersfurniture.com/collections/american-leather",
+                  "breadcrumb": "https://wassersfurniture.com \u203a collections \u203a american-leat...",
+                  "website_name": "wassersfurniture.com",
+                  "is_image": false,
+                  "is_video": false,
+                  "is_featured_snippet": false,
+                  "is_malicious": false,
+                  "description": "From a small team to more than 600 employees, the family culture of American Leather is company pillar. We believe that employees are our biggest asset\u00a0... Read more",
+                  "pre_snippet": null,
+                  "extended_snippet": null,
+                  "amp_version": false,
+                  "rating": null,
+                  "highlighted": [
+                    "American Leather",
+                    "company"
+                  ],
+                  "links": null,
+                  "about_this_result": null,
+                  "main_domain": "wassersfurniture.com",
+                  "relative_url": "/collections/american-leather",
+                  "etv": 0.16500000655651093,
+                  "estimated_paid_traffic_cost": 0.3531000018119812,
+                  "clickstream_etv": null,
+                  "rank_changes": {
+                    "previous_rank_absolute": null,
+                    "is_new": true,
+                    "is_up": false,
+                    "is_down": false
+                  },
+                  "backlinks_info": {
+                    "referring_domains": 1,
+                    "referring_main_domains": 1,
+                    "referring_pages": 1,
+                    "dofollow": 1,
+                    "backlinks": 1,
+                    "time_update": "2026-07-11 04:18:35 +00:00"
+                  },
+                  "rank_info": {
+                    "page_rank": 0,
+                    "main_domain_rank": 197
+                  }
+                },
+                "check_url": "https://www.google.com/search?q=american%20leather%20factory%20outlet&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                "serp_item_types": [
+                  "organic",
+                  "people_also_ask",
+                  "related_searches",
+                  "google_reviews",
+                  "knowledge_graph"
+                ],
+                "se_results_count": 31400000,
+                "keyword_difficulty": 0,
+                "is_lost": false,
+                "last_updated_time": "2026-05-08 05:43:34 +00:00",
+                "previous_updated_time": "2026-03-07 10:04:10 +00:00"
+              }
+            },
+            {
+              "se_type": "google",
+              "keyword_data": {
+                "se_type": "google",
+                "keyword": "american leather power recliner",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-07-10 20:21:54 +00:00",
+                  "competition": 0.9200000166893005,
+                  "competition_level": "HIGH",
+                  "cpc": 1.4800000190734863,
+                  "search_volume": 30,
+                  "low_top_of_page_bid": 0.6800000071525574,
+                  "high_top_of_page_bid": 2.2899999618530273,
+                  "categories": [
+                    10009,
+                    10413,
+                    11574,
+                    12818
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2026,
+                      "month": 6,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2026,
+                      "month": 5,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2026,
+                      "month": 4,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2026,
+                      "month": 3,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2026,
+                      "month": 2,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2026,
+                      "month": 1,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 40
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 0,
+                    "quarterly": 0,
+                    "yearly": -60
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": null,
+                  "synonym_clustering_algorithm": null,
+                  "keyword_difficulty": 0,
+                  "detected_language": "en",
+                  "is_another_language": false
+                },
+                "serp_info": {
+                  "se_type": "google",
+                  "check_url": "https://www.google.com/search?q=american%20leather%20power%20recliner&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                  "serp_item_types": [
+                    "organic",
+                    "popular_products",
+                    "people_also_ask",
+                    "related_searches",
+                    "images"
+                  ],
+                  "se_results_count": 2400000,
+                  "last_updated_time": "2026-04-16 17:13:23 +00:00",
+                  "previous_updated_time": "2026-02-26 12:53:01 +00:00"
+                },
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 184.10000610351562,
+                  "dofollow": 114.0999984741211,
+                  "referring_pages": 135,
+                  "referring_domains": 45.599998474121094,
+                  "referring_main_domains": 43.70000076293945,
+                  "rank": 68.19999694824219,
+                  "main_domain_rank": 312.70001220703125,
+                  "last_updated_time": "2026-04-16 17:22:24 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "transactional",
+                  "foreign_intent": null,
+                  "last_updated_time": "2026-04-25 19:53:01 +00:00"
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "google",
+                "serp_item": {
+                  "se_type": "google",
+                  "type": "organic",
+                  "rank_group": 15,
+                  "rank_absolute": 20,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]",
+                  "domain": "wassersfurniture.com",
+                  "title": "American Leather Comfort Recliner",
+                  "url": "https://wassersfurniture.com/shop-by-brand/a-c/american-leather/comfort-recliner-by-american-leather.html",
+                  "breadcrumb": "https://wassersfurniture.com \u203a shop-by-brand \u203a comfort...",
+                  "website_name": "Wasser's Furniture",
+                  "is_image": true,
+                  "is_video": false,
+                  "is_featured_snippet": false,
+                  "is_malicious": false,
+                  "description": "Now you can lean back and relax without having to engage the ottoman thanks to the Comfort Recliner's independent back and footrest.",
+                  "pre_snippet": null,
+                  "extended_snippet": null,
+                  "amp_version": false,
+                  "rating": null,
+                  "highlighted": [
+                    "s independent back and footrest"
+                  ],
+                  "links": null,
+                  "about_this_result": null,
+                  "main_domain": "wassersfurniture.com",
+                  "relative_url": "/shop-by-brand/a-c/american-leather/comfort-recliner-by-american-leather.html",
+                  "etv": 0.15299999713897705,
+                  "estimated_paid_traffic_cost": 0.22643999755382538,
+                  "clickstream_etv": null,
+                  "rank_changes": {
+                    "previous_rank_absolute": 19,
+                    "is_new": false,
+                    "is_up": false,
+                    "is_down": true
+                  },
+                  "backlinks_info": null,
+                  "rank_info": {
+                    "page_rank": 0,
+                    "main_domain_rank": 196
+                  }
+                },
+                "check_url": "https://www.google.com/search?q=american%20leather%20power%20recliner&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                "serp_item_types": [
+                  "organic",
+                  "popular_products",
+                  "people_also_ask",
+                  "related_searches",
+                  "images"
+                ],
+                "se_results_count": 2400000,
+                "keyword_difficulty": 0,
+                "is_lost": false,
+                "last_updated_time": "2026-04-16 17:13:23 +00:00",
+                "previous_updated_time": "2026-02-26 12:53:01 +00:00"
+              }
+            },
+            {
+              "se_type": "google",
+              "keyword_data": {
+                "se_type": "google",
+                "keyword": "cylinder pouf",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-07-13 10:59:30 +00:00",
+                  "competition": 1,
+                  "competition_level": "HIGH",
+                  "cpc": 2.450000047683716,
+                  "search_volume": 30,
+                  "low_top_of_page_bid": 0.8899999856948853,
+                  "high_top_of_page_bid": 2.3899998664855957,
+                  "categories": [
+                    10004,
+                    13804
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2026,
+                      "month": 6,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2026,
+                      "month": 5,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2026,
+                      "month": 4,
+                      "search_volume": 10
+                    },
+                    {
+                      "year": 2026,
+                      "month": 3,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2026,
+                      "month": 2,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2026,
+                      "month": 1,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 40
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 0,
+                    "quarterly": 100,
+                    "yearly": -71
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": null,
+                  "synonym_clustering_algorithm": null,
+                  "keyword_difficulty": 0,
+                  "detected_language": "en",
+                  "is_another_language": false
+                },
+                "serp_info": {
+                  "se_type": "google",
+                  "check_url": "https://www.google.com/search?q=cylinder%20pouf&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                  "serp_item_types": [
+                    "popular_products",
+                    "organic",
+                    "images",
+                    "people_also_ask",
+                    "related_searches"
+                  ],
+                  "se_results_count": 1080000,
+                  "last_updated_time": "2026-04-15 05:30:04 +00:00",
+                  "previous_updated_time": "2026-02-26 00:46:30 +00:00"
+                },
+                "avg_backlinks_info": null,
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "transactional",
+                  "foreign_intent": null,
+                  "last_updated_time": "2026-04-26 07:58:38 +00:00"
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "google",
+                "serp_item": {
+                  "se_type": "google",
+                  "type": "organic",
+                  "rank_group": 17,
+                  "rank_absolute": 23,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]",
+                  "domain": "wassersfurniture.com",
+                  "title": "MISSONI HOME PATCH CYLINDER OTTOMAN POUF 16 ...",
+                  "url": "https://wassersfurniture.com/missoni-home-patch-cylinder-ottoman-pouf-16-x-12-free-pickup-free-shipping.html",
+                  "breadcrumb": "https://wassersfurniture.com \u203a missoni-home-patch-cyli...",
+                  "website_name": "Wasser's Furniture",
+                  "is_image": false,
+                  "is_video": false,
+                  "is_featured_snippet": false,
+                  "is_malicious": false,
+                  "description": "Forms for separating and uniting, easy to move around including from indoors to outdoors or vice versa, enabling the magic atmosphere of the garden to be\u00a0... Read more",
+                  "pre_snippet": null,
+                  "extended_snippet": null,
+                  "amp_version": false,
+                  "rating": null,
+                  "highlighted": [
+                    "easy to move around including from indoors to outdoors"
+                  ],
+                  "links": null,
+                  "about_this_result": null,
+                  "main_domain": "wassersfurniture.com",
+                  "relative_url": "/missoni-home-patch-cylinder-ottoman-pouf-16-x-12-free-pickup-free-shipping.html",
+                  "etv": 0.1289999932050705,
+                  "estimated_paid_traffic_cost": 0.3160499930381775,
+                  "clickstream_etv": null,
+                  "rank_changes": {
+                    "previous_rank_absolute": 14,
+                    "is_new": false,
+                    "is_up": false,
+                    "is_down": true
+                  },
+                  "backlinks_info": null,
+                  "rank_info": {
+                    "page_rank": 0,
+                    "main_domain_rank": 196
+                  }
+                },
+                "check_url": "https://www.google.com/search?q=cylinder%20pouf&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                "serp_item_types": [
+                  "popular_products",
+                  "organic",
+                  "images",
+                  "people_also_ask",
+                  "related_searches"
+                ],
+                "se_results_count": 1080000,
+                "keyword_difficulty": 0,
+                "is_lost": false,
+                "last_updated_time": "2026-04-15 05:30:04 +00:00",
+                "previous_updated_time": "2026-02-26 00:46:30 +00:00"
+              }
+            },
+            {
+              "se_type": "google",
+              "keyword_data": {
+                "se_type": "google",
+                "keyword": "american leather nash sofa",
+                "location_code": 2840,
+                "language_code": "en",
+                "keyword_info": {
+                  "se_type": "google",
+                  "last_updated_time": "2026-07-15 00:42:06 +00:00",
+                  "competition": 1,
+                  "competition_level": "HIGH",
+                  "cpc": 1.7899999618530273,
+                  "search_volume": 30,
+                  "low_top_of_page_bid": 0.8999999761581421,
+                  "high_top_of_page_bid": 3.9700000286102295,
+                  "categories": [
+                    10009,
+                    10413,
+                    11574
+                  ],
+                  "monthly_searches": [
+                    {
+                      "year": 2026,
+                      "month": 6,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2026,
+                      "month": 5,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2026,
+                      "month": 4,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2026,
+                      "month": 3,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2026,
+                      "month": 2,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2026,
+                      "month": 1,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 12,
+                      "search_volume": 20
+                    },
+                    {
+                      "year": 2025,
+                      "month": 11,
+                      "search_volume": 50
+                    },
+                    {
+                      "year": 2025,
+                      "month": 10,
+                      "search_volume": 40
+                    },
+                    {
+                      "year": 2025,
+                      "month": 9,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 8,
+                      "search_volume": 30
+                    },
+                    {
+                      "year": 2025,
+                      "month": 7,
+                      "search_volume": 20
+                    }
+                  ],
+                  "search_volume_trend": {
+                    "monthly": 67,
+                    "quarterly": 150,
+                    "yearly": 25
+                  }
+                },
+                "keyword_info_normalized_with_bing": null,
+                "keyword_info_normalized_with_clickstream": null,
+                "clickstream_keyword_info": null,
+                "keyword_properties": {
+                  "se_type": "google",
+                  "core_keyword": null,
+                  "synonym_clustering_algorithm": "text_processing",
+                  "keyword_difficulty": 0,
+                  "detected_language": "en",
+                  "is_another_language": false
+                },
+                "serp_info": {
+                  "se_type": "google",
+                  "check_url": "https://www.google.com/search?q=american%20leather%20nash%20sofa&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                  "serp_item_types": [
+                    "organic",
+                    "popular_products",
+                    "people_also_ask",
+                    "images",
+                    "related_searches"
+                  ],
+                  "se_results_count": 409000,
+                  "last_updated_time": "2026-04-16 17:13:32 +00:00",
+                  "previous_updated_time": "2026-02-26 12:51:53 +00:00"
+                },
+                "avg_backlinks_info": {
+                  "se_type": "google",
+                  "backlinks": 0.6000000238418579,
+                  "dofollow": 0.6000000238418579,
+                  "referring_pages": 0.6000000238418579,
+                  "referring_domains": 0.4000000059604645,
+                  "referring_main_domains": 0.30000001192092896,
+                  "rank": 9.399999618530273,
+                  "main_domain_rank": 307.1000061035156,
+                  "last_updated_time": "2026-04-16 17:20:05 +00:00"
+                },
+                "search_intent_info": {
+                  "se_type": "google",
+                  "main_intent": "transactional",
+                  "foreign_intent": null,
+                  "last_updated_time": "2026-04-25 19:14:18 +00:00"
+                }
+              },
+              "ranked_serp_element": {
+                "se_type": "google",
+                "serp_item": {
+                  "se_type": "google",
+                  "type": "organic",
+                  "rank_group": 20,
+                  "rank_absolute": 25,
+                  "position": "left",
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+                  "domain": "wassersfurniture.com",
+                  "title": "Nash - Sectional - IN STOCK - ON DISPLAY - 20 Day Rush",
+                  "url": "https://wassersfurniture.com/american-leather-nash-sectional-in-stock-on-display-20-day-rush-30-day-quickship.html",
+                  "breadcrumb": "https://wassersfurniture.com \u203a american-leather-nash-se...",
+                  "website_name": "Wasser's Furniture",
+                  "is_image": false,
+                  "is_video": false,
+                  "is_featured_snippet": false,
+                  "is_malicious": false,
+                  "description": "American Leather - Nash - Sectional - IN STOCK - ON DISPLAY - 20 Day Rush - 30 Day QUICKSHIP \u00b7 All hardwood frame \u00b7 Advanced unidirectional suspension system\u00a0... Read more",
+                  "pre_snippet": null,
+                  "extended_snippet": null,
+                  "amp_version": false,
+                  "rating": null,
+                  "highlighted": [
+                    "American Leather - Nash - Sectional"
+                  ],
+                  "links": null,
+                  "about_this_result": null,
+                  "main_domain": "wassersfurniture.com",
+                  "relative_url": "/american-leather-nash-sectional-in-stock-on-display-20-day-rush-30-day-quickship.html",
+                  "etv": 0.07199999690055847,
+                  "estimated_paid_traffic_cost": 0.12887999415397644,
+                  "clickstream_etv": null,
+                  "rank_changes": {
+                    "previous_rank_absolute": null,
+                    "is_new": true,
+                    "is_up": false,
+                    "is_down": false
+                  },
+                  "backlinks_info": null,
+                  "rank_info": {
+                    "page_rank": 0,
+                    "main_domain_rank": 196
+                  }
+                },
+                "check_url": "https://www.google.com/search?q=american%20leather%20nash%20sofa&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+                "serp_item_types": [
+                  "organic",
+                  "popular_products",
+                  "people_also_ask",
+                  "images",
+                  "related_searches"
+                ],
+                "se_results_count": 409000,
+                "keyword_difficulty": 0,
+                "is_lost": false,
+                "last_updated_time": "2026-04-16 17:13:32 +00:00",
+                "previous_updated_time": "2026-02-26 12:51:53 +00:00"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

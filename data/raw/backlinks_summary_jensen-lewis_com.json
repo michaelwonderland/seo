@@ -1,0 +1,126 @@
+{
+  "version": "0.1.20260731",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "0.2029 sec.",
+  "cost": 0.024036,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "08012106-1561-0265-0000-c439a61100cc",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "0.1938 sec.",
+      "cost": 0.024036,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "backlinks",
+        "summary",
+        "live"
+      ],
+      "data": {
+        "api": "backlinks",
+        "function": "summary",
+        "target": "jensen-lewis.com",
+        "internal_list_limit": 10,
+        "include_subdomains": true,
+        "backlinks_status_type": "live"
+      },
+      "result": [
+        {
+          "target": "jensen-lewis.com",
+          "first_seen": "2019-01-19 15:26:27 +00:00",
+          "lost_date": null,
+          "rank": 288,
+          "backlinks": 3791,
+          "backlinks_spam_score": 33,
+          "crawled_pages": 2395,
+          "info": {
+            "server": "cloudflare",
+            "cms": null,
+            "platform_type": [
+              "organization"
+            ],
+            "ip_address": "104.26.0.111",
+            "country": "WW",
+            "is_ip": false,
+            "target_spam_score": 0
+          },
+          "internal_links_count": 93393,
+          "external_links_count": 13514,
+          "broken_backlinks": 47,
+          "broken_pages": 120,
+          "referring_domains": 590,
+          "referring_domains_nofollow": 183,
+          "referring_main_domains": 580,
+          "referring_main_domains_nofollow": 180,
+          "referring_ips": 342,
+          "referring_subnets": 305,
+          "referring_pages": 3352,
+          "referring_pages_nofollow": 283,
+          "referring_links_tld": {
+            "com": 1745,
+            "blogspot.com": 899,
+            "org": 381,
+            "homes": 43,
+            "ru": 37,
+            "co": 19,
+            "de": 14,
+            "net": 14,
+            "hu": 13,
+            "in": 12
+          },
+          "referring_links_types": {
+            "anchor": 2475,
+            "image": 874,
+            "redirect": 3
+          },
+          "referring_links_attributes": {
+            "nofollow": 283,
+            "noopener": 132,
+            "noreferrer": 71,
+            "external": 21,
+            "ugc": 5,
+            "sponsored": 1
+          },
+          "referring_links_platform_types": {
+            "blogs": 2369,
+            "cms": 1412,
+            "unknown": 550,
+            "organization": 523,
+            "ecommerce": 131,
+            "news": 49,
+            "message-boards": 5,
+            "wikis": 2
+          },
+          "referring_links_semantic_locations": {
+            "": 1841,
+            "aside": 816,
+            "article": 346,
+            "section": 253,
+            "main": 85,
+            "nav": 4,
+            "header": 3,
+            "figcaption": 2,
+            "footer": 1,
+            "figure": 1
+          },
+          "referring_links_countries": {
+            "": 1539,
+            "CA": 791,
+            "US": 674,
+            "WW": 87,
+            "NE": 41,
+            "RU": 37,
+            "CO": 19,
+            "IN": 18,
+            "DE": 16,
+            "GB": 13
+          }
+        }
+      ]
+    }
+  ]
+}

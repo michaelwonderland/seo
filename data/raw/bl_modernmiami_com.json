@@ -1,0 +1,107 @@
+{
+  "version": "0.1.20260731",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "0.2698 sec.",
+  "cost": 0.024036,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "08012114-1561-0265-0000-12838a987273",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "0.2528 sec.",
+      "cost": 0.024036,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "backlinks",
+        "summary",
+        "live"
+      ],
+      "data": {
+        "api": "backlinks",
+        "function": "summary",
+        "target": "modernmiami.com",
+        "internal_list_limit": 5,
+        "include_subdomains": true,
+        "backlinks_status_type": "live"
+      },
+      "result": [
+        {
+          "target": "modernmiami.com",
+          "first_seen": "2019-01-19 23:12:54 +00:00",
+          "lost_date": null,
+          "rank": 332,
+          "backlinks": 14620,
+          "backlinks_spam_score": 18,
+          "crawled_pages": 22162,
+          "info": {
+            "server": "cloudflare",
+            "cms": null,
+            "platform_type": [
+              "unknown"
+            ],
+            "ip_address": "104.26.10.86",
+            "country": "US",
+            "is_ip": false,
+            "target_spam_score": 0
+          },
+          "internal_links_count": 1077933,
+          "external_links_count": 62017,
+          "broken_backlinks": 730,
+          "broken_pages": 2977,
+          "referring_domains": 5215,
+          "referring_domains_nofollow": 231,
+          "referring_main_domains": 5191,
+          "referring_main_domains_nofollow": 219,
+          "referring_ips": 302,
+          "referring_subnets": 207,
+          "referring_pages": 13703,
+          "referring_pages_nofollow": 579,
+          "referring_links_tld": {
+            "blogspot.com": 12385,
+            "com": 506,
+            "web.app": 406,
+            "homes": 101,
+            "net": 40
+          },
+          "referring_links_types": {
+            "image": 12817,
+            "anchor": 879,
+            "redirect": 7
+          },
+          "referring_links_attributes": {
+            "nofollow": 579,
+            "noreferrer": 210,
+            "noopener": 189,
+            "external": 188,
+            "ugc": 29
+          },
+          "referring_links_platform_types": {
+            "blogs": 12367,
+            "organization": 5547,
+            "unknown": 936,
+            "news": 176,
+            "cms": 87
+          },
+          "referring_links_semantic_locations": {
+            "aside": 11127,
+            "article": 1026,
+            "": 825,
+            "main": 654,
+            "section": 57
+          },
+          "referring_links_countries": {
+            "": 13292,
+            "US": 219,
+            "IN": 48,
+            "UA": 30,
+            "HU": 29
+          }
+        }
+      ]
+    }
+  ]
+}

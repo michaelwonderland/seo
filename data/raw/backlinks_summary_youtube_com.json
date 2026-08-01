@@ -1,0 +1,130 @@
+{
+  "version": "0.1.20260731",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "0.0222 sec.",
+  "cost": 0.024036,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "08012105-1561-0265-0000-8b7aa29c34e5",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "0.0126 sec.",
+      "cost": 0.024036,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "backlinks",
+        "summary",
+        "live"
+      ],
+      "data": {
+        "api": "backlinks",
+        "function": "summary",
+        "target": "youtube.com",
+        "internal_list_limit": 10,
+        "include_subdomains": true,
+        "backlinks_status_type": "live"
+      },
+      "result": [
+        {
+          "target": "youtube.com",
+          "first_seen": "2019-01-15 22:55:33 +00:00",
+          "lost_date": null,
+          "rank": 1000,
+          "backlinks": 30272500304,
+          "backlinks_spam_score": 9,
+          "crawled_pages": 4984830,
+          "info": {
+            "server": "ESF",
+            "cms": null,
+            "platform_type": null,
+            "ip_address": "142.251.13.91",
+            "country": "US",
+            "is_ip": false,
+            "target_spam_score": 2
+          },
+          "internal_links_count": 1069301,
+          "external_links_count": 219144,
+          "broken_backlinks": 636283,
+          "broken_pages": 1620,
+          "referring_domains": 19533760,
+          "referring_domains_nofollow": 1820741,
+          "referring_main_domains": 16135643,
+          "referring_main_domains_nofollow": 1315043,
+          "referring_ips": 3224838,
+          "referring_subnets": 865911,
+          "referring_pages": 23272492096,
+          "referring_pages_nofollow": 189063349,
+          "referring_links_tld": {
+            "com": 9724037040,
+            "org": 1076910640,
+            "ru": 814297472,
+            "blogspot.com": 709923840,
+            "net": 657253600,
+            "de": 599295056,
+            "com.br": 583821584,
+            "it": 366622624,
+            "pl": 327036896,
+            "fr": 307246544
+          },
+          "referring_links_types": {
+            "anchor": 17571698784,
+            "image": 5683912256,
+            "redirect": 13731248,
+            "alternate": 1969056,
+            "canonical": 1180752
+          },
+          "referring_links_attributes": {
+            "noopener": 4117743136,
+            "nofollow": 3012609424,
+            "noreferrer": 2486909120,
+            "external": 314815840,
+            "ugc": 51888880,
+            "bookmark": 6309488,
+            "sponsored": 6163152,
+            "alternate": 3989344,
+            "author": 3283520,
+            "canonical": 580256
+          },
+          "referring_links_platform_types": {
+            "unknown": 10004975776,
+            "organization": 7256716432,
+            "ecommerce": 4670988480,
+            "blogs": 3870556224,
+            "cms": 3440328080,
+            "news": 1805629712,
+            "message-boards": 74937184,
+            "wikis": 29224208
+          },
+          "referring_links_semantic_locations": {
+            "footer": 7631590864,
+            "": 6214748784,
+            "section": 3546677536,
+            "header": 1885448992,
+            "nav": 1789320720,
+            "aside": 976527008,
+            "article": 545054208,
+            "main": 489037792,
+            "details": 126155104,
+            "figure": 59765600
+          },
+          "referring_links_countries": {
+            "": 6440179200,
+            "US": 2808913008,
+            "WW": 1749849344,
+            "DE": 956451136,
+            "RU": 858700656,
+            "IN": 826386608,
+            "BR": 763015264,
+            "FR": 642407968,
+            "JP": 569485648,
+            "GB": 489784400
+          }
+        }
+      ]
+    }
+  ]
+}

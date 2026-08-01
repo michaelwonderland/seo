@@ -1,0 +1,214 @@
+{
+  "version": "0.1.20260731",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "0.1566 sec.",
+  "cost": 0.01536,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "08012112-1561-0392-0000-9f481db465b9",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "0.1442 sec.",
+      "cost": 0.01536,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "dataforseo_labs",
+        "google",
+        "bulk_keyword_difficulty",
+        "live"
+      ],
+      "data": {
+        "api": "dataforseo_labs",
+        "function": "bulk_keyword_difficulty",
+        "se_type": "google",
+        "keywords": [
+          "furniture stores miami",
+          "luxury furniture miami",
+          "italian furniture miami",
+          "modern furniture miami",
+          "contemporary furniture miami",
+          "high end furniture miami",
+          "designer furniture miami",
+          "custom furniture miami",
+          "furniture stores fort lauderdale",
+          "luxury furniture fort lauderdale",
+          "italian furniture fort lauderdale",
+          "modern furniture fort lauderdale",
+          "furniture stores hallandale",
+          "furniture stores aventura",
+          "furniture stores hollywood fl",
+          "furniture stores sunny isles",
+          "luxury furniture store",
+          "italian furniture store",
+          "high end furniture store",
+          "modern furniture store near me",
+          "sectional sofas miami",
+          "dining room sets miami",
+          "bedroom furniture miami",
+          "outdoor furniture miami",
+          "office furniture miami",
+          "interior design miami",
+          "furniture showroom miami",
+          "european furniture miami"
+        ],
+        "location_code": 2840,
+        "language_code": "en"
+      },
+      "result": [
+        {
+          "se_type": "google",
+          "location_code": 2840,
+          "language_code": "en",
+          "total_count": 28,
+          "items_count": 28,
+          "items": [
+            {
+              "se_type": "google",
+              "keyword": "contemporary furniture miami",
+              "keyword_difficulty": 11
+            },
+            {
+              "se_type": "google",
+              "keyword": "custom furniture miami",
+              "keyword_difficulty": 0
+            },
+            {
+              "se_type": "google",
+              "keyword": "designer furniture miami",
+              "keyword_difficulty": 23
+            },
+            {
+              "se_type": "google",
+              "keyword": "dining room sets miami",
+              "keyword_difficulty": 9
+            },
+            {
+              "se_type": "google",
+              "keyword": "european furniture miami",
+              "keyword_difficulty": 22
+            },
+            {
+              "se_type": "google",
+              "keyword": "furniture stores aventura",
+              "keyword_difficulty": 0
+            },
+            {
+              "se_type": "google",
+              "keyword": "furniture stores fort lauderdale",
+              "keyword_difficulty": 0
+            },
+            {
+              "se_type": "google",
+              "keyword": "furniture stores hollywood fl",
+              "keyword_difficulty": 0
+            },
+            {
+              "se_type": "google",
+              "keyword": "furniture stores miami",
+              "keyword_difficulty": 27
+            },
+            {
+              "se_type": "google",
+              "keyword": "high end furniture miami",
+              "keyword_difficulty": 10
+            },
+            {
+              "se_type": "google",
+              "keyword": "interior design miami",
+              "keyword_difficulty": 32
+            },
+            {
+              "se_type": "google",
+              "keyword": "italian furniture fort lauderdale",
+              "keyword_difficulty": 0
+            },
+            {
+              "se_type": "google",
+              "keyword": "italian furniture miami",
+              "keyword_difficulty": 0
+            },
+            {
+              "se_type": "google",
+              "keyword": "italian furniture store",
+              "keyword_difficulty": 11
+            },
+            {
+              "se_type": "google",
+              "keyword": "luxury furniture fort lauderdale",
+              "keyword_difficulty": null
+            },
+            {
+              "se_type": "google",
+              "keyword": "luxury furniture miami",
+              "keyword_difficulty": 0
+            },
+            {
+              "se_type": "google",
+              "keyword": "modern furniture fort lauderdale",
+              "keyword_difficulty": 0
+            },
+            {
+              "se_type": "google",
+              "keyword": "modern furniture miami",
+              "keyword_difficulty": 14
+            },
+            {
+              "se_type": "google",
+              "keyword": "office furniture miami",
+              "keyword_difficulty": 5
+            },
+            {
+              "se_type": "google",
+              "keyword": "outdoor furniture miami",
+              "keyword_difficulty": 16
+            },
+            {
+              "se_type": "google",
+              "keyword": "sectional sofas miami",
+              "keyword_difficulty": 0
+            },
+            {
+              "se_type": "google",
+              "keyword": "modern furniture store near me",
+              "keyword_difficulty": 29
+            },
+            {
+              "se_type": "google",
+              "keyword": "furniture showroom miami",
+              "keyword_difficulty": 23
+            },
+            {
+              "se_type": "google",
+              "keyword": "furniture stores hallandale",
+              "keyword_difficulty": 0
+            },
+            {
+              "se_type": "google",
+              "keyword": "high end furniture store",
+              "keyword_difficulty": 27
+            },
+            {
+              "se_type": "google",
+              "keyword": "luxury furniture store",
+              "keyword_difficulty": 24
+            },
+            {
+              "se_type": "google",
+              "keyword": "bedroom furniture miami",
+              "keyword_difficulty": 0
+            },
+            {
+              "se_type": "google",
+              "keyword": "furniture stores sunny isles",
+              "keyword_difficulty": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
