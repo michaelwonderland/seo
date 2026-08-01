@@ -1,0 +1,1082 @@
+<title>Wasser's Furniture — SEO Profile</title>
+<style>
+  :root {
+    color-scheme: light;
+    --page:      #f6f4f1;
+    --surface:   #fffefc;
+    --sunk:      #f0ece6;
+    --ink:       #1a1714;
+    --ink-2:     #5c554d;
+    --muted:     #8f867c;
+    --grid:      #e5e0d8;
+    --rule:      rgba(26,23,20,0.11);
+    --series:    #1f6fb2;
+    --series-fill: rgba(31,111,178,0.13);
+    --accent:    #a8642a;
+    --accent-soft: rgba(168,100,42,0.12);
+    --critical:  #d03b3b;
+    --good:      #0ca30c;
+    --warning:   #fab219;
+    --t1: #8fb9e0; --t2: #5b95cd; --t3: #2f74b5; --t4: #134f88;
+    --shadow: 0 1px 2px rgba(26,23,20,.05), 0 8px 24px -16px rgba(26,23,20,.22);
+
+    --display: ui-serif, Georgia, "Iowan Old Style", "Times New Roman", serif;
+    --sans: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    --mono: ui-monospace, "SF Mono", SFMono-Regular, Menlo, Consolas, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:where(:not([data-theme="light"])) {
+      color-scheme: dark;
+      --page:    #12100e;
+      --surface: #1b1815;
+      --sunk:    #221e1a;
+      --ink:     #f7f4f0;
+      --ink-2:   #b8afa4;
+      --muted:   #8f867c;
+      --grid:    #2b2724;
+      --rule:    rgba(247,244,240,0.12);
+      --series:  #3d8fd6;
+      --series-fill: rgba(61,143,214,0.16);
+      --accent:  #c67f3e;
+      --accent-soft: rgba(198,127,62,0.16);
+      --critical:#e0655c;
+      --good:    #3fb03f;
+      --t1: #9cc4e8; --t2: #6ba3d8; --t3: #3d80c0; --t4: #20599a;
+      --shadow: 0 1px 2px rgba(0,0,0,.4), 0 8px 24px -16px rgba(0,0,0,.7);
+    }
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --page:    #12100e;
+    --surface: #1b1815;
+    --sunk:    #221e1a;
+    --ink:     #f7f4f0;
+    --ink-2:   #b8afa4;
+    --muted:   #8f867c;
+    --grid:    #2b2724;
+    --rule:    rgba(247,244,240,0.12);
+    --series:  #3d8fd6;
+    --series-fill: rgba(61,143,214,0.16);
+    --accent:  #c67f3e;
+    --accent-soft: rgba(198,127,62,0.16);
+    --critical:#e0655c;
+    --good:    #3fb03f;
+    --t1: #9cc4e8; --t2: #6ba3d8; --t3: #3d80c0; --t4: #20599a;
+    --shadow: 0 1px 2px rgba(0,0,0,.4), 0 8px 24px -16px rgba(0,0,0,.7);
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--page); color: var(--ink);
+    font-family: var(--sans); font-size: 16px; line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 1060px; margin: 0 auto; padding: 0 24px 96px; }
+
+  /* ---------- masthead ---------- */
+  header.mast { padding: 56px 0 28px; border-bottom: 2px solid var(--ink); }
+  .eyebrow {
+    font-family: var(--mono); font-size: 11px; letter-spacing: .14em;
+    text-transform: uppercase; color: var(--muted); margin: 0 0 18px;
+  }
+  h1 {
+    font-family: var(--display); font-weight: 600;
+    font-size: clamp(2.1rem, 5.2vw, 3.4rem); line-height: 1.05;
+    letter-spacing: -0.022em; margin: 0 0 14px; text-wrap: balance;
+  }
+  .standfirst {
+    font-size: 1.06rem; color: var(--ink-2); max-width: 60ch; margin: 0;
+  }
+  .meta-row {
+    display: flex; flex-wrap: wrap; gap: 8px 28px; margin-top: 26px;
+    font-family: var(--mono); font-size: 11.5px; color: var(--muted);
+    letter-spacing: .04em;
+  }
+  .meta-row b { color: var(--ink-2); font-weight: 600; }
+
+  /* ---------- verdict ---------- */
+  .verdict {
+    margin: 34px 0 8px; background: var(--surface); border: 1px solid var(--rule);
+    border-left: 4px solid var(--critical); border-radius: 3px;
+    padding: 26px 30px; box-shadow: var(--shadow);
+  }
+  .verdict-tag {
+    display: inline-flex; align-items: center; gap: 7px;
+    font-family: var(--mono); font-size: 11px; letter-spacing: .12em;
+    text-transform: uppercase; color: var(--critical); font-weight: 700;
+    margin-bottom: 12px;
+  }
+  .verdict h2 {
+    font-family: var(--display); font-size: 1.6rem; font-weight: 600;
+    letter-spacing: -0.015em; margin: 0 0 12px; line-height: 1.2;
+  }
+  .verdict p { margin: 0 0 12px; color: var(--ink-2); max-width: 68ch; }
+  .verdict p:last-child { margin-bottom: 0; }
+  .verdict strong { color: var(--ink); font-weight: 600; }
+
+  /* ---------- sections ---------- */
+  section { margin-top: 68px; scroll-margin-top: 20px; }
+  .sec-head { display: flex; align-items: baseline; gap: 14px; margin-bottom: 8px;
+              border-bottom: 1px solid var(--ink); padding-bottom: 10px; }
+  .sec-num {
+    font-family: var(--mono); font-size: 11px; color: var(--accent);
+    letter-spacing: .1em; font-weight: 700; flex: none;
+  }
+  h2.sec {
+    font-family: var(--display); font-size: clamp(1.4rem, 3vw, 1.85rem);
+    font-weight: 600; letter-spacing: -0.018em; margin: 0; line-height: 1.15;
+  }
+  .lede { color: var(--ink-2); max-width: 68ch; margin: 16px 0 26px; }
+  h3 {
+    font-family: var(--sans); font-size: .8rem; font-weight: 700;
+    letter-spacing: .08em; text-transform: uppercase; color: var(--ink-2);
+    margin: 34px 0 12px;
+  }
+  p { max-width: 68ch; }
+
+  /* ---------- stat tiles ---------- */
+  .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(158px,1fr));
+           gap: 1px; background: var(--rule); border: 1px solid var(--rule);
+           border-radius: 3px; overflow: hidden; margin: 26px 0; }
+  .tile { background: var(--surface); padding: 18px 18px 16px; }
+  .tile .k {
+    font-family: var(--mono); font-size: 10.5px; letter-spacing: .09em;
+    text-transform: uppercase; color: var(--muted); margin-bottom: 8px;
+  }
+  .tile .v {
+    font-family: var(--mono); font-size: 1.62rem; font-weight: 600;
+    letter-spacing: -0.02em; font-variant-numeric: tabular-nums; line-height: 1;
+  }
+  .tile .d { font-family: var(--mono); font-size: 11.5px; margin-top: 7px;
+             font-variant-numeric: tabular-nums; color: var(--muted); }
+  .neg { color: var(--critical); } .pos { color: var(--good); }
+
+  /* ---------- charts ---------- */
+  .chart-card {
+    background: var(--surface); border: 1px solid var(--rule); border-radius: 3px;
+    padding: 22px 22px 14px; box-shadow: var(--shadow);
+  }
+  .chart-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin: 8px 0 0; }
+  @media (max-width: 720px) { .chart-grid { grid-template-columns: 1fr; } }
+  .ch-title { font-size: .92rem; font-weight: 650; margin: 0 0 2px; }
+  .ch-sub { font-family: var(--mono); font-size: 11px; color: var(--muted);
+            margin: 0 0 14px; letter-spacing: .03em; }
+  svg { display: block; width: 100%; overflow: visible; }
+  .ax { font-family: var(--mono); font-size: 10px; fill: var(--muted);
+        font-variant-numeric: tabular-nums; }
+  .gl { stroke: var(--grid); stroke-width: 1; }
+  .baseline { stroke: var(--grid); stroke-width: 1.5; }
+
+  .tip {
+    position: fixed; pointer-events: none; z-index: 40; opacity: 0;
+    transition: opacity .1s; background: var(--surface);
+    border: 1px solid var(--rule); border-radius: 3px; padding: 9px 12px;
+    box-shadow: 0 6px 22px -8px rgba(0,0,0,.35); font-family: var(--mono);
+    font-size: 11.5px; line-height: 1.5; font-variant-numeric: tabular-nums;
+    color: var(--ink); white-space: nowrap;
+  }
+  .tip b { color: var(--ink); font-weight: 700; }
+  .tip .lbl { color: var(--muted); }
+
+  details.tbl { margin-top: 12px; }
+  details.tbl summary {
+    font-family: var(--mono); font-size: 10.5px; letter-spacing: .07em;
+    text-transform: uppercase; color: var(--muted); cursor: pointer;
+    padding: 6px 0; list-style: none;
+  }
+  details.tbl summary::-webkit-details-marker { display: none; }
+  details.tbl summary::before { content: "▸ "; }
+  details.tbl[open] summary::before { content: "▾ "; }
+  details.tbl summary:hover { color: var(--ink-2); }
+
+  /* ---------- tables ---------- */
+  .scroll { overflow-x: auto; border: 1px solid var(--rule); border-radius: 3px;
+            background: var(--surface); }
+  table { border-collapse: collapse; width: 100%; font-size: 13px; }
+  th, td { padding: 9px 13px; text-align: left; white-space: nowrap;
+           border-bottom: 1px solid var(--rule); }
+  th {
+    font-family: var(--mono); font-size: 10px; letter-spacing: .08em;
+    text-transform: uppercase; color: var(--muted); font-weight: 600;
+    background: var(--sunk); position: sticky; top: 0; z-index: 1;
+  }
+  td.n { font-family: var(--mono); font-variant-numeric: tabular-nums; text-align: right; }
+  th.n { text-align: right; }
+  tbody tr:last-child td { border-bottom: none; }
+  tbody tr:hover td { background: var(--sunk); }
+  tr.self td { background: var(--accent-soft) !important; font-weight: 600; }
+  tr.self td:first-child { box-shadow: inset 3px 0 0 var(--accent); }
+  .kw { font-family: var(--sans); max-width: 320px; overflow: hidden;
+        text-overflow: ellipsis; }
+  code { font-family: var(--mono); font-size: .88em; background: var(--sunk);
+         padding: 1.5px 5px; border-radius: 2px; }
+
+  .pill {
+    display: inline-block; font-family: var(--mono); font-size: 10px;
+    letter-spacing: .06em; text-transform: uppercase; padding: 2.5px 7px;
+    border-radius: 2px; font-weight: 700;
+  }
+  .p-brand { background: var(--accent-soft); color: var(--accent); }
+  .p-local { background: rgba(31,111,178,.14); color: var(--series); }
+  .p-prod  { background: var(--sunk); color: var(--ink-2); }
+
+  /* ---------- callouts ---------- */
+  .note {
+    border-left: 3px solid var(--accent); background: var(--surface);
+    padding: 16px 20px; margin: 24px 0; border-radius: 0 3px 3px 0;
+    border-top: 1px solid var(--rule); border-right: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
+  }
+  .note p { margin: 0; font-size: .94rem; color: var(--ink-2); }
+  .note p + p { margin-top: 9px; }
+  .note b { color: var(--ink); }
+
+  ul.clean { padding-left: 0; list-style: none; max-width: 70ch; }
+  ul.clean li {
+    padding-left: 26px; position: relative; margin-bottom: 11px; color: var(--ink-2);
+  }
+  ul.clean li::before {
+    content: ""; position: absolute; left: 6px; top: .62em; width: 6px; height: 6px;
+    background: var(--accent); border-radius: 50%;
+  }
+  ul.clean li b { color: var(--ink); font-weight: 600; }
+
+  /* ---------- plan ---------- */
+  .step {
+    display: grid; grid-template-columns: 62px 1fr; gap: 20px;
+    padding: 22px 0; border-top: 1px solid var(--rule);
+  }
+  .step:first-of-type { border-top: 2px solid var(--ink); }
+  .step-n {
+    font-family: var(--mono); font-size: 11px; letter-spacing: .08em;
+    color: var(--accent); font-weight: 700; padding-top: 4px;
+  }
+  .step h4 { margin: 0 0 7px; font-size: 1.02rem; font-weight: 650;
+             font-family: var(--sans); letter-spacing: -0.01em; }
+  .step p { margin: 0; color: var(--ink-2); font-size: .95rem; }
+  .step .why {
+    font-family: var(--mono); font-size: 11px; color: var(--muted);
+    margin-top: 9px; letter-spacing: .02em;
+  }
+  @media (max-width: 620px) {
+    .step { grid-template-columns: 1fr; gap: 6px; }
+  }
+
+  footer {
+    margin-top: 72px; padding-top: 22px; border-top: 1px solid var(--rule);
+    font-family: var(--mono); font-size: 11px; color: var(--muted);
+    line-height: 1.8; letter-spacing: .02em;
+  }
+  a { color: var(--series); text-decoration-thickness: 1px;
+      text-underline-offset: 2px; }
+  a:focus-visible, summary:focus-visible {
+    outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 2px;
+  }
+  @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+
+<div class="wrap">
+
+<header class="mast">
+  <p class="eyebrow">SEO Profile · Prepared for Wonderland Marketing</p>
+  <h1>Wasser's Exclusive Furniture</h1>
+  <p class="standfirst">A full organic search profile for wassersfurniture.com — traffic, rankings by SERP page, backlinks, and the South Florida competitive set. Built from DataForSEO Labs, Backlinks and SERP APIs.</p>
+  <div class="meta-row">
+    <span><b>Domain</b> wassersfurniture.com</span>
+    <span><b>Market</b> United States / English</span>
+    <span><b>Data</b> DataForSEO, 1 Aug 2026</span>
+    <span><b>Location</b> Hallandale Beach, FL</span>
+  </div>
+</header>
+
+<div class="verdict">
+  <div class="verdict-tag">▲ Critical — read first</div>
+  <h2>Organic search has collapsed roughly 84% since February</h2>
+  <p>This is not a slow decline to be optimised away. In February the site ranked for <strong>1,900 keywords</strong> and drew an estimated <strong>5,552 organic visits a month</strong>. By July that was <strong>278 keywords</strong> and <strong>1,032 visits</strong>. Today it sits at <strong>191 keywords</strong> and <strong>892 visits</strong>. <strong>815 keywords were lost outright.</strong></p>
+  <p>The cause is visible in the data: the site was replatformed onto Shopify, and <strong>the old URLs were never redirected</strong>. Legacy <code>.html</code> product and brand pages return <strong>404</strong>, not <code>301</code>. On top of that, the new site exposes almost no indexable category pages — <strong>98 of the top 100 indexed URLs are individual <code>/products/</code> pages</strong> — so there is nothing left to rank on the terms that actually sell furniture.</p>
+  <p>Everything else in this report — the thin keyword set, the spammy link profile, the absence from every commercial SERP — sits downstream of those two facts. Fix them first; the rest is wasted effort until then.</p>
+</div>
+
+<!-- ============================================================ -->
+<section id="traffic">
+  <div class="sec-head"><span class="sec-num">01</span><h2 class="sec">Estimated traffic</h2></div>
+  <p class="lede">DataForSEO's ETV (estimated traffic value) models monthly organic visits from ranking position and search volume. Paid search is running at zero — there is no advertising cushioning the drop.</p>
+
+  <div class="tiles">
+    <div class="tile"><div class="k">Organic visits / mo</div><div class="v">892</div><div class="d neg">−84% vs February</div></div>
+    <div class="tile"><div class="k">Traffic value / mo</div><div class="v">$956</div><div class="d neg">−87% vs February</div></div>
+    <div class="tile"><div class="k">Keywords ranking</div><div class="v">191</div><div class="d neg">−90% vs February</div></div>
+    <div class="tile"><div class="k">Keywords lost</div><div class="v">815</div><div class="d neg">vs 127 gained</div></div>
+    <div class="tile"><div class="k">Paid traffic</div><div class="v">0</div><div class="d">no paid search active</div></div>
+  </div>
+
+  <div class="chart-card">
+    <div class="chart-grid">
+      <div>
+        <p class="ch-title">Estimated organic visits per month</p>
+        <p class="ch-sub">Feb 2026 – Aug 2026</p>
+        <div id="c-traffic"></div>
+      </div>
+      <div>
+        <p class="ch-title">Keywords ranking in the top 100</p>
+        <p class="ch-sub">Feb 2026 – Aug 2026</p>
+        <div id="c-keywords"></div>
+      </div>
+    </div>
+    <details class="tbl">
+      <summary>View as table</summary>
+      <div class="scroll" style="margin-top:8px">
+        <table>
+          <thead><tr><th>Month</th><th class="n">Keywords</th><th class="n">Est. visits</th><th class="n">Traffic value</th><th class="n">Top-3 kws</th></tr></thead>
+          <tbody id="t-history"></tbody>
+        </table>
+      </div>
+    </details>
+  </div>
+
+  <div class="note">
+    <p><b>Read the shape, not just the endpoint.</b> Traffic held up through April — the ranking loss started biting in <b>May</b> and fell off a cliff in <b>June and July</b>. That timing is consistent with a migration whose old URLs stayed in Google's index for a few weeks before being dropped as persistent 404s.</p>
+  </div>
+</section>
+
+<!-- ============================================================ -->
+<section id="cause">
+  <div class="sec-head"><span class="sec-num">02</span><h2 class="sec">What actually broke</h2></div>
+  <p class="lede">Three findings, each verified directly against the live site and Google's index rather than inferred from the traffic curve.</p>
+
+  <h3>Finding 1 — Legacy URLs return 404 instead of redirecting</h3>
+  <p>The site moved from a legacy Magento-style structure (<code>/american-leather-grisham.html</code>, <code>/shop-by-brand/a-c/american-leather.html</code>) to Shopify (<code>/products/carmet-sofa</code>). Server IP <code>23.227.38.74</code> and a Cloudflare front confirm the Shopify stack. Old URLs were tested individually:</p>
+  <div class="scroll" style="margin-top:14px">
+    <table>
+      <thead><tr><th>Legacy URL</th><th class="n">Status</th><th>Redirect target</th></tr></thead>
+      <tbody>
+        <tr><td class="kw"><code>/shop-by-brand/l-p/monte-design.html</code></td><td class="n" style="color:var(--critical);font-weight:700">404</td><td>— none</td></tr>
+        <tr><td class="kw"><code>/american-leather-grisham.html</code></td><td class="n" style="color:var(--critical);font-weight:700">404</td><td>— none</td></tr>
+        <tr><td class="kw"><code>/stone-international-cocktail-table…8043-p.html</code></td><td class="n" style="color:var(--critical);font-weight:700">404</td><td>— none</td></tr>
+        <tr><td class="kw"><code>/eforma-cindy-bar-stool-4-in-stock-quickship.html</code></td><td class="n" style="color:var(--critical);font-weight:700">404</td><td>— none</td></tr>
+        <tr><td class="kw"><code>/idealsedia-transformable-ottoman.html</code></td><td class="n" style="color:var(--critical);font-weight:700">404</td><td>— none</td></tr>
+        <tr><td class="kw"><code>/driving-directions-to-wassers-furniture</code></td><td class="n" style="color:var(--critical);font-weight:700">404</td><td>— none</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p style="margin-top:14px">The only redirects in place are protocol and <code>www</code> normalisation — <code>http://</code> hops to <code>https://</code>, and then the path itself 404s. There is no page-level redirect map. Every link, bookmark and ranking attached to the old catalogue is being thrown away.</p>
+
+  <h3>Finding 2 — There is no category layer to rank with</h3>
+  <p>Of the top 100 URLs Google has indexed for the domain, <strong>98 are individual <code>/products/</code> pages</strong>, one is the homepage and one is a <code>/pages/</code> URL. Google reports roughly <strong>1,850 indexed URLs</strong> — so the catalogue is being crawled, it simply has no collection or category pages carrying commercial intent.</p>
+  <p>This matters because that is precisely where competitors win. Modern Miami ranks <strong>#1 for "modern coffee table"</strong> (33,100 searches/mo) off a category page. MH2G ranks <strong>#1 for "contemporary white dresser"</strong> (6,600/mo). Wasser's has no equivalent page to compete with.</p>
+
+  <h3>Finding 3 — Product URLs are 404ing on the new site too</h3>
+  <p>The breakage is ongoing, not just historical. Of 1,000 linked pages sampled, 36 return 404 — and many are current-generation Shopify URLs (<code>/products/sarasota-recliner-chair</code>, <code>/products/callum-recliner-chair</code>, and the whole Comfort Relax recliner range). Products are being deleted or unpublished without redirects, which will keep bleeding rankings after the migration is fixed.</p>
+
+  <div class="note">
+    <p><b>One caveat, stated plainly.</b> Repeated requests to the site returned <code>429 Too Many Requests</code> from Cloudflare. That is normal rate-limiting against a crawler hitting the same host repeatedly, and it is <b>not</b> evidence that Googlebot is blocked — but it is worth confirming in Search Console that Google's crawl rate isn't being throttled, since aggressive bot rules on a freshly migrated site would compound everything above.</p>
+  </div>
+</section>
+
+<!-- ============================================================ -->
+<section id="rankings">
+  <div class="sec-head"><span class="sec-num">03</span><h2 class="sec">Keywords by SERP page</h2></div>
+  <p class="lede">Where the remaining 191 keywords actually sit. Positions are organic rank — page 1 is positions 1–10, page 2 is 11–20, page 3 is 21–30.</p>
+
+  <div class="chart-card">
+    <p class="ch-title">Distribution of all 191 ranking keywords</p>
+    <p class="ch-sub">By organic position band</p>
+    <div id="c-positions"></div>
+  </div>
+
+  <div class="tiles">
+    <div class="tile"><div class="k">Page 1 · pos 1–10</div><div class="v">20</div><div class="d">of which 6 are brand</div></div>
+    <div class="tile"><div class="k">Page 2 · pos 11–20</div><div class="v">20</div><div class="d">nothing above 70 vol</div></div>
+    <div class="tile"><div class="k">Page 3 · pos 21–30</div><div class="v">26</div><div class="d">mostly supplier names</div></div>
+    <div class="tile"><div class="k">Page 4+ · pos 31–100</div><div class="v">125</div><div class="d">effectively invisible</div></div>
+  </div>
+
+  <div class="note">
+    <p><b>65% of all organic traffic is a single branded word.</b> "wassers" alone accounts for <b>578 of the 892</b> estimated monthly visits. Strip out every brand variant and non-brand organic traffic is roughly <b>250 visits a month</b> — for a luxury furniture showroom in one of the wealthiest retail corridors in the United States.</p>
+  </div>
+
+  <h3>Page 1 — positions 1–10 (20 keywords)</h3>
+  <div class="scroll">
+    <table>
+      <thead><tr><th class="n">Pos</th><th>Keyword</th><th>Type</th><th class="n">Volume</th><th class="n">Est. visits</th><th class="n">KD</th><th class="n">CPC</th></tr></thead>
+      <tbody id="t-p1"></tbody>
+    </table>
+  </div>
+
+  <h3>Page 2 — positions 11–20 (20 keywords)</h3>
+  <div class="scroll">
+    <table>
+      <thead><tr><th class="n">Pos</th><th>Keyword</th><th>Type</th><th class="n">Volume</th><th class="n">Est. visits</th><th class="n">KD</th><th class="n">CPC</th></tr></thead>
+      <tbody id="t-p2"></tbody>
+    </table>
+  </div>
+
+  <h3>Page 3 — positions 21–30 (26 keywords)</h3>
+  <div class="scroll">
+    <table>
+      <thead><tr><th class="n">Pos</th><th>Keyword</th><th>Type</th><th class="n">Volume</th><th class="n">Est. visits</th><th class="n">KD</th><th class="n">CPC</th></tr></thead>
+      <tbody id="t-p3"></tbody>
+    </table>
+  </div>
+
+  <div class="note">
+    <p><b>The pattern across all three pages.</b> Page 1 is brand plus three low-volume Hallandale terms sitting at positions 8–10. Pages 2 and 3 are almost entirely <b>supplier product names</b> — "american leather sleeper sofa prices", "burke manual recliner", "carson sofa". The site ranks for the brands it stocks, not for what it sells or where it sells it. There is not one high-value local commercial term anywhere in the top 30.</p>
+  </div>
+</section>
+
+<!-- ============================================================ -->
+<section id="backlinks">
+  <div class="sec-head"><span class="sec-num">04</span><h2 class="sec">Backlink profile</h2></div>
+  <p class="lede">Small, old, and materially contaminated. The link profile is not an asset today — a meaningful share of it is the kind of thing that needs disavowing rather than building on.</p>
+
+  <div class="tiles">
+    <div class="tile"><div class="k">Domain rank</div><div class="v">187</div><div class="d">0–1000 scale</div></div>
+    <div class="tile"><div class="k">Backlinks</div><div class="v">1,449</div><div class="d">852 dofollow / 597 nofollow</div></div>
+    <div class="tile"><div class="k">Referring domains</div><div class="v">392</div><div class="d">385 unique main domains</div></div>
+    <div class="tile"><div class="k">Referring IPs</div><div class="v">127</div><div class="d neg">3.1 domains per IP</div></div>
+    <div class="tile"><div class="k">Spam score</div><div class="v" style="color:var(--critical)">26</div><div class="d neg">elevated</div></div>
+    <div class="tile"><div class="k">Broken pages w/ links</div><div class="v">94</div><div class="d neg">equity going nowhere</div></div>
+  </div>
+
+  <p><strong>392 referring domains across only 127 IPs</strong> is the tell. Genuine editorial links come from independently hosted sites; clusters of domains sharing an IP are usually one network. Sorted by domain authority, the strongest "links" the site has are these:</p>
+
+  <div class="scroll" style="margin-top:14px">
+    <table>
+      <thead><tr><th>Referring domain</th><th class="n">Rank</th><th class="n">Links</th><th>First seen</th><th>Assessment</th></tr></thead>
+      <tbody id="t-refdom"></tbody>
+    </table>
+  </div>
+
+  <p style="margin-top:16px">The <code>.blogspot.com</code> cluster — <code>choicediningtable</code>, <code>mydiningtablehome</code>, <code>diningtabletoday</code>, <code>losguayanes</code>, <code>bronsspce</code> — all first appeared within eight days of each other in October 2023 and collectively contribute over 110 links. That is a purchased network, not editorial coverage.</p>
+
+  <h3>Anchor text</h3>
+  <p><strong>762 of 1,449 backlinks carry an empty anchor</strong> (image or bare links) across 297 referring domains. Of the anchors that do carry text, almost all are the bare domain or brand name. There is essentially <strong>no commercial or category anchor text</strong> — nothing saying "luxury furniture Miami", "Italian furniture", or any category the business wants to own.</p>
+
+  <div class="note">
+    <p><b>What's genuinely missing.</b> For a 60-year-old Hallandale Beach showroom carrying Italian design brands, there are no links from local press, no design or interiors publications, no chamber or business association listings, and almost nothing from the manufacturer brands the store is an authorised dealer for. Those dealer-locator links alone are usually the easiest high-authority wins available to a retailer like this — and they are simply not there.</p>
+  </div>
+</section>
+
+<!-- ============================================================ -->
+<section id="competitors">
+  <div class="sec-head"><span class="sec-num">05</span><h2 class="sec">The competitive set</h2></div>
+  <p class="lede">Identified by running the commercial keywords a South Florida luxury furniture retailer should own through DataForSEO's SERP competitor analysis, then filtering out marketplaces, social platforms and directories. Two tiers emerged.</p>
+
+  <div class="chart-card">
+    <p class="ch-title">Estimated monthly organic visits</p>
+    <p class="ch-sub">Wasser's vs the South Florida competitive set · log scale</p>
+    <div id="c-comp"></div>
+  </div>
+
+  <h3>Full comparison</h3>
+  <div class="scroll">
+    <table>
+      <thead>
+        <tr>
+          <th>Domain</th><th>Tier</th><th class="n">Keywords</th><th class="n">Est. visits/mo</th>
+          <th class="n">Traffic value</th><th class="n">Pos 1</th><th class="n">Pos 2–3</th>
+          <th class="n">Pos 4–10</th><th class="n">Dom. rank</th><th class="n">Backlinks</th>
+          <th class="n">Ref. domains</th><th class="n">Spam</th>
+        </tr>
+      </thead>
+      <tbody id="t-comp"></tbody>
+    </table>
+  </div>
+
+  <div class="note">
+    <p><b>Tier 1 — the volume chains.</b> City Furniture, Modani, Baer's and El Dorado each pull <b>280,000–900,000 organic visits a month</b> against Wasser's 892. They are national-scale ecommerce operations. Wasser's will not beat them on head terms and shouldn't try.</p>
+    <p><b>Tier 2 — the real fight.</b> Addison House (11,924 visits), MH2G (12,302), Habitus (1,503) and Camerich Miami (419) are the direct analogues: single or few-showroom South Florida luxury retailers. <b>Camerich Miami has 82 backlinks and 53 referring domains — a fraction of Wasser's 1,449 and 392 — and still out-ranks them on the local terms that matter.</b> That is the clearest evidence that this is a site-structure problem, not a link-authority problem.</p>
+  </div>
+
+  <h3>What the Tier 2 peers rank #1 for</h3>
+  <div class="scroll">
+    <table>
+      <thead><tr><th>Competitor</th><th class="n">Pos</th><th>Keyword</th><th class="n">Volume</th><th class="n">Est. visits</th></tr></thead>
+      <tbody id="t-peerkw"></tbody>
+    </table>
+  </div>
+  <p style="margin-top:14px">Note the shape of it: the winners rank on <strong>product-category terms</strong> ("modern coffee table", "contemporary white dresser", "glass dining table") and on <strong>place-plus-category terms</strong> ("furniture shop miami", "modern miami furniture", "aventura furniture stores"). Both are page types Wasser's does not currently have.</p>
+</section>
+
+<!-- ============================================================ -->
+<section id="gap">
+  <div class="sec-head"><span class="sec-num">06</span><h2 class="sec">The opportunity gap</h2></div>
+  <p class="lede">The commercial keyword market Wasser's is currently absent from. These 28 seed terms alone carry <strong>22,620 searches a month</strong> at CPCs between $1.87 and $21.29 — meaning advertisers are paying real money for this traffic.</p>
+
+  <div class="scroll">
+    <table>
+      <thead><tr><th>Keyword</th><th class="n">Volume</th><th class="n">CPC</th><th class="n">Difficulty</th><th>Wasser's position</th></tr></thead>
+      <tbody id="t-seed"></tbody>
+    </table>
+  </div>
+
+  <div class="note">
+    <p><b>Wasser's does not appear in the top 100 for a single one of these.</b> Verified directly against live SERPs for "modern furniture miami", "furniture shop miami", "sofa store miami", "luxury furniture miami", "italian furniture miami", "modern coffee table", "glass dining table" and "contemporary white dresser" — absent from all eight.</p>
+  </div>
+
+  <h3>Where the Tier 2 peers are beatable</h3>
+  <p>These are terms owned by direct peers at difficulty scores mostly in single digits — genuinely winnable with the right page in place.</p>
+  <div class="scroll" style="margin-top:14px">
+    <table>
+      <thead><tr><th>Keyword</th><th class="n">Volume</th><th class="n">KD</th><th class="n">CPC</th><th>Currently owned by</th></tr></thead>
+      <tbody id="t-gap"></tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ============================================================ -->
+<section id="plan">
+  <div class="sec-head"><span class="sec-num">07</span><h2 class="sec">Where I'd start</h2></div>
+  <p class="lede">A sequence rather than a list — each step depends on the one before it. This is the starting point for the plan, not the finished plan; the sizing and timeline are worth working through together.</p>
+
+  <div class="step">
+    <div class="step-n">STEP 01</div>
+    <div>
+      <h4>Rebuild the redirect map</h4>
+      <p>Export the legacy URL set from the old platform, from Google's index, and from the 392 referring domains. Map every legacy <code>.html</code> URL to its closest live equivalent and implement <code>301</code>s in Shopify. Where no equivalent exists, redirect to the parent category rather than letting it 404.</p>
+      <p class="why">Recovers the 815 lost keywords and reconnects 94 broken pages' worth of link equity. Nothing else works until this does.</p>
+    </div>
+  </div>
+
+  <div class="step">
+    <div class="step-n">STEP 02</div>
+    <div>
+      <h4>Stop the ongoing 404 bleed</h4>
+      <p>Put a rule in place so unpublishing a product redirects to its collection instead of returning 404, and clear the 36 currently-broken product URLs. Confirm in Search Console that Cloudflare's bot rules aren't throttling Googlebot.</p>
+      <p class="why">The migration damage is still accumulating. This caps it.</p>
+    </div>
+  </div>
+
+  <div class="step">
+    <div class="step-n">STEP 03</div>
+    <div>
+      <h4>Build the category layer that doesn't exist</h4>
+      <p>Indexable, copy-bearing Shopify collection pages for the categories with real demand — sofas and sectionals, dining tables, coffee tables, bedroom, lighting, outdoor — and for the brands the store is an authorised dealer for. This is the single biggest structural gap and the thing every Tier 2 competitor is beating them with.</p>
+      <p class="why">"modern coffee table" is 33,100 searches/mo and Modern Miami holds #1 with a category page.</p>
+    </div>
+  </div>
+
+  <div class="step">
+    <div class="step-n">STEP 04</div>
+    <div>
+      <h4>Own the local commercial terms</h4>
+      <p>Dedicated pages for Hallandale, Aventura, Sunny Isles, Fort Lauderdale and the Miami Design District, plus a properly built local presence. Wasser's already ranks 8–10 for the Hallandale terms — those are close-range wins that should be page-one top-three.</p>
+      <p class="why">4,400/mo on "furniture stores miami" alone; peers hold these at difficulty scores of 0–6.</p>
+    </div>
+  </div>
+
+  <div class="step">
+    <div class="step-n">STEP 05</div>
+    <div>
+      <h4>Clean the link profile, then build a real one</h4>
+      <p>Disavow the blogspot network and the obvious spam domains. Then pursue the links that should already exist: manufacturer dealer-locator pages, South Florida design and interiors press, local business and chamber listings, and the trade site <code>wasserstothetrade.com</code>.</p>
+      <p class="why">Camerich Miami out-ranks Wasser's locally on 53 referring domains. Quality is the gap, not volume.</p>
+    </div>
+  </div>
+
+  <div class="step">
+    <div class="step-n">STEP 06</div>
+    <div>
+      <h4>Re-baseline and track</h4>
+      <p>Lock in the current numbers as the floor, set up rank tracking against the Tier 2 set specifically, and measure recovery of the lost 815 separately from new growth — otherwise recovery will get reported as if it were gains.</p>
+      <p class="why">Distinguishes "we fixed the migration" from "we grew the business".</p>
+    </div>
+  </div>
+
+  <div class="note" style="margin-top:32px">
+    <p><b>Realistic framing.</b> Steps 1–2 are recovery, not growth — they should return a meaningful share of the February baseline (roughly 5,500 visits/mo) within two to three months of Google recrawling. Steps 3–5 are the actual growth programme and where the Tier 2 competitors get taken on. Treating step 3 as the starting point without doing steps 1–2 first would mean building on a site that is still throwing away everything it earns.</p>
+  </div>
+</section>
+
+<footer>
+  Source: DataForSEO Labs, Backlinks and SERP APIs · United States (location 2840), English · pulled 1 August 2026.<br>
+  Traffic figures are modelled estimates (ETV), not analytics data — directionally reliable, and best confirmed against Wasser's own Google Analytics and Search Console.<br>
+  Scripts and raw data: <code>seo_profile.py</code>, <code>competitive_analysis.py</code>, <code>data/</code> — branch <code>claude/wassers-furniture-seo-6fd2c1</code>.
+</footer>
+
+</div>
+<div class="tip" id="tip"></div>
+
+<script>
+(function () {
+  "use strict";
+
+  const NS = "http://www.w3.org/2000/svg";
+  const tip = document.getElementById("tip");
+  const fmt = n => n.toLocaleString("en-US");
+  const money = n => "$" + n.toLocaleString("en-US", {maximumFractionDigits: 0});
+
+  function showTip(html, ev) {
+    tip.innerHTML = html;
+    tip.style.opacity = "1";
+    const r = tip.getBoundingClientRect();
+    let x = ev.clientX + 14, y = ev.clientY - r.height - 12;
+    if (x + r.width > innerWidth - 8) x = ev.clientX - r.width - 14;
+    if (y < 8) y = ev.clientY + 18;
+    tip.style.left = x + "px";
+    tip.style.top = y + "px";
+  }
+  const hideTip = () => { tip.style.opacity = "0"; };
+
+  const el = (n, a) => {
+    const e = document.createElementNS(NS, n);
+    for (const k in a) e.setAttribute(k, a[k]);
+    return e;
+  };
+
+  /* ---------------- data ---------------- */
+  const history = [
+    {m: "Feb", kw: 1900, etv: 5552, val: 7631, t3: 119},
+    {m: "Mar", kw: 1827, etv: 5245, val: 7047, t3: 110},
+    {m: "Apr", kw: 1553, etv: 6388, val: 8378, t3: 105},
+    {m: "May", kw: 1314, etv: 5804, val: 7899, t3:  96},
+    {m: "Jun", kw:  703, etv: 3001, val: 4071, t3:  43},
+    {m: "Jul", kw:  278, etv: 1032, val: 1557, t3:  11},
+    {m: "Aug", kw:  191, etv:  892, val:  955, t3:   6}
+  ];
+
+  const positions = [
+    {label: "1",      n:  3,  tier: 4, band: "Page 1"},
+    {label: "2–3",    n:  3,  tier: 4, band: "Page 1"},
+    {label: "4–10",   n: 14,  tier: 3, band: "Page 1"},
+    {label: "11–20",  n: 20,  tier: 3, band: "Page 2"},
+    {label: "21–30",  n: 26,  tier: 2, band: "Page 3"},
+    {label: "31–40",  n: 42,  tier: 2, band: "Page 4"},
+    {label: "41–50",  n: 31,  tier: 1, band: "Page 5"},
+    {label: "51–60",  n: 27,  tier: 1, band: "Page 6"},
+    {label: "61–70",  n: 16,  tier: 1, band: "Page 7"},
+    {label: "71–80",  n:  4,  tier: 1, band: "Page 8"},
+    {label: "81–90",  n:  3,  tier: 1, band: "Page 9"},
+    {label: "91–100", n:  2,  tier: 1, band: "Page 10"}
+  ];
+
+  const comp = [
+    {d: "modani.com",            tier: 1, kw: 14052, etv: 902290, val: 2273773, p1: 1059, p23:  848, p410: 1309, dr: 298, bl: 10268, rd: 1279, sp: 13},
+    {d: "cityfurniture.com",     tier: 1, kw: 15822, etv: 553715, val: 1423316, p1:  410, p23:  504, p410: 1922, dr: 307, bl: 11967, rd: 2707, sp: 19},
+    {d: "modernmiami.com",       tier: 1, kw: 12845, etv: 321413, val:  744213, p1:  937, p23: 1405, p410: 1303, dr: 332, bl: 14620, rd: 5215, sp: 18},
+    {d: "baers.com",             tier: 1, kw: 13127, etv: 316119, val:  668740, p1:  605, p23: 1416, p410: 2597, dr: 351, bl: 10935, rd: 1029, sp: 22},
+    {d: "eldoradofurniture.com", tier: 1, kw: 18881, etv: 284918, val:  597798, p1:  700, p23:  885, p410: 2725, dr: 332, bl: 13765, rd: 3243, sp: 20},
+    {d: "scandesign.com",        tier: 1, kw:  6136, etv: 112455, val:  275512, p1:  331, p23:  474, p410:  621, dr: 279, bl:  1799, rd:  309, sp: 21},
+    {d: "mh2g.com",              tier: 2, kw:  1714, etv:  12302, val:   36906, p1:   26, p23:   58, p410:  230, dr: 252, bl:  1644, rd:  815, sp: 17},
+    {d: "addisonhouse.com",      tier: 2, kw:  1338, etv:  11924, val:   65621, p1:   44, p23:   61, p410:  142, dr: 173, bl:   720, rd:  291, sp: 22},
+    {d: "habitusfurniture.com",  tier: 2, kw:   436, etv:   1503, val:    5328, p1:    8, p23:   25, p410:   71, dr: 147, bl:   373, rd:  131, sp: 29},
+    {d: "wassersfurniture.com",  tier: 0, kw:   191, etv:    892, val:     955, p1:    3, p23:    3, p410:   14, dr: 187, bl:  1449, rd:  392, sp: 26},
+    {d: "camerichmiami.com",     tier: 2, kw:   181, etv:    419, val:   11895, p1:    2, p23:    2, p410:   22, dr:  55, bl:    82, rd:   53, sp: 27}
+  ];
+
+  const p1 = [
+    [1,"wassers","brand",1900,577.6,21,null],
+    [1,"wasser furniture","brand",210,63.8,16,4.28],
+    [1,"wassers furniture","brand",210,63.8,3,4.28],
+    [8,"genuine leather ottoman","product",480,9.5,0,2.23],
+    [2,"diva chandelier","product",50,8.1,0,1.45],
+    [5,"mirror times","product",110,5.2,16,0.51],
+    [9,"sonos connect:amp gen1","product",320,4.8,0,0.45],
+    [2,"tempur cloud luxe breeze king","product",20,3.2,0,8.64],
+    [2,"tempur-cloud luxe breeze king","product",20,3.2,0,8.64],
+    [8,"furniture store hallandale","local",90,1.8,5,2.80],
+    [10,"furniture store in hallandale fl","local",90,1.0,5,2.80],
+    [10,"furniture stores hallandale fl","local",90,1.0,5,2.80],
+    [8,"alligator leather chair","product",50,1.0,0,0.40],
+    [8,"naos coffee tables","product",50,1.0,0,1.23],
+    [9,"w.s furniture","brand",50,0.8,23,6.96],
+    [8,"american leather luxe","product",40,0.8,0,0.44],
+    [10,"ws furniture","brand",50,0.6,36,6.96],
+    [9,"luxe sofa american leather","product",40,0.6,0,3.79],
+    [7,"romina new york crib","product",20,0.5,0,4.93],
+    [10,"small wood bead chandelier","product",20,0.2,0,1.46]
+  ];
+
+  const p2 = [
+    [11,"burke manual recliner","product",70,8.2,0,null],
+    [16,"eforma","product",390,1.7,0,6.38],
+    [14,"alta cabinets","product",110,0.6,2,1.85],
+    [11,"onyx console table","product",50,0.5,0,1.01],
+    [11,"pink bead chandelier","product",40,0.4,0,0.96],
+    [20,"american leather sleeper sofa prices","product",140,0.3,0,2.80],
+    [16,"american leather operations","product",70,0.3,0,7.51],
+    [12,"african print accent chair","product",40,0.3,0,1.36],
+    [11,"domitalia","product",30,0.3,0,1.24],
+    [18,"marlon upholstered standard bed","product",70,0.2,0,0.95],
+    [19,"american leather dallas outlet","product",70,0.2,0,1.11],
+    [17,"terminal-table","product",50,0.2,3,null],
+    [18,"american leather factory outlet","product",50,0.2,0,2.14],
+    [13,"eforma furniture","product",40,0.2,0,2.93],
+    [17,"adam beds","product",40,0.2,0,0.83],
+    [16,"african accent chairs","product",40,0.2,0,0.91],
+    [13,"american furniture leather recliners","product",30,0.2,0,0.61],
+    [15,"american leather power recliner","product",30,0.2,0,1.48],
+    [17,"cylinder pouf","product",30,0.1,0,2.45],
+    [20,"american leather nash sofa","product",30,0.1,0,1.79]
+  ];
+
+  const p3 = [
+    [23,"monte design","product",590,1.2,12,1.91],
+    [22,"wessers","brand",390,0.9,12,0.01],
+    [27,"burke manual reclining sofa","product",170,0.4,0,1.19],
+    [23,"american leather steve sectional","product",140,0.3,0,2.41],
+    [28,"carson couch","product",140,0.3,0,2.19],
+    [26,"carson sofa","product",140,0.3,0,2.19],
+    [29,"aaron dining chair","product",110,0.2,0,2.23],
+    [28,"hawaii mirrors","product",110,0.2,0,0.99],
+    [21,"american leather outlet dallas","product",70,0.2,0,1.11],
+    [29,"american leather outlet","product",70,0.1,0,1.11],
+    [26,"american signature leather sofa","product",70,0.1,0,0.73],
+    [30,"atrium dining table","product",70,0.1,0,1.58],
+    [30,"burke reclining sofa","product",70,0.1,0,1.47],
+    [28,"butterfly console table","product",70,0.1,0,0.35],
+    [25,"american leather comfort sleeper prices","product",50,0.1,0,1.97],
+    [27,"american leather website","product",50,0.1,5,0.83],
+    [29,"clara comfort sleeper","product",50,0.1,0,4.67],
+    [30,"seat belt dining chair","product",50,0.1,0,0.58],
+    [23,"seat belt dining chairs","product",50,0.1,0,0.58],
+    [25,"thea chair","product",50,0.1,0,2.86],
+    [22,"sting table","product",40,0.1,0,3.48],
+    [25,"furniture by wahlen","brand",40,0.1,1,null],
+    [28,"xdmd","product",40,0.1,0,null],
+    [22,"pablo light bench","product",30,0.1,0,0.33],
+    [23,"sofia dining chair","product",30,0.1,0,0.44],
+    [27,"waterproof dresser","product",30,0.1,0,1.19]
+  ];
+
+  const refdom = [
+    ["bestsleepersofatips.com",68,54,"2022-12-26","Thin affiliate blog"],
+    ["biospeleologia.blogspot.com",60,23,"2023-10-04","Off-topic blogspot"],
+    ["esches-strandbistro.de",51,1,"2024-11-26","German restaurant site"],
+    ["beforeitsnews.com",37,4,"2023-02-10","Low-trust content farm"],
+    ["bit.ly",36,1,"2025-12-24","Redirect, no equity"],
+    ["choicediningtable.blogspot.com",35,36,"2023-10-03","Blogspot network"],
+    ["mydiningtablehome.blogspot.com",32,34,"2023-10-11","Blogspot network"],
+    ["aptdeco.com",23,5,"2026-07-02","Legitimate — furniture resale"],
+    ["dentesthic.hu",23,3,"2025-08-26","Hungarian dental clinic"],
+    ["diningtabletoday.blogspot.com",17,31,"2023-10-04","Blogspot network"],
+    ["comfortingwords.web.app",14,8,"2025-08-05","Auto-generated"],
+    ["losguayanes.blogspot.com",12,7,"2023-10-06","Blogspot network"],
+    ["belocalhb.com",3,1,"2026-06-23","Legitimate — local Hallandale"],
+    ["anchorurl.cloud",0,1,"2026-07-22","Spam"],
+    ["buzzshrink.website",0,1,"2026-05-22","Spam"],
+    ["daolink.mom",0,1,"2026-04-23","Spam"],
+    ["marketingexperts.click",0,1,"2026-04-28","Spam"],
+    ["worldbusinesspromote.com",0,1,"2026-04-11","Spam"]
+  ];
+
+  const peerkw = [
+    ["modernmiami.com",1,"modern coffee table",33100,10062],
+    ["modernmiami.com",1,"marble table dining room",12100,3678],
+    ["modernmiami.com",1,"glass dining table",9900,3010],
+    ["modernmiami.com",1,"furniture shop miami",4400,1338],
+    ["modernmiami.com",1,"sofa store miami",4400,1338],
+    ["mh2g.com",1,"contemporary white dresser",6600,2006],
+    ["mh2g.com",1,"mh2g furniture doral",880,268],
+    ["mh2g.com",1,"mh2g furniture fort lauderdale",720,219],
+    ["addisonhouse.com",3,"ditres",60500,5887],
+    ["addisonhouse.com",1,"addison house",1300,395],
+    ["addisonhouse.com",2,"miami design district furniture stores",390,63],
+    ["addisonhouse.com",2,"aventura furniture stores",260,42],
+    ["habitusfurniture.com",2,"modern miami furniture",1300,211],
+    ["habitusfurniture.com",2,"miami modern furniture",590,96],
+    ["camerichmiami.com",1,"camerich aventura",260,79],
+    ["camerichmiami.com",5,"furniture store aventura",260,12]
+  ];
+
+  const seeds = [
+    ["high end furniture store",6600,3.37,27],
+    ["furniture stores miami",4400,3.38,27],
+    ["luxury furniture store",3600,3.83,24],
+    ["furniture stores fort lauderdale",1900,3.83,0],
+    ["modern furniture store near me",1900,4.30,29],
+    ["outdoor furniture miami",1000,4.06,16],
+    ["modern furniture miami",590,6.00,14],
+    ["italian furniture store",590,2.91,11],
+    ["interior design miami",480,8.12,32],
+    ["office furniture miami",320,21.29,5],
+    ["furniture stores aventura",260,3.79,0],
+    ["furniture stores hollywood fl",260,2.79,0],
+    ["modern furniture fort lauderdale",110,5.75,0],
+    ["bedroom furniture miami",110,1.87,0],
+    ["italian furniture miami",90,3.03,0],
+    ["furniture stores hallandale",90,2.80,0],
+    ["luxury furniture miami",70,4.06,0],
+    ["custom furniture miami",70,12.41,0],
+    ["contemporary furniture miami",40,2.62,11],
+    ["sectional sofas miami",30,5.16,0],
+    ["dining room sets miami",30,3.50,9],
+    ["furniture showroom miami",30,6.07,23]
+  ];
+
+  const gap = [
+    ["furniture shop miami",4400,0,3.38,"modernmiami.com (#1)"],
+    ["sofa store miami",4400,2,3.38,"modernmiami.com (#1)"],
+    ["miami furniture stores",4400,0,3.38,"modernmiami.com (#2)"],
+    ["furniture stores miami fl",4400,6,3.38,"addisonhouse.com (#9)"],
+    ["fort lauderdale furniture stores",1900,0,3.83,"mh2g.com (#7)"],
+    ["furniture stores fort lauderdale",1900,0,3.83,"mh2g.com (#10)"],
+    ["modern miami furniture",1300,4,3.58,"habitusfurniture.com (#2)"],
+    ["furniture in miami florida",880,0,5.43,"mh2g.com (#6)"],
+    ["furniture outlet miami",720,0,2.38,"addisonhouse.com (#8)"],
+    ["modern miami",720,13,4.23,"habitusfurniture.com (#4)"],
+    ["modern furniture miami",590,14,6.00,"mh2g.com (#2)"],
+    ["miami modern furniture",590,2,6.00,"habitusfurniture.com (#2)"],
+    ["miami design district furniture stores",390,0,4.88,"addisonhouse.com (#2)"],
+    ["furniture store in pompano beach fl",320,0,3.10,"mh2g.com (#7)"],
+    ["aventura furniture stores",260,0,3.79,"addisonhouse.com (#2)"],
+    ["furniture stores aventura fl",260,0,3.79,"addisonhouse.com (#2)"]
+  ];
+
+  /* ---------------- line chart ---------------- */
+  function lineChart(mount, data, key, label, fmtVal) {
+    const W = 460, H = 210, m = {t: 14, r: 16, b: 30, l: 46};
+    const iw = W - m.l - m.r, ih = H - m.t - m.b;
+    const svg = el("svg", {viewBox: `0 0 ${W} ${H}`, role: "img",
+      "aria-label": `${label} from February to August 2026`});
+
+    const max = Math.max(...data.map(d => d[key])) * 1.12;
+    const x = i => m.l + (iw * i) / (data.length - 1);
+    const y = v => m.t + ih - (v / max) * ih;
+
+    for (let t = 0; t <= 4; t++) {
+      const v = (max / 4) * t, yy = y(v);
+      svg.appendChild(el("line", {x1: m.l, x2: m.l + iw, y1: yy, y2: yy, class: "gl"}));
+      const lb = el("text", {x: m.l - 8, y: yy + 3.5, class: "ax", "text-anchor": "end"});
+      lb.textContent = v >= 1000 ? (v / 1000).toFixed(1) + "k" : Math.round(v);
+      svg.appendChild(lb);
+    }
+
+    let area = `M ${x(0)} ${y(0)}`, line = "";
+    data.forEach((d, i) => {
+      area += ` L ${x(i)} ${y(d[key])}`;
+      line += (i ? " L " : "M ") + x(i) + " " + y(d[key]);
+    });
+    area += ` L ${x(data.length - 1)} ${y(0)} Z`;
+
+    svg.appendChild(el("path", {d: area, fill: "var(--series-fill)"}));
+    svg.appendChild(el("path", {d: line, fill: "none", stroke: "var(--series)",
+      "stroke-width": 2, "stroke-linejoin": "round", "stroke-linecap": "round"}));
+    svg.appendChild(el("line", {x1: m.l, x2: m.l + iw, y1: y(0), y2: y(0), class: "baseline"}));
+
+    data.forEach((d, i) => {
+      const last = i === data.length - 1;
+      svg.appendChild(el("circle", {
+        cx: x(i), cy: y(d[key]), r: last ? 5 : 3.4,
+        fill: last ? "var(--critical)" : "var(--series)",
+        stroke: "var(--surface)", "stroke-width": 2
+      }));
+      const lb = el("text", {x: x(i), y: H - 10, class: "ax", "text-anchor": "middle"});
+      lb.textContent = d.m;
+      svg.appendChild(lb);
+
+      const hit = el("rect", {x: x(i) - iw / (data.length * 2), y: m.t,
+        width: iw / data.length, height: ih, fill: "transparent"});
+      hit.style.cursor = "crosshair";
+      const html = `<b>${d.m} 2026</b><br>
+        <span class="lbl">Visits</span> ${fmt(d.etv)}<br>
+        <span class="lbl">Keywords</span> ${fmt(d.kw)}<br>
+        <span class="lbl">Value</span> ${money(d.val)}`;
+      hit.addEventListener("mousemove", e => showTip(html, e));
+      hit.addEventListener("mouseleave", hideTip);
+      svg.appendChild(hit);
+    });
+
+    const endLbl = el("text", {
+      x: x(data.length - 1), y: y(data[data.length - 1][key]) - 13,
+      class: "ax", "text-anchor": "end", fill: "var(--critical)",
+      "font-weight": "700"
+    });
+    endLbl.textContent = fmtVal(data[data.length - 1][key]);
+    svg.appendChild(endLbl);
+
+    mount.appendChild(svg);
+  }
+
+  lineChart(document.getElementById("c-traffic"), history, "etv",
+    "Estimated organic visits", v => fmt(v));
+  lineChart(document.getElementById("c-keywords"), history, "kw",
+    "Ranking keywords", v => fmt(v));
+
+  /* ---------------- position distribution ---------------- */
+  (function () {
+    const mount = document.getElementById("c-positions");
+    const W = 980, H = 230, m = {t: 18, r: 12, b: 46, l: 40};
+    const iw = W - m.l - m.r, ih = H - m.t - m.b;
+    const svg = el("svg", {viewBox: `0 0 ${W} ${H}`, role: "img",
+      "aria-label": "Distribution of ranking keywords by position band"});
+    const max = Math.max(...positions.map(p => p.n)) * 1.15;
+    const bw = iw / positions.length;
+    const tiers = ["", "var(--t1)", "var(--t2)", "var(--t3)", "var(--t4)"];
+
+    for (let t = 0; t <= 4; t++) {
+      const v = (max / 4) * t, yy = m.t + ih - (v / max) * ih;
+      svg.appendChild(el("line", {x1: m.l, x2: m.l + iw, y1: yy, y2: yy, class: "gl"}));
+      const lb = el("text", {x: m.l - 8, y: yy + 3.5, class: "ax", "text-anchor": "end"});
+      lb.textContent = Math.round(v);
+      svg.appendChild(lb);
+    }
+
+    positions.forEach((p, i) => {
+      const h = (p.n / max) * ih;
+      const bx = m.l + i * bw + 3, by = m.t + ih - h;
+      const g = el("g", {});
+      g.appendChild(el("path", {
+        d: `M ${bx} ${m.t + ih} L ${bx} ${by + 4} Q ${bx} ${by} ${bx + 4} ${by}
+            L ${bx + bw - 10} ${by} Q ${bx + bw - 6} ${by} ${bx + bw - 6} ${by + 4}
+            L ${bx + bw - 6} ${m.t + ih} Z`,
+        fill: tiers[p.tier]
+      }));
+      const vl = el("text", {x: bx + (bw - 6) / 2 - 1, y: by - 7, class: "ax",
+        "text-anchor": "middle", fill: "var(--ink-2)", "font-weight": "700"});
+      vl.textContent = p.n;
+      g.appendChild(vl);
+      const xl = el("text", {x: bx + (bw - 6) / 2 - 1, y: m.t + ih + 17, class: "ax",
+        "text-anchor": "middle"});
+      xl.textContent = p.label;
+      g.appendChild(xl);
+      const bl = el("text", {x: bx + (bw - 6) / 2 - 1, y: m.t + ih + 33, class: "ax",
+        "text-anchor": "middle", "font-size": "9",
+        fill: p.tier >= 3 ? "var(--accent)" : "var(--muted)"});
+      bl.textContent = p.band;
+      g.appendChild(bl);
+
+      const hit = el("rect", {x: m.l + i * bw, y: m.t, width: bw, height: ih,
+        fill: "transparent"});
+      hit.style.cursor = "pointer";
+      const html = `<b>Positions ${p.label}</b> · ${p.band}<br>
+        <span class="lbl">Keywords</span> ${p.n} <span class="lbl">of 191</span><br>
+        <span class="lbl">Share</span> ${((p.n / 191) * 100).toFixed(1)}%`;
+      hit.addEventListener("mousemove", e => showTip(html, e));
+      hit.addEventListener("mouseleave", hideTip);
+      g.appendChild(hit);
+      svg.appendChild(g);
+    });
+    svg.appendChild(el("line", {x1: m.l, x2: m.l + iw, y1: m.t + ih,
+      y2: m.t + ih, class: "baseline"}));
+    mount.appendChild(svg);
+  })();
+
+  /* ---------------- competitor bars ---------------- */
+  (function () {
+    const mount = document.getElementById("c-comp");
+    const rowH = 30, m = {t: 8, r: 92, b: 26, l: 176};
+    const W = 980, H = m.t + comp.length * rowH + m.b;
+    const iw = W - m.l - m.r;
+    const svg = el("svg", {viewBox: `0 0 ${W} ${H}`, role: "img",
+      "aria-label": "Estimated monthly organic visits, Wasser's versus competitors"});
+
+    const lo = 100, hi = 1000000;
+    const sx = v => (Math.log10(Math.max(v, lo)) - Math.log10(lo)) /
+                    (Math.log10(hi) - Math.log10(lo)) * iw;
+
+    [100, 1000, 10000, 100000, 1000000].forEach(t => {
+      const xx = m.l + sx(t);
+      svg.appendChild(el("line", {x1: xx, x2: xx, y1: m.t, y2: m.t + comp.length * rowH,
+        class: "gl"}));
+      const lb = el("text", {x: xx, y: H - 9, class: "ax", "text-anchor": "middle"});
+      lb.textContent = t >= 1000000 ? "1M" : t >= 1000 ? (t / 1000) + "k" : t;
+      svg.appendChild(lb);
+    });
+
+    comp.forEach((c, i) => {
+      const self = c.tier === 0;
+      const yy = m.t + i * rowH;
+      const bh = 15, by = yy + (rowH - bh) / 2;
+      const w = Math.max(sx(c.etv), 2);
+      const fill = self ? "var(--accent)" : c.tier === 2 ? "var(--t3)" : "var(--t2)";
+
+      const nm = el("text", {x: m.l - 12, y: by + bh - 3.5, class: "ax",
+        "text-anchor": "end", "font-size": "11",
+        fill: self ? "var(--accent)" : "var(--ink-2)",
+        "font-weight": self ? "700" : "500"});
+      nm.textContent = c.d;
+      svg.appendChild(nm);
+
+      svg.appendChild(el("path", {
+        d: `M ${m.l} ${by} L ${m.l + w - 4} ${by} Q ${m.l + w} ${by} ${m.l + w} ${by + 4}
+            L ${m.l + w} ${by + bh - 4} Q ${m.l + w} ${by + bh} ${m.l + w - 4} ${by + bh}
+            L ${m.l} ${by + bh} Z`,
+        fill: fill
+      }));
+
+      const vl = el("text", {x: m.l + w + 9, y: by + bh - 3.5, class: "ax",
+        fill: self ? "var(--accent)" : "var(--ink-2)",
+        "font-weight": self ? "700" : "500"});
+      vl.textContent = fmt(c.etv);
+      svg.appendChild(vl);
+
+      const hit = el("rect", {x: 0, y: yy, width: W, height: rowH, fill: "transparent"});
+      hit.style.cursor = "pointer";
+      const tierLbl = c.tier === 0 ? "Wasser's" : c.tier === 2
+        ? "Tier 2 — direct peer" : "Tier 1 — volume chain";
+      const html = `<b>${c.d}</b> · ${tierLbl}<br>
+        <span class="lbl">Est. visits</span> ${fmt(c.etv)}/mo<br>
+        <span class="lbl">Keywords</span> ${fmt(c.kw)}<br>
+        <span class="lbl">Traffic value</span> ${money(c.val)}/mo<br>
+        <span class="lbl">Ref. domains</span> ${fmt(c.rd)}`;
+      hit.addEventListener("mousemove", e => showTip(html, e));
+      hit.addEventListener("mouseleave", hideTip);
+      svg.appendChild(hit);
+    });
+    mount.appendChild(svg);
+  })();
+
+  /* ---------------- tables ---------------- */
+  const q = id => document.getElementById(id);
+
+  q("t-history").innerHTML = history.map(h => `<tr>
+    <td>${h.m} 2026</td><td class="n">${fmt(h.kw)}</td>
+    <td class="n">${fmt(h.etv)}</td><td class="n">${money(h.val)}</td>
+    <td class="n">${h.t3}</td></tr>`).join("");
+
+  const pill = t => t === "brand" ? '<span class="pill p-brand">Brand</span>'
+    : t === "local" ? '<span class="pill p-local">Local</span>'
+    : '<span class="pill p-prod">Product</span>';
+
+  const kwRows = rows => rows.map(r => `<tr>
+    <td class="n">${r[0]}</td>
+    <td class="kw">${r[1]}</td>
+    <td>${pill(r[2])}</td>
+    <td class="n">${fmt(r[3])}</td>
+    <td class="n">${r[4]}</td>
+    <td class="n">${r[5] === null ? "—" : r[5]}</td>
+    <td class="n">${r[6] === null ? "—" : "$" + r[6].toFixed(2)}</td></tr>`).join("");
+
+  q("t-p1").innerHTML = kwRows(p1);
+  q("t-p2").innerHTML = kwRows(p2);
+  q("t-p3").innerHTML = kwRows(p3);
+
+  q("t-refdom").innerHTML = refdom.map(r => {
+    const good = r[4].startsWith("Legitimate");
+    return `<tr><td class="kw"><code>${r[0]}</code></td><td class="n">${r[1]}</td>
+      <td class="n">${r[2]}</td><td class="n">${r[3]}</td>
+      <td style="color:${good ? "var(--good)" : "var(--critical)"};font-weight:600">
+      ${good ? "✓" : "✕"} ${r[4]}</td></tr>`;
+  }).join("");
+
+  q("t-comp").innerHTML = comp.map(c => {
+    const self = c.tier === 0;
+    const tier = c.tier === 0 ? "—" : c.tier === 2
+      ? '<span class="pill p-local">Tier 2</span>'
+      : '<span class="pill p-prod">Tier 1</span>';
+    return `<tr class="${self ? "self" : ""}">
+      <td>${c.d}</td><td>${tier}</td>
+      <td class="n">${fmt(c.kw)}</td><td class="n">${fmt(c.etv)}</td>
+      <td class="n">${money(c.val)}</td><td class="n">${fmt(c.p1)}</td>
+      <td class="n">${fmt(c.p23)}</td><td class="n">${fmt(c.p410)}</td>
+      <td class="n">${c.dr}</td><td class="n">${fmt(c.bl)}</td>
+      <td class="n">${fmt(c.rd)}</td><td class="n">${c.sp}</td></tr>`;
+  }).join("");
+
+  q("t-peerkw").innerHTML = peerkw.map(r => `<tr>
+    <td>${r[0]}</td><td class="n" style="font-weight:700">${r[1]}</td>
+    <td class="kw">${r[2]}</td><td class="n">${fmt(r[3])}</td>
+    <td class="n">${fmt(r[4])}</td></tr>`).join("");
+
+  q("t-seed").innerHTML = seeds.map(r => `<tr>
+    <td class="kw">${r[0]}</td><td class="n">${fmt(r[1])}</td>
+    <td class="n">$${r[2].toFixed(2)}</td><td class="n">${r[3]}</td>
+    <td style="color:var(--critical);font-weight:600">✕ not in top 100</td></tr>`).join("");
+
+  q("t-gap").innerHTML = gap.map(r => `<tr>
+    <td class="kw">${r[0]}</td><td class="n">${fmt(r[1])}</td>
+    <td class="n">${r[2]}</td><td class="n">$${r[3].toFixed(2)}</td>
+    <td>${r[4]}</td></tr>`).join("");
+})();
+</script>
