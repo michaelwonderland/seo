@@ -271,14 +271,9 @@ campaign only (section 2b).
 stakemate, stake mate, steakmate, steak mate, stalemate, stale mate, stakemate app,
 [stake] (exact — Stake.com traffic, £248 wasted on it)
 
-**Competitors and other operators seen in search terms**
-bet365, 365 bet, william hill, will hills, coral, sky bet, sky vegas, paddy power, ladbrokes,
-betfair, betfred, unibet, betway, virgin bet, betvictor, 888, mystake, databet, goldenbet,
-golden bet, winner bet, yellowbet, chatki, midnite, bet442, talksport, kwiff, betano,
-boylesports, tote, spreadex, livescore, betmgm, mgm bet, fanduel, draftkings, sportybet,
-premier bet, 1win, rolletto, vulkan, jetbet, winnita, nvcasino, mecca, foxy, fabulous bingo,
-gala, grosvenor, pokerstars, betuk, bet uk, 10bet, quinnbet, copybet, bresbet, dabble,
-oddschecker, sporting life, bally, palms bet
+**Competitors: not negated.** Competitor names (bet365, william hill, mystake, databet, sky vegas
+and the rest seen in search terms) signal betting intent and stay in play. Review them in the
+weekly search-term report and negate individually only if they fail to convert.
 
 **Lottery, bingo, poker and social-casino games (not the product)**
 lottery, lotto, euromillions, 49s, bonus ball, scratch, scratchcard, bingo, poker, mahjong,
@@ -451,7 +446,6 @@ own is a chess word (and the current broad `stalemate betting` can reach it).
 - "chess", "stalemate meaning", "stalemate definition", "stalemate rules", "what is a stalemate"
 - "login", "log in", "sign in", "withdrawal", "customer service", "contact" (existing users; they will find the app anyway, and these queries do not create sign-ups)
 - "jobs", "careers", "linkedin", "reviews", "trustpilot", "scam" (informational)
-- Full competitor block from section 4 (someone searching "stakemate vs bet365" is fine to win, but "bet365" alone should never enter Brand)
 
 ### Brand RSA (one per ad group; pinned H1 changes)
 
@@ -478,5 +472,5 @@ business name and logo.
 1. Switch bidding to Target impression share with the £2.50 cap **before** anything else; this alone should cut CPC by more than half.
 2. Turn Display off and set Presence.
 3. Replace the three broad keywords with the phrase set above.
-4. Attach the brand negatives and the shared non-brand exclusion list (competitors block).
+4. Attach the brand negatives.
 5. Pin the compliance headline and description, add "Terms apply" to the offer description.

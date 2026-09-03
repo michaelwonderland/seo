@@ -30,9 +30,13 @@ Fix these before enabling, whether or not the recommended file is imported:
 8. **"Free Betting App" (Headline 3)** reads as a free-bet claim next to the offer copy. The
    recommended file drops it in favour of the offer line in H15.
 9. **No negative keywords** in the export. The recommended file adds campaign-level negatives
-   (brand, competitors, no-deposit, offshore, informational, lottery/bingo/social-casino, and
-   cross-negatives between Sports and Casino). Move them to a shared list once imported if
-   preferred.
+   (brand, no-deposit/bonus-hunter, offshore, informational, lottery/bingo/social-casino, and
+   cross-negatives between Sports and Casino). Competitor names are **not** negatives: they
+   signal intent and stay in play for now; review them in the search-term report and negate
+   individually later if they do not convert. No single-word "free" negative anywhere, since
+   free-bet keywords are targeted; the only free-prefixed negatives are multi-word bonus-hunter
+   phrases ("free money", "free play", "free slots", "free casino") plus "free spins" on
+   Sports only.
 10. Budget £300/day kept as set. Casino £100/day, Brand £25/day.
 
 ## RSA structure (unchanged from Michael's)
@@ -45,9 +49,9 @@ Headline 15 = offer line ("Bet £10, Get £20 Free Bets") or a second theme line
 
 | Campaign | Ad groups | Keywords | Negatives |
 |---|---|---|---|
-| WM \| UK \| Non-Brand \| Sports \| Phrase | Betting App · Social - Bet With Mates · Sign Up - Free Bet Offers · New Betting Sites · Acca & Bet Builder · Football Betting | 56 phrase | 167 incl. casino cross-negatives |
-| WM \| UK \| Non-Brand \| Casino \| Phrase | Online Casino & Casino App · Slots · Live Casino & Table Games · Casino Offers | 30 phrase | 166 incl. sports cross-negatives |
-| WM \| UK \| Brand \| Search | Brand - Core · Brand - Casino · Brand - Offers · Brand - Misspellings | 20 phrase + [stakemate] exact | 86 |
+| WM \| UK \| Non-Brand \| Sports \| Phrase | Betting App · Social - Bet With Mates · Sign Up - Free Bet Offers · New Betting Sites · Acca & Bet Builder · Football Betting | 56 phrase | 106 incl. casino cross-negatives |
+| WM \| UK \| Non-Brand \| Casino \| Phrase | Online Casino & Casino App · Slots · Live Casino & Table Games · Casino Offers | 30 phrase | 104 incl. sports cross-negatives |
+| WM \| UK \| Brand \| Search | Brand - Core · Brand - Casino · Brand - Offers · Brand - Misspellings | 20 phrase + [stakemate] exact | 25 |
 
 Brand bidding: the export format has no columns for impression-share settings, so the row says
 "Target impression share" and the Comment column carries 90% / Absolute top / £2.50 cap. Set
