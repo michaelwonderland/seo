@@ -51,7 +51,7 @@ Headline 15 = offer line ("Bet £10, Get £20 Free Bets") or a second theme line
 |---|---|---|---|
 | WM \| UK \| Non-Brand \| Sports \| Phrase | Betting App · Social - Bet With Mates · Sign Up - Free Bet Offers · New Betting Sites · Acca & Bet Builder · Football Betting | 56 phrase | 106 incl. casino cross-negatives |
 | WM \| UK \| Non-Brand \| Casino \| Phrase | Online Casino & Casino App · Slots · Live Casino & Table Games · Casino Offers | 30 phrase | 104 incl. sports cross-negatives |
-| WM \| UK \| Brand \| Search | Brand - Core · Brand - Casino · Brand - Offers · Brand - Misspellings | 20 phrase + [stakemate] exact | 25 |
+| WM \| UK \| Brand \| Search | Brand - Core · Brand - Sports · Brand - Casino · Brand - Offers · Brand - Misspellings | 25 phrase + [stakemate] exact | 25 |
 
 Brand bidding: the export format has no columns for impression-share settings, so the row says
 "Target impression share" and the Comment column carries 90% / Absolute top / £2.50 cap. Set

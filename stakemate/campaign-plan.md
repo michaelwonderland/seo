@@ -432,7 +432,8 @@ the setup below is why it is that high.
 
 | Ad group | Keywords |
 |---|---|
-| Brand – Core | [stakemate] · "stakemate" · "stake mate" · "stakemate app" · "stakemate betting" · "stakemate bet" · "stakemate download" |
+| Brand – Core | [stakemate] · "stakemate" · "stake mate" · "stakemate app" · "stakemate download" |
+| Brand – Sports | "stakemate betting" · "stakemate bet" · "stakemate sports" · "stakemate sportsbook" · "stakemate football" · "stakemate betting app" · "stakemate sports betting" |
 | Brand – Casino | "stakemate casino" · "stake mate casino" · "stakemate slots" |
 | Brand – Offers | "stakemate welcome offer" · "stakemate promo code" · "stakemate free bet" · "stakemate sign up offer" · "stakemate bonus" |
 | Brand – Misspellings | "steakmate" · "steak mate" · "stalemate betting" · "stalemate casino" · "stalemate app" · "stale mate betting" |
