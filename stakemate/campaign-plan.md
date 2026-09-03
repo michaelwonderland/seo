@@ -2,7 +2,9 @@
 
 Prepared 2026-09-02 from the Stakemate Google Ads account (customer 905-682-2850, under the
 Wonderland.marketing MCC), the "Stakemate: Google Ads Action Plan" doc, and DataForSEO Labs
-keyword data (United Kingdom, English). Match type: **phrase only**, per Michael's brief.
+keyword data (United Kingdom, English). Match type: **phrase only**, per Michael's brief. Stakemate offers both sportsbook and casino, and
+Meta is already split Sports / Casino, so Search mirrors that: sports ad groups and casino ad groups
+with their own keywords and ads (section 2), and a rebuilt Brand campaign (section 7).
 
 Data files in this folder:
 - `data/dataforseo_uk_keywords.csv` — 3,517 UK keywords with volume, CPC, intent, difficulty, bucket
@@ -51,7 +53,7 @@ Things the new campaign has to fix or route around:
 
 | Setting | Value |
 |---|---|
-| Campaign name | `UK \| Non-Brand \| Web-to-App \| Phrase` |
+| Campaign name | `UK \| Non-Brand \| Sports \| Phrase` and `UK \| Non-Brand \| Casino \| Phrase`. Two campaigns recommended (see 2b); if it has to be one, name it `UK \| Non-Brand \| Web-to-App \| Phrase` and keep the ad-group split exactly as below. |
 | Type / goal | Search. Objective "App promotion" is **not** used (that forces App campaigns); use Search with a conversions goal. |
 | Networks | Google Search only. **Search partners off. Display Network off.** |
 | Locations | United Kingdom (geo 2826). Location option: **Presence** only (not presence-or-interest). Exclude: none needed once Presence is set. |
@@ -166,11 +168,83 @@ clean (the raw list is full of hydraulic accumulators and tipster sites).
 | "bet on premier league" | — |
 
 **Held back on purpose:** horse racing and greyhounds (12,100 + 27,100 UK searches) until
-Stakemate confirms racing is in the product; casino, slots and free spins (the paused campaign
-proved this is not the audience); "gambling app" / "gambling sites" (skews casino).
+Stakemate confirms racing is in the product; "gambling app" / "gambling sites" (mixed intent,
+neither sports nor casino).
 
-Roughly 55 phrase keywords across six ad groups. Themes graduate to their own campaign or
-landing page on their own conversion volume (Phase 2 point 5 / Phase 3 point 6).
+### 2b. Casino ad groups (AG7–AG10)
+
+Stakemate has a casino product and Meta already runs Sports and Casino as separate campaigns.
+Search should do the same. **Recommendation: two campaigns, not one.** Casino CPCs run higher
+(DataForSEO shows casino terms $10–$30 above the equivalent sports terms), casino queries carry
+the heaviest bonus-hunter share (the paused campaign's £11.6k went mostly on `casino` and
+`free spins` broad), and casino will want its own landing page in Phase 3. Separate campaigns
+give each product its own budget and its own bidding history. If it must be one campaign, keep
+these four ad groups as-is; the ad copy is what has to differ.
+
+The old campaign already tried casino on **broad** match with `casino`, `online casino`,
+`casino welcome bonus`, `UK casino`. What it matched was competitor brands (mystake, sky vegas,
+goldenbet, mecca, foxy, rolletto) and no-deposit hunting. Phrase match plus the negatives below
+is the fix, not dropping casino.
+
+#### AG7 — Online Casino / Casino App
+| Phrase keyword | UK vol | Note |
+|---|---|---|
+| "online casino uk" | 27,100 | |
+| "uk online casino" | 9,900 | |
+| "casino sites" | 22,200 | Biggest generic; same treatment as "betting sites". |
+| "uk casino sites" | 18,100 | |
+| "new online casino" | 5,400 | |
+| "new casino sites" | 8,100 | |
+| "new uk casino" | 2,400 | Old campaign's `UK casino` broad, now phrase. |
+| "casino apps" | 2,400 | |
+| "casino app" | — | |
+| "online casino app" | — | |
+| "uk casino app" | — | |
+| "casino betting app" | 70 | Both products in one query; the Stakemate pitch. |
+| "mobile casino" | — | |
+
+#### AG8 — Slots
+| Phrase keyword | UK vol |
+|---|---|
+| "online slots" | 49,500 |
+| "online slots uk" | 18,100 |
+| "slot sites" | 8,100 |
+| "slot app" | 720 |
+| "slots app" | — |
+| "play slots online" | — |
+
+#### AG9 — Live Casino & Table Games
+| Phrase keyword | UK vol |
+|---|---|
+| "live casino" | 8,100 |
+| "live casino uk" | 1,900 |
+| "online roulette" | 2,900 |
+| "online blackjack" | 2,400 |
+| "roulette app" | — |
+| "blackjack app" | — |
+
+Only build AG9 if live dealer, roulette and blackjack are in the Stakemate casino. Confirm.
+
+#### AG10 — Casino Offers
+| Phrase keyword | UK vol | Note |
+|---|---|---|
+| "casino sign up bonus" | 3,600 | |
+| "casino welcome bonus" | — | Old campaign ran this on broad and got "free bonus on registration no deposit uk". Phrase + `no deposit` negatives. |
+| "casino welcome offer" | — | |
+| "casino sign up offer" | — | |
+| "new customer casino offer" | — | |
+
+**Casino offer to confirm.** The live ads mention only the sports offer (£20 free bets for £10).
+AG10 and the casino RSA need the real casino welcome offer wording (bonus, spins, wagering)
+before build; the compliance line must include "wagering requirements apply" if there are any.
+
+**Cross-negatives between the two campaigns.** Sports campaign: add `casino`, `slots`, `slot`,
+`roulette`, `blackjack`, `live casino`, `spins` as negatives. Casino campaign: add `football`,
+`acca`, `accumulator`, `bet builder`, `horse racing`, `free bets`, `sports betting` as
+negatives. Neither campaign then competes with the other for the same query.
+
+Roughly 55 sports and 30 casino phrase keywords across ten ad groups. Themes graduate to their
+own campaign or landing page on their own conversion volume (Phase 2 point 5 / Phase 3 point 6).
 
 ---
 
@@ -188,8 +262,10 @@ recommendation is to pause it at launch and re-add any of its exact keywords tha
 
 ## 4. Shared negative keyword list — `Stakemate | Non-Brand Exclusions`
 
-Attach to this campaign and to `UK – Value – Search Terms`. The same list gates AI Max in
-Phase 3. Use phrase match for multi-word entries and broad for single words unless noted.
+Attach to both non-brand campaigns and to `UK – Value – Search Terms`. The same list gates AI
+Max in Phase 3. Use phrase match for multi-word entries and broad for single words unless noted.
+Casino terms are **not** on this list any more; they live as cross-negatives on the Sports
+campaign only (section 2b).
 
 **Brand (keeps brand in the Brand campaign)**
 stakemate, stake mate, steakmate, steak mate, stalemate, stale mate, stakemate app,
@@ -204,14 +280,15 @@ premier bet, 1win, rolletto, vulkan, jetbet, winnita, nvcasino, mecca, foxy, fab
 gala, grosvenor, pokerstars, betuk, bet uk, 10bet, quinnbet, copybet, bresbet, dabble,
 oddschecker, sporting life, bally, palms bet
 
-**Casino and gaming**
-casino, casinos, slot, slots, spins, free spins, bingo, poker, roulette, blackjack, lottery,
-lotto, euromillions, 49s, bonus ball, scratch, scratchcard, jackpot, mahjong, solitaire,
-coin master, monopoly go, mines
+**Lottery, bingo, poker and social-casino games (not the product)**
+lottery, lotto, euromillions, 49s, bonus ball, scratch, scratchcard, bingo, poker, mahjong,
+solitaire, coin master, monopoly go, slotomania, house of fun, pop slots, cashman, mines,
+free spins (phrase — every "free spins" query in 90 days was no-deposit hunting; lift it only if
+the casino welcome offer is spins-based)
 
 **Bonus hunters**
-no deposit, without deposit, without any deposit, no wagering, no wager, no wagering
-requirements, on registration, free money, risk free
+no deposit, without deposit, without any deposit, no wagering, no wager, on registration,
+free money, risk free, free play, demo, free slots, free casino
 
 **Offshore / non-UK**
 non uk, non-uk, not on gamstop, gamstop, offshore, crypto, nigeria, kenya, ghana, india,
@@ -274,6 +351,38 @@ Current live RSAs rate Poor / Average / Good; aim for Excellent by using all 15 
 - App asset: link the iOS app (ID 6446404482) and Android once linked
 - Business name and logo assets
 
+### Casino RSA (AG7–AG10)
+
+Same compliance rule. Pinned H1 per ad group: AG7 `New UK Online Casino` · AG8 `Play Slots
+On Stakemate` · AG9 `Live Casino On Your Phone` · AG10 `Casino Welcome Offer` (offer wording
+to be confirmed).
+
+**Headlines 2–15**
+2. Stakemate Casino App
+3. Slots, Roulette & Blackjack
+4. UK Licensed Online Casino
+5. Casino & Sportsbook In One App
+6. Download Free On iOS & Android
+7. Instant Withdrawals
+8. New Customer Casino Offer *(needs "Terms apply" in the description it serves with; pin D2)*
+9. Play Casino With Your Mates
+10. Hundreds Of Slot Games
+11. Live Dealer Tables
+12. Sign Up In Under 2 Minutes
+13. Brand New UK Casino
+14. Spin, Bet, Win Together
+15. *(pinned H3)* 18+ | BeGambleAware
+
+**Descriptions**
+1. Brand new UK casino app from Stakemate. Slots, live roulette and blackjack, plus the sportsbook.
+2. *(pinned D2)* 18+ | BeGambleAware.org | New UK customers only | T&Cs and wagering apply.
+3. Download the app, sign up and claim your casino welcome offer. Terms apply. 18+.
+4. UK licensed, instant withdrawals, casino and sports betting in one place.
+
+**Assets:** sitelinks Casino Welcome Offer (T&Cs apply) · Slots · Live Casino · Download the App;
+callouts UK Licensed · Instant Withdrawals · Casino & Sportsbook · 18+ BeGambleAware;
+structured snippet (Types): Slots, Roulette, Blackjack, Live Casino.
+
 ---
 
 ## 6. Pre-launch checklist (blocks launch if unchecked)
@@ -287,3 +396,87 @@ Current live RSAs rate Poor / Average / Good; aim for Excellent by using all 15 
 7. Desktop decision made (−100% or not).
 8. Weekly search-term review booked; theme graduation threshold agreed (suggest: a theme earns
    its own landing page at 10 sign-ups in 30 days).
+
+---
+
+## 7. Brand campaign — rebuild
+
+### What Brand is doing today (90 days)
+
+| | |
+|---|---|
+| Bidding | Maximise conversion value, with no conversion values recorded, so effectively unconstrained bidding |
+| Avg CPC | **£7.90** overall; `stakemate casino` broad **£11.87**; `stakemate betting` exact £6.10; `stakemate` phrase £7.45 |
+| Spend | £1,311 for 166 clicks, 0 recorded conversions |
+| Networks | Display on |
+| Location | Presence-or-interest |
+| Keywords | 14, mixing exact, phrase and **broad** (`stakemate casino`, `stalemate betting`, `stale mate betting` on broad) |
+| Search terms | Clean: `stakemate betting` (81 clicks), `stakemate` (25), `stakemate bet`, `stakemate welcome offer`, `stakemate promo code`. The problem is price, not relevance. |
+| Ad | One RSA, strength Good, "18+ \| Gambleaware" headline unpinned, offer description with no "Terms apply" |
+| Landing page | `/stakemate-bet-together-win-together?af_c_id={campaignid}&utm_source=googleads` |
+
+Paying £6–£12 a click for your own brand name with no negatives and Display on is the
+account's most fixable leak. The doc says brand's £66 per sign-up cannot be the benchmark;
+the setup below is why it is that high.
+
+### Settings
+
+| Setting | Value |
+|---|---|
+| Name | `UK \| Brand \| Search` |
+| Networks | Google Search only. Search partners off. Display off. |
+| Location | United Kingdom, **Presence** only |
+| Bidding | **Target impression share, 90% absolute top of page, max CPC bid limit £2.50.** Brand does not need Smart Bidding to find the right auctions; it needs a ceiling. Review the cap after two weeks: if impression share is below 80%, raise to £3.50. |
+| Conversion goal | `com.stakemate (iOS) sign_up` for reporting (bidding is not conversion-based here) |
+| Budget | **£25/day** (current run-rate is £14.60/day at inflated CPCs; the cap will bring CPC down and volume up) |
+| Final URL suffix | Same AppsFlyer suffix as non-brand |
+| Brand list | Keep the `Stakemate` brand list attached (it is the brand-inclusion signal if AI Max is ever tested on Brand) |
+| Devices | Same desktop decision as non-brand |
+
+### Ad groups and keywords (phrase, plus exact on the pure brand term; no broad)
+
+| Ad group | Keywords |
+|---|---|
+| Brand – Core | [stakemate] · "stakemate" · "stake mate" · "stakemate app" · "stakemate betting" · "stakemate bet" · "stakemate download" |
+| Brand – Casino | "stakemate casino" · "stake mate casino" · "stakemate slots" |
+| Brand – Offers | "stakemate welcome offer" · "stakemate promo code" · "stakemate free bet" · "stakemate sign up offer" · "stakemate bonus" |
+| Brand – Misspellings | "steakmate" · "steak mate" · "stalemate betting" · "stalemate casino" · "stalemate app" · "stale mate betting" |
+
+The misspelling group must stay on phrase with a betting/casino/app modifier: `stalemate` on its
+own is a chess word (and the current broad `stalemate betting` can reach it).
+
+### Brand campaign negatives
+
+- `[stake]`, "stake com", "stake casino", "stake login", "stake us", "stake uk", "stake bet" (Stake.com; `stake` exact already cost £248 in the non-brand campaign)
+- "chess", "stalemate meaning", "stalemate definition", "stalemate rules", "what is a stalemate"
+- "login", "log in", "sign in", "withdrawal", "customer service", "contact" (existing users; they will find the app anyway, and these queries do not create sign-ups)
+- "jobs", "careers", "linkedin", "reviews", "trustpilot", "scam" (informational)
+- Full competitor block from section 4 (someone searching "stakemate vs bet365" is fine to win, but "bet365" alone should never enter Brand)
+
+### Brand RSA (one per ad group; pinned H1 changes)
+
+Pinned H1: Core `Stakemate | Official App` · Casino `Stakemate Casino | Official` · Offers
+`Stakemate Welcome Offer` · Misspellings `Stakemate | Official App`.
+
+Headlines 2–15: Bet Together, Win Together · Download The Official App · Bet £10, Get £20
+Free Bets · The Betting App For Mates · Sports Betting & Casino · UK Licensed · Instant
+Withdrawals · Sign Up In Under 2 Minutes · Bet On Football With Friends · Slots, Roulette &
+Blackjack · New Customer Welcome Offer · Free On iOS & Android · Bet With Your Mates · *(pinned
+H3)* 18+ | BeGambleAware.
+
+Descriptions: 1. The official Stakemate app. Bet on sport and play casino with your mates, in
+one place. · 2. *(pinned D2)* 18+ | BeGambleAware.org | New UK customers only | T&Cs apply. ·
+3. Sign up today and get £20 in free bets when you bet £10. Terms apply. 18+. · 4. UK licensed,
+instant withdrawals and regular free bets. Download the official Stakemate app.
+
+Assets: sitelinks Download for iPhone · Download for Android · Welcome Offer (T&Cs apply) ·
+Casino; callouts Official App · UK Licensed · Instant Withdrawals · 18+ BeGambleAware; app asset;
+business name and logo.
+
+### Pre-launch for Brand
+
+1. Switch bidding to Target impression share with the £2.50 cap **before** anything else; this alone should cut CPC by more than half.
+2. Turn Display off and set Presence.
+3. Replace the three broad keywords with the phrase set above.
+4. Attach the brand negatives and the shared non-brand exclusion list (competitors block).
+5. Pin the compliance headline and description, add "Terms apply" to the offer description.
