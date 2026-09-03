@@ -231,9 +231,18 @@ horse racing (pending product confirmation), pools, placepot, placepots
 
 ## 5. Responsive search ad (one per ad group, swap the pinned H1 per theme)
 
-Assets must clear the ONLINE_GAMBLING policy: 18+ and BeGambleAware in every ad, and "Terms
-apply" whenever the offer is mentioned. Current live RSAs rate Poor / Average / Good; aim for
-Excellent by using all 15 headlines and 4 descriptions with distinct content.
+**Compliance rule (applies to every ad).** The three live RSAs each contain an "18+ | GambleAware"
+asset (Brand: headline; UK – Value: headline and description; Phrase Match – Mixed: description)
+but none of them is pinned, so Google can serve combinations with no age or GambleAware line.
+The Brand offer description also has no "Terms apply". In the new campaign:
+
+- Pin "18+ | BeGambleAware" to headline position 3 in every RSA.
+- Pin "18+ | BeGambleAware.org | New UK customers only | T&Cs apply." to description position 2.
+- Any headline, description, sitelink or callout that names the £20 offer carries "Terms apply"
+  inside that same asset, so it cannot serve without it.
+
+Current live RSAs rate Poor / Average / Good; aim for Excellent by using all 15 headlines and
+4 descriptions with distinct content.
 
 **Headlines (max 30 chars)**
 1. *(pinned H1, per ad group)* AG1 `New UK Betting App` · AG2 `Bet With Your Mates` · AG3 `Bet £10, Get £20 Free Bets` · AG4 `New UK Betting Site` · AG5 `Build Your Acca Together` · AG6 `Football Betting With Mates`
@@ -259,8 +268,8 @@ Excellent by using all 15 headlines and 4 descriptions with distinct content.
 4. *(pinned D2)* 18+ | BeGambleAware.org | New UK customers only | T&Cs apply.
 
 **Assets**
-- Sitelinks: Welcome Offer · How It Works · Download for iPhone · Download for Android
-- Callouts: UK Licensed · Instant Withdrawals · £20 Free Bets · Bet With Mates · No Card Fees
+- Sitelinks: Welcome Offer (T&Cs apply) · How It Works · Download for iPhone · Download for Android
+- Callouts: UK Licensed · Instant Withdrawals · £20 Free Bets, T&Cs Apply · Bet With Mates
 - Structured snippet (Types): Football, Acca, Bet Builder, Group Bets, Free Bets
 - App asset: link the iOS app (ID 6446404482) and Android once linked
 - Business name and logo assets
