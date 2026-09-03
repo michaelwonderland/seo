@@ -449,8 +449,8 @@ own is a chess word (and the current broad `stalemate betting` can reach it).
 
 ### Brand RSA (one per ad group; pinned H1 changes)
 
-Pinned H1: Core `Stakemate | Official App` · Casino `Stakemate Casino | Official` · Offers
-`Stakemate Welcome Offer` · Misspellings `Stakemate | Official App`.
+Pinned H1: Core `Stakemate Official App` · Casino `Official Stakemate Casino` · Offers
+`Stakemate Welcome Offer` · Misspellings `Stakemate Official App`.
 
 Headlines 2–15: Bet Together, Win Together · Download The Official App · Bet £10, Get £20
 Free Bets · The Betting App For Mates · Sports Betting & Casino · UK Licensed · Instant
