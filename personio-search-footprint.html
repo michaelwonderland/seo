@@ -1,0 +1,711 @@
+<title>Personio Search Footprint</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,500&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+:root{
+  --paper:#F4F6F8; --card:#FFFFFF; --ink:#11151D; --ink-2:#3A4250; --muted:#6A7382;
+  --rule:#DCE1E8; --rule-soft:#E9EDF1;
+  --info:#0479AE; --trans:#C2511B; --other:#9AA3B0;
+  --info-wash:#E4F0F6; --trans-wash:#F7E7DE;
+  --shadow:0 1px 2px rgba(17,21,29,.05), 0 8px 24px -16px rgba(17,21,29,.22);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --paper:#0F1318; --card:#171C23; --ink:#E7EBF1; --ink-2:#B4BDC9; --muted:#858F9E;
+    --rule:#28303A; --rule-soft:#1F262E;
+    --info:#2E93B8; --trans:#D97236; --other:#69737F;
+    --info-wash:#14303C; --trans-wash:#3A2417;
+    --shadow:0 1px 2px rgba(0,0,0,.4), 0 8px 24px -16px rgba(0,0,0,.8);
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#0F1318; --card:#171C23; --ink:#E7EBF1; --ink-2:#B4BDC9; --muted:#858F9E;
+  --rule:#28303A; --rule-soft:#1F262E;
+  --info:#2E93B8; --trans:#D97236; --other:#69737F;
+  --info-wash:#14303C; --trans-wash:#3A2417;
+  --shadow:0 1px 2px rgba(0,0,0,.4), 0 8px 24px -16px rgba(0,0,0,.8);
+}
+
+*{box-sizing:border-box}
+body{
+  margin:0; background:var(--paper); color:var(--ink);
+  font-family:"Newsreader",Georgia,"Times New Roman",serif;
+  font-size:17px; line-height:1.62; -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:1080px; margin:0 auto; padding-inline:20px; padding-block:0 72px}
+.prose{max-width:66ch}
+
+h1,h2,h3,.eyebrow,.lbl,th,.mono{font-family:"Archivo",system-ui,-apple-system,sans-serif}
+h1{font-size:clamp(2.1rem,5.2vw,3.15rem); line-height:1.04; font-weight:700; letter-spacing:-.025em; margin:0; text-wrap:balance}
+h2{font-size:clamp(1.35rem,2.8vw,1.7rem); font-weight:650; letter-spacing:-.018em; line-height:1.18; margin:0; text-wrap:balance}
+h3{font-size:1.0rem; font-weight:600; letter-spacing:-.004em; margin:0 0 .5rem; text-wrap:balance}
+p{margin:0 0 1.05rem}
+p:last-child{margin-bottom:0}
+strong{font-weight:600; color:var(--ink)}
+a{color:var(--info)}
+
+.eyebrow{
+  font-size:.66rem; font-weight:600; letter-spacing:.15em; text-transform:uppercase;
+  color:var(--muted); margin:0;
+}
+.mono{font-family:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace; font-variant-numeric:tabular-nums}
+
+/* ---------- masthead ---------- */
+header.masthead{padding-block:56px 34px; border-bottom:2px solid var(--ink)}
+.kicker{display:flex; flex-wrap:wrap; gap:10px 20px; align-items:baseline; margin-bottom:22px}
+.standfirst{
+  font-size:1.18rem; line-height:1.52; color:var(--ink-2); max-width:62ch; margin-top:18px;
+}
+.meta{
+  display:flex; flex-wrap:wrap; gap:6px 26px; margin-top:26px;
+  font-family:"IBM Plex Mono",ui-monospace,monospace; font-size:.72rem; color:var(--muted);
+  font-variant-numeric:tabular-nums;
+}
+.meta span b{color:var(--ink-2); font-weight:500}
+
+/* ---------- verdict strip ---------- */
+.verdict{
+  display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+  gap:0; margin-block:0; border-bottom:1px solid var(--rule);
+}
+.vcell{padding:26px 26px 26px 0; border-right:1px solid var(--rule-soft)}
+.vcell:last-child{border-right:0}
+.vnum{
+  font-family:"Archivo",sans-serif; font-weight:700; letter-spacing:-.03em;
+  font-size:clamp(2rem,4.6vw,2.7rem); line-height:1; font-variant-numeric:tabular-nums;
+  display:block; margin-bottom:8px;
+}
+.vnum.t{color:var(--trans)} .vnum.i{color:var(--info)}
+.vcap{font-size:.9rem; color:var(--ink-2); line-height:1.42; max-width:26ch}
+
+/* ---------- sections ---------- */
+section{padding-block:52px; border-bottom:1px solid var(--rule)}
+section:last-of-type{border-bottom:0}
+.shead{display:flex; gap:18px; align-items:flex-start; margin-bottom:24px}
+.snum{
+  font-family:"IBM Plex Mono",monospace; font-size:.72rem; font-weight:600; color:var(--muted);
+  border:1px solid var(--rule); border-radius:999px; padding:3px 9px; flex:none; margin-top:5px;
+}
+.shead p.dek{margin:.5rem 0 0; color:var(--muted); font-size:.98rem; max-width:60ch}
+
+/* ---------- tables ---------- */
+.twrap{overflow-x:auto; margin-block:26px; border:1px solid var(--rule); border-radius:3px; background:var(--card)}
+table{border-collapse:collapse; width:100%; min-width:560px; font-size:.86rem}
+caption{
+  text-align:left; padding:14px 16px 12px; border-bottom:1px solid var(--rule);
+  font-family:"Archivo",sans-serif; font-size:.78rem; font-weight:600; color:var(--ink-2);
+}
+th{
+  font-size:.66rem; font-weight:600; letter-spacing:.09em; text-transform:uppercase; color:var(--muted);
+  text-align:right; padding:11px 14px; border-bottom:1px solid var(--rule); white-space:nowrap;
+}
+th:first-child{text-align:left}
+td{
+  padding:9px 14px; border-bottom:1px solid var(--rule-soft); text-align:right; white-space:nowrap;
+  font-family:"IBM Plex Mono",monospace; font-size:.79rem; font-variant-numeric:tabular-nums;
+}
+td:first-child{
+  text-align:left; font-family:"Newsreader",serif; font-size:.92rem; white-space:normal; min-width:190px;
+}
+tbody tr:last-child td{border-bottom:0}
+tr.self td{background:var(--info-wash)}
+tr.self td:first-child{font-weight:500}
+.dash{color:var(--muted)}
+
+/* intent pills — shape + text, never colour alone */
+.pill{
+  display:inline-block; font-family:"IBM Plex Mono",monospace; font-size:.62rem; font-weight:600;
+  letter-spacing:.07em; text-transform:uppercase; padding:2px 7px; border-radius:2px; white-space:nowrap;
+}
+.pill.i{background:var(--info-wash); color:var(--info); border-left:3px solid var(--info)}
+.pill.t{background:var(--trans-wash); color:var(--trans); border-left:3px solid var(--trans)}
+
+/* ---------- charts ---------- */
+figure{margin:26px 0 0}
+figcaption{
+  font-family:"Archivo",sans-serif; font-size:.78rem; font-weight:600; color:var(--ink-2); margin-bottom:4px;
+}
+.subcap{font-size:.8rem; color:var(--muted); margin:0 0 18px; max-width:60ch; font-family:"Newsreader",serif}
+.legend{display:flex; flex-wrap:wrap; gap:8px 20px; margin-bottom:18px}
+.lgi{display:flex; align-items:center; gap:7px; font-family:"IBM Plex Mono",monospace; font-size:.7rem; color:var(--ink-2)}
+.sw{width:11px; height:11px; border-radius:2px; flex:none}
+
+.brow{display:grid; grid-template-columns:122px 1fr; gap:14px; align-items:center; margin-bottom:11px}
+.blbl{
+  font-family:"IBM Plex Mono",monospace; font-size:.72rem; color:var(--ink-2); text-align:right;
+  overflow-wrap:anywhere;
+}
+.btrack{display:flex; height:26px; background:var(--rule-soft); border-radius:3px; overflow:hidden; gap:2px}
+.bseg{
+  height:100%; display:flex; align-items:center; justify-content:flex-end; padding-right:7px;
+  font-family:"IBM Plex Mono",monospace; font-size:.67rem; font-weight:600; color:#fff;
+  min-width:2px; position:relative; cursor:default;
+}
+.bseg:first-child{border-radius:3px 0 0 3px}
+.bseg:last-child{border-radius:0 3px 3px 0}
+.bseg[data-tip]:hover::after{
+  content:attr(data-tip); position:absolute; bottom:calc(100% + 7px); right:0; z-index:9;
+  background:var(--ink); color:var(--paper); padding:5px 9px; border-radius:3px;
+  font-size:.68rem; font-weight:500; white-space:nowrap; pointer-events:none; box-shadow:var(--shadow);
+}
+.bseg.hidden-lbl{color:transparent}
+
+/* single-series bars */
+.sbar{background:var(--rule-soft); border-radius:3px; height:22px; position:relative}
+.sfill{height:100%; border-radius:3px; display:block}
+.sval{
+  position:absolute; top:0; height:22px; display:flex; align-items:center; padding-left:8px;
+  font-family:"IBM Plex Mono",monospace; font-size:.69rem; font-weight:600; color:var(--ink-2);
+}
+
+.note{
+  border-left:3px solid var(--rule); padding:2px 0 2px 18px; margin:26px 0 0;
+  font-size:.92rem; color:var(--ink-2); max-width:62ch;
+}
+.note b{font-family:"Archivo",sans-serif; font-size:.7rem; font-weight:600; letter-spacing:.1em;
+  text-transform:uppercase; color:var(--muted); display:block; margin-bottom:4px}
+
+ul.take{list-style:none; padding:0; margin:24px 0 0; max-width:64ch}
+ul.take li{
+  padding:0 0 0 30px; margin-bottom:15px; position:relative; font-size:.98rem; line-height:1.55;
+}
+ul.take li::before{
+  content:attr(data-n); position:absolute; left:0; top:.18em;
+  font-family:"IBM Plex Mono",monospace; font-size:.66rem; font-weight:600; color:var(--muted);
+}
+
+footer{padding-block:40px 0; color:var(--muted); font-size:.82rem; max-width:66ch}
+footer h3{color:var(--ink-2); margin-bottom:10px}
+footer ul{padding-left:18px; margin:0}
+footer li{margin-bottom:7px}
+
+@media (max-width:620px){
+  body{font-size:16px}
+  .vcell{padding:20px 0; border-right:0; border-bottom:1px solid var(--rule-soft)}
+  .verdict .vcell:last-child{border-bottom:0}
+  .brow{grid-template-columns:1fr; gap:5px}
+  .blbl{text-align:left}
+  .shead{gap:12px}
+}
+@media (prefers-reduced-motion:reduce){*{animation:none!important; transition:none!important}}
+:focus-visible{outline:2px solid var(--info); outline-offset:2px}
+</style>
+
+<div class="wrap">
+
+<header class="masthead">
+  <div class="kicker">
+    <p class="eyebrow">Organic search audit</p>
+    <p class="eyebrow" style="color:var(--trans)">Personio · DE / UK / US</p>
+  </div>
+  <h1>Personio ranks like a magazine, not like a&nbsp;software vendor.</h1>
+  <p class="standfirst">
+    Across all three markets, 82–98% of Personio's estimated organic traffic comes from
+    informational keywords — minimum wage, Gen Z, PTO meaning. On the keywords where
+    someone is actually shopping for HR software, it is outranked by every serious
+    competitor in the category, in both Germany and the UK.
+  </p>
+  <div class="meta">
+    <span>Source <b>DataForSEO Labs · Google</b></span>
+    <span>Pulled <b>14 Sep 2026</b></span>
+    <span>Markets <b>DE·de / GB·en / US·en</b></span>
+    <span>Depth <b>Top 1,000 keywords by ETV per domain</b></span>
+  </div>
+</header>
+
+<div class="verdict">
+  <div class="vcell">
+    <span class="vnum i">97.9%</span>
+    <p class="vcap">of personio.com's UK traffic is informational. Germany: 82.3%. US: 85.5%.</p>
+  </div>
+  <div class="vcell">
+    <span class="vnum t">9</span>
+    <p class="vcap">buying-intent keywords in personio.com's UK top 1,000. PeopleHR has 149.</p>
+  </div>
+  <div class="vcell">
+    <span class="vnum t">21.2</span>
+    <p class="vcap">Personio's average position on the 50 German money keywords. rexx systems: 3.6.</p>
+  </div>
+  <div class="vcell">
+    <span class="vnum i">#2</span>
+    <p class="vcap">personio.de's rank on informational SERPs — behind Wikipedia, ahead of every HR vendor.</p>
+  </div>
+</div>
+
+<!-- ============ 1 ============ -->
+<section>
+  <div class="shead">
+    <span class="snum">01</span>
+    <div>
+      <h2>What Personio ranks for</h2>
+      <p class="dek">Top non-brand keywords by estimated traffic, each tagged transactional or informational.</p>
+    </div>
+  </div>
+
+  <div class="prose">
+    <p>
+      Three separate footprints, three different stories. <strong>personio.de</strong> is the
+      flagship: 45,963 ranked keywords and roughly 490,000 monthly visits of non-brand
+      estimated traffic. <strong>personio.com</strong> splits between a strong UK presence
+      (15,205 keywords) and a thinner US one (23,621 keywords but less than half the traffic).
+      In every case the traffic is built on definitional and legislative content, not on
+      product terms.
+    </p>
+  </div>
+
+  <div class="twrap">
+    <table>
+      <caption>personio.de — Germany · top non-brand keywords by estimated traffic</caption>
+      <thead><tr><th>Keyword</th><th>Intent</th><th>Pos.</th><th>Volume</th><th>CPC</th><th>Est. traffic</th></tr></thead>
+      <tbody>
+        <tr><td>gen z</td><td><span class="pill i">Info</span></td><td>4</td><td>201,000</td><td>$0.47</td><td>32,562</td></tr>
+        <tr><td>human resources hr</td><td><span class="pill i">Info</span></td><td>2</td><td>60,500</td><td>$4.74</td><td>18,392</td></tr>
+        <tr><td>generation millennials</td><td><span class="pill i">Info</span></td><td>4</td><td>90,500</td><td>$0.25</td><td>14,661</td></tr>
+        <tr><td>mindestlohn 2026</td><td><span class="pill i">Info</span></td><td>11</td><td>673,000</td><td>$0.45</td><td>13,258</td></tr>
+        <tr><td>gen x generation</td><td><span class="pill i">Info</span></td><td>5</td><td>60,500</td><td>$0.16</td><td>9,801</td></tr>
+        <tr><td>millennials</td><td><span class="pill i">Info</span></td><td>5</td><td>90,500</td><td>$0.25</td><td>8,806</td></tr>
+        <tr><td>feedbacks</td><td><span class="pill i">Info</span></td><td>3</td><td>27,100</td><td>$4.68</td><td>8,238</td></tr>
+        <tr><td>kündigungsfrist beim arbeitgeber</td><td><span class="pill i">Info</span></td><td>4</td><td>49,500</td><td>$1.17</td><td>8,019</td></tr>
+        <tr><td>generation z</td><td><span class="pill i">Info</span></td><td>8</td><td>201,000</td><td>$0.47</td><td>6,794</td></tr>
+        <tr><td>recruiting</td><td><span class="pill i">Info</span></td><td>2</td><td>22,200</td><td>$13.76</td><td>6,749</td></tr>
+        <tr><td>bonuszahlung</td><td><span class="pill t">Trans</span></td><td>2</td><td>9,900</td><td>$7.89</td><td>3,010</td></tr>
+        <tr><td>arbeitszeit rechner</td><td><span class="pill i">Info</span></td><td>8</td><td>165,000</td><td>$1.59</td><td>3,250</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="twrap">
+    <table>
+      <caption>personio.com — United Kingdom · top non-brand keywords by estimated traffic</caption>
+      <thead><tr><th>Keyword</th><th>Intent</th><th>Pos.</th><th>Volume</th><th>CPC</th><th>Est. traffic</th></tr></thead>
+      <tbody>
+        <tr><td>performance improvement plan</td><td><span class="pill i">Info</span></td><td>2</td><td>246,000</td><td>$3.29</td><td>74,784</td></tr>
+        <tr><td>minimum wages</td><td><span class="pill i">Info</span></td><td>9</td><td>368,000</td><td>$7.40</td><td>9,421</td></tr>
+        <tr><td>minimum salary uk</td><td><span class="pill i">Info</span></td><td>7</td><td>135,000</td><td>$3.78</td><td>6,332</td></tr>
+        <tr><td>what is minimum wage uk</td><td><span class="pill i">Info</span></td><td>6</td><td>74,000</td><td>$2.48</td><td>4,877</td></tr>
+        <tr><td>lowest wages in uk</td><td><span class="pill i">Info</span></td><td>8</td><td>135,000</td><td>$3.78</td><td>4,563</td></tr>
+        <tr><td>share code checker</td><td><span class="pill i">Info</span></td><td>9</td><td>60,500</td><td>$40.09</td><td>1,192</td></tr>
+        <tr><td>pilon payment</td><td><span class="pill i">Info</span></td><td>4</td><td>6,600</td><td>$4.97</td><td>1,069</td></tr>
+        <tr><td>holiday pay for zero-hours contracts</td><td><span class="pill t">Trans</span></td><td>4</td><td>2,400</td><td>$1.43</td><td>389</td></tr>
+        <tr><td>zero hour contracts</td><td><span class="pill i">Info</span></td><td>9</td><td>14,800</td><td>$3.34</td><td>379</td></tr>
+        <tr><td>bradford factor scoring</td><td><span class="pill t">Trans</span></td><td>4</td><td>1,900</td><td>$2.16</td><td>308</td></tr>
+        <tr><td>hrms systems</td><td><span class="pill t">Trans</span></td><td>3</td><td>1,600</td><td>$204.50</td><td>259</td></tr>
+        <tr><td>payrolling</td><td><span class="pill t">Trans</span></td><td>11</td><td>12,100</td><td>$25.76</td><td>182</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="twrap">
+    <table>
+      <caption>personio.com — United States · top non-brand keywords by estimated traffic</caption>
+      <thead><tr><th>Keyword</th><th>Intent</th><th>Pos.</th><th>Volume</th><th>CPC</th><th>Est. traffic</th></tr></thead>
+      <tbody>
+        <tr><td>performance improvement plan</td><td><span class="pill i">Info</span></td><td>10</td><td>823,000</td><td>$7.05</td><td>27,817</td></tr>
+        <tr><td>payrolling</td><td><span class="pill t">Trans</span></td><td>3</td><td>74,000</td><td>$105.52</td><td>22,496</td></tr>
+        <tr><td>meaning pto</td><td><span class="pill i">Info</span></td><td>4</td><td>33,100</td><td>$11.77</td><td>5,362</td></tr>
+        <tr><td>on-target earnings</td><td><span class="pill i">Info</span></td><td>5</td><td>40,500</td><td>$1.65</td><td>3,941</td></tr>
+        <tr><td>quiet quitting</td><td><span class="pill i">Info</span></td><td>3</td><td>12,100</td><td>$0.90</td><td>3,678</td></tr>
+        <tr><td>attrition level</td><td><span class="pill i">Info</span></td><td>3</td><td>8,100</td><td>$3.39</td><td>2,462</td></tr>
+        <tr><td>pto meaning</td><td><span class="pill i">Info</span></td><td>7</td><td>33,100</td><td>$11.77</td><td>2,181</td></tr>
+        <tr><td>direct earnings attachment meaning</td><td><span class="pill i">Info</span></td><td>5</td><td>22,200</td><td>$0.00</td><td>2,160</td></tr>
+        <tr><td>ote meaning</td><td><span class="pill i">Info</span></td><td>4</td><td>12,100</td><td>$2.17</td><td>1,960</td></tr>
+        <tr><td>labour turnover rate</td><td><span class="pill i">Info</span></td><td>3</td><td>5,400</td><td>$3.39</td><td>1,642</td></tr>
+        <tr><td>payrolling services</td><td><span class="pill t">Trans</span></td><td>12</td><td>12,100</td><td>$210.04</td><td>310</td></tr>
+        <tr><td>nine grid box</td><td><span class="pill i">Info</span></td><td>4</td><td>1,600</td><td>$12.95</td><td>259</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <figure>
+    <figcaption>Where the estimated traffic actually comes from</figcaption>
+    <p class="subcap">
+      Share of estimated monthly organic traffic by intent, across each domain's top 1,000
+      keywords. Percentages are labelled on every segment wide enough to hold them.
+    </p>
+    <div class="legend">
+      <span class="lgi"><span class="sw" style="background:var(--info)"></span>Informational</span>
+      <span class="lgi"><span class="sw" style="background:var(--trans)"></span>Transactional &amp; commercial</span>
+      <span class="lgi"><span class="sw" style="background:var(--other)"></span>Navigational &amp; brand</span>
+    </div>
+
+    <div class="brow">
+      <span class="blbl">personio.de<br>Germany</span>
+      <div class="btrack">
+        <span class="bseg" style="background:var(--info); width:82.3%" data-tip="Informational — 82.3% (459,481 est. visits)">82.3%</span>
+        <span class="bseg hidden-lbl" style="background:var(--trans); width:2.3%" data-tip="Transactional &amp; commercial — 2.3% (12,885 est. visits)">2.3%</span>
+        <span class="bseg" style="background:var(--other); width:15.4%" data-tip="Navigational &amp; brand — 15.4% (85,745 est. visits)">15.4%</span>
+      </div>
+    </div>
+    <div class="brow">
+      <span class="blbl">personio.com<br>United Kingdom</span>
+      <div class="btrack">
+        <span class="bseg" style="background:var(--info); width:97.9%" data-tip="Informational — 97.9% (391,752 est. visits)">97.9%</span>
+        <span class="bseg hidden-lbl" style="background:var(--trans); width:0.9%" data-tip="Transactional &amp; commercial — 0.9% (3,339 est. visits)">0.9%</span>
+        <span class="bseg hidden-lbl" style="background:var(--other); width:1.2%" data-tip="Navigational &amp; brand — 1.2% (5,078 est. visits)">1.2%</span>
+      </div>
+    </div>
+    <div class="brow">
+      <span class="blbl">personio.com<br>United States</span>
+      <div class="btrack">
+        <span class="bseg" style="background:var(--info); width:85.5%" data-tip="Informational — 85.5% (159,540 est. visits)">85.5%</span>
+        <span class="bseg" style="background:var(--trans); width:12.8%" data-tip="Transactional &amp; commercial — 12.8% (23,841 est. visits), of which 22,496 is the single keyword “payrolling”">12.8%</span>
+        <span class="bseg hidden-lbl" style="background:var(--other); width:1.7%" data-tip="Navigational &amp; brand — 1.7% (3,110 est. visits)">1.7%</span>
+      </div>
+    </div>
+  </figure>
+
+  <div class="note">
+    <b>Read the US bar carefully</b>
+    Almost the whole US transactional slice is one keyword — <span class="mono">payrolling</span>,
+    position 3, 74,000 searches, $105 CPC, 22,496 estimated visits. Strip it out and the US
+    profile collapses to the same 99%-informational shape as the UK. It is also a term US
+    buyers use for staffing services, not for HR software, so the commercial value is
+    questionable.
+  </div>
+</section>
+
+<!-- ============ 2 ============ -->
+<section>
+  <div class="shead">
+    <span class="snum">02</span>
+    <div>
+      <h2>Two different competitor sets</h2>
+      <p class="dek">The domains Personio fights for informational traffic are not the ones it fights for customers.</p>
+    </div>
+  </div>
+
+  <div class="prose">
+    <p>
+      Competitors were derived from live SERP overlap on two keyword sets per market: <strong>50
+      category money keywords</strong> (HR software, HRIS, payroll software, Bewerbermanagement­software
+      and their variants — average CPC $47 in Germany, $113 in the UK), and <strong>50
+      informational keywords</strong> taken from Personio's own top-ranking content.
+    </p>
+    <p>
+      The two lists barely overlap, and that is the finding. On informational SERPs Personio's
+      rivals are Wikipedia, government portals, trade unions and statistics bureaus. On money
+      SERPs they are HR software vendors — and there Personio is barely present.
+    </p>
+  </div>
+
+  <div class="twrap">
+    <table>
+      <caption>Transactional SERP competitors · visibility across the 50 money keywords</caption>
+      <thead><tr><th>Germany</th><th>Type</th><th>KWs</th><th>Avg pos.</th><th>Visibility</th></tr></thead>
+      <tbody>
+        <tr><td>rexx systems</td><td>Vendor</td><td>14</td><td>3.6</td><td>10.40</td></tr>
+        <tr><td>Sage</td><td>Vendor</td><td>15</td><td>14.3</td><td>6.75</td></tr>
+        <tr><td>Haufe</td><td>Publisher</td><td>12</td><td>12.4</td><td>5.50</td></tr>
+        <tr><td>Für-Gründer</td><td>Portal</td><td>12</td><td>7.1</td><td>5.15</td></tr>
+        <tr><td>OMR Reviews</td><td>Portal</td><td>15</td><td>15.6</td><td>4.95</td></tr>
+        <tr><td>HRworks</td><td>Vendor</td><td>12</td><td>17.9</td><td>4.55</td></tr>
+        <tr><td>hr-software-vergleich.de</td><td>Portal</td><td>14</td><td>11.2</td><td>4.30</td></tr>
+        <tr><td>DATEV</td><td>Vendor</td><td>7</td><td>9.3</td><td>3.45</td></tr>
+        <tr><td>Workday</td><td>Vendor</td><td>6</td><td>9.3</td><td>2.65</td></tr>
+        <tr class="self"><td>personio.de</td><td>Vendor</td><td>12</td><td>21.2</td><td>1.30</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="twrap">
+    <table>
+      <caption>Transactional SERP competitors · visibility across the 50 money keywords</caption>
+      <thead><tr><th>United Kingdom</th><th>Type</th><th>KWs</th><th>Avg pos.</th><th>Visibility</th></tr></thead>
+      <tbody>
+        <tr><td>Sage</td><td>Vendor</td><td>17</td><td>12.4</td><td>9.45</td></tr>
+        <tr><td>Oracle</td><td>Vendor</td><td>12</td><td>5.8</td><td>7.40</td></tr>
+        <tr><td>PeopleHR</td><td>Vendor</td><td>16</td><td>9.0</td><td>6.75</td></tr>
+        <tr><td>BreatheHR</td><td>Vendor</td><td>7</td><td>1.9</td><td>6.40</td></tr>
+        <tr><td>ADP UK</td><td>Vendor</td><td>13</td><td>8.2</td><td>5.30</td></tr>
+        <tr><td>HiBob</td><td>Vendor</td><td>10</td><td>15.8</td><td>4.55</td></tr>
+        <tr><td>Cezanne HR</td><td>Vendor</td><td>6</td><td>5.0</td><td>3.65</td></tr>
+        <tr><td>SAP</td><td>Vendor</td><td>8</td><td>6.9</td><td>3.60</td></tr>
+        <tr><td>BambooHR</td><td>Vendor</td><td>8</td><td>6.9</td><td>3.30</td></tr>
+        <tr class="self"><td>personio.com</td><td>Vendor</td><td>7</td><td>16.0</td><td>1.55</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="twrap">
+    <table>
+      <caption>Informational SERP competitors · visibility across the 50 content keywords</caption>
+      <thead><tr><th>Germany</th><th>Type</th><th>KWs</th><th>Avg pos.</th><th>Visibility</th></tr></thead>
+      <tbody>
+        <tr><td>Wikipedia DE</td><td>Reference</td><td>43</td><td>14.0</td><td>20.90</td></tr>
+        <tr class="self"><td>personio.de</td><td>Vendor</td><td>44</td><td>9.7</td><td>17.10</td></tr>
+        <tr><td>IHK</td><td>Institution</td><td>15</td><td>9.8</td><td>9.50</td></tr>
+        <tr><td>Statista</td><td>Reference</td><td>17</td><td>12.5</td><td>8.00</td></tr>
+        <tr><td>Simon Schnetzer</td><td>Publisher</td><td>12</td><td>5.2</td><td>7.55</td></tr>
+        <tr><td>ver.di</td><td>Union</td><td>13</td><td>5.8</td><td>7.05</td></tr>
+        <tr><td>DGB</td><td>Union</td><td>7</td><td>1.3</td><td>6.80</td></tr>
+        <tr><td>Gesetze im Internet</td><td>Government</td><td>13</td><td>8.8</td><td>6.40</td></tr>
+        <tr><td>Bundesregierung</td><td>Government</td><td>7</td><td>2.7</td><td>5.80</td></tr>
+        <tr><td>HRworks</td><td>Vendor</td><td>26</td><td>16.0</td><td>5.60</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="twrap">
+    <table>
+      <caption>Informational SERP competitors · visibility across the 50 content keywords</caption>
+      <thead><tr><th>United Kingdom</th><th>Type</th><th>KWs</th><th>Avg pos.</th><th>Visibility</th></tr></thead>
+      <tbody>
+        <tr><td>GOV.UK</td><td>Government</td><td>47</td><td>1.3</td><td>45.60</td></tr>
+        <tr><td>MoneyHelper</td><td>Government</td><td>32</td><td>2.8</td><td>26.10</td></tr>
+        <tr><td>UNISON</td><td>Union</td><td>29</td><td>5.0</td><td>19.60</td></tr>
+        <tr class="self"><td>personio.com</td><td>Vendor</td><td>50</td><td>8.7</td><td>18.70</td></tr>
+        <tr><td>Check Your Pay</td><td>Government</td><td>31</td><td>5.0</td><td>18.65</td></tr>
+        <tr><td>ACAS</td><td>Institution</td><td>34</td><td>8.5</td><td>15.15</td></tr>
+        <tr><td>British Business Bank</td><td>Institution</td><td>21</td><td>7.0</td><td>10.10</td></tr>
+        <tr><td>nidirect</td><td>Government</td><td>32</td><td>11.5</td><td>8.40</td></tr>
+        <tr><td>Citizens Advice</td><td>Institution</td><td>20</td><td>9.3</td><td>5.70</td></tr>
+        <tr><td>Factorial HR</td><td>Vendor</td><td>37</td><td>14.9</td><td>5.25</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="note">
+    <b>The asymmetry in one line</b>
+    On informational SERPs Personio ranks <strong>2nd in Germany and 4th in the UK</strong>, and it
+    is the only HR vendor anywhere near the top. On money SERPs it ranks <strong>10th or worse in
+    both</strong>, behind every vendor it competes with commercially. The content engine is
+    winning a race that no one else in its category has entered.
+  </div>
+</section>
+
+<!-- ============ 3 ============ -->
+<section>
+  <div class="shead">
+    <span class="snum">03</span>
+    <div>
+      <h2>Top 3 transactional competitors, across all keywords</h2>
+      <p class="dek">Full ranking profiles for the three highest-visibility HR software vendors in each market, set against Personio.</p>
+    </div>
+  </div>
+
+  <div class="prose">
+    <p>
+      Germany's top three vendors on money SERPs are <strong>rexx systems, Sage and HRworks</strong>;
+      the UK's are <strong>Sage, Oracle and PeopleHR</strong>. The comparison-portal domains
+      (OMR, Für-Gründer, hr-software-vergleich) rank higher than some vendors but are not
+      competitors for Personio's customers — they are placements to win, so they are excluded here.
+    </p>
+    <p>
+      Read the <span class="mono">Buying KWs</span> column first. It counts the keywords in each
+      domain's top 1,000 that carry a product or purchase modifier — <em>software, system, HRIS,
+      payroll, Vergleich, Alternative, Preis</em>. That is the size of each vendor's commercial
+      search surface.
+    </p>
+  </div>
+
+  <div class="twrap">
+    <table>
+      <caption>Germany · full ranking profile, top 1,000 keywords by estimated traffic</caption>
+      <thead>
+        <tr><th>Domain</th><th>Ranked KWs</th><th>Non-brand traffic</th><th>Brand share</th>
+        <th>Buying KWs</th><th>Buying traffic</th><th>Avg CPC</th><th>Top 3</th><th>Top 10</th></tr>
+      </thead>
+      <tbody>
+        <tr class="self"><td>personio.de</td><td>45,963</td><td>490,090</td><td>12%</td><td>7</td><td>2,031</td><td>$20.12</td><td>364</td><td>859</td></tr>
+        <tr><td>rexx-systems.com</td><td>6,506</td><td>94,849</td><td>8%</td><td>49</td><td>1,681</td><td>$37.80</td><td>96</td><td>710</td></tr>
+        <tr><td>sage.com</td><td>19,629</td><td>79,050</td><td>17%</td><td>84</td><td>6,338</td><td>$25.17</td><td>219</td><td>616</td></tr>
+        <tr><td>hrworks.de</td><td>17,511</td><td>265,229</td><td>11%</td><td>15</td><td>2,257</td><td>$30.10</td><td>356</td><td>849</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="twrap">
+    <table>
+      <caption>United Kingdom · full ranking profile, top 1,000 keywords by estimated traffic</caption>
+      <thead>
+        <tr><th>Domain</th><th>Ranked KWs</th><th>Non-brand traffic</th><th>Brand share</th>
+        <th>Buying KWs</th><th>Buying traffic</th><th>Avg CPC</th><th>Top 3</th><th>Top 10</th></tr>
+      </thead>
+      <tbody>
+        <tr class="self"><td>personio.com</td><td>15,205</td><td>397,731</td><td>1%</td><td>9</td><td>833</td><td>$111.51</td><td>221</td><td>854</td></tr>
+        <tr><td>sage.com</td><td>30,829</td><td>353,445</td><td>35%</td><td>120</td><td>24,894</td><td>$74.65</td><td>203</td><td>708</td></tr>
+        <tr><td>oracle.com</td><td>30,755</td><td>418,270</td><td>27%</td><td>70</td><td>27,905</td><td>$47.08</td><td>424</td><td>738</td></tr>
+        <tr><td>peoplehr.com</td><td>6,741</td><td>107,709</td><td>6%</td><td>149</td><td>10,822</td><td>$84.77</td><td>305</td><td>811</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <figure>
+    <figcaption>Share of non-brand traffic earned on buying-intent keywords</figcaption>
+    <p class="subcap">
+      Personio converts the least of its ranking footprint into commercial search demand of any
+      vendor in either market — by a factor of four in Germany and fifty in the UK.
+    </p>
+    <div class="legend">
+      <span class="lgi"><span class="sw" style="background:var(--trans)"></span>Buying-intent share of non-brand traffic</span>
+    </div>
+
+    <div class="brow"><span class="blbl">personio.de</span>
+      <div class="sbar"><span class="sfill" style="background:var(--trans); width:4%"></span><span class="sval" style="left:4%">0.4%</span></div></div>
+    <div class="brow"><span class="blbl">rexx systems</span>
+      <div class="sbar"><span class="sfill" style="background:var(--trans); width:18%"></span><span class="sval" style="left:18%">1.8%</span></div></div>
+    <div class="brow"><span class="blbl">HRworks</span>
+      <div class="sbar"><span class="sfill" style="background:var(--trans); width:9%"></span><span class="sval" style="left:9%">0.9%</span></div></div>
+    <div class="brow"><span class="blbl">Sage DE</span>
+      <div class="sbar"><span class="sfill" style="background:var(--trans); width:80%"></span><span class="sval" style="left:80%">8.0%</span></div></div>
+    <div class="brow" style="margin-top:22px"><span class="blbl">personio.com UK</span>
+      <div class="sbar"><span class="sfill" style="background:var(--trans); width:2%"></span><span class="sval" style="left:2%">0.2%</span></div></div>
+    <div class="brow"><span class="blbl">Sage UK</span>
+      <div class="sbar"><span class="sfill" style="background:var(--trans); width:70%"></span><span class="sval" style="left:70%">7.0%</span></div></div>
+    <div class="brow"><span class="blbl">Oracle UK</span>
+      <div class="sbar"><span class="sfill" style="background:var(--trans); width:67%"></span><span class="sval" style="left:67%">6.7%</span></div></div>
+    <div class="brow"><span class="blbl">PeopleHR</span>
+      <div class="sbar"><span class="sfill" style="background:var(--trans); width:100%"></span><span class="sval" style="left:100%; transform:translateX(-100%); padding-right:8px; padding-left:0; color:#fff">10.0%</span></div></div>
+    <p class="subcap" style="margin-top:14px">Scale: 0–10% of non-brand estimated traffic.</p>
+  </figure>
+</section>
+
+<!-- ============ 4 ============ -->
+<section>
+  <div class="shead">
+    <span class="snum">04</span>
+    <div>
+      <h2>Head to head on the money keywords</h2>
+      <p class="dek">Positions held by Personio and each top-3 competitor on the category's buying terms.</p>
+    </div>
+  </div>
+
+  <div class="twrap">
+    <table>
+      <caption>Germany · positions on category buying keywords (blank = not in top 100)</caption>
+      <thead>
+        <tr><th>Keyword</th><th>Volume</th><th>CPC</th><th>personio.de</th><th>rexx</th><th>Sage</th><th>HRworks</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>hr software</td><td>1,300</td><td>$63.95</td><td>11</td><td>4</td><td>5</td><td>1</td></tr>
+        <tr><td>hr-system</td><td>590</td><td>$67.37</td><td>26</td><td>2</td><td>3</td><td>77</td></tr>
+        <tr><td>software personalmanagement</td><td>390</td><td>$26.62</td><td>35</td><td>2</td><td>5</td><td>17</td></tr>
+        <tr><td>personalmanagement-software</td><td>390</td><td>$46.53</td><td>35</td><td>1</td><td>5</td><td>15</td></tr>
+        <tr><td>personalsoftware</td><td>320</td><td>$93.39</td><td>16</td><td>4</td><td>3</td><td>1</td></tr>
+        <tr><td>lohnabrechnung software</td><td>320</td><td>$21.54</td><td>24</td><td class="dash">—</td><td>1</td><td>42</td></tr>
+        <tr><td>bewerbermanagement-software</td><td>320</td><td>$70.70</td><td>28</td><td>1</td><td>49</td><td>13</td></tr>
+        <tr><td>software für zeiterfassung</td><td>210</td><td>$35.51</td><td>8</td><td class="dash">—</td><td>5</td><td>29</td></tr>
+        <tr><td>hr software vergleich</td><td>170</td><td>$44.74</td><td class="dash">—</td><td>4</td><td class="dash">—</td><td class="dash">—</td></tr>
+        <tr><td>hr management software</td><td>140</td><td>$115.03</td><td>14</td><td>6</td><td>2</td><td>7</td></tr>
+        <tr><td>hr information system</td><td>140</td><td>$20.12</td><td>12</td><td>6</td><td>10</td><td class="dash">—</td></tr>
+        <tr><td>hr-software anbieter</td><td>110</td><td>$65.27</td><td class="dash">—</td><td>2</td><td>16</td><td class="dash">—</td></tr>
+        <tr><td>software für personalverwaltung</td><td>90</td><td>$53.96</td><td>42</td><td>7</td><td>4</td><td>2</td></tr>
+        <tr><td>zeiterfassung software kleinbetrieb</td><td>90</td><td>$20.49</td><td>3</td><td class="dash">—</td><td>37</td><td class="dash">—</td></tr>
+        <tr><td>hr software auswahl</td><td>70</td><td>$30.80</td><td class="dash">—</td><td>8</td><td>47</td><td class="dash">—</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="twrap">
+    <table>
+      <caption>United Kingdom · positions on category buying keywords (blank = not in top 100)</caption>
+      <thead>
+        <tr><th>Keyword</th><th>Volume</th><th>CPC</th><th>personio.com</th><th>Sage</th><th>Oracle</th><th>PeopleHR</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>hr software</td><td>2,900</td><td>$104.05</td><td>7</td><td>1</td><td>22</td><td>10</td></tr>
+        <tr><td>hr manager software</td><td>2,900</td><td>$104.05</td><td>5</td><td>1</td><td>10</td><td>13</td></tr>
+        <tr><td>hris software</td><td>2,900</td><td>$136.86</td><td class="dash">—</td><td>10</td><td>3</td><td>1</td></tr>
+        <tr><td>hris</td><td>2,400</td><td>$78.27</td><td>10</td><td>35</td><td>1</td><td>5</td></tr>
+        <tr><td>applicant tracking system</td><td>2,400</td><td>$56.97</td><td class="dash">—</td><td class="dash">—</td><td>3</td><td>18</td></tr>
+        <tr><td>ats applicant tracking system</td><td>2,400</td><td>$56.97</td><td class="dash">—</td><td>62</td><td>3</td><td>29</td></tr>
+        <tr><td>hris system</td><td>1,600</td><td>$204.50</td><td class="dash">—</td><td>9</td><td>2</td><td>4</td></tr>
+        <tr><td>payroll software</td><td>1,600</td><td>$101.20</td><td class="dash">—</td><td>3</td><td class="dash">—</td><td class="dash">—</td></tr>
+        <tr><td>payroll software for small business</td><td>880</td><td>$69.28</td><td class="dash">—</td><td>4</td><td class="dash">—</td><td>8</td></tr>
+        <tr><td>payroll software for small companies</td><td>880</td><td>$72.65</td><td class="dash">—</td><td>1</td><td class="dash">—</td><td>10</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <figure>
+    <figcaption>Visibility across the 50-keyword money set</figcaption>
+    <p class="subcap">
+      DataForSEO visibility score — keywords ranked, weighted by position. Personio is last in
+      both markets, and the gap is widest in its home market.
+    </p>
+    <div class="legend">
+      <span class="lgi"><span class="sw" style="background:var(--trans)"></span>Visibility on buying keywords</span>
+      <span class="lgi"><span class="sw" style="background:var(--info)"></span>Personio</span>
+    </div>
+    <div class="brow"><span class="blbl">rexx systems DE</span>
+      <div class="sbar"><span class="sfill" style="background:var(--trans); width:100%"></span><span class="sval" style="left:100%; transform:translateX(-100%); padding-right:8px; padding-left:0; color:#fff">10.40</span></div></div>
+    <div class="brow"><span class="blbl">Sage DE</span>
+      <div class="sbar"><span class="sfill" style="background:var(--trans); width:64.9%"></span><span class="sval" style="left:64.9%">6.75</span></div></div>
+    <div class="brow"><span class="blbl">HRworks DE</span>
+      <div class="sbar"><span class="sfill" style="background:var(--trans); width:43.8%"></span><span class="sval" style="left:43.8%">4.55</span></div></div>
+    <div class="brow"><span class="blbl">personio.de</span>
+      <div class="sbar"><span class="sfill" style="background:var(--info); width:12.5%"></span><span class="sval" style="left:12.5%">1.30</span></div></div>
+    <div class="brow" style="margin-top:22px"><span class="blbl">Sage UK</span>
+      <div class="sbar"><span class="sfill" style="background:var(--trans); width:90.9%"></span><span class="sval" style="left:90.9%">9.45</span></div></div>
+    <div class="brow"><span class="blbl">Oracle UK</span>
+      <div class="sbar"><span class="sfill" style="background:var(--trans); width:71.2%"></span><span class="sval" style="left:71.2%">7.40</span></div></div>
+    <div class="brow"><span class="blbl">PeopleHR UK</span>
+      <div class="sbar"><span class="sfill" style="background:var(--trans); width:64.9%"></span><span class="sval" style="left:64.9%">6.75</span></div></div>
+    <div class="brow"><span class="blbl">personio.com UK</span>
+      <div class="sbar"><span class="sfill" style="background:var(--info); width:14.9%"></span><span class="sval" style="left:14.9%">1.55</span></div></div>
+    <p class="subcap" style="margin-top:14px">Scale: 0–10.4 visibility.</p>
+  </figure>
+</section>
+
+<!-- ============ 5 ============ -->
+<section>
+  <div class="shead">
+    <span class="snum">05</span>
+    <div>
+      <h2>What this means</h2>
+      <p class="dek">Four conclusions that follow directly from the data above.</p>
+    </div>
+  </div>
+
+  <ul class="take">
+    <li data-n="01"><strong>The content engine works, and it is pointed away from the product.</strong>
+      personio.de outranks every union, ministry and trade body in Germany on employment-law
+      content, and personio.com is the only vendor competing with GOV.UK. That is a genuine,
+      hard-to-replicate asset — it is just attached to queries made by employees, not buyers.</li>
+    <li data-n="02"><strong>The money SERPs are winnable, not locked.</strong>
+      rexx systems leads Germany on 14 keywords with a fraction of Personio's domain footprint,
+      and BreatheHR holds an average position of 1.9 in the UK on seven. These are low-volume,
+      high-CPC terms where a focused page beats a big domain. Personio already ranks 5th and 7th
+      on the two biggest UK terms — the gap is coverage, not authority.</li>
+    <li data-n="03"><strong>Germany is the bigger miss.</strong>
+      It is Personio's home market and largest footprint, yet it has 7 buying keywords in its top
+      1,000 against Sage's 84, and an average position of 21.2 on the money set against rexx's
+      3.6. The UK gap is wider in relative terms; the German gap is worth more.</li>
+    <li data-n="04"><strong>Fix the internal path before adding pages.</strong>
+      Personio has 859 German and 854 UK top-10 rankings on informational content. The routing
+      problem — turning a reader of <span class="mono">mindestlohn 2026</span> into a software
+      evaluation — is a cheaper first move than trying to outrank Sage on
+      <span class="mono">payroll software</span> from a standing start.</li>
+  </ul>
+</section>
+
+<footer>
+  <h3>Method &amp; caveats</h3>
+  <ul>
+    <li><strong>Source.</strong> DataForSEO Labs <span class="mono">ranked_keywords</span>,
+      <span class="mono">keyword_suggestions</span> and <span class="mono">serp_competitors</span>,
+      Google, pulled 14 September 2026. Locations: Germany/German, United Kingdom/English,
+      United States/English.</li>
+    <li><strong>Depth.</strong> Ranking profiles cover each domain's top 1,000 keywords by
+      estimated traffic, not its full index. Shares and counts are of that slice — personio.de's
+      full index is 45,963 keywords.</li>
+    <li><strong>Intent labelling.</strong> DataForSEO's own intent classifier is unreliable on
+      head terms — it marks <span class="mono">hr system</span> ($204 CPC) informational. Keywords
+      here are tagged transactional if the classifier says commercial or transactional
+      <em>or</em> the keyword carries a product/purchase modifier (software, system, HRIS,
+      payroll, Vergleich, Alternative, Preis, best). Everything else informational.</li>
+    <li><strong>Keyword sets.</strong> 50 money keywords per market, built from phrase suggestions
+      on 9 category seeds and deduplicated. DataForSEO clusters synonym variants onto one SERP, so
+      several rows in the head-to-head tables share a result page; blanks on those rows mean no
+      distinct SERP exists, not a lost ranking.</li>
+    <li><strong>Traffic figures.</strong> Estimated (ETV), not measured. Treat them as relative
+      magnitudes between domains, not as analytics.</li>
+    <li><strong>Competitor selection.</strong> Top 3 transactional competitors were chosen by SERP
+      visibility among HR software <em>vendors</em>. Comparison portals and publishers that rank
+      higher (OMR, Für-Gründer, hr-software-vergleich, Haufe, smallbusiness.co.uk) are listed in
+      section 02 but excluded from the head-to-head as placement targets rather than rivals.</li>
+  </ul>
+</footer>
+
+</div>
